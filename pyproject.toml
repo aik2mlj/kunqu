@@ -1,0 +1,29 @@
+[project]
+name = "kunqu-analysis"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "librosa>=0.10",
+    "matplotlib>=3.7",
+    "opencv-python>=4.8",
+    "tqdm>=4.65",
+    "pyyaml>=6.0",
+    "scenedetect[opencv]>=0.6",
+]
+
+[project.optional-dependencies]
+mediapipe = ["mediapipe>=0.10"]
+notebooks = ["jupyterlab>=4.0"]
+
+# DWPose depends on the MMPose ecosystem which requires special installation
+# via mim and cannot be resolved by uv directly. Install manually:
+#   pip install openmim && mim install mmengine mmcv mmdet mmpose
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
