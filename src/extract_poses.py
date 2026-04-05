@@ -28,14 +28,13 @@ def _extract_mediapipe(video_path: Path, cfg: dict, video_id: str):
     """Extract poses using MediaPipe PoseLandmarker (Tasks API)."""
     try:
         import mediapipe as mp
-        from mediapipe.tasks.vision import PoseLandmarker, PoseLandmarkerOptions, RunningMode
-        from mediapipe.tasks import BaseOptions
-    except ImportError:
-        print(
-            "Error: mediapipe not installed. Run: uv sync --extra mediapipe",
-            file=sys.stderr,
+        from mediapipe.tasks.python.vision import PoseLandmarker, PoseLandmarkerOptions
+        from mediapipe.tasks.python.vision.core.vision_task_running_mode import VisionTaskRunningMode as RunningMode
+        from mediapipe.tasks.python import BaseOptions
+    except ImportError as e:
+        raise ImportError(
+            f"mediapipe not installed or broken: {e}. Run: uv sync --extra mediapipe"
         )
-        sys.exit(1)
 
     pose_cfg = cfg["pose"]
     conf_thresh = pose_cfg["confidence_threshold"]
