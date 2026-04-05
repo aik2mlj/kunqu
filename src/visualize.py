@@ -139,16 +139,17 @@ def plot_pose_quality(
 
 
 def plot_clip_detail(
-    video_id: str, aligned: dict, cut_times: list, nan_margin_sec: float,
+    video_id: str, aligned: dict, meta: dict, cut_times: list, nan_margin_sec: float,
     out_dir: Path, clip_start: float | None = None, clip_end: float | None = None,
 ):
     """Plot 3: 30-second detailed clip view."""
     times = aligned["times"]
     total_motion = aligned["motion_total"]
+    common_fps = meta.get("common_fps", 30)
 
     if clip_start is None:
         # Find the 30s window with most motion activity
-        window_frames = int(30 * 30)  # assume ~30fps common
+        window_frames = int(30 * common_fps)
         if len(total_motion) > window_frames:
             valid = np.nan_to_num(total_motion, nan=0.0)
             cumsum = np.cumsum(valid)
@@ -247,7 +248,7 @@ def process_video(video_id: str, cfg: dict, clip_start: float | None = None, cli
     cut_frames = shot_data["cuts"]
     video_fps = shot_data["video_fps"]
     cut_times = [cf / video_fps for cf in cut_frames]
-    nan_margin_sec = cfg["cuts"]["nan_margin"] / cfg["common_fps"]
+    nan_margin_sec = cfg["cuts"]["nan_margin"] / video_fps
 
     out_dir = Path("outputs/figures") / video_id
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -255,7 +256,7 @@ def process_video(video_id: str, cfg: dict, clip_start: float | None = None, cli
     print(f"[{video_id}] Generating QA plots...")
     plot_signals_overview(video_id, aligned, meta, cut_times, nan_margin_sec, out_dir)
     plot_pose_quality(video_id, cfg, out_dir)
-    plot_clip_detail(video_id, aligned, cut_times, nan_margin_sec, out_dir, clip_start, clip_end)
+    plot_clip_detail(video_id, aligned, meta, cut_times, nan_margin_sec, out_dir, clip_start, clip_end)
     plot_camera_diagnostic(video_id, out_dir)
     print(f"[{video_id}] All plots saved to {out_dir}/")
 

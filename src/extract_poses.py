@@ -262,7 +262,7 @@ def process_video(video_id: str, cfg: dict, model_override: str | None = None) -
         frame_valid=frame_valid,
     )
 
-    valid_pct = frame_valid.sum() / len(frame_valid) * 100
+    valid_pct = frame_valid.sum() / max(len(frame_valid), 1) * 100
     print(
         f"[{video_id}] Pose extraction complete: {metadata['total_frames']} frames, "
         f"{valid_pct:.1f}% valid detections"

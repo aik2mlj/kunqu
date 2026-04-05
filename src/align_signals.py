@@ -19,17 +19,30 @@ from utils import (
 
 
 def _resample_preserving_nan(times_old: np.ndarray, signal: np.ndarray, times_new: np.ndarray) -> np.ndarray:
-    """Resample a signal to a new time grid, preserving NaN positions."""
+    """Resample a signal to a new time grid, preserving NaN positions.
+
+    Uses nearest-valid-neighbor fill for NaN gaps (instead of zero) so that
+    interpolation near NaN boundaries doesn't produce spurious values.
+    """
     nan_mask = np.isnan(signal)
+
+    # Interpolate the NaN mask to the new grid first
+    nan_resampled = np.interp(times_new, times_old, nan_mask.astype(float))
+    new_nan = nan_resampled > 0.5
+
+    # Fill NaN with nearest valid neighbor so interp doesn't bleed zeros
     filled = signal.copy()
-    filled[nan_mask] = 0.0
+    valid_idx = np.where(~nan_mask)[0]
+    if len(valid_idx) == 0:
+        return np.full(len(times_new), np.nan)
+    # Forward-fill then back-fill
+    for i in range(len(filled)):
+        if nan_mask[i]:
+            nearest = valid_idx[np.searchsorted(valid_idx, i).clip(0, len(valid_idx) - 1)]
+            filled[i] = signal[nearest]
 
     resampled = np.interp(times_new, times_old, filled)
-
-    # Re-apply NaN: if a new time point falls near an old NaN region, mark it NaN
-    # For each new time, find the nearest old time and check if it was NaN
-    nan_resampled = np.interp(times_new, times_old, nan_mask.astype(float))
-    resampled[nan_resampled > 0.5] = np.nan
+    resampled[new_nan] = np.nan
 
     return resampled
 
@@ -68,6 +81,11 @@ def align_signals(video_id: str, cfg: dict) -> None:
         )
 
     common_duration = min(audio_duration, motion_duration)
+    if common_duration <= 0:
+        raise ValueError(
+            f"[{video_id}] Cannot align: audio duration={audio_duration:.2f}s, "
+            f"motion duration={motion_duration:.2f}s. Check upstream steps."
+        )
     N = int(common_duration * common_fps)
     times_common = np.arange(N) / common_fps
 
@@ -96,17 +114,15 @@ def align_signals(video_id: str, cfg: dict) -> None:
             motion_times, motion_arrays[src_name], times_common
         )
 
-    # Generate cut mask on the common timeline
+    # Generate cut mask on the common timeline (vectorized)
     video_fps = shot_data["video_fps"]
     cut_mask = np.zeros(N, dtype=bool)
+    margin_sec = nan_margin / video_fps
     for cf in cut_frames_orig:
         cut_time = cf / video_fps
-        # Mark frames within nan_margin of the cut
-        for i in range(N):
-            frame_time = times_common[i]
-            margin_sec = nan_margin / common_fps
-            if abs(frame_time - cut_time) <= margin_sec + 0.5 / common_fps:
-                cut_mask[i] = True
+        lo = int(max(0, (cut_time - margin_sec) * common_fps))
+        hi = int(min(N, (cut_time + margin_sec) * common_fps + 1))
+        cut_mask[lo:hi] = True
 
     # NaN fraction in motion
     nan_frac_motion = np.isnan(motion_resampled["motion_total"]).sum() / N if N > 0 else 0

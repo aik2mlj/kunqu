@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import sys
+import warnings
 from pathlib import Path
 
 import numpy as np
@@ -22,34 +23,37 @@ from utils import (
 )
 
 
-def _interpolate_short_gaps(arr: np.ndarray, max_gap: int) -> np.ndarray:
-    """Linearly interpolate NaN gaps of <= max_gap frames, per joint per dim."""
+def _interpolate_short_gaps_1d(arr: np.ndarray, max_gap: int) -> np.ndarray:
+    """Linearly interpolate NaN gaps of <= max_gap frames in a 1D array."""
     out = arr.copy()
     T = len(out)
     if T < 2:
         return out
 
-    valid = ~np.isnan(out)
-    # Find gap runs
-    i = 0
-    while i < T:
-        if not valid[i]:
-            # Start of a gap
-            j = i
-            while j < T and not valid[j]:
-                j += 1
-            gap_len = j - i
-            if gap_len <= max_gap and i > 0 and j < T:
-                # Interpolate
-                t_start = i - 1
-                t_end = j
-                for k in range(i, j):
-                    alpha = (k - t_start) / (t_end - t_start)
-                    out[k] = out[t_start] * (1 - alpha) + out[t_end] * alpha
-            i = j
-        else:
-            i += 1
+    nan_mask = np.isnan(out)
+    if not nan_mask.any():
+        return out
+
+    # Find gap boundaries using diff of the mask
+    changes = np.diff(nan_mask.astype(np.int8), prepend=0, append=0)
+    starts = np.where(changes == 1)[0]   # gap start indices
+    ends = np.where(changes == -1)[0]    # gap end indices (exclusive)
+
+    for s, e in zip(starts, ends):
+        gap_len = e - s
+        if gap_len <= max_gap and s > 0 and e < T:
+            alpha = np.linspace(0, 1, gap_len + 2)[1:-1]
+            out[s:e] = out[s - 1] * (1 - alpha) + out[e] * alpha
+
     return out
+
+
+def _interpolate_short_gaps(keypoints: np.ndarray, max_gap: int) -> None:
+    """Interpolate short NaN gaps in-place for all joints and dimensions."""
+    T, J, D = keypoints.shape
+    for j in range(J):
+        for d in range(D):
+            keypoints[:, j, d] = _interpolate_short_gaps_1d(keypoints[:, j, d], max_gap)
 
 
 def _medfilt_with_nan(arr: np.ndarray, kernel: int) -> np.ndarray:
@@ -75,11 +79,16 @@ def _medfilt_with_nan(arr: np.ndarray, kernel: int) -> np.ndarray:
 
 
 def _smooth_with_nan(signal: np.ndarray, sigma: float) -> np.ndarray:
-    """Gaussian smooth a signal, preserving NaN positions."""
+    """Gaussian smooth a signal using normalized convolution to handle NaN."""
     nan_mask = np.isnan(signal)
     filled = signal.copy()
     filled[nan_mask] = 0.0
-    smoothed = gaussian_filter1d(filled, sigma=sigma)
+    weights = (~nan_mask).astype(float)
+    smoothed_signal = gaussian_filter1d(filled, sigma=sigma)
+    smoothed_weights = gaussian_filter1d(weights, sigma=sigma)
+    # Avoid division by zero where all neighbors are NaN
+    smoothed_weights[smoothed_weights < 1e-6] = np.nan
+    smoothed = smoothed_signal / smoothed_weights
     smoothed[nan_mask] = np.nan
     return smoothed
 
@@ -154,9 +163,7 @@ def compute_motion(video_id: str, cfg: dict) -> None:
 
     # --- Step 4: Interpolate short gaps ---
     max_interp = motion_cfg["gap_max_interpolate"]
-    for j in range(J):
-        for d in range(2):
-            keypoints[:, j, d] = _interpolate_short_gaps(keypoints[:, j, d], max_interp)
+    _interpolate_short_gaps(keypoints, max_interp)
 
     # --- Step 5: Median filter ---
     smooth_win = motion_cfg["smoothing_window"]
@@ -208,10 +215,9 @@ def compute_motion(video_id: str, cfg: dict) -> None:
     diff = keypoints_norm[1:] - keypoints_norm[:-1]  # (T-1, J, 2)
     v = np.linalg.norm(diff, axis=2) * fps  # (T-1, J) in body-proportions/sec
 
-    # Set velocity to NaN at/near cut boundaries
-    for t in range(T - 1):
-        if cut_mask[t] or cut_mask[t + 1]:
-            v[t, :] = np.nan
+    # Set velocity to NaN at/near cut boundaries (vectorized)
+    cut_velocity_mask = cut_mask[:-1] | cut_mask[1:]
+    v[cut_velocity_mask, :] = np.nan
 
     # Root displacement in pixel space (diagnostic)
     root_diff = root_pixel[1:] - root_pixel[:-1]
@@ -238,14 +244,18 @@ def compute_motion(video_id: str, cfg: dict) -> None:
     }
 
     signals = {}
-    for name, indices in region_keys.items():
-        signals[name] = aggregate_group(indices)
+    with warnings.catch_warnings():
+        warnings.filterwarnings("ignore", "Mean of empty slice")
+        for name, indices in region_keys.items():
+            signals[name] = aggregate_group(indices)
 
     # Combined hand motion = mean of left and right
-    signals["hand_motion"] = np.nanmean(
-        np.stack([signals["hand_left_motion"], signals["hand_right_motion"]]),
-        axis=0,
-    )
+    with warnings.catch_warnings():
+        warnings.filterwarnings("ignore", "Mean of empty slice")
+        signals["hand_motion"] = np.nanmean(
+            np.stack([signals["hand_left_motion"], signals["hand_right_motion"]]),
+            axis=0,
+        )
 
     # --- Step 10: Gaussian smooth ---
     sigma_frames = motion_cfg["velocity_sigma"] * fps

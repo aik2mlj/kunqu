@@ -12,14 +12,20 @@ import numpy as np
 import yaml
 
 
+class PipelineError(Exception):
+    """Raised when a pipeline step encounters a recoverable error."""
+
+
 def load_config(path: str | Path) -> dict:
     """Load a YAML config file and return as dict."""
     path = Path(path)
     if not path.exists():
-        print(f"Error: config file not found: {path}", file=sys.stderr)
-        sys.exit(1)
+        raise PipelineError(f"Config file not found: {path}")
     with open(path) as f:
-        return yaml.safe_load(f)
+        cfg = yaml.safe_load(f)
+    if cfg is None:
+        raise PipelineError(f"Config file is empty: {path}")
+    return cfg
 
 
 def get_video_entry(cfg: dict, video_id: str) -> dict:
@@ -27,8 +33,7 @@ def get_video_entry(cfg: dict, video_id: str) -> dict:
     for v in cfg["videos"]:
         if v["id"] == video_id:
             return v
-    print(f"Error: video_id '{video_id}' not found in config.", file=sys.stderr)
-    sys.exit(1)
+    raise PipelineError(f"video_id '{video_id}' not found in config.")
 
 
 def get_video_ids(cfg: dict) -> list[str]:
@@ -37,26 +42,23 @@ def get_video_ids(cfg: dict) -> list[str]:
 
 
 def require_file(path: str | Path, hint: str = "") -> Path:
-    """Check that a file exists, exit with a message if not."""
+    """Check that a file exists, raise PipelineError if not."""
     path = Path(path)
     if not path.exists():
-        msg = f"Error: {path} not found."
+        msg = f"{path} not found."
         if hint:
             msg += f" {hint}"
-        print(msg, file=sys.stderr)
-        sys.exit(1)
+        raise PipelineError(msg)
     return path
 
 
 def require_ffmpeg() -> None:
     """Check that ffmpeg is available on PATH."""
     if shutil.which("ffmpeg") is None:
-        print(
-            "Error: ffmpeg not found. Install it via your system package manager "
-            "(e.g., apt install ffmpeg, brew install ffmpeg).",
-            file=sys.stderr,
+        raise PipelineError(
+            "ffmpeg not found. Install it via your system package manager "
+            "(e.g., apt install ffmpeg, brew install ffmpeg)."
         )
-        sys.exit(1)
 
 
 def save_signals(npz_path: str | Path, metadata: dict, **arrays: np.ndarray) -> None:
@@ -121,9 +123,7 @@ def get_joint_groups(cfg: dict, pose_model: str) -> dict:
     motion_cfg = cfg["motion"]
     key = f"joint_groups_{pose_model}"
     if key not in motion_cfg:
-        print(
-            f"Error: no joint group definitions for pose model '{pose_model}' in config.",
-            file=sys.stderr,
+        raise PipelineError(
+            f"No joint group definitions for pose model '{pose_model}' in config."
         )
-        sys.exit(1)
     return motion_cfg[key]

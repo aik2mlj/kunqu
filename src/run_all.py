@@ -5,7 +5,7 @@ from __future__ import annotations
 import sys
 import traceback
 
-from utils import base_argparser, load_config, resolve_video_ids
+from utils import base_argparser, load_config, resolve_video_ids, PipelineError
 
 # Import each step's process_video function
 from detect_cuts import process_video as step_detect_cuts
@@ -43,7 +43,8 @@ def main():
             try:
                 print(f"\n--- {step_name} ---")
                 step_fn(vid, cfg)
-            except SystemExit:
+            except PipelineError as e:
+                print(f"  Error: {e}", file=sys.stderr)
                 failed_step = step_name
                 break
             except Exception:

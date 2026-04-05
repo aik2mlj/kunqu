@@ -60,9 +60,10 @@ motion:
     hip_right: 12
     neck_proxy: 0
 
-  joint_groups_mediapipe:
-    hand_left: [33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53]
-    hand_right: [54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74]
+  joint_groups_mediapipe:      # MediaPipe PoseLandmarker: 33 pose landmarks only
+    # No per-finger hand keypoints — use wrist + index/pinky for coarse tracking
+    hand_left: [15, 17, 19, 21]    # left wrist, index, pinky, thumb
+    hand_right: [16, 18, 20, 22]   # right wrist, index, pinky, thumb
     wrist_only: [15, 16]
     shoulders: [11, 12]
     upper_arms: [11, 12, 13, 14]
