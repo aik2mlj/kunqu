@@ -1044,6 +1044,7 @@ dependencies = [
     { name = "opencv-python" },
     { name = "pyyaml" },
     { name = "scenedetect", extra = ["opencv"] },
+    { name = "scikit-learn" },
     { name = "scipy" },
     { name = "tqdm" },
 ]
@@ -1066,6 +1067,7 @@ requires-dist = [
     { name = "opencv-python", specifier = ">=4.8" },
     { name = "pyyaml", specifier = ">=6.0" },
     { name = "scenedetect", extras = ["opencv"], specifier = ">=0.6" },
+    { name = "scikit-learn", specifier = ">=1.8.0" },
     { name = "scipy", specifier = ">=1.10" },
     { name = "tqdm", specifier = ">=4.65" },
 ]

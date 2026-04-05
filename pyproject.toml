@@ -11,6 +11,7 @@ dependencies = [
     "tqdm>=4.65",
     "pyyaml>=6.0",
     "scenedetect[opencv]>=0.6",
+    "scikit-learn>=1.8.0",
 ]
 
 [project.optional-dependencies]

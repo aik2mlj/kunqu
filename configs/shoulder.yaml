@@ -1,0 +1,80 @@
+# Videos to process — list of {id, path} entries
+# Each video is processed independently through the full pipeline
+videos:
+  - id: "xunmeng"
+    path: "data/raw/xunmeng.mp4"
+  # - id: "youyuan"
+  #   path: "data/raw/youyuan.mp4"
+
+# Common timeline
+common_fps: 30
+
+# Shot / cut detection
+cuts:
+  threshold: 27.0
+  nan_margin: 2
+
+# Audio extraction
+audio:
+  sample_rate: 22050
+  hop_length: 512
+  onset_env_fmax: 8000
+  rms_frame_length: 2048
+  pyin_fmin: 80
+  pyin_fmax: 1000
+
+# Pose extraction
+pose:
+  model: "dwpose"
+  confidence_threshold: 0.3
+  batch_size: 32
+  multi_person_strategy: "highest_confidence"
+  dwpose_det_config: "rtmdet_m_640-8xb32_coco-person.py"
+  dwpose_det_checkpoint: "rtmdet_m_8xb32-100e_coco-obj365-person-235e8209.pth"
+  dwpose_pose_config: "rtmpose-l_8xb32-270e_coco-ubody-wholebody-384x288.py"
+  dwpose_pose_checkpoint: "dw-ll_ucoco_384.pth"
+
+# Motion computation
+motion:
+  smoothing_window: 5
+  velocity_sigma: 0.1
+  gap_max_interpolate: 3
+  root_mode: "shoulder"
+
+  joint_groups_dwpose:
+    hand_left: [91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111]
+    hand_right: [112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132]
+    wrist_only: [9, 10]
+    shoulders: [5, 6]
+    upper_arms: [5, 6, 7, 8]
+    forearms: [7, 8, 9, 10]
+    torso: [5, 6, 11, 12]
+    upper_body: [0,1,2,3,4,5,6,7,8,9,10]
+    head: [0, 1, 2, 3, 4]
+    face: [23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90]
+    legs: [13, 14, 15, 16]
+    full_body: null
+    shoulder_left: 5
+    shoulder_right: 6
+    hip_left: 11
+    hip_right: 12
+    neck_proxy: 0
+
+  joint_groups_mediapipe:      # MediaPipe PoseLandmarker: 33 pose landmarks only
+    # No per-finger hand keypoints — use wrist + index/pinky for coarse tracking
+    hand_left: [15, 17, 19, 21]    # left wrist, index, pinky, thumb
+    hand_right: [16, 18, 20, 22]   # right wrist, index, pinky, thumb
+    wrist_only: [15, 16]
+    shoulders: [11, 12]
+    upper_arms: [11, 12, 13, 14]
+    forearms: [13, 14, 15, 16]
+    torso: [11, 12, 23, 24]
+    upper_body: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+    head: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    legs: [25, 26, 27, 28]
+    full_body: null
+    shoulder_left: 11
+    shoulder_right: 12
+    hip_left: 23
+    hip_right: 24
+    neck_proxy: 0
