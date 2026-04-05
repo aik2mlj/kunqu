@@ -188,6 +188,7 @@ def plot_clip_detail(
 
     for ax in axes:
         _add_cut_lines(ax, cut_times, nan_margin_sec)
+        ax.set_xlim(clip_start, clip_end)
 
     plt.tight_layout()
     path = out_dir / "03_clip_detail.png"
