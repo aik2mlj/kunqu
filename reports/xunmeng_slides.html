@@ -15,13 +15,15 @@ body {
 
 .slide {
     width: 100vw;
-    min-height: 100vh;
-    padding: 60px 80px;
+    height: 100vh;
+    padding: 40px 60px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     position: relative;
     page-break-after: always;
+    page-break-inside: avoid;
+    overflow: hidden;
 }
 
 .slide::after {
@@ -66,27 +68,27 @@ body {
 
 /* Section headers */
 h2 {
-    font-size: 2.2em;
+    font-size: 1.8em;
     font-weight: 600;
     color: #58a6ff;
-    margin-bottom: 30px;
-    padding-bottom: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
     border-bottom: 2px solid #1f3a5c;
 }
 
 h3 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 600;
     color: #79c0ff;
-    margin: 25px 0 15px 0;
+    margin: 12px 0 8px 0;
 }
 
 /* Content */
 p {
-    font-size: 1.15em;
-    line-height: 1.8;
+    font-size: 0.95em;
+    line-height: 1.6;
     color: #c9d1d9;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 
 .highlight {
@@ -97,11 +99,11 @@ p {
 .key-finding {
     background: linear-gradient(135deg, #1a2332, #1a1a2e);
     border-left: 4px solid #58a6ff;
-    padding: 25px 30px;
-    margin: 20px 0;
+    padding: 15px 20px;
+    margin: 10px 0;
     border-radius: 0 8px 8px 0;
-    font-size: 1.2em;
-    line-height: 1.8;
+    font-size: 1em;
+    line-height: 1.6;
 }
 
 .key-finding strong {
@@ -112,21 +114,21 @@ p {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 1em;
+    margin: 8px 0;
+    font-size: 0.85em;
 }
 
 th {
     background: #161b22;
     color: #58a6ff;
-    padding: 12px 16px;
+    padding: 6px 10px;
     text-align: left;
     font-weight: 600;
     border-bottom: 2px solid #30363d;
 }
 
 td {
-    padding: 10px 16px;
+    padding: 5px 10px;
     border-bottom: 1px solid #21262d;
     color: #c9d1d9;
 }
@@ -143,9 +145,10 @@ td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .fig img {
     max-width: 100%;
-    max-height: 70vh;
+    max-height: 42vh;
     border-radius: 6px;
     border: 1px solid #30363d;
+    object-fit: contain;
 }
 
 .fig-caption {
@@ -165,9 +168,9 @@ td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 /* Bullet list */
 ul {
-    margin: 10px 0 10px 25px;
-    font-size: 1.1em;
-    line-height: 2;
+    margin: 6px 0 6px 20px;
+    font-size: 0.9em;
+    line-height: 1.7;
     color: #c9d1d9;
 }
 
@@ -175,13 +178,13 @@ ul li::marker { color: #58a6ff; }
 
 /* Numbered findings */
 ol {
-    margin: 10px 0 10px 25px;
-    font-size: 1.1em;
-    line-height: 2.2;
+    margin: 6px 0 6px 20px;
+    font-size: 0.9em;
+    line-height: 1.8;
     color: #c9d1d9;
 }
 
-ol li { margin-bottom: 8px; }
+ol li { margin-bottom: 4px; }
 ol li::marker { color: #ffa657; font-weight: 700; }
 
 /* Slide number */
@@ -193,9 +196,14 @@ ol li::marker { color: #ffa657; font-weight: 700; }
     color: #484f58;
 }
 
+/* Title slide vertical centering */
+.slide.title { justify-content: center; }
+
 /* Print */
 @media print {
-    .slide { page-break-after: always; height: 100vh; }
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .slide { page-break-after: always; height: 100vh; overflow: hidden; }
+    .fig img { max-height: 38vh; }
 }
 </style>
 </head>
