@@ -1,10 +1,12 @@
-# Videos to process — list of {id, path} entries
+# Videos to process — list of {id, path, annotation} entries
 # Each video is processed independently through the full pipeline
 videos:
   - id: "xunmeng"
     path: "data/raw/xunmeng.mp4"
+    annotation: "data/annotations/xunmeng_annotation.json"
   # - id: "youyuan"
   #   path: "data/raw/youyuan.mp4"
+  #   annotation: "data/annotations/youyuan_annotation.json"
 
 # Common timeline
 common_fps: 30
@@ -13,6 +15,11 @@ common_fps: 30
 cuts:
   threshold: 27.0
   nan_margin: 2
+
+# Text rhythm extraction
+text:
+  density_sigma: 0.5       # Gaussian smoothing sigma (seconds) for character density curve
+  breath_window: 0.15      # Half-window (seconds) around each breath mark for the breath pulse signal
 
 # Audio extraction
 audio:
