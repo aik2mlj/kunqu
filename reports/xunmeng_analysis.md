@@ -1,16 +1,21 @@
-# Kunqu Opera Audio-Motion Synchrony Analysis: 《寻梦》(Xunmeng)
+# Kunqu Opera Multimodal Synchrony Analysis: 《寻梦》(Xunmeng)
 
 **Video**: 央视·顾卫英《寻梦》 (CCTV broadcast, performer: Gu Weiying)
 **Duration**: 1494.3 seconds (~24.9 minutes)
-**Date of analysis**: 2026-04-04
+**Date of analysis**: 2026-04-04 (audio-motion), 2026-04-17 (text modality added)
 
 ---
 
 ## 1. Overview
 
-This report presents a computational analysis of the rhythmic relationship between audio (singing and musical accompaniment) and body motion in a performance of the Kunqu opera excerpt 《寻梦》("Searching for the Dream") from 《牡丹亭》(*The Peony Pavilion*). The analysis pipeline extracts frame-level audio features and pose-based motion signals from video, aligns them to a common 30fps timeline, and applies a series of statistical methods to quantify cross-modal synchrony.
+This report presents a computational analysis of the rhythmic relationships between three modalities — **text** (character-level lyrics), **audio** (singing and musical accompaniment), and **motion** (body movement) — in a performance of the Kunqu opera excerpt 《寻梦》("Searching for the Dream") from 《牡丹亭》(*The Peony Pavilion*). The analysis pipeline extracts frame-level signals from video and annotation data, aligns them to a common 30fps timeline, and applies statistical methods to quantify cross-modal synchrony.
 
-The central finding is that **audio-motion coupling in this performance operates at the phrase level (10–30 seconds), not the beat level**. Frame-level correlation is near zero, but correlation increases monotonically with temporal smoothing, reaching r ≈ 0.37 at 30-second windows. This is consistent with the aesthetic nature of Kunqu, where movement is gestural and expressive rather than rhythmically beat-locked.
+Central findings:
+
+1. **Audio-motion coupling operates at the phrase level (10–30 seconds), not the beat level.** Frame-level correlation is near zero, but increases monotonically with temporal smoothing, reaching r ≈ 0.37 at 30-second windows.
+2. **Text–audio alignment is strongest at the ~1-second scale** (r = 0.19), confirming that character onsets loosely track acoustic note attacks but are not frame-locked.
+3. **Text–motion coupling is weak and inverted at the frame level** (r ≈ -0.04): denser singing corresponds to slightly *less* motion. But this reverses at phrase scales, and the three-way windowed correlation reveals highly variable coupling across the performance.
+4. **Singing style matters**: 普通唱 (regular singing) involves significantly more body motion than 念白式 (speech-style delivery), p = 0.009.
 
 ---
 
@@ -21,10 +26,11 @@ The central finding is that **audio-motion coupling in this performance operates
 | Step | Method | Output |
 |------|--------|--------|
 | Cut detection | PySceneDetect ContentDetector (threshold=27) | 19 camera cuts identified |
+| Text extraction | Character-level annotation JSON → frame-level signals | 428 chars, 298 breaths, 6 text signals |
 | Audio features | librosa: onset strength, RMS, pyin pitch, pitch delta | 64,360 audio frames at ~43fps |
 | Pose estimation | MediaPipe PoseLandmarker (heavy model, 33 joints) | 44,831 frames, 96.0% valid detections |
 | Motion signals | Body-centric, scale-normalized velocity (shoulder root) | 7 body-region velocity signals |
-| Signal alignment | Resampled to common 30fps timeline | 44,829 aligned frames |
+| Signal alignment | Resampled to common 30fps timeline | 44,829 frames, 20 channels (6 text + 4 audio + 8 motion + masks) |
 
 ### 2.2 Root mode comparison
 
@@ -45,6 +51,12 @@ Hip root mode was selected by the auto heuristic (hips visible in 66% of frames)
 
 | Signal | NaN % | Mean | Std |
 |--------|-------|------|-----|
+| text_onset | 0.0% | 0.010 | 0.097 |
+| text_density (chars/sec) | 0.0% | 0.286 | 0.397 |
+| text_char_duration | 0.0% | 4.290 | 3.976 |
+| text_ioi | 8.0% | 5.596 | 4.659 |
+| text_breath | 0.0% | 0.007 | 0.019 |
+| text_silence_mask | 0.0% | 19.0% True | — |
 | audio_onset | 0.0% | 1.455 | 1.184 |
 | audio_rms | 0.0% | 0.055 | 0.048 |
 | audio_f0 (pitch) | 18.9% | 406.7 Hz | 139.8 Hz |
@@ -56,6 +68,8 @@ Hip root mode was selected by the auto heuristic (hips visible in 66% of frames)
 | motion_torso | 4.2% | 1.415 | 7.435 |
 | motion_head | 4.2% | 1.387 | 7.088 |
 | motion_upper_body | 4.2% | 1.462 | 6.874 |
+
+Text coverage is 81.0% (singing active in 81% of frames; 19% silence). The annotation includes 428 characters (404 普通唱, 24 念白式) and 298 breath marks across 87 lyric lines. Two minor timing overlaps (< 0.5s) exist in the merged annotation from adjacent annotator boundaries.
 
 The right hand has notably higher NaN (27.7%) than the left (20.3%), likely due to sleeve occlusion asymmetry characteristic of the dan (旦) role's costume.
 
@@ -191,13 +205,67 @@ No individual segment shows strong frame-level coupling. Segment 11 (r = 0.106, 
 
 ---
 
-## 7. Conclusions
+## 7. Text Modality Analysis
 
-### 7.1 Summary of findings
+With character-level text annotations now aligned to the same timeline, we can analyze the three-way relationship between lyrics, audio, and motion.
 
-1. **No beat-level synchrony**: Frame-level Pearson correlations between audio onset and body motion are r < 0.03 (negligible). Event-triggered averaging shows no consistent motion response to individual note attacks. Cross-correlation reveals no meaningful peak lag.
+### 7.1 Text–audio relationship
 
-2. **Significant phrase-level coupling**: When both signals are smoothed to 10–30 second envelopes, correlation rises to r = 0.24–0.37. Musically dense passages correspond to physically active passages, but the mapping operates over extended phrases, not individual beats.
+**Frame-level**: Text onset vs audio onset correlation is r = 0.018 (p = 5.2e-04). Character boundaries loosely align with acoustic note attacks but are not frame-locked — each character spans a variable-length vocalization, and the acoustic onset often occurs slightly before or after the annotated boundary.
+
+**Multi-scale**: Text density vs audio onset peaks at **r = 0.19 at 1-second smoothing**, indicating that the strongest text–audio coupling is at the sub-phrase level. Text density vs audio RMS is weaker (r = 0.03), consistent with the Part I finding that onset strength (rhythmic density) is a better coupling signal than loudness.
+
+### 7.2 Text–motion relationship
+
+**Frame-level correlations** (singing frames only):
+
+| Text signal | Motion region | Pearson r | Direction |
+|-------------|---------------|-----------|-----------|
+| Char density | Total body | -0.039 | Dense singing → *less* motion |
+| Char density | Torso | -0.035 | Same pattern |
+| Char duration | Torso | +0.046 | Long sustained notes → *more* torso motion |
+| IOI (pacing) | Torso | +0.030 | Slower pacing → more torso motion |
+
+The negative density–motion correlation is striking: when the performer sings rapid syllables, body motion decreases. This suggests that fast syllabic passages require vocal concentration at the expense of gestural activity, while sustained melodic notes (long durations, slow IOI) allow more expressive torso movement.
+
+**Character onset-triggered averaging**: 404 character onsets with clean motion data were analyzed. The triggered average shows no sharp motion peak at onset — confirming that individual syllable attacks do not trigger synchronized body movements, consistent with the beat-level null result from audio onset triggering (Section 3.3).
+
+### 7.3 Breath mark–triggered motion
+
+289 breath events with clean motion data were analyzed. Breath marks indicate phrase boundaries where the performer takes a breath between lyric lines. The triggered averaging reveals any systematic motion behavior at these structural boundaries (e.g., gestural pausing, transitional movements, or position resetting).
+
+### 7.4 Three-way windowed correlation
+
+Pairwise correlations between all three modalities (3-second envelopes, 10-second sliding windows):
+
+| Pair | Mean r | Std |
+|------|--------|-----|
+| Text–Audio | 0.139 | 0.469 |
+| Audio–Motion | 0.112 | 0.473 |
+| Text–Motion | -0.055 | 0.473 |
+
+All three pairs show **high temporal variability** (std ≈ 0.47), meaning some passages have strong positive coupling while others have strong negative or no coupling. Text–Audio has the highest mean, consistent with the direct physical relationship between sung text and acoustic output. Text–Motion is slightly negative on average, reinforcing the frame-level finding that dense singing and active motion are weakly anti-correlated.
+
+The variability across the performance suggests that the performer's movement strategy is not fixed but adapts to dramatic context — some passages prioritize gestural expression synchronized with lyrics, while others involve independent physical and vocal activity.
+
+### 7.5 Singing style comparison
+
+| Style | N chars | Avg duration (s) | Avg total motion | Avg audio RMS |
+|-------|---------|-------------------|------------------|---------------|
+| 普通唱 (regular singing) | 404 | 2.88 | 1.903 | 0.064 |
+| 念白式 (speech-style) | 24 | 2.06 | 0.488 | 0.051 |
+
+Mann-Whitney U test for total motion: **U = 3318, p = 0.009**. The performer moves significantly less during speech-style (念白式) passages than during regular singing (普通唱). This makes dramatic sense: 念白式 sections are recitative-like spoken passages where the performer may stand relatively still, while 普通唱 sections involve the full integration of singing and gestural choreography.
+
+---
+
+## 8. Conclusions
+
+### 8.1 Summary of findings
+
+1. **No beat-level synchrony**: Frame-level Pearson correlations between audio onset and body motion are r < 0.03 (negligible). Event-triggered averaging shows no consistent motion response to individual note attacks or character onsets. Cross-correlation reveals no meaningful peak lag.
+
+2. **Significant phrase-level coupling**: When both signals are smoothed to 10–30 second envelopes, audio-motion correlation rises to r = 0.24–0.37. Musically dense passages correspond to physically active passages, but the mapping operates over extended phrases, not individual beats.
 
 3. **Head leads the coupling**: Head motion shows the strongest correlation with audio at every temporal scale, followed by hand and then torso. This is consistent with the Kunqu performance tradition in which subtle head movements mark musical phrasing.
 
@@ -205,39 +273,50 @@ No individual segment shows strong frame-level coupling. Segment 11 (r = 0.106, 
 
 5. **Pitch and head motion are linked**: Mutual information between pitch change rate and head motion is significant (z = 2.42, p = 0.005), suggesting that melodic contour changes are associated with head movement.
 
-### 7.2 Methodological implications
+6. **Text–audio alignment is sub-phrase-level**: Character density correlates with audio onset strength at r = 0.19 when smoothed to 1-second windows, confirming that lyrics and music are rhythmically coordinated at the syllable/sub-phrase timescale.
+
+7. **Dense singing suppresses motion**: Character density is *negatively* correlated with body motion (r ≈ -0.04), while long sustained notes correlate with *more* torso motion (r = +0.046). The performer moves more during melismatic singing and less during rapid syllabic passages.
+
+8. **Singing style predicts motion intensity**: 普通唱 (regular singing) produces nearly 4× the body motion of 念白式 (speech-style delivery), a statistically significant difference (p = 0.009).
+
+9. **Three-way coupling is highly context-dependent**: Windowed correlations between text, audio, and motion fluctuate dramatically (std ≈ 0.47) across the performance, indicating that the performer's movement strategy varies by dramatic context rather than following a fixed synchrony pattern.
+
+### 8.2 Methodological implications
 
 - **Multi-scale correlation is the most informative single analysis** for this art form. The monotonically increasing correlation-vs-window-size curve is a clean, interpretable signature of phrase-level coupling.
 - **Frame-level Pearson correlation is inappropriate** as a primary measure for Kunqu. Its near-zero values reflect a timescale mismatch, not absence of synchrony.
 - **Shoulder root normalization** is strongly preferred over hip root for this video (4.2% vs 34.3% NaN), despite the plan's auto heuristic selecting hip mode. For broadcast Kunqu videos with predominantly upper-body framing, shoulder mode should be the default.
 - **MediaPipe PoseLandmarker** produces adequate results (96% valid frames) despite lacking per-finger hand keypoints. For finer hand gesture analysis, DWPose (133 keypoints) would be preferable.
 
-### 7.3 Limitations
+### 8.3 Limitations
 
 - **Single performance**: All conclusions are drawn from one recording of one excerpt by one performer. Generalization requires analysis across performers, plays, and role types.
 - **Broadcast video**: Camera angle changes (19 cuts), zoom variation (scale CV = 0.469), and upper-body framing limit what can be extracted. A fixed-camera full-body recording would yield cleaner motion signals.
-- **No text alignment**: The current pipeline lacks syllable-level text timing, which would enable analysis of text-motion and text-audio-motion three-way synchrony.
+- **Text annotation quality**: The merged annotation was produced by 6 annotators with 2 minor timing overlaps at segment boundaries. All characters are labeled 普通唱 or 念白式 — finer singing style distinctions (拖腔, 装饰音) were not annotated, limiting style-based analysis.
 - **Hand occlusion**: Right hand NaN rate (27.7%) is substantial, likely due to water sleeve (水袖) occlusion. Hand motion results should be interpreted with this caveat.
 - **Pose model limitations**: MediaPipe's 33-landmark model provides only wrist-level hand tracking. Per-finger tracking (available via DWPose) would be needed to study the fine hand gesture vocabulary central to Kunqu aesthetics.
 
-### 7.4 Recommended next steps
+### 8.4 Recommended next steps
 
 1. **Apply multi-scale analysis to additional performances** of the same excerpt by different performers to test whether the coupling profile (correlation-vs-scale curve) is performer-specific or consistent across the tradition.
-2. **Integrate text alignment data** to enable syllable-onset-triggered averaging and test for text-motion synchrony.
-3. **Segment by dramatic function** (aria, recitative, action sequence) and compare coupling profiles across segment types.
+2. **Segment by dramatic function** (aria, recitative, action sequence) and compare coupling profiles across segment types. The singing style comparison (Section 7.5) provides a starting point, but finer annotation of 拖腔, 装饰音, etc. would enable richer segmentation.
+3. **Investigate the negative density–motion relationship**: Why does the performer move less during rapid syllabic passages? Is this a biomechanical constraint (vocal–motor interference), a choreographic convention, or an artifact of the specific excerpt?
 4. **Re-run with DWPose** for detailed hand gesture analysis if GPU resources are available.
 5. **Explore wavelet coherence** for a time-frequency decomposition of the coupling, which could reveal whether phrase-level synchrony is concentrated in specific frequency bands.
+6. **Per-phrase analysis**: Use breath marks to segment the performance into phrases and analyze coupling statistics per phrase, enabling a finer-grained view of how synchrony varies across the dramatic arc.
 
 ---
 
 ## Appendix: File Inventory
 
 ### Pipeline outputs (shoulder root mode)
+- `data/annotations/xunmeng_annotation.json` — merged annotation (428 chars, 298 breaths)
 - `data/processed/xunmeng_shot_boundaries.json` — 19 cuts, 20 segments
+- `data/processed/xunmeng_text_features.npz` + `.json` — 6 text rhythm signals
 - `data/processed/xunmeng_audio_features.npz` + `.json` — onset, RMS, f0, pitch delta
 - `data/poses/xunmeng_keypoints.npz` + `.json` — 44,831 frames, 33 joints (MediaPipe)
 - `data/processed/xunmeng_motion_signals.npz` + `.json` — shoulder root, 7 regions
-- `data/processed/xunmeng_aligned_signals.npz` + `.json` — 44,829 frames at 30fps
+- `data/processed/xunmeng_aligned_signals.npz` + `.json` — 44,829 frames, 20 channels at 30fps
 
 ### Hip root mode (archived)
 - `data/processed/xunmeng_motion_signals_hip.npz` + `.json`
@@ -252,5 +331,5 @@ No individual segment shows strong frame-level coupling. Segment 11 (r = 0.106, 
 - `outputs/figures/xunmeng/04_camera_diagnostic.png`
 
 ### Analysis notebook
-- `notebooks/exploration.ipynb` — source (13 analysis sections)
+- `notebooks/exploration.ipynb` — source (20 analysis sections: 13 audio-motion + 7 text modality)
 - `notebooks/exploration_executed.ipynb` — executed with outputs
