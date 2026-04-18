@@ -27,36 +27,86 @@ def _add_cut_lines(ax, cut_times: list[float], nan_margin_sec: float):
         ax.axvspan(ct - nan_margin_sec, ct + nan_margin_sec, color="red", alpha=0.08)
 
 
+def _shade_mask(ax, times: np.ndarray, mask: np.ndarray, color: str = "grey", alpha: float = 0.15):
+    """Shade contiguous True regions of a boolean mask."""
+    if len(mask) == 0:
+        return
+    changes = np.diff(mask.astype(int))
+    starts = np.where(changes == 1)[0] + 1
+    ends = np.where(changes == -1)[0] + 1
+    # Handle edge cases
+    if mask[0]:
+        starts = np.concatenate([[0], starts])
+    if mask[-1]:
+        ends = np.concatenate([ends, [len(mask)]])
+    for s, e in zip(starts, ends):
+        ax.axvspan(times[s], times[min(e, len(times) - 1)], color=color, alpha=alpha)
+
+
+def _has_text(aligned: dict) -> bool:
+    """Check if aligned signals contain text modality."""
+    return "text_density" in aligned
+
+
 def plot_signals_overview(
     video_id: str, aligned: dict, meta: dict, cut_times: list, nan_margin_sec: float, out_dir: Path
 ):
-    """Plot 1: Stacked signal overview."""
+    """Plot 1: Stacked signal overview (7 rows with text, 5 without)."""
     times = aligned["times"]
+    has_text = _has_text(aligned)
+    n_rows = 7 if has_text else 5
 
-    fig, axes = plt.subplots(5, 1, figsize=(16, 12), sharex=True)
+    fig, axes = plt.subplots(n_rows, 1, figsize=(16, 2.4 * n_rows), sharex=True)
     fig.suptitle(f"{video_id} — Signal Overview", fontsize=14)
 
+    row = 0
+
     # Row 1: onset
-    axes[0].plot(times, aligned["audio_onset"], linewidth=0.5, color="C0")
-    axes[0].set_ylabel("Onset strength")
+    axes[row].plot(times, aligned["audio_onset"], linewidth=0.5, color="C0")
+    axes[row].set_ylabel("Onset strength")
+    row += 1
 
     # Row 2: RMS
-    axes[1].plot(times, aligned["audio_rms"], linewidth=0.5, color="C1")
-    axes[1].set_ylabel("RMS energy")
+    axes[row].plot(times, aligned["audio_rms"], linewidth=0.5, color="C1")
+    axes[row].set_ylabel("RMS energy")
+    row += 1
 
     # Row 3: pitch
-    axes[2].plot(times, aligned["audio_f0"], linewidth=0.5, color="C2")
-    axes[2].set_ylabel("Pitch (Hz)")
+    axes[row].plot(times, aligned["audio_f0"], linewidth=0.5, color="C2")
+    axes[row].set_ylabel("Pitch (Hz)")
+    row += 1
 
-    # Row 4: total motion
-    axes[3].plot(times, aligned["motion_total"], linewidth=0.5, color="C3")
-    axes[3].set_ylabel("Total motion")
+    if has_text:
+        # Row 4: text density + onset ticks
+        density = aligned["text_density"]
+        axes[row].plot(times, density, linewidth=0.5, color="C4")
+        # Add onset ticks along the top
+        onset = aligned["text_onset"]
+        onset_times = times[onset > 0]
+        tick_y = float(np.nanmax(density)) if np.any(density > 0) else 1.0
+        axes[row].scatter(onset_times, np.full(len(onset_times), tick_y),
+                          marker="|", s=10, color="C4", alpha=0.5)
+        axes[row].set_ylabel("Char density\n(chars/sec)")
+        row += 1
 
-    # Row 5: hand vs torso
-    axes[4].plot(times, aligned["motion_hand"], linewidth=0.5, color="C0", label="Hand")
-    axes[4].plot(times, aligned["motion_torso"], linewidth=0.5, color="C1", label="Torso")
-    axes[4].set_ylabel("Motion")
-    axes[4].legend(loc="upper right", fontsize=8)
+        # Row 5: breath marks + silence shading
+        axes[row].plot(times, aligned["text_breath"], linewidth=0.5, color="C5")
+        # Grey shading for silence regions
+        silence = aligned["text_silence_mask"].astype(bool)
+        _shade_mask(axes[row], times, silence, color="grey", alpha=0.15)
+        axes[row].set_ylabel("Breath marks")
+        row += 1
+
+    # Row 6 (or 4): total motion
+    axes[row].plot(times, aligned["motion_total"], linewidth=0.5, color="C3")
+    axes[row].set_ylabel("Total motion")
+    row += 1
+
+    # Row 7 (or 5): hand vs torso
+    axes[row].plot(times, aligned["motion_hand"], linewidth=0.5, color="C0", label="Hand")
+    axes[row].plot(times, aligned["motion_torso"], linewidth=0.5, color="C1", label="Torso")
+    axes[row].set_ylabel("Motion")
+    axes[row].legend(loc="upper right", fontsize=8)
 
     axes[-1].set_xlabel("Time (seconds)")
 
@@ -161,28 +211,54 @@ def plot_clip_detail(
             clip_start = 0.0
             clip_end = float(times[-1])
 
-    mask = (times >= clip_start) & (times <= clip_end)
-    t = times[mask]
+    time_mask = (times >= clip_start) & (times <= clip_end)
+    t = times[time_mask]
+    has_text = _has_text(aligned)
+    n_rows = 7 if has_text else 5
 
-    fig, axes = plt.subplots(5, 1, figsize=(16, 10), sharex=True)
+    fig, axes = plt.subplots(n_rows, 1, figsize=(16, 2 * n_rows), sharex=True)
     fig.suptitle(f"{video_id} — Detail [{clip_start:.1f}s – {clip_end:.1f}s]", fontsize=14)
 
-    axes[0].plot(t, aligned["audio_onset"][mask], linewidth=0.8, color="C0")
-    axes[0].set_ylabel("Onset strength")
+    row = 0
 
-    axes[1].plot(t, aligned["audio_rms"][mask], linewidth=0.8, color="C1")
-    axes[1].set_ylabel("RMS energy")
+    axes[row].plot(t, aligned["audio_onset"][time_mask], linewidth=0.8, color="C0")
+    axes[row].set_ylabel("Onset strength")
+    row += 1
 
-    axes[2].plot(t, aligned["audio_f0"][mask], linewidth=0.8, color="C2")
-    axes[2].set_ylabel("Pitch (Hz)")
+    axes[row].plot(t, aligned["audio_rms"][time_mask], linewidth=0.8, color="C1")
+    axes[row].set_ylabel("RMS energy")
+    row += 1
 
-    axes[3].plot(t, aligned["motion_total"][mask], linewidth=0.8, color="C3")
-    axes[3].set_ylabel("Total motion")
+    axes[row].plot(t, aligned["audio_f0"][time_mask], linewidth=0.8, color="C2")
+    axes[row].set_ylabel("Pitch (Hz)")
+    row += 1
 
-    axes[4].plot(t, aligned["motion_hand"][mask], linewidth=0.8, color="C0", label="Hand")
-    axes[4].plot(t, aligned["motion_torso"][mask], linewidth=0.8, color="C1", label="Torso")
-    axes[4].set_ylabel("Motion")
-    axes[4].legend(fontsize=8)
+    if has_text:
+        density_clip = aligned["text_density"][time_mask]
+        axes[row].plot(t, density_clip, linewidth=0.8, color="C4")
+        onset = aligned["text_onset"][time_mask]
+        onset_t = t[onset > 0]
+        if len(onset_t) > 0:
+            tick_y = float(np.nanmax(density_clip)) if np.any(density_clip > 0) else 1.0
+            axes[row].scatter(onset_t, np.full(len(onset_t), tick_y),
+                              marker="|", s=20, color="C4", alpha=0.7)
+        axes[row].set_ylabel("Char density\n(chars/sec)")
+        row += 1
+
+        axes[row].plot(t, aligned["text_breath"][time_mask], linewidth=0.8, color="C5")
+        silence = aligned["text_silence_mask"][time_mask].astype(bool)
+        _shade_mask(axes[row], t, silence, color="grey", alpha=0.15)
+        axes[row].set_ylabel("Breath marks")
+        row += 1
+
+    axes[row].plot(t, aligned["motion_total"][time_mask], linewidth=0.8, color="C3")
+    axes[row].set_ylabel("Total motion")
+    row += 1
+
+    axes[row].plot(t, aligned["motion_hand"][time_mask], linewidth=0.8, color="C0", label="Hand")
+    axes[row].plot(t, aligned["motion_torso"][time_mask], linewidth=0.8, color="C1", label="Torso")
+    axes[row].set_ylabel("Motion")
+    axes[row].legend(fontsize=8)
 
     axes[-1].set_xlabel("Time (seconds)")
 

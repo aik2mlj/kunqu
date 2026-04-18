@@ -1,4 +1,4 @@
-"""Step 5: Resample audio and motion signals to a common time axis."""
+"""Step 6: Resample text, audio, and motion signals to a common time axis."""
 
 from __future__ import annotations
 
@@ -58,6 +58,15 @@ def align_signals(video_id: str, cfg: dict) -> None:
     motion_path = Path("data/processed") / f"{video_id}_motion_signals.npz"
     motion_arrays, motion_meta = load_signals(motion_path)
 
+    # Load text features (optional — may not exist for all videos)
+    text_path = Path("data/processed") / f"{video_id}_text_features.npz"
+    has_text = text_path.exists() and text_path.with_suffix(".json").exists()
+    if has_text:
+        text_arrays, text_meta = load_signals(text_path)
+    else:
+        print(f"[{video_id}] No text features found — aligning audio + motion only.")
+        text_arrays, text_meta = None, None
+
     # Load shot boundaries for cut mask
     sb_path = require_file(
         Path("data/processed") / f"{video_id}_shot_boundaries.json",
@@ -69,34 +78,56 @@ def align_signals(video_id: str, cfg: dict) -> None:
     nan_margin = cfg["cuts"]["nan_margin"]
 
     # Determine common duration — trim to shortest
-    audio_duration = audio_meta["duration_sec"]
-    motion_times = motion_arrays["times"]
-    motion_duration = float(motion_times[-1]) if len(motion_times) > 0 else 0
+    durations = {
+        "audio": audio_meta["duration_sec"],
+        "motion": float(motion_arrays["times"][-1]) if len(motion_arrays["times"]) > 0 else 0,
+    }
+    if has_text:
+        durations["text"] = text_meta["total_duration_sec"]
 
-    if abs(audio_duration - motion_duration) > 0.5:
-        print(
-            f"[{video_id}] Warning: audio duration ({audio_duration:.2f}s) and "
-            f"motion duration ({motion_duration:.2f}s) differ by "
-            f"{abs(audio_duration - motion_duration):.2f}s"
-        )
+    dur_vals = list(durations.values())
+    dur_max_diff = max(dur_vals) - min(dur_vals)
+    if dur_max_diff > 0.5:
+        parts = ", ".join(f"{k}={v:.2f}s" for k, v in durations.items())
+        print(f"[{video_id}] Warning: modality durations differ by {dur_max_diff:.2f}s ({parts})")
 
-    common_duration = min(audio_duration, motion_duration)
+    common_duration = min(dur_vals)
     if common_duration <= 0:
-        raise ValueError(
-            f"[{video_id}] Cannot align: audio duration={audio_duration:.2f}s, "
-            f"motion duration={motion_duration:.2f}s. Check upstream steps."
-        )
+        parts = ", ".join(f"{k}={v:.2f}s" for k, v in durations.items())
+        raise ValueError(f"[{video_id}] Cannot align: {parts}. Check upstream steps.")
     N = int(common_duration * common_fps)
     times_common = np.arange(N) / common_fps
 
-    # Resample audio signals
+    # --- Resample text signals (already at common_fps, just trim) ---
+    text_resampled = {}
+    if has_text:
+        text_signal_keys = [
+            ("text_onset", "onset_signal"),
+            ("text_density", "char_density"),
+            ("text_char_duration", "char_duration_signal"),
+            ("text_ioi", "inter_onset_interval"),
+            ("text_breath", "breath_signal"),
+            ("text_silence_mask", "silence_mask"),
+        ]
+        for out_name, src_name in text_signal_keys:
+            src = text_arrays[src_name]
+            if len(src) >= N:
+                text_resampled[out_name] = src[:N]
+            else:
+                # Pad with appropriate fill (NaN for float, True for silence_mask)
+                padded = np.full(N, np.nan if src.dtype.kind == "f" else True, dtype=src.dtype)
+                padded[: len(src)] = src
+                text_resampled[out_name] = padded
+
+    # --- Resample audio signals ---
     audio_times = audio_arrays["times"]
     audio_onset = _resample_preserving_nan(audio_times, audio_arrays["onset_env"], times_common)
     audio_rms = _resample_preserving_nan(audio_times, audio_arrays["rms"], times_common)
     audio_f0 = _resample_preserving_nan(audio_times, audio_arrays["f0"], times_common)
     audio_pitch_delta = _resample_preserving_nan(audio_times, audio_arrays["pitch_delta"], times_common)
 
-    # Resample motion signals
+    # --- Resample motion signals ---
+    motion_times = motion_arrays["times"]
     motion_keys = [
         ("motion_total", "total_motion"),
         ("motion_hand", "hand_motion"),
@@ -114,7 +145,7 @@ def align_signals(video_id: str, cfg: dict) -> None:
             motion_times, motion_arrays[src_name], times_common
         )
 
-    # Generate cut mask on the common timeline (vectorized)
+    # Generate cut mask on the common timeline
     video_fps = shot_data["video_fps"]
     cut_mask = np.zeros(N, dtype=bool)
     margin_sec = nan_margin / video_fps
@@ -127,6 +158,11 @@ def align_signals(video_id: str, cfg: dict) -> None:
     # NaN fraction in motion
     nan_frac_motion = np.isnan(motion_resampled["motion_total"]).sum() / N if N > 0 else 0
 
+    # Text coverage fraction
+    text_coverage = None
+    if has_text and "text_silence_mask" in text_resampled:
+        text_coverage = float((~text_resampled["text_silence_mask"]).sum()) / N
+
     # Merged metadata
     metadata = {
         "video_id": video_id,
@@ -137,6 +173,9 @@ def align_signals(video_id: str, cfg: dict) -> None:
         "audio": audio_meta,
         "motion": motion_meta,
     }
+    if has_text:
+        metadata["text"] = text_meta
+        metadata["text_coverage_fraction"] = round(text_coverage, 4)
 
     # Save
     out_path = Path("data/processed") / f"{video_id}_aligned_signals.npz"
@@ -148,6 +187,7 @@ def align_signals(video_id: str, cfg: dict) -> None:
         audio_f0=audio_f0,
         audio_pitch_delta=audio_pitch_delta,
         cut_mask=cut_mask,
+        **text_resampled,
         **motion_resampled,
     )
 
@@ -155,9 +195,13 @@ def align_signals(video_id: str, cfg: dict) -> None:
     n_audio = 4
     n_motion = len(motion_keys)
     print(f"\n[{video_id}] Aligned signals saved: {N} frames, {common_duration:.1f} sec, {common_fps} fps")
+    if has_text:
+        print(f"  Text signals: 6 channels (onset, density, char_duration, ioi, breath, silence_mask)")
     print(f"  Audio signals: {n_audio} channels (onset, rms, f0, pitch_delta)")
     print(f"  Motion signals: {n_motion} channels (total, hand, hand_left, hand_right, torso, upper_body, head, root_displacement)")
     print(f"  NaN coverage in motion: {nan_frac_motion*100:.1f}%")
+    if text_coverage is not None:
+        print(f"  Text coverage: {text_coverage*100:.1f}% of frames have active singing")
 
 
 def process_video(video_id: str, cfg: dict) -> None:
@@ -165,7 +209,7 @@ def process_video(video_id: str, cfg: dict) -> None:
 
 
 def main():
-    parser = base_argparser("Align audio and motion signals to common timeline")
+    parser = base_argparser("Align text, audio, and motion signals to common timeline")
     args = parser.parse_args()
     cfg = load_config(args.config)
 
