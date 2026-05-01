@@ -219,10 +219,7 @@ __marimo__/
 
 # =================================== project specific =======================================
 
-# Models (large binary files)
-models/
-
-# Data (large files, not committed)
+# large raw files
 *.wav
 *.mp3
 *.mp4

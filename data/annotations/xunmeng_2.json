@@ -1,0 +1,1081 @@
+{
+  "version": 2,
+  "project": {
+    "video": {
+      "url": "",
+      "name": "央视_顾卫英《寻梦》.mp4",
+      "source": "embedded",
+      "filePath": null,
+      "requiresManualImport": true
+    },
+    "subtitleLines": [
+      {
+        "id": "line-2631dc39-025d-4f8c-9a23-bdd990cfdfc2",
+        "text": "话到其间腼腆",
+        "startTime": 493.8875,
+        "endTime": 528.1892578124999
+      },
+      {
+        "id": "line-f4ac4aec-11af-45d6-9729-97b2b542b660",
+        "text": "他捏这眼奈烦也天",
+        "startTime": 528.4702287946428,
+        "endTime": 551.2207589285714
+      },
+      {
+        "id": "line-e0eb72e9-1bbe-42bd-9597-e78f649bd5a2",
+        "text": "咱噷这口待酬言",
+        "startTime": 551.3738839285714,
+        "endTime": 580.1545354833745
+      },
+      {
+        "id": "line-9a723635-0b8a-42a4-b777-56a081a118f8",
+        "text": "咱不是前生爱眷",
+        "startTime": 580.1545354833745,
+        "endTime": 600.23984375
+      },
+      {
+        "id": "line-690412e8-6199-4e13-bdc7-da4afb564572",
+        "text": "又素乏平生半面",
+        "startTime": 600.23984375,
+        "endTime": 629.6482142857143
+      },
+      {
+        "id": "line-d82f5055-604c-4ae7-849b-9c6a6270167d",
+        "text": "则道来生出现",
+        "startTime": 629.7284040178571,
+        "endTime": 638.4190848214286
+      },
+      {
+        "id": "line-2b738880-deb4-4abb-91bf-b4a19b3ccbf2",
+        "text": "乍便今生梦见",
+        "startTime": 638.4190848214286,
+        "endTime": 664.5235491071428
+      },
+      {
+        "id": "line-f6d917ba-037c-451c-a1d1-403bd76c4e28",
+        "text": "生就个书生",
+        "startTime": 664.6021763392857,
+        "endTime": 683.2121651785714
+      },
+      {
+        "id": "line-bc8646f6-1002-4379-87f1-c3371b0030b8",
+        "text": "恰恰生生抱咱去眠",
+        "startTime": 683.2121651785714,
+        "endTime": 731.5867745535713
+      },
+      {
+        "id": "line-b1e8cd8a-ce91-4cee-a3bd-2c32707d50a0",
+        "text": "寻来寻去都不见了",
+        "startTime": 739.8568080357143,
+        "endTime": 756.2603236607143
+      }
+    ],
+    "characterAnnotations": [
+      {
+        "id": "char-66e8a72c-15d1-4668-8fb3-7e18313c2333",
+        "lineId": "line-2631dc39-025d-4f8c-9a23-bdd990cfdfc2",
+        "char": "话",
+        "startTime": 493.8875,
+        "endTime": 500.03460286458335,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-a79a8358-d4f8-4d9a-bcca-14d0c6e0fe80",
+        "lineId": "line-2631dc39-025d-4f8c-9a23-bdd990cfdfc2",
+        "char": "到",
+        "startTime": 500.03460286458335,
+        "endTime": 502.86705729166664,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-cf05d9c1-fc9f-4bd0-84e3-b68a4cd1ff16",
+        "lineId": "line-2631dc39-025d-4f8c-9a23-bdd990cfdfc2",
+        "char": "其",
+        "startTime": 502.86705729166664,
+        "endTime": 505.91689453124997,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-b4687aff-dfd6-46ee-b2e5-f55e673d08c1",
+        "lineId": "line-2631dc39-025d-4f8c-9a23-bdd990cfdfc2",
+        "char": "间",
+        "startTime": 505.91689453124997,
+        "endTime": 514.7909054487178,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-fa93abbe-655e-403a-bc44-63ee173668b2",
+        "lineId": "line-2631dc39-025d-4f8c-9a23-bdd990cfdfc2",
+        "char": "腼",
+        "startTime": 514.7909054487178,
+        "endTime": 520.6394055488782,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-572fd102-6afe-44ef-8024-ec81d5bf09ff",
+        "lineId": "line-2631dc39-025d-4f8c-9a23-bdd990cfdfc2",
+        "char": "腆",
+        "startTime": 520.6394055488782,
+        "endTime": 528.1892578124999,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-6b7136f1-8f1f-464a-80a3-8add48158c6c",
+        "lineId": "line-f4ac4aec-11af-45d6-9729-97b2b542b660",
+        "char": "他",
+        "startTime": 528.4702287946428,
+        "endTime": 529.2205636160713,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-302300ea-f37b-4727-8aac-52ba1969e42a",
+        "lineId": "line-f4ac4aec-11af-45d6-9729-97b2b542b660",
+        "char": "捏",
+        "startTime": 529.2205636160713,
+        "endTime": 531.8421107700893,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-aaf1157c-179c-4190-8a9f-98e36e2d091d",
+        "lineId": "line-f4ac4aec-11af-45d6-9729-97b2b542b660",
+        "char": "这",
+        "startTime": 531.8421107700893,
+        "endTime": 533.0537493024555,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-b6f1f1d1-957a-43ad-84f2-041b912937cc",
+        "lineId": "line-f4ac4aec-11af-45d6-9729-97b2b542b660",
+        "char": "眼",
+        "startTime": 533.0537493024555,
+        "endTime": 536.8388253348214,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-f9da84af-9afc-4c2d-a719-157b46473db7",
+        "lineId": "line-f4ac4aec-11af-45d6-9729-97b2b542b660",
+        "char": "奈",
+        "startTime": 536.8388253348214,
+        "endTime": 539.3458879743304,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-0860187f-88cb-4604-88bd-6e2e5f139672",
+        "lineId": "line-f4ac4aec-11af-45d6-9729-97b2b542b660",
+        "char": "烦",
+        "startTime": 539.3458879743304,
+        "endTime": 544.4365443638393,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-74745c02-c694-4f8c-a626-5b3dfa021580",
+        "lineId": "line-f4ac4aec-11af-45d6-9729-97b2b542b660",
+        "char": "也",
+        "startTime": 544.4365443638393,
+        "endTime": 547.0042096819196,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-e218e692-7b23-4167-9bb6-0f627396bcf5",
+        "lineId": "line-f4ac4aec-11af-45d6-9729-97b2b542b660",
+        "char": "天",
+        "startTime": 547.0042096819196,
+        "endTime": 551.2207589285714,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-0e5e2eac-fa44-49d6-a017-9f8695d78e97",
+        "lineId": "line-e0eb72e9-1bbe-42bd-9597-e78f649bd5a2",
+        "char": "咱",
+        "startTime": 551.3738839285714,
+        "endTime": 552.0394101498358,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-1212bfe3-ff9a-49ca-ae20-0d14f92c0e4d",
+        "lineId": "line-e0eb72e9-1bbe-42bd-9597-e78f649bd5a2",
+        "char": "噷",
+        "startTime": 552.0394101498358,
+        "endTime": 557.1452866599226,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-3b27daba-f2b8-4daf-a9de-782a2499bcd3",
+        "lineId": "line-e0eb72e9-1bbe-42bd-9597-e78f649bd5a2",
+        "char": "这",
+        "startTime": 557.1452866599226,
+        "endTime": 562.3020413661154,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-cb3850db-0779-4241-bb5c-05e8eae4e839",
+        "lineId": "line-e0eb72e9-1bbe-42bd-9597-e78f649bd5a2",
+        "char": "口",
+        "startTime": 562.3020413661154,
+        "endTime": 564.9465852612598,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-5ae6d7df-b703-46bc-ada0-34809c6c9cbd",
+        "lineId": "line-e0eb72e9-1bbe-42bd-9597-e78f649bd5a2",
+        "char": "待",
+        "startTime": 564.9465852612598,
+        "endTime": 572.5094701134765,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-873aafa0-d957-49b2-bd9f-22f20c20bdab",
+        "lineId": "line-e0eb72e9-1bbe-42bd-9597-e78f649bd5a2",
+        "char": "酬",
+        "startTime": 572.5094701134765,
+        "endTime": 577.5854347180683,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-15d6d9af-d920-4ff1-9e49-72fc9ae1b712",
+        "lineId": "line-e0eb72e9-1bbe-42bd-9597-e78f649bd5a2",
+        "char": "言",
+        "startTime": 577.5854347180683,
+        "endTime": 580.1545354833745,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-5a6cf7b0-9147-4f15-9e72-c0304079b853",
+        "lineId": "line-9a723635-0b8a-42a4-b777-56a081a118f8",
+        "char": "咱",
+        "startTime": 580.1545354833745,
+        "endTime": 582.7165629398312,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-b306b841-fe0c-4831-8526-89f4f7e4de7e",
+        "lineId": "line-9a723635-0b8a-42a4-b777-56a081a118f8",
+        "char": "不",
+        "startTime": 582.7165629398312,
+        "endTime": 583.7887466462878,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-7583cc33-05aa-428c-838b-1c9a9710a985",
+        "lineId": "line-9a723635-0b8a-42a4-b777-56a081a118f8",
+        "char": "是",
+        "startTime": 583.7887466462878,
+        "endTime": 587.6971468706017,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-c4d67a46-f0fb-45a5-8c2b-1ab75b9f3e1d",
+        "lineId": "line-9a723635-0b8a-42a4-b777-56a081a118f8",
+        "char": "前",
+        "startTime": 587.6971468706017,
+        "endTime": 590.2688283449156,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-91f8968d-951b-42d8-b7cd-093060c56e30",
+        "lineId": "line-9a723635-0b8a-42a4-b777-56a081a118f8",
+        "char": "生",
+        "startTime": 590.2688283449156,
+        "endTime": 595.1748848192294,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-93d499b9-8da4-4d6a-b50d-8e603e0a26cc",
+        "lineId": "line-9a723635-0b8a-42a4-b777-56a081a118f8",
+        "char": "爱",
+        "startTime": 595.1748848192294,
+        "endTime": 597.6638095971147,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-a876a27d-fe25-4b8c-8565-75bce51a1784",
+        "lineId": "line-9a723635-0b8a-42a4-b777-56a081a118f8",
+        "char": "眷",
+        "startTime": 597.6638095971147,
+        "endTime": 600.23984375,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-d34b5b47-0a52-4eab-b8c7-42a659cd0236",
+        "lineId": "line-690412e8-6199-4e13-bdc7-da4afb564572",
+        "char": "又",
+        "startTime": 600.23984375,
+        "endTime": 602.3478555484694,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-47bfa00f-7f2a-4eaf-aa8b-0e3a7334f06e",
+        "lineId": "line-690412e8-6199-4e13-bdc7-da4afb564572",
+        "char": "素",
+        "startTime": 602.3478555484694,
+        "endTime": 603.8662468112244,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-24381101-53a6-4525-b00f-0bc8191f7220",
+        "lineId": "line-690412e8-6199-4e13-bdc7-da4afb564572",
+        "char": "乏",
+        "startTime": 603.8662468112244,
+        "endTime": 607.517897002551,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-50fda24d-321c-4f12-91fb-2169347ee322",
+        "lineId": "line-690412e8-6199-4e13-bdc7-da4afb564572",
+        "char": "平",
+        "startTime": 607.517897002551,
+        "endTime": 609.7868463010204,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-07df0f51-68cd-4965-a017-8a9cb19331a4",
+        "lineId": "line-690412e8-6199-4e13-bdc7-da4afb564572",
+        "char": "生",
+        "startTime": 609.7868463010204,
+        "endTime": 617.5692442602042,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-27e89393-e784-41ea-af26-2a749936036f",
+        "lineId": "line-690412e8-6199-4e13-bdc7-da4afb564572",
+        "char": "半",
+        "startTime": 617.5692442602042,
+        "endTime": 622.6109614158163,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-2faf4477-20ef-4d1f-b761-294ac4222749",
+        "lineId": "line-690412e8-6199-4e13-bdc7-da4afb564572",
+        "char": "面",
+        "startTime": 622.6109614158163,
+        "endTime": 629.6482142857143,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-15805d9f-1177-47a5-82ab-9e3e55dc78b5",
+        "lineId": "line-d82f5055-604c-4ae7-849b-9c6a6270167d",
+        "char": "则",
+        "startTime": 629.7284040178571,
+        "endTime": 630.421447172619,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-530a462d-3e8e-4ef9-81f0-161c1a5af351",
+        "lineId": "line-d82f5055-604c-4ae7-849b-9c6a6270167d",
+        "char": "道",
+        "startTime": 630.421447172619,
+        "endTime": 631.2932291666666,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-313528bc-1a0c-4058-856b-d3d9c5f809f5",
+        "lineId": "line-d82f5055-604c-4ae7-849b-9c6a6270167d",
+        "char": "来",
+        "startTime": 631.2932291666666,
+        "endTime": 632.6458705357143,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-9b6dd96b-0aa0-455e-b67a-a164677c454e",
+        "lineId": "line-d82f5055-604c-4ae7-849b-9c6a6270167d",
+        "char": "生",
+        "startTime": 632.6458705357143,
+        "endTime": 634.121447172619,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-eb0b739d-a058-47e5-ba62-33cfad0da924",
+        "lineId": "line-d82f5055-604c-4ae7-849b-9c6a6270167d",
+        "char": "出",
+        "startTime": 634.121447172619,
+        "endTime": 635.6244791666667,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-89cf5b87-9882-468c-b5b4-8304dde89b25",
+        "lineId": "line-d82f5055-604c-4ae7-849b-9c6a6270167d",
+        "char": "现",
+        "startTime": 635.6244791666667,
+        "endTime": 638.4190848214286,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-a5379764-9aae-4195-9adb-2d97412b0315",
+        "lineId": "line-2b738880-deb4-4abb-91bf-b4a19b3ccbf2",
+        "char": "乍",
+        "startTime": 638.4190848214286,
+        "endTime": 639.0476562499999,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-bca39012-dbf8-4760-87d2-adc7435f76d2",
+        "lineId": "line-2b738880-deb4-4abb-91bf-b4a19b3ccbf2",
+        "char": "便",
+        "startTime": 639.0476562499999,
+        "endTime": 639.8755766369047,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-9fdea075-d0a1-4d30-9d66-6a41b5c34bf8",
+        "lineId": "line-2b738880-deb4-4abb-91bf-b4a19b3ccbf2",
+        "char": "今",
+        "startTime": 639.8755766369047,
+        "endTime": 645.1104631696429,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-383eb40f-43bc-4f19-ad62-101a4cdb1dd9",
+        "lineId": "line-2b738880-deb4-4abb-91bf-b4a19b3ccbf2",
+        "char": "生",
+        "startTime": 645.1104631696429,
+        "endTime": 653.1097470238095,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-87c67273-b181-40b6-a6eb-04642f1e1f28",
+        "lineId": "line-2b738880-deb4-4abb-91bf-b4a19b3ccbf2",
+        "char": "梦",
+        "startTime": 653.1097470238095,
+        "endTime": 661.401329985119,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-2feade0c-6ed7-4267-94ab-9b79a23c7962",
+        "lineId": "line-2b738880-deb4-4abb-91bf-b4a19b3ccbf2",
+        "char": "见",
+        "startTime": 661.401329985119,
+        "endTime": 664.5235491071428,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-846168a3-69a6-443d-9191-6f92fccb1305",
+        "lineId": "line-f6d917ba-037c-451c-a1d1-403bd76c4e28",
+        "char": "生",
+        "startTime": 664.6021763392857,
+        "endTime": 669.3738504464286,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-87651374-a74f-4c67-9c64-89835f4848b6",
+        "lineId": "line-f6d917ba-037c-451c-a1d1-403bd76c4e28",
+        "char": "就",
+        "startTime": 669.3738504464286,
+        "endTime": 670.5522767857143,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-8775eb2c-8ce9-453e-a13e-15d059796088",
+        "lineId": "line-f6d917ba-037c-451c-a1d1-403bd76c4e28",
+        "char": "个",
+        "startTime": 670.5522767857143,
+        "endTime": 671.5983928571428,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-bf8db4b1-aab7-4406-8786-c660c321a455",
+        "lineId": "line-f6d917ba-037c-451c-a1d1-403bd76c4e28",
+        "char": "书",
+        "startTime": 671.5983928571428,
+        "endTime": 676.2702901785714,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-0d1117c3-b652-482a-90ec-bb96878c7200",
+        "lineId": "line-f6d917ba-037c-451c-a1d1-403bd76c4e28",
+        "char": "生",
+        "startTime": 676.2702901785714,
+        "endTime": 683.2121651785714,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-0c963294-a9eb-4a74-beb7-60917f4d48cc",
+        "lineId": "line-bc8646f6-1002-4379-87f1-c3371b0030b8",
+        "char": "恰",
+        "startTime": 683.2121651785714,
+        "endTime": 687.7740583147321,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-8a4ad631-99ff-4e62-9b2c-cbb1c836eb5a",
+        "lineId": "line-bc8646f6-1002-4379-87f1-c3371b0030b8",
+        "char": "恰",
+        "startTime": 687.7740583147321,
+        "endTime": 690.1869559151785,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-d61f789d-7936-45e6-b736-b3c842a1b61a",
+        "lineId": "line-bc8646f6-1002-4379-87f1-c3371b0030b8",
+        "char": "生",
+        "startTime": 690.1869559151785,
+        "endTime": 694.9708914620535,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-354fdf22-a22a-43f7-a2d3-3b008cbc5135",
+        "lineId": "line-bc8646f6-1002-4379-87f1-c3371b0030b8",
+        "char": "生",
+        "startTime": 694.9708914620535,
+        "endTime": 699.8762555803571,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-68ee419f-93ab-4331-852f-90a1eb5bc73b",
+        "lineId": "line-bc8646f6-1002-4379-87f1-c3371b0030b8",
+        "char": "抱",
+        "startTime": 699.8762555803571,
+        "endTime": 701.3084054129464,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-244acef2-bcf2-4412-9386-e3227e4eae89",
+        "lineId": "line-bc8646f6-1002-4379-87f1-c3371b0030b8",
+        "char": "咱",
+        "startTime": 701.3084054129464,
+        "endTime": 702.9432896205357,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-1ca45afe-def3-4546-875e-5c675dac61ac",
+        "lineId": "line-bc8646f6-1002-4379-87f1-c3371b0030b8",
+        "char": "去",
+        "startTime": 702.9432896205357,
+        "endTime": 712.9377720424106,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-a7740353-1e2a-47c6-b843-4c6ab0094e18",
+        "lineId": "line-bc8646f6-1002-4379-87f1-c3371b0030b8",
+        "char": "眠",
+        "startTime": 712.9377720424106,
+        "endTime": 731.5867745535713,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-0182ad9f-681d-4137-8eb9-432a727f3290",
+        "lineId": "line-b1e8cd8a-ce91-4cee-a3bd-2c32707d50a0",
+        "char": "寻",
+        "startTime": 739.8568080357143,
+        "endTime": 740.9668247767856,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-f923bb76-3fa3-4b26-a39a-28560857b11e",
+        "lineId": "line-b1e8cd8a-ce91-4cee-a3bd-2c32707d50a0",
+        "char": "来",
+        "startTime": 740.9668247767856,
+        "endTime": 744.262611607143,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-89d5c68f-4a20-4374-a190-001558fe2eb2",
+        "lineId": "line-b1e8cd8a-ce91-4cee-a3bd-2c32707d50a0",
+        "char": "寻",
+        "startTime": 744.262611607143,
+        "endTime": 745.9193359375,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-f2e4e860-3d47-4d00-aa0c-2c70ae8aa727",
+        "lineId": "line-b1e8cd8a-ce91-4cee-a3bd-2c32707d50a0",
+        "char": "去",
+        "startTime": 745.9193359375,
+        "endTime": 750.5827566964286,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-9f8e5ee7-7d4b-42b3-bfb0-c6e03ed37b83",
+        "lineId": "line-b1e8cd8a-ce91-4cee-a3bd-2c32707d50a0",
+        "char": "都",
+        "startTime": 750.5827566964286,
+        "endTime": 752.1238002232143,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-c6c1c910-65b6-4bcc-b6d3-e5291fbda38c",
+        "lineId": "line-b1e8cd8a-ce91-4cee-a3bd-2c32707d50a0",
+        "char": "不",
+        "startTime": 752.1238002232143,
+        "endTime": 752.7624441964285,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-fcbde0c7-5790-4133-8f92-9d23bb592883",
+        "lineId": "line-b1e8cd8a-ce91-4cee-a3bd-2c32707d50a0",
+        "char": "见",
+        "startTime": 752.7624441964285,
+        "endTime": 754.108510044643,
+        "singingStyle": "普通唱"
+      },
+      {
+        "id": "char-a8a9e340-bff1-4d04-98f7-10efbd306dd1",
+        "lineId": "line-b1e8cd8a-ce91-4cee-a3bd-2c32707d50a0",
+        "char": "了",
+        "startTime": 754.108510044643,
+        "endTime": 756.2603236607143,
+        "singingStyle": "普通唱"
+      }
+    ],
+    "actionAnnotations": [],
+    "builtinTracks": [
+      {
+        "id": "character-track",
+        "name": "逐字文字轨",
+        "type": "character",
+        "options": [
+          "普通唱",
+          "拖腔",
+          "顿音",
+          "装饰音",
+          "念白式",
+          "其他"
+        ],
+        "attachedPointTracks": [
+          {
+            "id": "point-track-ca99be66-085b-4b2f-8c27-0866d0625565",
+            "name": "呼吸轨",
+            "typeOptions": [
+              "呼吸"
+            ],
+            "points": [
+              {
+                "id": "point-9d1a9703-57e4-448e-8746-192bf39f8283",
+                "time": 497.8115375384615,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-2f79d2f4-0efd-40c6-8467-a367638c939b",
+                "time": 500.96256001923075,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-08777b83-70bf-47ee-ae3d-d3b8fa0f3603",
+                "time": 503.776923,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-9fca06ed-ec92-42f6-b34a-a6bdb8cb9042",
+                "time": 508.407692,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-5c638ebd-c5e7-4b62-92e5-d6b0b8af881a",
+                "time": 510.8509,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-332d9fac-3f42-4e44-979f-f06cb8d6e298",
+                "time": 514.026273,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-3d358ea0-cc10-4e61-9e54-793d30fdcda9",
+                "time": 515.839755,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-49f0ec08-0be3-4cf5-97d5-7596f43ebb9a",
+                "time": 518.428689,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-06e8a03f-672a-47ca-9ee7-6e271407c188",
+                "time": 520.4460336538461,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-2aceabce-3a20-4121-94c9-9e21530e8a56",
+                "time": 523.213285,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-b1cd92e3-fad6-4303-8eea-31d940ab81f2",
+                "time": 528.1892578124999,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-b218ee31-f2dd-47af-9b74-37dc264383b4",
+                "time": 531.338461,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-dc1fbd36-3ba8-4f75-a1aa-5804f0864ff6",
+                "time": 533.978247,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-deb9b9cf-8b05-4506-87ce-6b003a9b4444",
+                "time": 536.514486,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-6d8b9094-7936-4d98-b7ea-e42715092eda",
+                "time": 539.8660449807693,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-5d4eab6f-91f3-4290-94ed-49edc5897b2c",
+                "time": 542.755339,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-be8cf71d-fdfb-4ab1-a78f-f25bb680c789",
+                "time": 545.3587139423076,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-87398367-eba7-4f71-b7a9-ac3f711986a8",
+                "time": 546.794779,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-89817449-1dbf-42e8-8a86-f4cccff7079d",
+                "time": 551.01661,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-b4ce8471-c660-4223-8bfe-78cc912ed0df",
+                "time": 552.714044,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-2502eefb-66db-4809-bc26-1ee15493d963",
+                "time": 553.2,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-ca70d2e8-7695-4dd9-ba09-b3f896bc43d2",
+                "time": 556.700435,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-641350f0-d47a-4405-b81e-b153ac55f17b",
+                "time": 561.967668,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-a8bd6c63-332a-4358-a202-07bed4950609",
+                "time": 563.3247988846153,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-d7c30b89-27b9-46ca-ac28-5c521c8d4c4a",
+                "time": 569.161538,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-a7e110ca-3ba3-4940-9fdd-8796aafd8c3f",
+                "time": 572.015384,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-70c4b965-2d36-4633-99f7-c81c8a3b21cc",
+                "time": 573.4153846153846,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-b21f69b4-25ed-4250-92d5-aab48cc2cb21",
+                "time": 575.96923,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-46f772c3-e369-4524-ada9-1834d7d9ebb2",
+                "time": 579.622303,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-6aca30fc-45f2-4221-a099-92abf8540c9b",
+                "time": 583.0692307692308,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-49424257-a71f-4a33-ab78-083fd98b5642",
+                "time": 586.948768,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-7b31817e-4c7c-4ac0-90a4-1b7665c8fdf8",
+                "time": 588.614897,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-5350dccc-8126-4c8c-9b2c-3c72049f0253",
+                "time": 590.884615,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-7608deb6-f0be-48bc-87aa-ac2f69817eeb",
+                "time": 594.738461,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-695062c7-0126-4c77-9ba7-5b7a078f8d07",
+                "time": 599.86923,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-58989503-5ffc-4c36-a630-38dd2c1ffe98",
+                "time": 602.263993,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-37d64bd7-a589-4af6-8e91-471b0904466a",
+                "time": 603.407692,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-efd4d71d-55a4-486d-ad0b-f6e13b3b6cf3",
+                "time": 604.792307,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-eca401c0-d058-41ca-be2e-b11565082e74",
+                "time": 607.092307,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-dac92ed0-65ff-4716-ab77-d4badee366a6",
+                "time": 608.092307,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-1b7b2dbb-146d-44a2-b82f-95015f2498df",
+                "time": 612.907692,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-46032788-bbc8-4d5f-9142-aaba3ffb281c",
+                "time": 617.346153,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-ca0f50ec-c40f-4d66-bd8c-3761d9ef4e76",
+                "time": 622.026547,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-851afc3c-8382-4592-9642-f782e23358b3",
+                "time": 625.0769230769231,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-22f71d8d-e562-418f-893a-0ab75daac42f",
+                "time": 628.844611,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-92a5b3e3-2d86-41f1-8a06-66571a95466d",
+                "time": 630.220937,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-045223fe-6498-42ce-bdf2-94e1a3abc946",
+                "time": 633.713747,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-b37dec5b-5a72-4a75-b335-c866e89ba109",
+                "time": 635.0769230769231,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-322a724e-fb4a-40b8-9d21-ad0109a0fa1d",
+                "time": 637.372715,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-5eb2efd7-cddf-4b24-9f74-ea7356de3868",
+                "time": 641.615384,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-292958f7-d22e-447d-b87e-8587101ccc9a",
+                "time": 644.907692,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-29b39d02-4c65-4f14-a6fd-cf0a448f05cd",
+                "time": 646.974105,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-5efe2508-21ce-43f4-8c71-52140ce797cd",
+                "time": 653.1097470238095,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-0f56aca5-2a14-4f0d-a0ec-6b507c566040",
+                "time": 660.423076,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-cabf6541-905d-4828-9c3f-f037c0450012",
+                "time": 664.361538,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-e52a559f-4315-4f64-800a-7dddc273e9f7",
+                "time": 665.453846,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-75fa5a0b-8937-46a1-9281-f4f71c163d98",
+                "time": 666.070509,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-4bc15c7a-c480-4dc3-8d61-65be37b89e7f",
+                "time": 669.115384,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-dd90f532-ccae-4d34-a814-36c300b0328a",
+                "time": 671.4935695576922,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-3c766333-5099-4492-b467-dccef7f62d4f",
+                "time": 674.945928,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-7294381b-e65b-4fcf-a84a-80df7d0a08d7",
+                "time": 680.7501802884616,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-e049bac9-7eac-42c0-87df-9895e6e75f31",
+                "time": 684.076923,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-41e2daf2-c1d7-4ae0-90e6-6edfac5ae90e",
+                "time": 685.338461,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-737289b5-d9ce-4699-aac7-2a6247fa8704",
+                "time": 688.6888218076923,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-0635bd9b-50bb-4b5d-a75b-14cf6864b332",
+                "time": 689.576923,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-5d15e347-11d1-4f6f-8624-4b0bd2ae6ec9",
+                "time": 692.99336,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-5a8d3f8c-3aeb-40f0-953b-4c990bd592ad",
+                "time": 694.8547856928227,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-ef2b5451-d285-4e4b-8ede-45431dc954a7",
+                "time": 696.987637,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-009e8a05-21d6-405e-82c1-e138309c4f92",
+                "time": 699.3384615384615,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-3d0dbe1d-a547-461c-81a1-49d124185ab4",
+                "time": 702.6076923076923,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-940fe51c-c204-4012-900e-e2113e894a73",
+                "time": 707.623076923077,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-c604f83c-5fc8-47d1-8c10-50b7de31b1df",
+                "time": 712.444616,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-f6e7ad43-5eb8-4b16-afa0-fa439afc1f13",
+                "time": 715.4,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-368dccd5-ee2f-422b-972c-3897499315a4",
+                "time": 742.907729,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-c58359dd-3049-42c6-aad6-665d63b99967",
+                "time": 749.404193,
+                "label": "呼吸"
+              },
+              {
+                "id": "point-8147a25a-8d4d-48b8-a50d-1c16c3379127",
+                "time": 756.434335,
+                "label": "呼吸"
+              }
+            ],
+            "snapToWaveformKeypoints": false,
+            "snapToParentBoundaries": true
+          }
+        ],
+        "attachedPointTracksExpanded": true,
+        "snapToWaveformKeypoints": false
+      },
+      {
+        "id": "hand-action",
+        "name": "手部动作轨",
+        "type": "action",
+        "options": [
+          "抬手",
+          "落手",
+          "指向",
+          "翻腕",
+          "水袖动作",
+          "其他"
+        ],
+        "attachedPointTracks": [],
+        "attachedPointTracksExpanded": false,
+        "snapToWaveformKeypoints": false
+      },
+      {
+        "id": "body-action",
+        "name": "肢体动作轨",
+        "type": "action",
+        "options": [
+          "转身",
+          "移步",
+          "屈伸",
+          "亮相",
+          "前倾",
+          "后仰",
+          "其他"
+        ],
+        "attachedPointTracks": [],
+        "attachedPointTracksExpanded": false,
+        "snapToWaveformKeypoints": false
+      }
+    ],
+    "customTracks": [],
+    "activeTrackOrder": [
+      "character-track",
+      "hand-action",
+      "body-action"
+    ]
+  },
+  "uiState": {
+    "zoom": 45,
+    "currentTime": 522.061918,
+    "playbackRate": 1,
+    "trackSnapEnabled": {
+      "character-track": true,
+      "point-track-ca99be66-085b-4b2f-8c27-0866d0625565": true,
+      "hand-action": true,
+      "body-action": true
+    }
+  }
+}
