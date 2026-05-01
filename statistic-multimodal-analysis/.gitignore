@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Models (large binary files)
+models/
+
+# Data (large files, not committed)
+data/raw/
+data/audio/
+data/poses/
+data/processed/
+
+# Outputs
+outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
