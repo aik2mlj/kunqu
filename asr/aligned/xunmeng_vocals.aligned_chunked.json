@@ -1,0 +1,2573 @@
+{
+  "text": "一径行来但觉思思辗转园内风物依然趁此悄的无人正好寻梦也那一答可是湖山石边这一答似牡丹亭畔嵌雕阑芍药芽儿浅一丝丝垂杨线一丢丢榆英钱啊线儿春甚金钱啊吊转昨日梦里那书生将柳枝来赠我要我题咏强奴欢会之时好不话长也是谁家少俊来近远敢迤逗这香闺去沁园话到其间腼腆他捏这眼奈烦也天咱噷这口待酬言咱不是前生爱眷又素乏平生半面则道来生出现乍便今生梦见生就个书生恰恰生生抱咱去眠寻来寻去都不见了那牡丹亭芍药栏怎生这般凄凉冷落杳无人迹好伤感人也似这等荒凉地面没多半亭台靠边敢是咱眯睎色眼寻难见放着白日青天猛教人抓不到魂梦前霎时间有如活现打方旋再得俄延是这答儿压黄金钏匾秀才秀才呀无人之处忽见大梅树一株看梅子累累可爱人也我丽娘死后得葬于此幸也偶然间心似缱在梅树边似这等花花草草由人恋待打并香魂一片阴雨梅天啊呀人儿吓生生死死遂人愿便酸酸楚楚无人怨守得个梅根相见佳人拾翠春庭院侍女添香午院清不知小姐哪里去了呀看小姐走乏了在梅树边打睡呢小姐小姐春香小姐我丽娘哭？少不得楼上花枝也则是照独眠",
+  "segments": [
+    {
+      "text": "一",
+      "start": 57.699,
+      "end": 57.699,
+      "line_id": "line-1"
+    },
+    {
+      "text": "径",
+      "start": 58.743,
+      "end": 59.623,
+      "line_id": "line-2"
+    },
+    {
+      "text": "行",
+      "start": 59.845,
+      "end": 60.245,
+      "line_id": "line-3"
+    },
+    {
+      "text": "来",
+      "start": 60.703,
+      "end": 60.703,
+      "line_id": "line-4"
+    },
+    {
+      "text": "但",
+      "start": 63.34,
+      "end": 63.42,
+      "line_id": "line-5"
+    },
+    {
+      "text": "觉",
+      "start": 64.292,
+      "end": 64.452,
+      "line_id": "line-6"
+    },
+    {
+      "text": "思",
+      "start": 65.9578,
+      "end": 66.2778,
+      "line_id": "line-7"
+    },
+    {
+      "text": "思",
+      "start": 67.041,
+      "end": 67.201,
+      "line_id": "line-8"
+    },
+    {
+      "text": "辗",
+      "start": 68.39,
+      "end": 68.39,
+      "line_id": "line-9"
+    },
+    {
+      "text": "转",
+      "start": 69.9477,
+      "end": 69.9477,
+      "line_id": "line-10"
+    },
+    {
+      "text": "园",
+      "start": 73.268,
+      "end": 73.268,
+      "line_id": "line-11"
+    },
+    {
+      "text": "内",
+      "start": 72.943,
+      "end": 72.943,
+      "line_id": "line-12"
+    },
+    {
+      "text": "风",
+      "start": 74.942,
+      "end": 75.022,
+      "line_id": "line-13"
+    },
+    {
+      "text": "物",
+      "start": 75.766,
+      "end": 75.766,
+      "line_id": "line-14"
+    },
+    {
+      "text": "依",
+      "start": 77.678,
+      "end": 78.558,
+      "line_id": "line-15"
+    },
+    {
+      "text": "然",
+      "start": 78.208,
+      "end": 78.288,
+      "line_id": "line-16"
+    },
+    {
+      "text": "趁",
+      "start": 80.713,
+      "end": 80.953,
+      "line_id": "line-17"
+    },
+    {
+      "text": "此",
+      "start": 81.433,
+      "end": 81.753,
+      "line_id": "line-17"
+    },
+    {
+      "text": "悄",
+      "start": 83.193,
+      "end": 83.193,
+      "line_id": "line-17"
+    },
+    {
+      "text": "的",
+      "start": 83.193,
+      "end": 83.193,
+      "line_id": "line-17"
+    },
+    {
+      "text": "无",
+      "start": 87.513,
+      "end": 87.593,
+      "line_id": "line-17"
+    },
+    {
+      "text": "人",
+      "start": 87.593,
+      "end": 87.593,
+      "line_id": "line-17"
+    },
+    {
+      "text": "正",
+      "start": 89.9297,
+      "end": 90.0897,
+      "line_id": "line-18"
+    },
+    {
+      "text": "好",
+      "start": 91.0497,
+      "end": 91.2097,
+      "line_id": "line-18"
+    },
+    {
+      "text": "寻",
+      "start": 93.2097,
+      "end": 93.6897,
+      "line_id": "line-18"
+    },
+    {
+      "text": "梦",
+      "start": 96.9697,
+      "end": 97.0497,
+      "line_id": "line-18"
+    },
+    {
+      "text": "也",
+      "start": 99.8497,
+      "end": 99.8497,
+      "line_id": "line-18"
+    },
+    {
+      "text": "那",
+      "start": 112.332,
+      "end": 112.412,
+      "line_id": "line-19"
+    },
+    {
+      "text": "一",
+      "start": 120.171,
+      "end": 120.171,
+      "line_id": "line-20"
+    },
+    {
+      "text": "答",
+      "start": 127.972,
+      "end": 128.052,
+      "line_id": "line-21"
+    },
+    {
+      "text": "可",
+      "start": 131.084,
+      "end": 131.084,
+      "line_id": "line-22"
+    },
+    {
+      "text": "是",
+      "start": 131.617,
+      "end": 131.937,
+      "line_id": "line-23"
+    },
+    {
+      "text": "湖",
+      "start": 133.059,
+      "end": 133.059,
+      "line_id": "line-24"
+    },
+    {
+      "text": "山",
+      "start": 136.457,
+      "end": 136.697,
+      "line_id": "line-25"
+    },
+    {
+      "text": "石",
+      "start": 145.912,
+      "end": 146.152,
+      "line_id": "line-26"
+    },
+    {
+      "text": "边",
+      "start": 167.874,
+      "end": 167.954,
+      "line_id": "line-27"
+    },
+    {
+      "text": "这",
+      "start": 173.674,
+      "end": 173.834,
+      "line_id": "line-28"
+    },
+    {
+      "text": "一",
+      "start": 183.063,
+      "end": 183.063,
+      "line_id": "line-29"
+    },
+    {
+      "text": "答",
+      "start": 191.955,
+      "end": 191.955,
+      "line_id": "line-30"
+    },
+    {
+      "text": "似",
+      "start": 192.213,
+      "end": 192.453,
+      "line_id": "line-31"
+    },
+    {
+      "text": "牡",
+      "start": 194.681,
+      "end": 194.681,
+      "line_id": "line-32"
+    },
+    {
+      "text": "丹",
+      "start": 206.388,
+      "end": 206.788,
+      "line_id": "line-33"
+    },
+    {
+      "text": "亭",
+      "start": 207.415,
+      "end": 210.135,
+      "line_id": "line-34"
+    },
+    {
+      "text": "畔",
+      "start": 213.22,
+      "end": 213.22,
+      "line_id": "line-35"
+    },
+    {
+      "text": "嵌",
+      "start": 213.22,
+      "end": 213.22,
+      "line_id": "line-35"
+    },
+    {
+      "text": "雕",
+      "start": 213.22,
+      "end": 213.22,
+      "line_id": "line-35"
+    },
+    {
+      "text": "阑",
+      "start": 213.22,
+      "end": 213.22,
+      "line_id": "line-35"
+    },
+    {
+      "text": "芍",
+      "start": 213.22,
+      "end": 213.22,
+      "line_id": "line-35"
+    },
+    {
+      "text": "药",
+      "start": 213.22,
+      "end": 213.22,
+      "line_id": "line-35"
+    },
+    {
+      "text": "芽",
+      "start": 213.22,
+      "end": 213.22,
+      "line_id": "line-35"
+    },
+    {
+      "text": "儿",
+      "start": 213.22,
+      "end": 213.22,
+      "line_id": "line-35"
+    },
+    {
+      "text": "浅",
+      "start": 213.22,
+      "end": 213.22,
+      "line_id": "line-35"
+    },
+    {
+      "text": "一",
+      "start": 213.22,
+      "end": 252.5,
+      "line_id": "line-35"
+    },
+    {
+      "text": "丝",
+      "start": 258.66,
+      "end": 258.66,
+      "line_id": "line-35"
+    },
+    {
+      "text": "丝",
+      "start": 258.66,
+      "end": 258.9,
+      "line_id": "line-35"
+    },
+    {
+      "text": "垂",
+      "start": 258.9,
+      "end": 258.9,
+      "line_id": "line-35"
+    },
+    {
+      "text": "杨",
+      "start": 259.14,
+      "end": 261.46,
+      "line_id": "line-35"
+    },
+    {
+      "text": "线",
+      "start": 262.66,
+      "end": 262.66,
+      "line_id": "line-35"
+    },
+    {
+      "text": "一",
+      "start": 275.2345,
+      "end": 275.2345,
+      "line_id": "line-36"
+    },
+    {
+      "text": "丢",
+      "start": 277.0745,
+      "end": 277.0745,
+      "line_id": "line-36"
+    },
+    {
+      "text": "丢",
+      "start": 277.0745,
+      "end": 277.2345,
+      "line_id": "line-36"
+    },
+    {
+      "text": "榆",
+      "start": 277.2345,
+      "end": 277.2345,
+      "line_id": "line-36"
+    },
+    {
+      "text": "英",
+      "start": 287.2345,
+      "end": 288.6745,
+      "line_id": "line-36"
+    },
+    {
+      "text": "钱",
+      "start": 288.6745,
+      "end": 288.6745,
+      "line_id": "line-36"
+    },
+    {
+      "text": "啊",
+      "start": 288.7557,
+      "end": 290.0997,
+      "line_id": "line-37"
+    },
+    {
+      "text": "线",
+      "start": 291.4437,
+      "end": 292.7877,
+      "line_id": "line-37"
+    },
+    {
+      "text": "儿",
+      "start": 294.1317,
+      "end": 295.4757,
+      "line_id": "line-37"
+    },
+    {
+      "text": "春",
+      "start": 295.4757,
+      "end": 295.6357,
+      "line_id": "line-37"
+    },
+    {
+      "text": "甚",
+      "start": 297.1557,
+      "end": 297.3957,
+      "line_id": "line-37"
+    },
+    {
+      "text": "金",
+      "start": 297.9557,
+      "end": 298.0357,
+      "line_id": "line-37"
+    },
+    {
+      "text": "钱",
+      "start": 300.0357,
+      "end": 300.4357,
+      "line_id": "line-37"
+    },
+    {
+      "text": "啊",
+      "start": 302.7557,
+      "end": 302.7557,
+      "line_id": "line-37"
+    },
+    {
+      "text": "吊",
+      "start": 302.8357,
+      "end": 318.8357,
+      "line_id": "line-37"
+    },
+    {
+      "text": "转",
+      "start": 318.8357,
+      "end": 318.8357,
+      "line_id": "line-37"
+    },
+    {
+      "text": "昨",
+      "start": 345.2914,
+      "end": 345.3714,
+      "line_id": "line-38"
+    },
+    {
+      "text": "日",
+      "start": 345.6114,
+      "end": 345.8514,
+      "line_id": "line-38"
+    },
+    {
+      "text": "梦",
+      "start": 348.4114,
+      "end": 348.4114,
+      "line_id": "line-38"
+    },
+    {
+      "text": "里",
+      "start": 349.1314,
+      "end": 349.2114,
+      "line_id": "line-38"
+    },
+    {
+      "text": "那",
+      "start": 350.1191,
+      "end": 350.1991,
+      "line_id": "line-39"
+    },
+    {
+      "text": "书",
+      "start": 351.1591,
+      "end": 351.3991,
+      "line_id": "line-39"
+    },
+    {
+      "text": "生",
+      "start": 351.7991,
+      "end": 351.7991,
+      "line_id": "line-39"
+    },
+    {
+      "text": "将",
+      "start": 352.6791,
+      "end": 352.6791,
+      "line_id": "line-39"
+    },
+    {
+      "text": "柳",
+      "start": 352.6791,
+      "end": 352.6791,
+      "line_id": "line-39"
+    },
+    {
+      "text": "枝",
+      "start": 354.1991,
+      "end": 354.1991,
+      "line_id": "line-39"
+    },
+    {
+      "text": "来",
+      "start": 354.4391,
+      "end": 356.8391,
+      "line_id": "line-39"
+    },
+    {
+      "text": "赠",
+      "start": 357.3191,
+      "end": 357.4791,
+      "line_id": "line-39"
+    },
+    {
+      "text": "我",
+      "start": 360.0391,
+      "end": 360.0391,
+      "line_id": "line-39"
+    },
+    {
+      "text": "要",
+      "start": 361.5575,
+      "end": 362.0375,
+      "line_id": "line-40"
+    },
+    {
+      "text": "我",
+      "start": 362.0375,
+      "end": 363.6375,
+      "line_id": "line-40"
+    },
+    {
+      "text": "题",
+      "start": 364.3575,
+      "end": 364.6775,
+      "line_id": "line-40"
+    },
+    {
+      "text": "咏",
+      "start": 365.2375,
+      "end": 365.2375,
+      "line_id": "line-40"
+    },
+    {
+      "text": "强",
+      "start": 367.9415,
+      "end": 368.5015,
+      "line_id": "line-41"
+    },
+    {
+      "text": "奴",
+      "start": 368.9015,
+      "end": 368.9815,
+      "line_id": "line-41"
+    },
+    {
+      "text": "欢",
+      "start": 368.9815,
+      "end": 369.3815,
+      "line_id": "line-41"
+    },
+    {
+      "text": "会",
+      "start": 369.3815,
+      "end": 369.3815,
+      "line_id": "line-41"
+    },
+    {
+      "text": "之",
+      "start": 373.4615,
+      "end": 373.6215,
+      "line_id": "line-41"
+    },
+    {
+      "text": "时",
+      "start": 375.1415,
+      "end": 375.4615,
+      "line_id": "line-41"
+    },
+    {
+      "text": "好",
+      "start": 376.9828,
+      "end": 380.1828,
+      "line_id": "line-42"
+    },
+    {
+      "text": "不",
+      "start": 380.1828,
+      "end": 380.2628,
+      "line_id": "line-42"
+    },
+    {
+      "text": "话",
+      "start": 381.2228,
+      "end": 381.2228,
+      "line_id": "line-42"
+    },
+    {
+      "text": "长",
+      "start": 386.5828,
+      "end": 386.7428,
+      "line_id": "line-42"
+    },
+    {
+      "text": "也",
+      "start": 388.0228,
+      "end": 388.0228,
+      "line_id": "line-42"
+    },
+    {
+      "text": "是",
+      "start": 400.9626,
+      "end": 401.5226,
+      "line_id": "line-43"
+    },
+    {
+      "text": "谁",
+      "start": 410.4026,
+      "end": 410.7226,
+      "line_id": "line-43"
+    },
+    {
+      "text": "家",
+      "start": 410.7226,
+      "end": 410.7226,
+      "line_id": "line-43"
+    },
+    {
+      "text": "少",
+      "start": 410.7226,
+      "end": 410.8026,
+      "line_id": "line-43"
+    },
+    {
+      "text": "俊",
+      "start": 414.1026,
+      "end": 417.4026,
+      "line_id": "line-43"
+    },
+    {
+      "text": "来",
+      "start": 420.7026,
+      "end": 424.0026,
+      "line_id": "line-43"
+    },
+    {
+      "text": "近",
+      "start": 424.4026,
+      "end": 424.4026,
+      "line_id": "line-43"
+    },
+    {
+      "text": "远",
+      "start": 427.2826,
+      "end": 427.2826,
+      "line_id": "line-43"
+    },
+    {
+      "text": "敢",
+      "start": 458.0112,
+      "end": 458.0112,
+      "line_id": "line-44"
+    },
+    {
+      "text": "迤",
+      "start": 458.0112,
+      "end": 458.0112,
+      "line_id": "line-44"
+    },
+    {
+      "text": "逗",
+      "start": 458.0112,
+      "end": 458.0112,
+      "line_id": "line-44"
+    },
+    {
+      "text": "这",
+      "start": 467.4512,
+      "end": 467.5312,
+      "line_id": "line-44"
+    },
+    {
+      "text": "香",
+      "start": 467.5312,
+      "end": 467.6112,
+      "line_id": "line-44"
+    },
+    {
+      "text": "闺",
+      "start": 467.7712,
+      "end": 467.7712,
+      "line_id": "line-44"
+    },
+    {
+      "text": "去",
+      "start": 481.3712,
+      "end": 481.3712,
+      "line_id": "line-44"
+    },
+    {
+      "text": "沁",
+      "start": 481.3712,
+      "end": 481.3712,
+      "line_id": "line-44"
+    },
+    {
+      "text": "园",
+      "start": 481.3712,
+      "end": 481.3712,
+      "line_id": "line-44"
+    },
+    {
+      "text": "话",
+      "start": 493.9328,
+      "end": 494.0928,
+      "line_id": "line-45"
+    },
+    {
+      "text": "到",
+      "start": 502.8928,
+      "end": 502.9728,
+      "line_id": "line-45"
+    },
+    {
+      "text": "其",
+      "start": 502.9728,
+      "end": 503.0528,
+      "line_id": "line-45"
+    },
+    {
+      "text": "间",
+      "start": 504.4128,
+      "end": 504.4928,
+      "line_id": "line-45"
+    },
+    {
+      "text": "腼",
+      "start": 504.4928,
+      "end": 508.8128,
+      "line_id": "line-45"
+    },
+    {
+      "text": "腆",
+      "start": 518.4128,
+      "end": 518.4128,
+      "line_id": "line-45"
+    },
+    {
+      "text": "他",
+      "start": 528.4502,
+      "end": 529.2502,
+      "line_id": "line-46"
+    },
+    {
+      "text": "捏",
+      "start": 529.2502,
+      "end": 529.3302,
+      "line_id": "line-46"
+    },
+    {
+      "text": "这",
+      "start": 529.3302,
+      "end": 529.4102,
+      "line_id": "line-46"
+    },
+    {
+      "text": "眼",
+      "start": 529.4102,
+      "end": 539.3302,
+      "line_id": "line-46"
+    },
+    {
+      "text": "奈",
+      "start": 539.3302,
+      "end": 539.4102,
+      "line_id": "line-46"
+    },
+    {
+      "text": "烦",
+      "start": 539.4102,
+      "end": 539.4902,
+      "line_id": "line-46"
+    },
+    {
+      "text": "也",
+      "start": 545.8902,
+      "end": 545.8902,
+      "line_id": "line-46"
+    },
+    {
+      "text": "天",
+      "start": 547.0102,
+      "end": 547.0102,
+      "line_id": "line-46"
+    },
+    {
+      "text": "咱",
+      "start": 551.3539,
+      "end": 551.4339,
+      "line_id": "line-47"
+    },
+    {
+      "text": "噷",
+      "start": 563.6739,
+      "end": 563.7539,
+      "line_id": "line-47"
+    },
+    {
+      "text": "这",
+      "start": 563.7539,
+      "end": 563.7539,
+      "line_id": "line-47"
+    },
+    {
+      "text": "口",
+      "start": 564.1539,
+      "end": 564.3939,
+      "line_id": "line-47"
+    },
+    {
+      "text": "待",
+      "start": 564.3939,
+      "end": 564.3939,
+      "line_id": "line-47"
+    },
+    {
+      "text": "酬",
+      "start": 564.3939,
+      "end": 564.3939,
+      "line_id": "line-47"
+    },
+    {
+      "text": "言",
+      "start": 564.3939,
+      "end": 564.3939,
+      "line_id": "line-47"
+    },
+    {
+      "text": "咱",
+      "start": 579.6545,
+      "end": 580.2145,
+      "line_id": "line-48"
+    },
+    {
+      "text": "不",
+      "start": 580.2145,
+      "end": 580.2145,
+      "line_id": "line-48"
+    },
+    {
+      "text": "是",
+      "start": 583.8945,
+      "end": 584.0545,
+      "line_id": "line-48"
+    },
+    {
+      "text": "前",
+      "start": 587.7345,
+      "end": 587.8145,
+      "line_id": "line-48"
+    },
+    {
+      "text": "生",
+      "start": 590.0545,
+      "end": 590.3745,
+      "line_id": "line-48"
+    },
+    {
+      "text": "爱",
+      "start": 591.4945,
+      "end": 591.5745,
+      "line_id": "line-48"
+    },
+    {
+      "text": "眷",
+      "start": 600.1345,
+      "end": 600.1345,
+      "line_id": "line-48"
+    },
+    {
+      "text": "又",
+      "start": 600.1398,
+      "end": 600.2198,
+      "line_id": "line-49"
+    },
+    {
+      "text": "素",
+      "start": 600.2198,
+      "end": 600.2998,
+      "line_id": "line-49"
+    },
+    {
+      "text": "乏",
+      "start": 600.2998,
+      "end": 607.5798,
+      "line_id": "line-49"
+    },
+    {
+      "text": "平",
+      "start": 607.5798,
+      "end": 607.7398,
+      "line_id": "line-49"
+    },
+    {
+      "text": "生",
+      "start": 608.2198,
+      "end": 608.2198,
+      "line_id": "line-49"
+    },
+    {
+      "text": "半",
+      "start": 615.0198,
+      "end": 615.0998,
+      "line_id": "line-49"
+    },
+    {
+      "text": "面",
+      "start": 622.6198,
+      "end": 623.5798,
+      "line_id": "line-49"
+    },
+    {
+      "text": "则",
+      "start": 630.4284,
+      "end": 630.5084,
+      "line_id": "line-50"
+    },
+    {
+      "text": "道",
+      "start": 630.5084,
+      "end": 630.5084,
+      "line_id": "line-50"
+    },
+    {
+      "text": "来",
+      "start": 631.3084,
+      "end": 632.2684,
+      "line_id": "line-50"
+    },
+    {
+      "text": "生",
+      "start": 632.6684,
+      "end": 632.9084,
+      "line_id": "line-50"
+    },
+    {
+      "text": "出",
+      "start": 634.1084,
+      "end": 634.1084,
+      "line_id": "line-50"
+    },
+    {
+      "text": "现",
+      "start": 634.1084,
+      "end": 634.1084,
+      "line_id": "line-50"
+    },
+    {
+      "text": "乍",
+      "start": 639.0391,
+      "end": 639.1191,
+      "line_id": "line-51"
+    },
+    {
+      "text": "便",
+      "start": 639.1191,
+      "end": 639.1991,
+      "line_id": "line-51"
+    },
+    {
+      "text": "今",
+      "start": 639.8391,
+      "end": 639.9991,
+      "line_id": "line-51"
+    },
+    {
+      "text": "生",
+      "start": 639.9991,
+      "end": 652.4791,
+      "line_id": "line-51"
+    },
+    {
+      "text": "梦",
+      "start": 653.1191,
+      "end": 653.2791,
+      "line_id": "line-51"
+    },
+    {
+      "text": "见",
+      "start": 661.4391,
+      "end": 661.4391,
+      "line_id": "line-51"
+    },
+    {
+      "text": "生",
+      "start": 664.4222,
+      "end": 671.7022,
+      "line_id": "line-52"
+    },
+    {
+      "text": "就",
+      "start": 672.3422,
+      "end": 673.0622,
+      "line_id": "line-52"
+    },
+    {
+      "text": "个",
+      "start": 675.9422,
+      "end": 675.9422,
+      "line_id": "line-52"
+    },
+    {
+      "text": "书",
+      "start": 676.0222,
+      "end": 676.0222,
+      "line_id": "line-52"
+    },
+    {
+      "text": "生",
+      "start": 676.1022,
+      "end": 676.3422,
+      "line_id": "line-52"
+    },
+    {
+      "text": "恰",
+      "start": 682.7122,
+      "end": 682.7122,
+      "line_id": "line-53"
+    },
+    {
+      "text": "恰",
+      "start": 701.3522,
+      "end": 701.4322,
+      "line_id": "line-53"
+    },
+    {
+      "text": "生",
+      "start": 701.4962,
+      "end": 701.5602,
+      "line_id": "line-53"
+    },
+    {
+      "text": "生",
+      "start": 701.6242,
+      "end": 701.6882,
+      "line_id": "line-53"
+    },
+    {
+      "text": "抱",
+      "start": 701.7522,
+      "end": 701.8322,
+      "line_id": "line-53"
+    },
+    {
+      "text": "咱",
+      "start": 701.8322,
+      "end": 702.7922,
+      "line_id": "line-53"
+    },
+    {
+      "text": "去",
+      "start": 702.7922,
+      "end": 706.3122,
+      "line_id": "line-53"
+    },
+    {
+      "text": "眠",
+      "start": 708.3122,
+      "end": 711.3522,
+      "line_id": "line-53"
+    },
+    {
+      "text": "寻",
+      "start": 739.8368,
+      "end": 740.3168,
+      "line_id": "line-54"
+    },
+    {
+      "text": "来",
+      "start": 740.3168,
+      "end": 744.1568,
+      "line_id": "line-54"
+    },
+    {
+      "text": "寻",
+      "start": 744.1568,
+      "end": 746.2368,
+      "line_id": "line-54"
+    },
+    {
+      "text": "去",
+      "start": 746.2368,
+      "end": 746.2368,
+      "line_id": "line-54"
+    },
+    {
+      "text": "都",
+      "start": 746.2368,
+      "end": 748.8768,
+      "line_id": "line-54"
+    },
+    {
+      "text": "不",
+      "start": 748.8768,
+      "end": 748.8768,
+      "line_id": "line-54"
+    },
+    {
+      "text": "见",
+      "start": 748.9568,
+      "end": 748.9568,
+      "line_id": "line-54"
+    },
+    {
+      "text": "了",
+      "start": 753.8368,
+      "end": 753.9168,
+      "line_id": "line-54"
+    },
+    {
+      "text": "那",
+      "start": 755.9342,
+      "end": 760.8942,
+      "line_id": "line-55"
+    },
+    {
+      "text": "牡",
+      "start": 760.8942,
+      "end": 760.8942,
+      "line_id": "line-55"
+    },
+    {
+      "text": "丹",
+      "start": 760.8942,
+      "end": 760.9742,
+      "line_id": "line-55"
+    },
+    {
+      "text": "亭",
+      "start": 760.9742,
+      "end": 761.2142,
+      "line_id": "line-55"
+    },
+    {
+      "text": "芍",
+      "start": 764.2542,
+      "end": 764.3342,
+      "line_id": "line-55"
+    },
+    {
+      "text": "药",
+      "start": 764.3342,
+      "end": 764.3342,
+      "line_id": "line-55"
+    },
+    {
+      "text": "栏",
+      "start": 766.8142,
+      "end": 766.9742,
+      "line_id": "line-55"
+    },
+    {
+      "text": "怎",
+      "start": 774.3923,
+      "end": 774.3923,
+      "line_id": "line-56"
+    },
+    {
+      "text": "生",
+      "start": 774.7123,
+      "end": 774.9523,
+      "line_id": "line-56"
+    },
+    {
+      "text": "这",
+      "start": 775.7523,
+      "end": 776.3123,
+      "line_id": "line-56"
+    },
+    {
+      "text": "般",
+      "start": 776.7123,
+      "end": 777.0323,
+      "line_id": "line-56"
+    },
+    {
+      "text": "凄",
+      "start": 778.5523,
+      "end": 778.7923,
+      "line_id": "line-56"
+    },
+    {
+      "text": "凉",
+      "start": 778.7923,
+      "end": 778.9523,
+      "line_id": "line-56"
+    },
+    {
+      "text": "冷",
+      "start": 778.9523,
+      "end": 778.9523,
+      "line_id": "line-56"
+    },
+    {
+      "text": "落",
+      "start": 778.9523,
+      "end": 778.9523,
+      "line_id": "line-56"
+    },
+    {
+      "text": "杳",
+      "start": 788.902,
+      "end": 788.902,
+      "line_id": "line-57"
+    },
+    {
+      "text": "无",
+      "start": 789.302,
+      "end": 789.302,
+      "line_id": "line-57"
+    },
+    {
+      "text": "人",
+      "start": 789.302,
+      "end": 789.382,
+      "line_id": "line-57"
+    },
+    {
+      "text": "迹",
+      "start": 789.942,
+      "end": 789.942,
+      "line_id": "line-57"
+    },
+    {
+      "text": "好",
+      "start": 792.2445,
+      "end": 800.7245,
+      "line_id": "line-58"
+    },
+    {
+      "text": "伤",
+      "start": 800.7245,
+      "end": 800.7245,
+      "line_id": "line-58"
+    },
+    {
+      "text": "感",
+      "start": 800.7245,
+      "end": 800.7245,
+      "line_id": "line-58"
+    },
+    {
+      "text": "人",
+      "start": 803.6045,
+      "end": 803.6045,
+      "line_id": "line-58"
+    },
+    {
+      "text": "也",
+      "start": 803.6045,
+      "end": 803.6045,
+      "line_id": "line-58"
+    },
+    {
+      "text": "似",
+      "start": 815.0768,
+      "end": 815.2368,
+      "line_id": "line-59"
+    },
+    {
+      "text": "这",
+      "start": 815.2368,
+      "end": 815.3168,
+      "line_id": "line-59"
+    },
+    {
+      "text": "等",
+      "start": 815.3168,
+      "end": 833.3168,
+      "line_id": "line-59"
+    },
+    {
+      "text": "荒",
+      "start": 833.3168,
+      "end": 833.3168,
+      "line_id": "line-59"
+    },
+    {
+      "text": "凉",
+      "start": 833.3168,
+      "end": 833.3168,
+      "line_id": "line-59"
+    },
+    {
+      "text": "地",
+      "start": 842.6768,
+      "end": 842.6768,
+      "line_id": "line-59"
+    },
+    {
+      "text": "面",
+      "start": 842.8368,
+      "end": 842.8368,
+      "line_id": "line-59"
+    },
+    {
+      "text": "没",
+      "start": 854.1474,
+      "end": 854.1474,
+      "line_id": "line-60"
+    },
+    {
+      "text": "多",
+      "start": 862.7874,
+      "end": 862.8674,
+      "line_id": "line-60"
+    },
+    {
+      "text": "半",
+      "start": 862.8674,
+      "end": 862.8674,
+      "line_id": "line-60"
+    },
+    {
+      "text": "亭",
+      "start": 863.1874,
+      "end": 863.9874,
+      "line_id": "line-60"
+    },
+    {
+      "text": "台",
+      "start": 864.6274,
+      "end": 865.5874,
+      "line_id": "line-60"
+    },
+    {
+      "text": "靠",
+      "start": 868.7874,
+      "end": 868.9474,
+      "line_id": "line-60"
+    },
+    {
+      "text": "边",
+      "start": 868.4463,
+      "end": 868.4463,
+      "line_id": "line-61"
+    },
+    {
+      "text": "敢",
+      "start": 872.1705,
+      "end": 872.1705,
+      "line_id": "line-62"
+    },
+    {
+      "text": "是",
+      "start": 873.2905,
+      "end": 873.4505,
+      "line_id": "line-62"
+    },
+    {
+      "text": "咱",
+      "start": 874.7305,
+      "end": 874.7305,
+      "line_id": "line-62"
+    },
+    {
+      "text": "眯",
+      "start": 874.8905,
+      "end": 876.0905,
+      "line_id": "line-62"
+    },
+    {
+      "text": "睎",
+      "start": 876.0905,
+      "end": 880.4105,
+      "line_id": "line-62"
+    },
+    {
+      "text": "色",
+      "start": 880.4105,
+      "end": 880.4105,
+      "line_id": "line-62"
+    },
+    {
+      "text": "眼",
+      "start": 880.4105,
+      "end": 880.4105,
+      "line_id": "line-62"
+    },
+    {
+      "text": "寻",
+      "start": 880.4105,
+      "end": 881.7705,
+      "line_id": "line-62"
+    },
+    {
+      "text": "难",
+      "start": 881.7705,
+      "end": 883.3705,
+      "line_id": "line-62"
+    },
+    {
+      "text": "见",
+      "start": 884.2505,
+      "end": 884.8105,
+      "line_id": "line-62"
+    },
+    {
+      "text": "放",
+      "start": 894.0474,
+      "end": 896.1274,
+      "line_id": "line-63"
+    },
+    {
+      "text": "着",
+      "start": 896.1274,
+      "end": 896.1274,
+      "line_id": "line-63"
+    },
+    {
+      "text": "白",
+      "start": 901.7274,
+      "end": 903.8074,
+      "line_id": "line-63"
+    },
+    {
+      "text": "日",
+      "start": 904.8474,
+      "end": 907.1674,
+      "line_id": "line-63"
+    },
+    {
+      "text": "青",
+      "start": 907.1674,
+      "end": 907.1674,
+      "line_id": "line-63"
+    },
+    {
+      "text": "天",
+      "start": 907.1674,
+      "end": 908.0474,
+      "line_id": "line-63"
+    },
+    {
+      "text": "猛",
+      "start": 909.5458,
+      "end": 909.5458,
+      "line_id": "line-64"
+    },
+    {
+      "text": "教",
+      "start": 911.3058,
+      "end": 911.4658,
+      "line_id": "line-64"
+    },
+    {
+      "text": "人",
+      "start": 914.9458,
+      "end": 918.4258,
+      "line_id": "line-64"
+    },
+    {
+      "text": "抓",
+      "start": 921.9058,
+      "end": 925.3858,
+      "line_id": "line-64"
+    },
+    {
+      "text": "不",
+      "start": 925.3858,
+      "end": 925.3858,
+      "line_id": "line-64"
+    },
+    {
+      "text": "到",
+      "start": 925.3858,
+      "end": 925.4658,
+      "line_id": "line-64"
+    },
+    {
+      "text": "魂",
+      "start": 925.4658,
+      "end": 925.6258,
+      "line_id": "line-64"
+    },
+    {
+      "text": "梦",
+      "start": 925.6258,
+      "end": 925.6258,
+      "line_id": "line-64"
+    },
+    {
+      "text": "前",
+      "start": 925.7058,
+      "end": 925.8658,
+      "line_id": "line-64"
+    },
+    {
+      "text": "霎",
+      "start": 931.2114,
+      "end": 931.4514,
+      "line_id": "line-65"
+    },
+    {
+      "text": "时",
+      "start": 932.6514,
+      "end": 932.8114,
+      "line_id": "line-65"
+    },
+    {
+      "text": "间",
+      "start": 932.8914,
+      "end": 936.8114,
+      "line_id": "line-65"
+    },
+    {
+      "text": "有",
+      "start": 936.8114,
+      "end": 936.8114,
+      "line_id": "line-65"
+    },
+    {
+      "text": "如",
+      "start": 936.8114,
+      "end": 939.3714,
+      "line_id": "line-65"
+    },
+    {
+      "text": "活",
+      "start": 945.1314,
+      "end": 945.6114,
+      "line_id": "line-65"
+    },
+    {
+      "text": "现",
+      "start": 947.6914,
+      "end": 948.0114,
+      "line_id": "line-65"
+    },
+    {
+      "text": "打",
+      "start": 950.0593,
+      "end": 955.6593,
+      "line_id": "line-66"
+    },
+    {
+      "text": "方",
+      "start": 955.6593,
+      "end": 955.8993,
+      "line_id": "line-66"
+    },
+    {
+      "text": "旋",
+      "start": 955.8993,
+      "end": 956.7793,
+      "line_id": "line-66"
+    },
+    {
+      "text": "再",
+      "start": 957.4193,
+      "end": 957.4993,
+      "line_id": "line-66"
+    },
+    {
+      "text": "得",
+      "start": 964.2993,
+      "end": 964.3793,
+      "line_id": "line-66"
+    },
+    {
+      "text": "俄",
+      "start": 964.3793,
+      "end": 964.6993,
+      "line_id": "line-66"
+    },
+    {
+      "text": "延",
+      "start": 967.0993,
+      "end": 968.0593,
+      "line_id": "line-66"
+    },
+    {
+      "text": "是",
+      "start": 971.7491,
+      "end": 971.9891,
+      "line_id": "line-67"
+    },
+    {
+      "text": "这",
+      "start": 971.9891,
+      "end": 971.9891,
+      "line_id": "line-67"
+    },
+    {
+      "text": "答",
+      "start": 978.7091,
+      "end": 985.7491,
+      "line_id": "line-67"
+    },
+    {
+      "text": "儿",
+      "start": 985.7491,
+      "end": 985.7491,
+      "line_id": "line-67"
+    },
+    {
+      "text": "压",
+      "start": 985.7491,
+      "end": 985.8291,
+      "line_id": "line-67"
+    },
+    {
+      "text": "黄",
+      "start": 986.3891,
+      "end": 986.5491,
+      "line_id": "line-67"
+    },
+    {
+      "text": "金",
+      "start": 987.8291,
+      "end": 987.8291,
+      "line_id": "line-67"
+    },
+    {
+      "text": "钏",
+      "start": 991.9044,
+      "end": 992.0644,
+      "line_id": "line-68"
+    },
+    {
+      "text": "匾",
+      "start": 994.1444,
+      "end": 997.8244,
+      "line_id": "line-68"
+    },
+    {
+      "text": "秀",
+      "start": 1011.2146,
+      "end": 1011.2146,
+      "line_id": "line-69"
+    },
+    {
+      "text": "才",
+      "start": 1015.0546,
+      "end": 1015.0546,
+      "line_id": "line-69"
+    },
+    {
+      "text": "秀",
+      "start": 1015.0546,
+      "end": 1015.6146,
+      "line_id": "line-69"
+    },
+    {
+      "text": "才",
+      "start": 1018.6546,
+      "end": 1018.6546,
+      "line_id": "line-69"
+    },
+    {
+      "text": "呀",
+      "start": 1046.0783,
+      "end": 1046.0783,
+      "line_id": "line-70"
+    },
+    {
+      "text": "无",
+      "start": 1046.0783,
+      "end": 1046.0783,
+      "line_id": "line-70"
+    },
+    {
+      "text": "人",
+      "start": 1046.3983,
+      "end": 1046.4783,
+      "line_id": "line-70"
+    },
+    {
+      "text": "之",
+      "start": 1046.4783,
+      "end": 1046.6383,
+      "line_id": "line-70"
+    },
+    {
+      "text": "处",
+      "start": 1046.6383,
+      "end": 1046.6383,
+      "line_id": "line-70"
+    },
+    {
+      "text": "忽",
+      "start": 1049.7552,
+      "end": 1050.0752,
+      "line_id": "line-71"
+    },
+    {
+      "text": "见",
+      "start": 1050.3952,
+      "end": 1050.5552,
+      "line_id": "line-71"
+    },
+    {
+      "text": "大",
+      "start": 1052.1552,
+      "end": 1052.2352,
+      "line_id": "line-71"
+    },
+    {
+      "text": "梅",
+      "start": 1056.5552,
+      "end": 1056.5552,
+      "line_id": "line-71"
+    },
+    {
+      "text": "树",
+      "start": 1056.5552,
+      "end": 1056.5552,
+      "line_id": "line-71"
+    },
+    {
+      "text": "一",
+      "start": 1056.5552,
+      "end": 1056.5552,
+      "line_id": "line-71"
+    },
+    {
+      "text": "株",
+      "start": 1056.5552,
+      "end": 1057.3552,
+      "line_id": "line-71"
+    },
+    {
+      "text": "看",
+      "start": 1080.8015,
+      "end": 1080.8815,
+      "line_id": "line-72"
+    },
+    {
+      "text": "梅",
+      "start": 1083.1215,
+      "end": 1083.2815,
+      "line_id": "line-72"
+    },
+    {
+      "text": "子",
+      "start": 1084.1615,
+      "end": 1084.1615,
+      "line_id": "line-72"
+    },
+    {
+      "text": "累",
+      "start": 1087.4415,
+      "end": 1087.6815,
+      "line_id": "line-72"
+    },
+    {
+      "text": "累",
+      "start": 1089.3615,
+      "end": 1089.5215,
+      "line_id": "line-72"
+    },
+    {
+      "text": "可",
+      "start": 1090.7215,
+      "end": 1090.8015,
+      "line_id": "line-72"
+    },
+    {
+      "text": "爱",
+      "start": 1092.8815,
+      "end": 1092.8815,
+      "line_id": "line-72"
+    },
+    {
+      "text": "人",
+      "start": 1095.1215,
+      "end": 1095.2015,
+      "line_id": "line-72"
+    },
+    {
+      "text": "也",
+      "start": 1095.2015,
+      "end": 1095.2015,
+      "line_id": "line-72"
+    },
+    {
+      "text": "我",
+      "start": 1101.0307,
+      "end": 1101.0307,
+      "line_id": "line-73"
+    },
+    {
+      "text": "丽",
+      "start": 1105.5907,
+      "end": 1105.5907,
+      "line_id": "line-73"
+    },
+    {
+      "text": "娘",
+      "start": 1105.5907,
+      "end": 1105.6707,
+      "line_id": "line-73"
+    },
+    {
+      "text": "死",
+      "start": 1106.4707,
+      "end": 1106.9507,
+      "line_id": "line-73"
+    },
+    {
+      "text": "后",
+      "start": 1109.9907,
+      "end": 1115.7507,
+      "line_id": "line-73"
+    },
+    {
+      "text": "得",
+      "start": 1115.7507,
+      "end": 1115.7507,
+      "line_id": "line-73"
+    },
+    {
+      "text": "葬",
+      "start": 1115.7507,
+      "end": 1115.7507,
+      "line_id": "line-73"
+    },
+    {
+      "text": "于",
+      "start": 1117.6707,
+      "end": 1117.7507,
+      "line_id": "line-73"
+    },
+    {
+      "text": "此",
+      "start": 1119.7507,
+      "end": 1119.9907,
+      "line_id": "line-73"
+    },
+    {
+      "text": "幸",
+      "start": 1122.0149,
+      "end": 1122.3349,
+      "line_id": "line-74"
+    },
+    {
+      "text": "也",
+      "start": 1122.3349,
+      "end": 1123.6149,
+      "line_id": "line-74"
+    },
+    {
+      "text": "偶",
+      "start": 1136.0878,
+      "end": 1136.7278,
+      "line_id": "line-75"
+    },
+    {
+      "text": "然",
+      "start": 1136.7278,
+      "end": 1145.2078,
+      "line_id": "line-75"
+    },
+    {
+      "text": "间",
+      "start": 1145.3678,
+      "end": 1145.3678,
+      "line_id": "line-75"
+    },
+    {
+      "text": "心",
+      "start": 1145.5278,
+      "end": 1145.5278,
+      "line_id": "line-75"
+    },
+    {
+      "text": "似",
+      "start": 1145.5278,
+      "end": 1145.5278,
+      "line_id": "line-75"
+    },
+    {
+      "text": "缱",
+      "start": 1151.2078,
+      "end": 1151.2078,
+      "line_id": "line-75"
+    },
+    {
+      "text": "在",
+      "start": 1164.3193,
+      "end": 1164.3193,
+      "line_id": "line-76"
+    },
+    {
+      "text": "梅",
+      "start": 1164.3193,
+      "end": 1173.0393,
+      "line_id": "line-76"
+    },
+    {
+      "text": "树",
+      "start": 1174.6393,
+      "end": 1174.7993,
+      "line_id": "line-76"
+    },
+    {
+      "text": "边",
+      "start": 1174.7993,
+      "end": 1174.7993,
+      "line_id": "line-76"
+    },
+    {
+      "text": "似",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "这",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "等",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "花",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "花",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "草",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "草",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "由",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "人",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "恋",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "待",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "打",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "并",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "香",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "魂",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "一",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "片",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "阴",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "雨",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "梅",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "天",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "啊",
+      "start": 1174.0181,
+      "end": 1174.0181,
+      "line_id": "line-77"
+    },
+    {
+      "text": "呀",
+      "start": 1174.0181,
+      "end": 1268.0981,
+      "line_id": "line-77"
+    },
+    {
+      "text": "人",
+      "start": 1268.0981,
+      "end": 1272.6581,
+      "line_id": "line-77"
+    },
+    {
+      "text": "儿",
+      "start": 1272.6581,
+      "end": 1272.6581,
+      "line_id": "line-77"
+    },
+    {
+      "text": "吓",
+      "start": 1272.6581,
+      "end": 1272.6581,
+      "line_id": "line-77"
+    },
+    {
+      "text": "生",
+      "start": 1202.1568,
+      "end": 1212.9568,
+      "line_id": "line-78"
+    },
+    {
+      "text": "生",
+      "start": 1212.9568,
+      "end": 1212.9568,
+      "line_id": "line-78"
+    },
+    {
+      "text": "死",
+      "start": 1212.9568,
+      "end": 1212.9568,
+      "line_id": "line-78"
+    },
+    {
+      "text": "死",
+      "start": 1212.9568,
+      "end": 1212.9568,
+      "line_id": "line-78"
+    },
+    {
+      "text": "遂",
+      "start": 1212.9568,
+      "end": 1212.9568,
+      "line_id": "line-78"
+    },
+    {
+      "text": "人",
+      "start": 1213.8368,
+      "end": 1214.1568,
+      "line_id": "line-78"
+    },
+    {
+      "text": "愿",
+      "start": 1214.1568,
+      "end": 1214.1568,
+      "line_id": "line-78"
+    },
+    {
+      "text": "便",
+      "start": 1220.2625,
+      "end": 1221.6755,
+      "line_id": "line-79"
+    },
+    {
+      "text": "酸",
+      "start": 1223.0885,
+      "end": 1224.5025,
+      "line_id": "line-79"
+    },
+    {
+      "text": "酸",
+      "start": 1225.9155,
+      "end": 1227.3285,
+      "line_id": "line-79"
+    },
+    {
+      "text": "楚",
+      "start": 1228.7425,
+      "end": 1232.9025,
+      "line_id": "line-79"
+    },
+    {
+      "text": "楚",
+      "start": 1232.9025,
+      "end": 1232.9825,
+      "line_id": "line-79"
+    },
+    {
+      "text": "无",
+      "start": 1232.9825,
+      "end": 1232.9825,
+      "line_id": "line-79"
+    },
+    {
+      "text": "人",
+      "start": 1232.9825,
+      "end": 1233.0625,
+      "line_id": "line-79"
+    },
+    {
+      "text": "怨",
+      "start": 1234.9825,
+      "end": 1234.9825,
+      "line_id": "line-79"
+    },
+    {
+      "text": "守",
+      "start": 1292.0477,
+      "end": 1292.0477,
+      "line_id": "line-80"
+    },
+    {
+      "text": "得",
+      "start": 1292.0477,
+      "end": 1292.0477,
+      "line_id": "line-80"
+    },
+    {
+      "text": "个",
+      "start": 1292.0477,
+      "end": 1292.2877,
+      "line_id": "line-80"
+    },
+    {
+      "text": "梅",
+      "start": 1292.3077,
+      "end": 1292.3277,
+      "line_id": "line-80"
+    },
+    {
+      "text": "根",
+      "start": 1292.3477,
+      "end": 1292.3677,
+      "line_id": "line-80"
+    },
+    {
+      "text": "相",
+      "start": 1292.5277,
+      "end": 1292.5277,
+      "line_id": "line-80"
+    },
+    {
+      "text": "见",
+      "start": 1303.0877,
+      "end": 1305.0077,
+      "line_id": "line-80"
+    },
+    {
+      "text": "佳",
+      "start": 1317.0596,
+      "end": 1317.5396,
+      "line_id": "line-81"
+    },
+    {
+      "text": "人",
+      "start": 1317.5396,
+      "end": 1318.4196,
+      "line_id": "line-81"
+    },
+    {
+      "text": "拾",
+      "start": 1318.4196,
+      "end": 1318.4196,
+      "line_id": "line-81"
+    },
+    {
+      "text": "翠",
+      "start": 1318.4196,
+      "end": 1318.5796,
+      "line_id": "line-81"
+    },
+    {
+      "text": "春",
+      "start": 1318.9796,
+      "end": 1318.9796,
+      "line_id": "line-81"
+    },
+    {
+      "text": "庭",
+      "start": 1318.9796,
+      "end": 1318.9796,
+      "line_id": "line-81"
+    },
+    {
+      "text": "院",
+      "start": 1318.9796,
+      "end": 1318.9796,
+      "line_id": "line-81"
+    },
+    {
+      "text": "侍",
+      "start": 1320.7396,
+      "end": 1320.9796,
+      "line_id": "line-81"
+    },
+    {
+      "text": "女",
+      "start": 1321.2996,
+      "end": 1321.3796,
+      "line_id": "line-81"
+    },
+    {
+      "text": "添",
+      "start": 1321.3796,
+      "end": 1321.4596,
+      "line_id": "line-81"
+    },
+    {
+      "text": "香",
+      "start": 1323.2996,
+      "end": 1323.4596,
+      "line_id": "line-81"
+    },
+    {
+      "text": "午",
+      "start": 1323.4596,
+      "end": 1323.4596,
+      "line_id": "line-81"
+    },
+    {
+      "text": "院",
+      "start": 1323.4596,
+      "end": 1323.4596,
+      "line_id": "line-81"
+    },
+    {
+      "text": "清",
+      "start": 1323.4596,
+      "end": 1323.4596,
+      "line_id": "line-81"
+    },
+    {
+      "text": "不",
+      "start": 1323.4596,
+      "end": 1323.4596,
+      "line_id": "line-81"
+    },
+    {
+      "text": "知",
+      "start": 1324.8196,
+      "end": 1324.8996,
+      "line_id": "line-81"
+    },
+    {
+      "text": "小",
+      "start": 1324.8996,
+      "end": 1324.8996,
+      "line_id": "line-81"
+    },
+    {
+      "text": "姐",
+      "start": 1324.8996,
+      "end": 1324.8996,
+      "line_id": "line-81"
+    },
+    {
+      "text": "哪",
+      "start": 1324.8996,
+      "end": 1324.8996,
+      "line_id": "line-81"
+    },
+    {
+      "text": "里",
+      "start": 1324.8996,
+      "end": 1324.8996,
+      "line_id": "line-81"
+    },
+    {
+      "text": "去",
+      "start": 1326.4996,
+      "end": 1326.6596,
+      "line_id": "line-81"
+    },
+    {
+      "text": "了",
+      "start": 1328.5796,
+      "end": 1328.7396,
+      "line_id": "line-81"
+    },
+    {
+      "text": "呀",
+      "start": 1332.2894,
+      "end": 1332.3694,
+      "line_id": "line-82"
+    },
+    {
+      "text": "看",
+      "start": 1333.2494,
+      "end": 1333.4894,
+      "line_id": "line-82"
+    },
+    {
+      "text": "小",
+      "start": 1333.4894,
+      "end": 1333.4894,
+      "line_id": "line-82"
+    },
+    {
+      "text": "姐",
+      "start": 1333.4894,
+      "end": 1333.5694,
+      "line_id": "line-82"
+    },
+    {
+      "text": "走",
+      "start": 1333.5694,
+      "end": 1333.6494,
+      "line_id": "line-82"
+    },
+    {
+      "text": "乏",
+      "start": 1334.1634,
+      "end": 1334.6774,
+      "line_id": "line-82"
+    },
+    {
+      "text": "了",
+      "start": 1335.1914,
+      "end": 1335.7064,
+      "line_id": "line-82"
+    },
+    {
+      "text": "在",
+      "start": 1336.2204,
+      "end": 1336.7344,
+      "line_id": "line-82"
+    },
+    {
+      "text": "梅",
+      "start": 1337.2494,
+      "end": 1337.4094,
+      "line_id": "line-82"
+    },
+    {
+      "text": "树",
+      "start": 1337.4094,
+      "end": 1337.4094,
+      "line_id": "line-82"
+    },
+    {
+      "text": "边",
+      "start": 1337.4094,
+      "end": 1337.4094,
+      "line_id": "line-82"
+    },
+    {
+      "text": "打",
+      "start": 1337.4094,
+      "end": 1337.4094,
+      "line_id": "line-82"
+    },
+    {
+      "text": "睡",
+      "start": 1338.3694,
+      "end": 1338.3694,
+      "line_id": "line-82"
+    },
+    {
+      "text": "呢",
+      "start": 1338.3694,
+      "end": 1338.3694,
+      "line_id": "line-82"
+    },
+    {
+      "text": "小",
+      "start": 1338.3694,
+      "end": 1338.4494,
+      "line_id": "line-82"
+    },
+    {
+      "text": "姐",
+      "start": 1339.7294,
+      "end": 1339.8094,
+      "line_id": "line-82"
+    },
+    {
+      "text": "小",
+      "start": 1340.6437,
+      "end": 1341.4437,
+      "line_id": "line-83"
+    },
+    {
+      "text": "姐",
+      "start": 1342.0037,
+      "end": 1342.0037,
+      "line_id": "line-83"
+    },
+    {
+      "text": "春",
+      "start": 1355.8707,
+      "end": 1356.1907,
+      "line_id": "line-84"
+    },
+    {
+      "text": "香",
+      "start": 1357.7107,
+      "end": 1358.8307,
+      "line_id": "line-84"
+    },
+    {
+      "text": "小",
+      "start": 1358.8307,
+      "end": 1358.8307,
+      "line_id": "line-84"
+    },
+    {
+      "text": "姐",
+      "start": 1358.9907,
+      "end": 1359.1507,
+      "line_id": "line-84"
+    },
+    {
+      "text": "我",
+      "start": 1360.5731,
+      "end": 1360.5731,
+      "line_id": "line-85"
+    },
+    {
+      "text": "丽",
+      "start": 1363.3315,
+      "end": 1363.3315,
+      "line_id": "line-86"
+    },
+    {
+      "text": "娘",
+      "start": 1365.8915,
+      "end": 1366.7715,
+      "line_id": "line-86"
+    },
+    {
+      "text": "哭？",
+      "start": 1367.8115,
+      "end": 1368.1315,
+      "line_id": "line-86"
+    },
+    {
+      "text": "少",
+      "start": 1378.8518,
+      "end": 1379.4918,
+      "line_id": "line-87"
+    },
+    {
+      "text": "不",
+      "start": 1403.1718,
+      "end": 1403.1718,
+      "line_id": "line-87"
+    },
+    {
+      "text": "得",
+      "start": 1403.9268,
+      "end": 1404.6828,
+      "line_id": "line-87"
+    },
+    {
+      "text": "楼",
+      "start": 1405.4378,
+      "end": 1406.1938,
+      "line_id": "line-87"
+    },
+    {
+      "text": "上",
+      "start": 1406.9488,
+      "end": 1407.7048,
+      "line_id": "line-87"
+    },
+    {
+      "text": "花",
+      "start": 1408.4598,
+      "end": 1409.2158,
+      "line_id": "line-87"
+    },
+    {
+      "text": "枝",
+      "start": 1409.9718,
+      "end": 1413.8918,
+      "line_id": "line-87"
+    },
+    {
+      "text": "也",
+      "start": 1413.8918,
+      "end": 1415.1718,
+      "line_id": "line-87"
+    },
+    {
+      "text": "则",
+      "start": 1415.1718,
+      "end": 1415.3318,
+      "line_id": "line-87"
+    },
+    {
+      "text": "是",
+      "start": 1415.8918,
+      "end": 1416.1318,
+      "line_id": "line-87"
+    },
+    {
+      "text": "照",
+      "start": 1416.9318,
+      "end": 1417.0918,
+      "line_id": "line-87"
+    },
+    {
+      "text": "独",
+      "start": 1420.4518,
+      "end": 1420.4518,
+      "line_id": "line-87"
+    },
+    {
+      "text": "眠",
+      "start": 1432.7718,
+      "end": 1436.6118,
+      "line_id": "line-87"
+    }
+  ]
+}

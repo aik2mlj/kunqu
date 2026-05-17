@@ -226,3 +226,6 @@ __marimo__/
 
 # OS
 .DS_Store
+
+# slurm logs
+logs/

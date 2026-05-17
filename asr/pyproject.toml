@@ -1,0 +1,18 @@
+[project]
+name = "kunqu-asr"
+description = "Finetune Qwen3-ASR and force-align model for text extraction from Kunqu (昆曲) audio"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "torchaudio",
+    "transformers>=4.52.0",
+    "accelerate>=1.0.0",
+    "tqdm",
+    "soundfile>=0.13.1",
+    "qwen-asr",
+    "pypinyin",
+    "melband-roformer-infer",
+]
+
+[tool.uv]
+package = false

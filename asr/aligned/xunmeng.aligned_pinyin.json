@@ -1,0 +1,2573 @@
+{
+  "pinyin": "yi jing xing lai dan jue si si zhan zhuan yuan nei feng wu yi ran chen ci qiao de wu ren zheng hao xun meng ye na yi da ke shi hu shan shi bian zhe yi da shi mu dan ting pan qian diao lan shao yao ya er qian yi si si chui yang xian yi diu diu yu ying qian a xian er chun shen jin qian a diao zhuan zuo ri meng li na shu sheng jiang liu zhi lai zeng wo yao wo ti yong qiang nu huan hui zhi shi hao bu hua zhang ye shi shui jia shao jun lai jin yuan gan yi dou zhe xiang gui qu qin yuan hua dao qi jian mian tian ta nie zhe yan nai fan ye tian zan hm zhe kou dai chou yan zan bu shi qian sheng ai juan you su fa ping sheng ban mian ze dao lai sheng chu xian zha bian jin sheng meng jian sheng jiu ge shu sheng qia qia sheng sheng bao zan qu mian xun lai xun qu dou bu jian le na mu dan ting shao yao lan zen sheng zhe ban qi liang leng luo yao wu ren ji hao shang gan ren ye shi zhe deng huang liang di mian mei duo ban ting tai kao bian gan shi zan mi xi se yan xun nan jian fang zhe bai ri qing tian meng jiao ren zhua bu dao hun meng qian sha shi jian you ru huo xian da fang xuan zai de e yan shi zhe da er ya huang jin chuan bian xiu cai xiu cai ya wu ren zhi chu hu jian da mei shu yi zhu kan mei zi lei lei ke ai ren ye wo li niang si hou de zang yu ci xing ye ou ran jian xin shi qian zai mei shu bian shi zhe deng hua hua cao cao you ren lian dai da bing xiang hun yi pian yin yu mei tian a ya ren er xia sheng sheng si si sui ren yuan bian suan suan chu chu wu ren yuan shou de ge mei gen xiang jian jia ren shi cui chun ting yuan shi nv tian xiang wu yuan qing bu zhi xiao jie na li qu le ya kan xiao jie zou fa le zai mei shu bian da shui ne xiao jie xiao jie chun xiang xiao jie wo li niang ku ？ shao bu de lou shang hua zhi ye ze shi zhao du mian",
+  "segments": [
+    {
+      "hanzi": "一",
+      "pinyin": "yi",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "径",
+      "pinyin": "jing",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "行",
+      "pinyin": "xing",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "来",
+      "pinyin": "lai",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "但",
+      "pinyin": "dan",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "觉",
+      "pinyin": "jue",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "思",
+      "pinyin": "si",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "思",
+      "pinyin": "si",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "辗",
+      "pinyin": "zhan",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "转",
+      "pinyin": "zhuan",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "园",
+      "pinyin": "yuan",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "内",
+      "pinyin": "nei",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "风",
+      "pinyin": "feng",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "物",
+      "pinyin": "wu",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "依",
+      "pinyin": "yi",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "然",
+      "pinyin": "ran",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "趁",
+      "pinyin": "chen",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "此",
+      "pinyin": "ci",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "悄",
+      "pinyin": "qiao",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "的",
+      "pinyin": "de",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "无",
+      "pinyin": "wu",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "人",
+      "pinyin": "ren",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "正",
+      "pinyin": "zheng",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "好",
+      "pinyin": "hao",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "寻",
+      "pinyin": "xun",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "梦",
+      "pinyin": "meng",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "也",
+      "pinyin": "ye",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "那",
+      "pinyin": "na",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "一",
+      "pinyin": "yi",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "答",
+      "pinyin": "da",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "可",
+      "pinyin": "ke",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "是",
+      "pinyin": "shi",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "湖",
+      "pinyin": "hu",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "山",
+      "pinyin": "shan",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "石",
+      "pinyin": "shi",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "边",
+      "pinyin": "bian",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "这",
+      "pinyin": "zhe",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "一",
+      "pinyin": "yi",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "答",
+      "pinyin": "da",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "似",
+      "pinyin": "shi",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "牡",
+      "pinyin": "mu",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "丹",
+      "pinyin": "dan",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "亭",
+      "pinyin": "ting",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "畔",
+      "pinyin": "pan",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "嵌",
+      "pinyin": "qian",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "雕",
+      "pinyin": "diao",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "阑",
+      "pinyin": "lan",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "芍",
+      "pinyin": "shao",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "药",
+      "pinyin": "yao",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "芽",
+      "pinyin": "ya",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "儿",
+      "pinyin": "er",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "浅",
+      "pinyin": "qian",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "一",
+      "pinyin": "yi",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "丝",
+      "pinyin": "si",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "丝",
+      "pinyin": "si",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "垂",
+      "pinyin": "chui",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "杨",
+      "pinyin": "yang",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "线",
+      "pinyin": "xian",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "一",
+      "pinyin": "yi",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "丢",
+      "pinyin": "diu",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "丢",
+      "pinyin": "diu",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "榆",
+      "pinyin": "yu",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "英",
+      "pinyin": "ying",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "钱",
+      "pinyin": "qian",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "啊",
+      "pinyin": "a",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "线",
+      "pinyin": "xian",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "儿",
+      "pinyin": "er",
+      "start": 159.6,
+      "end": 159.6
+    },
+    {
+      "hanzi": "春",
+      "pinyin": "chun",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "甚",
+      "pinyin": "shen",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "金",
+      "pinyin": "jin",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "钱",
+      "pinyin": "qian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "啊",
+      "pinyin": "a",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "吊",
+      "pinyin": "diao",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "转",
+      "pinyin": "zhuan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "昨",
+      "pinyin": "zuo",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "日",
+      "pinyin": "ri",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "梦",
+      "pinyin": "meng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "里",
+      "pinyin": "li",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "那",
+      "pinyin": "na",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "书",
+      "pinyin": "shu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "生",
+      "pinyin": "sheng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "将",
+      "pinyin": "jiang",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "柳",
+      "pinyin": "liu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "枝",
+      "pinyin": "zhi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "来",
+      "pinyin": "lai",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "赠",
+      "pinyin": "zeng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "我",
+      "pinyin": "wo",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "要",
+      "pinyin": "yao",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "我",
+      "pinyin": "wo",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "题",
+      "pinyin": "ti",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "咏",
+      "pinyin": "yong",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "强",
+      "pinyin": "qiang",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "奴",
+      "pinyin": "nu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "欢",
+      "pinyin": "huan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "会",
+      "pinyin": "hui",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "之",
+      "pinyin": "zhi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "时",
+      "pinyin": "shi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "好",
+      "pinyin": "hao",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "不",
+      "pinyin": "bu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "话",
+      "pinyin": "hua",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "长",
+      "pinyin": "zhang",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "也",
+      "pinyin": "ye",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "是",
+      "pinyin": "shi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "谁",
+      "pinyin": "shui",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "家",
+      "pinyin": "jia",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "少",
+      "pinyin": "shao",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "俊",
+      "pinyin": "jun",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "来",
+      "pinyin": "lai",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "近",
+      "pinyin": "jin",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "远",
+      "pinyin": "yuan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "敢",
+      "pinyin": "gan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "迤",
+      "pinyin": "yi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "逗",
+      "pinyin": "dou",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "这",
+      "pinyin": "zhe",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "香",
+      "pinyin": "xiang",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "闺",
+      "pinyin": "gui",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "去",
+      "pinyin": "qu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "沁",
+      "pinyin": "qin",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "园",
+      "pinyin": "yuan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "话",
+      "pinyin": "hua",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "到",
+      "pinyin": "dao",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "其",
+      "pinyin": "qi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "间",
+      "pinyin": "jian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "腼",
+      "pinyin": "mian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "腆",
+      "pinyin": "tian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "他",
+      "pinyin": "ta",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "捏",
+      "pinyin": "nie",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "这",
+      "pinyin": "zhe",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "眼",
+      "pinyin": "yan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "奈",
+      "pinyin": "nai",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "烦",
+      "pinyin": "fan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "也",
+      "pinyin": "ye",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "天",
+      "pinyin": "tian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "咱",
+      "pinyin": "zan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "噷",
+      "pinyin": "hm",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "这",
+      "pinyin": "zhe",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "口",
+      "pinyin": "kou",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "待",
+      "pinyin": "dai",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "酬",
+      "pinyin": "chou",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "言",
+      "pinyin": "yan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "咱",
+      "pinyin": "zan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "不",
+      "pinyin": "bu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "是",
+      "pinyin": "shi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "前",
+      "pinyin": "qian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "生",
+      "pinyin": "sheng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "爱",
+      "pinyin": "ai",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "眷",
+      "pinyin": "juan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "又",
+      "pinyin": "you",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "素",
+      "pinyin": "su",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "乏",
+      "pinyin": "fa",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "平",
+      "pinyin": "ping",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "生",
+      "pinyin": "sheng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "半",
+      "pinyin": "ban",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "面",
+      "pinyin": "mian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "则",
+      "pinyin": "ze",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "道",
+      "pinyin": "dao",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "来",
+      "pinyin": "lai",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "生",
+      "pinyin": "sheng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "出",
+      "pinyin": "chu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "现",
+      "pinyin": "xian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "乍",
+      "pinyin": "zha",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "便",
+      "pinyin": "bian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "今",
+      "pinyin": "jin",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "生",
+      "pinyin": "sheng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "梦",
+      "pinyin": "meng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "见",
+      "pinyin": "jian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "生",
+      "pinyin": "sheng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "就",
+      "pinyin": "jiu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "个",
+      "pinyin": "ge",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "书",
+      "pinyin": "shu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "生",
+      "pinyin": "sheng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "恰",
+      "pinyin": "qia",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "恰",
+      "pinyin": "qia",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "生",
+      "pinyin": "sheng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "生",
+      "pinyin": "sheng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "抱",
+      "pinyin": "bao",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "咱",
+      "pinyin": "zan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "去",
+      "pinyin": "qu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "眠",
+      "pinyin": "mian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "寻",
+      "pinyin": "xun",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "来",
+      "pinyin": "lai",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "寻",
+      "pinyin": "xun",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "去",
+      "pinyin": "qu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "都",
+      "pinyin": "dou",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "不",
+      "pinyin": "bu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "见",
+      "pinyin": "jian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "了",
+      "pinyin": "le",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "那",
+      "pinyin": "na",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "牡",
+      "pinyin": "mu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "丹",
+      "pinyin": "dan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "亭",
+      "pinyin": "ting",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "芍",
+      "pinyin": "shao",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "药",
+      "pinyin": "yao",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "栏",
+      "pinyin": "lan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "怎",
+      "pinyin": "zen",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "生",
+      "pinyin": "sheng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "这",
+      "pinyin": "zhe",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "般",
+      "pinyin": "ban",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "凄",
+      "pinyin": "qi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "凉",
+      "pinyin": "liang",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "冷",
+      "pinyin": "leng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "落",
+      "pinyin": "luo",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "杳",
+      "pinyin": "yao",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "无",
+      "pinyin": "wu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "人",
+      "pinyin": "ren",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "迹",
+      "pinyin": "ji",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "好",
+      "pinyin": "hao",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "伤",
+      "pinyin": "shang",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "感",
+      "pinyin": "gan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "人",
+      "pinyin": "ren",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "也",
+      "pinyin": "ye",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "似",
+      "pinyin": "shi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "这",
+      "pinyin": "zhe",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "等",
+      "pinyin": "deng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "荒",
+      "pinyin": "huang",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "凉",
+      "pinyin": "liang",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "地",
+      "pinyin": "di",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "面",
+      "pinyin": "mian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "没",
+      "pinyin": "mei",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "多",
+      "pinyin": "duo",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "半",
+      "pinyin": "ban",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "亭",
+      "pinyin": "ting",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "台",
+      "pinyin": "tai",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "靠",
+      "pinyin": "kao",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "边",
+      "pinyin": "bian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "敢",
+      "pinyin": "gan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "是",
+      "pinyin": "shi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "咱",
+      "pinyin": "zan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "眯",
+      "pinyin": "mi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "睎",
+      "pinyin": "xi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "色",
+      "pinyin": "se",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "眼",
+      "pinyin": "yan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "寻",
+      "pinyin": "xun",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "难",
+      "pinyin": "nan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "见",
+      "pinyin": "jian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "放",
+      "pinyin": "fang",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "着",
+      "pinyin": "zhe",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "白",
+      "pinyin": "bai",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "日",
+      "pinyin": "ri",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "青",
+      "pinyin": "qing",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "天",
+      "pinyin": "tian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "猛",
+      "pinyin": "meng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "教",
+      "pinyin": "jiao",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "人",
+      "pinyin": "ren",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "抓",
+      "pinyin": "zhua",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "不",
+      "pinyin": "bu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "到",
+      "pinyin": "dao",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "魂",
+      "pinyin": "hun",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "梦",
+      "pinyin": "meng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "前",
+      "pinyin": "qian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "霎",
+      "pinyin": "sha",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "时",
+      "pinyin": "shi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "间",
+      "pinyin": "jian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "有",
+      "pinyin": "you",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "如",
+      "pinyin": "ru",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "活",
+      "pinyin": "huo",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "现",
+      "pinyin": "xian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "打",
+      "pinyin": "da",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "方",
+      "pinyin": "fang",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "旋",
+      "pinyin": "xuan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "再",
+      "pinyin": "zai",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "得",
+      "pinyin": "de",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "俄",
+      "pinyin": "e",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "延",
+      "pinyin": "yan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "是",
+      "pinyin": "shi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "这",
+      "pinyin": "zhe",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "答",
+      "pinyin": "da",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "儿",
+      "pinyin": "er",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "压",
+      "pinyin": "ya",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "黄",
+      "pinyin": "huang",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "金",
+      "pinyin": "jin",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "钏",
+      "pinyin": "chuan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "匾",
+      "pinyin": "bian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "秀",
+      "pinyin": "xiu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "才",
+      "pinyin": "cai",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "秀",
+      "pinyin": "xiu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "才",
+      "pinyin": "cai",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "呀",
+      "pinyin": "ya",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "无",
+      "pinyin": "wu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "人",
+      "pinyin": "ren",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "之",
+      "pinyin": "zhi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "处",
+      "pinyin": "chu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "忽",
+      "pinyin": "hu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "见",
+      "pinyin": "jian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "大",
+      "pinyin": "da",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "梅",
+      "pinyin": "mei",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "树",
+      "pinyin": "shu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "一",
+      "pinyin": "yi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "株",
+      "pinyin": "zhu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "看",
+      "pinyin": "kan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "梅",
+      "pinyin": "mei",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "子",
+      "pinyin": "zi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "累",
+      "pinyin": "lei",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "累",
+      "pinyin": "lei",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "可",
+      "pinyin": "ke",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "爱",
+      "pinyin": "ai",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "人",
+      "pinyin": "ren",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "也",
+      "pinyin": "ye",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "我",
+      "pinyin": "wo",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "丽",
+      "pinyin": "li",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "娘",
+      "pinyin": "niang",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "死",
+      "pinyin": "si",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "后",
+      "pinyin": "hou",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "得",
+      "pinyin": "de",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "葬",
+      "pinyin": "zang",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "于",
+      "pinyin": "yu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "此",
+      "pinyin": "ci",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "幸",
+      "pinyin": "xing",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "也",
+      "pinyin": "ye",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "偶",
+      "pinyin": "ou",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "然",
+      "pinyin": "ran",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "间",
+      "pinyin": "jian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "心",
+      "pinyin": "xin",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "似",
+      "pinyin": "shi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "缱",
+      "pinyin": "qian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "在",
+      "pinyin": "zai",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "梅",
+      "pinyin": "mei",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "树",
+      "pinyin": "shu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "边",
+      "pinyin": "bian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "似",
+      "pinyin": "shi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "这",
+      "pinyin": "zhe",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "等",
+      "pinyin": "deng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "花",
+      "pinyin": "hua",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "花",
+      "pinyin": "hua",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "草",
+      "pinyin": "cao",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "草",
+      "pinyin": "cao",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "由",
+      "pinyin": "you",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "人",
+      "pinyin": "ren",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "恋",
+      "pinyin": "lian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "待",
+      "pinyin": "dai",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "打",
+      "pinyin": "da",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "并",
+      "pinyin": "bing",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "香",
+      "pinyin": "xiang",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "魂",
+      "pinyin": "hun",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "一",
+      "pinyin": "yi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "片",
+      "pinyin": "pian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "阴",
+      "pinyin": "yin",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "雨",
+      "pinyin": "yu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "梅",
+      "pinyin": "mei",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "天",
+      "pinyin": "tian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "啊",
+      "pinyin": "a",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "呀",
+      "pinyin": "ya",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "人",
+      "pinyin": "ren",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "儿",
+      "pinyin": "er",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "吓",
+      "pinyin": "xia",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "生",
+      "pinyin": "sheng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "生",
+      "pinyin": "sheng",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "死",
+      "pinyin": "si",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "死",
+      "pinyin": "si",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "遂",
+      "pinyin": "sui",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "人",
+      "pinyin": "ren",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "愿",
+      "pinyin": "yuan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "便",
+      "pinyin": "bian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "酸",
+      "pinyin": "suan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "酸",
+      "pinyin": "suan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "楚",
+      "pinyin": "chu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "楚",
+      "pinyin": "chu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "无",
+      "pinyin": "wu",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "人",
+      "pinyin": "ren",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "怨",
+      "pinyin": "yuan",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "守",
+      "pinyin": "shou",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "得",
+      "pinyin": "de",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "个",
+      "pinyin": "ge",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "梅",
+      "pinyin": "mei",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "根",
+      "pinyin": "gen",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "相",
+      "pinyin": "xiang",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "见",
+      "pinyin": "jian",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "佳",
+      "pinyin": "jia",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "人",
+      "pinyin": "ren",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "拾",
+      "pinyin": "shi",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "翠",
+      "pinyin": "cui",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "春",
+      "pinyin": "chun",
+      "start": 160.56,
+      "end": 160.56
+    },
+    {
+      "hanzi": "庭",
+      "pinyin": "ting",
+      "start": 160.56,
+      "end": 165.986
+    },
+    {
+      "hanzi": "院",
+      "pinyin": "yuan",
+      "start": 171.413,
+      "end": 176.84
+    },
+    {
+      "hanzi": "侍",
+      "pinyin": "shi",
+      "start": 182.266,
+      "end": 187.693
+    },
+    {
+      "hanzi": "女",
+      "pinyin": "nv",
+      "start": 193.12,
+      "end": 193.2
+    },
+    {
+      "hanzi": "添",
+      "pinyin": "tian",
+      "start": 193.2,
+      "end": 207.52
+    },
+    {
+      "hanzi": "香",
+      "pinyin": "xiang",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "午",
+      "pinyin": "wu",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "院",
+      "pinyin": "yuan",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "清",
+      "pinyin": "qing",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "不",
+      "pinyin": "bu",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "知",
+      "pinyin": "zhi",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "小",
+      "pinyin": "xiao",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "姐",
+      "pinyin": "jie",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "哪",
+      "pinyin": "na",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "里",
+      "pinyin": "li",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "去",
+      "pinyin": "qu",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "了",
+      "pinyin": "le",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "呀",
+      "pinyin": "ya",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "看",
+      "pinyin": "kan",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "小",
+      "pinyin": "xiao",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "姐",
+      "pinyin": "jie",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "走",
+      "pinyin": "zou",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "乏",
+      "pinyin": "fa",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "了",
+      "pinyin": "le",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "在",
+      "pinyin": "zai",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "梅",
+      "pinyin": "mei",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "树",
+      "pinyin": "shu",
+      "start": 232.88,
+      "end": 232.88
+    },
+    {
+      "hanzi": "边",
+      "pinyin": "bian",
+      "start": 232.88,
+      "end": 241.12
+    },
+    {
+      "hanzi": "打",
+      "pinyin": "da",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "睡",
+      "pinyin": "shui",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "呢",
+      "pinyin": "ne",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "小",
+      "pinyin": "xiao",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "姐",
+      "pinyin": "jie",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "小",
+      "pinyin": "xiao",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "姐",
+      "pinyin": "jie",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "春",
+      "pinyin": "chun",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "香",
+      "pinyin": "xiang",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "小",
+      "pinyin": "xiao",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "姐",
+      "pinyin": "jie",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "我",
+      "pinyin": "wo",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "丽",
+      "pinyin": "li",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "娘",
+      "pinyin": "niang",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "哭",
+      "pinyin": "ku",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "？",
+      "pinyin": "？",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "少",
+      "pinyin": "shao",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "不",
+      "pinyin": "bu",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "得",
+      "pinyin": "de",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "楼",
+      "pinyin": "lou",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "上",
+      "pinyin": "shang",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "花",
+      "pinyin": "hua",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "枝",
+      "pinyin": "zhi",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "也",
+      "pinyin": "ye",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "则",
+      "pinyin": "ze",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "是",
+      "pinyin": "shi",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "照",
+      "pinyin": "zhao",
+      "start": 241.12,
+      "end": 241.12
+    },
+    {
+      "hanzi": "独",
+      "pinyin": "du",
+      "start": 241.12,
+      "end": 241.12
+    }
+  ]
+}
