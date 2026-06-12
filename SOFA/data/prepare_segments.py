@@ -130,8 +130,6 @@ def main():
     parser.add_argument("--output", "-o", required=True, help="Output directory for segments")
     parser.add_argument("--dictionary", "-d", default="dictionary/opencpop-extension.txt",
                         help="Path to SOFA dictionary file")
-    parser.add_argument("--padding", "-p", type=float, default=0.1,
-                        help="Padding in seconds before/after each segment (default: 0.1)")
     parser.add_argument("--max-duration", type=float, default=45.0,
                         help="Warn if a segment exceeds this duration in seconds (default: 45)")
     parser.add_argument("--skip-long", action="store_true",
@@ -185,12 +183,10 @@ def main():
             skipped.append((line_id, text, "no valid pinyin produced"))
             continue
 
-        # Apply padding, clamp to audio bounds
-        seg_start = max(0.0, start - args.padding)
-        seg_end = min(total_duration, end + args.padding)
+        seg_start = max(0.0, start)
+        seg_end = min(total_duration, end)
 
-        # File naming: use line id with index for ordering
-        safe_name = f"{i+1:03d}_{line_id}"
+        safe_name = f"{i+1:03d}_{line_id}_t{int(round(start * 1000))}"
         wav_out = os.path.join(args.output, f"{safe_name}.wav")
         lab_out = os.path.join(args.output, f"{safe_name}.lab")
 
