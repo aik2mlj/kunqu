@@ -17,9 +17,8 @@ import argparse
 import json
 import os
 import re
-import struct
-import wave
 
+import soundfile as sf
 from pypinyin import lazy_pinyin, Style
 
 
@@ -65,62 +64,39 @@ def chinese_to_pinyin(text, valid_pinyin):
 
 
 def read_wav_params(wav_path):
-    """Read wav file parameters without loading all data."""
-    with wave.open(wav_path, "rb") as w:
-        return {
-            "nchannels": w.getnchannels(),
-            "sampwidth": w.getsampwidth(),
-            "framerate": w.getframerate(),
-            "nframes": w.getnframes(),
-        }
+    """Read audio file metadata without loading all the samples."""
+    info = sf.info(wav_path)
+    return {
+        "nchannels": info.channels,
+        "framerate": info.samplerate,
+        "nframes": info.frames,
+        "subtype": info.subtype,
+    }
 
 
 def extract_wav_segment(src_path, dst_path, start_sec, end_sec):
-    """Extract a time segment from a wav file, converting to mono if needed."""
-    with wave.open(src_path, "rb") as src:
-        nchannels = src.getnchannels()
-        sampwidth = src.getsampwidth()
-        framerate = src.getframerate()
+    """
+    Extract a time segment from an audio file and write it as 16-bit PCM mono.
 
-        start_frame = int(start_sec * framerate)
-        end_frame = int(end_sec * framerate)
-        nframes = end_frame - start_frame
+    Uses soundfile (libsndfile), so it transparently handles any source
+    encoding (16/24/32-bit PCM or 32-bit float) and any channel count, reading
+    only the requested frame range. Multi-channel input is downmixed to mono by
+    averaging channels. Writing 16-bit PCM mono yields the format the
+    downstream SOFA reader (torchaudio) decodes most reliably.
+    """
+    sr = sf.info(src_path).samplerate
+    start_frame = int(start_sec * sr)
+    stop_frame = int(end_sec * sr)
 
-        src.setpos(start_frame)
-        raw = src.readframes(nframes)
-
-    if nchannels > 1:
-        # Downmix to mono by averaging channels
-        fmt = {1: 'b', 2: 'h', 3: None, 4: 'i'}
-        if sampwidth == 3:
-            # 24-bit: unpack manually
-            samples = []
-            for i in range(0, len(raw), 3):
-                b = raw[i:i+3]
-                val = int.from_bytes(b, byteorder='little', signed=True)
-                samples.append(val)
-            mono = []
-            for i in range(0, len(samples), nchannels):
-                avg = sum(samples[i:i+nchannels]) // nchannels
-                mono.append(avg)
-            raw_mono = b""
-            for s in mono:
-                raw_mono += s.to_bytes(3, byteorder='little', signed=True)
-            raw = raw_mono
-        else:
-            sfmt = f"<{len(raw) // sampwidth}{fmt[sampwidth]}"
-            samples = struct.unpack(sfmt, raw)
-            mono = []
-            for i in range(0, len(samples), nchannels):
-                avg = sum(samples[i:i+nchannels]) // nchannels
-                mono.append(avg)
-            raw = struct.pack(f"<{len(mono)}{fmt[sampwidth]}", *mono)
-
-    with wave.open(dst_path, "wb") as dst:
-        dst.setnchannels(1)
-        dst.setsampwidth(sampwidth)
-        dst.setframerate(framerate)
-        dst.writeframes(raw)
+    data, sr = sf.read(
+        src_path,
+        start=start_frame,
+        stop=stop_frame,
+        dtype="float32",
+        always_2d=True,
+    )
+    mono = data.mean(axis=1)
+    sf.write(dst_path, mono, sr, subtype="PCM_16")
 
 
 def main():
@@ -148,7 +124,7 @@ def main():
 
     print(f"Source: {args.wav}")
     print(f"  Duration: {total_duration:.1f}s, Sample rate: {wav_params['framerate']}Hz, "
-          f"Channels: {wav_params['nchannels']}, Bit depth: {wav_params['sampwidth']*8}")
+          f"Channels: {wav_params['nchannels']}, Format: {wav_params['subtype']}")
     print(f"Subtitle lines: {len(lines)}")
     print(f"Dictionary entries: {len(valid_pinyin)}")
     print()
