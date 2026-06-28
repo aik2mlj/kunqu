@@ -1,0 +1,22 @@
+# Python dependencies of the `videocr` orchestration package
+# (from timminator/VideOCR pyproject.toml).
+#
+# IMPORTANT: these are NOT sufficient to run OCR on their own. timminator/VideOCR
+# shells out to a precompiled `paddleocr` binary + bundled PP-OCRv5 models that
+# are NOT on PyPI; its pyproject ships zero packages and is compiled with Nuitka.
+# For normal use, run the Docker image instead (see README.md / run_videocr.sh) —
+# it bundles the engine, models and CUDA libraries.
+#
+# This file exists only for building/hacking on VideOCR from source. Several of
+# these are x86_64-only (e.g. `cpuid`) and will not work on Apple Silicon.
+
+av
+cpuid
+Fast-SSIM
+opencc
+Pillow
+psutil
+thefuzz
+wakepy
+wordninja-enhanced
+plyer ; sys_platform != 'win32'

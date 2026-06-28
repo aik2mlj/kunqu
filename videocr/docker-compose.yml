@@ -1,0 +1,22 @@
+# VideOCR GPU service (alternative to run_videocr.sh).
+#
+# Usage (mount the folder that contains your video as /data):
+#   DATA_DIR=../SOFA/data/xunmeng docker compose run --rm videocr \
+#     --video_path "/data/央视_顾卫英《寻梦》.mp4" \
+#     --output "/data/xunmeng.srt" \
+#     --lang ch --use_gpu true \
+#     --crop_x 140 --crop_y 580 --crop_width 960 --crop_height 95
+#
+# Requires Docker Compose v2 + nvidia-container-toolkit on an NVIDIA host.
+services:
+  videocr:
+    image: ghcr.io/timminator/videocr-cli-gpu-cuda12.9:latest
+    volumes:
+      - ${DATA_DIR:-./data}:/data
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

@@ -1,0 +1,14 @@
+# VideOCR local artifacts — keep the repo clean, keep .srt outputs.
+.venv/
+__pycache__/
+*.log
+frames/
+
+# Precompiled release downloads (multi-GB), if you ever use the native path.
+*.7z
+*.7z.[0-9][0-9][0-9]
+videocr-cli-*/
+VideOCR-*/
+paddleocr-*/
+chrome-lens-*/
+PaddleOCR.PP-OCRv5.support.files/
