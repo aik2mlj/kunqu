@@ -1,0 +1,3792 @@
+{
+  "version": 2,
+  "project": {
+    "video": {
+      "url": "",
+      "name": "央视_顾卫英《寻梦》.mp4",
+      "source": "embedded",
+      "filePath": null,
+      "requiresManualImport": true
+    },
+    "subtitleLines": [
+      {
+        "id": "line-1",
+        "text": "一径行来",
+        "startTime": 58.199,
+        "endTime": 61.917
+      },
+      {
+        "id": "line-5",
+        "text": "但觉思思辗转",
+        "startTime": 63.28,
+        "endTime": 72.031
+      },
+      {
+        "id": "line-11",
+        "text": "园内风物依然",
+        "startTime": 72.648,
+        "endTime": 79.829
+      },
+      {
+        "id": "line-17",
+        "text": "趁此悄的无人",
+        "startTime": 80.493,
+        "endTime": 89.27
+      },
+      {
+        "id": "line-18",
+        "text": "正好寻梦也",
+        "startTime": 89.94967418880768,
+        "endTime": 108.01244625750874
+      },
+      {
+        "id": "line-19",
+        "text": "那一答可是湖山石边",
+        "startTime": 112.352,
+        "endTime": 173.322
+      },
+      {
+        "id": "line-28",
+        "text": "这一答似牡丹亭畔",
+        "startTime": 173.774,
+        "endTime": 222.119
+      },
+      {
+        "id": "line-35",
+        "text": "嵌雕阑芍药芽儿浅一丝丝垂杨线",
+        "startTime": 222.32876799870246,
+        "endTime": 276.282253019834
+      },
+      {
+        "id": "line-36",
+        "text": "一丢丢榆英钱",
+        "startTime": 275.73453267835566,
+        "endTime": 288.5539171944214
+      },
+      {
+        "id": "line-37",
+        "text": "啊线儿春甚金钱啊吊转",
+        "startTime": 289.2556606244033,
+        "endTime": 330.04289179085254
+      },
+      {
+        "id": "line-38",
+        "text": "昨日梦里",
+        "startTime": 345.3114181630736,
+        "endTime": 348.9070200879695
+      },
+      {
+        "id": "line-39",
+        "text": "那书生将柳枝来赠我",
+        "startTime": 350.1390988381606,
+        "endTime": 359.99274792038995
+      },
+      {
+        "id": "line-40",
+        "text": "要我题咏",
+        "startTime": 360.93748917561555,
+        "endTime": 366.96183233091216
+      },
+      {
+        "id": "line-41",
+        "text": "强奴欢会之时",
+        "startTime": 367.96145893780204,
+        "endTime": 376.4188547705071
+      },
+      {
+        "id": "line-42",
+        "text": "好不话长也",
+        "startTime": 377.4828171405788,
+        "endTime": 396.12622781451563
+      },
+      {
+        "id": "line-43",
+        "text": "是谁家少俊来近远",
+        "startTime": 401.4626404451957,
+        "endTime": 457.8087099042159
+      },
+      {
+        "id": "line-44",
+        "text": "敢迤逗这香闺去沁园",
+        "startTime": 458.51116534554484,
+        "endTime": 493.61603603873147
+      },
+      {
+        "id": "line-45",
+        "text": "话到其间腼腆",
+        "startTime": 494.1127737564086,
+        "endTime": 528.0250075722676
+      },
+      {
+        "id": "line-46",
+        "text": "他捏这眼奈烦也天",
+        "startTime": 528.4702287946428,
+        "endTime": 551.2207589285714
+      },
+      {
+        "id": "line-47",
+        "text": "咱噷这口待酬言",
+        "startTime": 551.3738839285714,
+        "endTime": 580.1545354833745
+      },
+      {
+        "id": "line-48",
+        "text": "咱不是前生爱眷",
+        "startTime": 580.1545354833745,
+        "endTime": 600.23984375
+      },
+      {
+        "id": "line-49",
+        "text": "又素乏平生半面",
+        "startTime": 600.23984375,
+        "endTime": 629.6482142857143
+      },
+      {
+        "id": "line-50",
+        "text": "则道来生出现",
+        "startTime": 629.7284040178571,
+        "endTime": 638.4190848214286
+      },
+      {
+        "id": "line-51",
+        "text": "乍便今生梦见",
+        "startTime": 638.4190848214286,
+        "endTime": 664.5235491071428
+      },
+      {
+        "id": "line-52",
+        "text": "生就个书生",
+        "startTime": 664.6021763392857,
+        "endTime": 683.2121651785714
+      },
+      {
+        "id": "line-53",
+        "text": "恰恰生生抱咱去眠",
+        "startTime": 683.2121651785714,
+        "endTime": 731.5867745535713
+      },
+      {
+        "id": "line-54",
+        "text": "寻来寻去都不见了",
+        "startTime": 739.8568080357143,
+        "endTime": 756.2603236607143
+      },
+      {
+        "id": "line-55",
+        "text": "那牡丹亭芍药栏",
+        "startTime": 756.4342459711274,
+        "endTime": 773.337238304267
+      },
+      {
+        "id": "line-56",
+        "text": "怎生这般凄凉冷落",
+        "startTime": 774.332315250865,
+        "endTime": 785.079732779321
+      },
+      {
+        "id": "line-57",
+        "text": "杳无人迹",
+        "startTime": 785.5619789341765,
+        "endTime": 791.5678806232378
+      },
+      {
+        "id": "line-58",
+        "text": "好伤感人也",
+        "startTime": 792.5845011367824,
+        "endTime": 810.2997807796479
+      },
+      {
+        "id": "line-59",
+        "text": "似这等荒凉地面",
+        "startTime": 814.7768439743793,
+        "endTime": 853.9530917863136
+      },
+      {
+        "id": "line-60",
+        "text": "没多半亭台靠",
+        "startTime": 854.0873950383422,
+        "endTime": 868.9463110795963
+      },
+      {
+        "id": "line-61",
+        "text": "边",
+        "startTime": 868.9463110795963,
+        "endTime": 872.3586519677627
+      },
+      {
+        "id": "line-62",
+        "text": "敢是咱眯睎色眼寻难见",
+        "startTime": 872.6705495710254,
+        "endTime": 894.3428877525686
+      },
+      {
+        "id": "line-63",
+        "text": "放着白日青天",
+        "startTime": 894.5473726358991,
+        "endTime": 910.0458228273998
+      },
+      {
+        "id": "line-64",
+        "text": "猛教人抓不到魂梦前",
+        "startTime": 910.0458228273998,
+        "endTime": 931.0713949080341
+      },
+      {
+        "id": "line-65",
+        "text": "霎时间有如活现",
+        "startTime": 931.0713949080341,
+        "endTime": 950.0296189142019
+      },
+      {
+        "id": "line-66",
+        "text": "打方旋再得俄延",
+        "startTime": 950.5592685855162,
+        "endTime": 971.3198717669353
+      },
+      {
+        "id": "line-67",
+        "text": "是这答儿压黄金",
+        "startTime": 971.8491252634648,
+        "endTime": 992.2309173206544
+      },
+      {
+        "id": "line-68",
+        "text": "钏匾",
+        "startTime": 991.9243560900804,
+        "endTime": 1006.158697012627
+      },
+      {
+        "id": "line-69",
+        "text": "秀才秀才",
+        "startTime": 1010.3545989994319,
+        "endTime": 1018.8548617956142
+      },
+      {
+        "id": "line-70",
+        "text": "呀无人之处",
+        "startTime": 1042.0183077376942,
+        "endTime": 1048.772378615787
+      },
+      {
+        "id": "line-71",
+        "text": "忽见大梅树一株",
+        "startTime": 1049.7751885298467,
+        "endTime": 1063.6618471046927
+      },
+      {
+        "id": "line-72",
+        "text": "看梅子累累可爱人也",
+        "startTime": 1080.7415186,
+        "endTime": 1098.0496925202049
+      },
+      {
+        "id": "line-73",
+        "text": "我丽娘死后得葬于此",
+        "startTime": 1101.5307050836768,
+        "endTime": 1121.0408641442068
+      },
+      {
+        "id": "line-74",
+        "text": "幸也",
+        "startTime": 1121.954935016922,
+        "endTime": 1132.3194247193028
+      },
+      {
+        "id": "line-75",
+        "text": "偶然间心似缱",
+        "startTime": 1136.5878088565046,
+        "endTime": 1162.4992868091229
+      },
+      {
+        "id": "line-76",
+        "text": "在梅树边",
+        "startTime": 1162.4992868091229,
+        "endTime": 1174.3422414992565
+      },
+      {
+        "id": "line-77",
+        "text": "似这等花花草草由人恋待打并香魂一片阴雨梅天啊呀人儿吓",
+        "startTime": 1174.5180864529498,
+        "endTime": 1276.716874145591
+      },
+      {
+        "id": "line-78",
+        "text": "生生死死遂人愿",
+        "startTime": 1202.0168188191049,
+        "endTime": 1220.103943433661
+      },
+      {
+        "id": "line-79",
+        "text": "便酸酸楚楚无人怨",
+        "startTime": 1220.7624681,
+        "endTime": 1237.1761000503682
+      },
+      {
+        "id": "line-80",
+        "text": "守得个梅根相见",
+        "startTime": 1281.027737885109,
+        "endTime": 1311.5767953849945
+      },
+      {
+        "id": "line-81",
+        "text": "佳人拾翠春庭院侍女添香午院清不知小姐哪里去了",
+        "startTime": 1317.5596354166667,
+        "endTime": 1328.9542875107022
+      },
+      {
+        "id": "line-82",
+        "text": "呀看小姐走乏了在梅树边打睡呢小姐",
+        "startTime": 1331.829430650685,
+        "endTime": 1339.4174229452053
+      },
+      {
+        "id": "line-83",
+        "text": "小姐",
+        "startTime": 1340.9037243150685,
+        "endTime": 1345.7855094178083
+      },
+      {
+        "id": "line-84",
+        "text": "春香小姐",
+        "startTime": 1355.8906892123289,
+        "endTime": 1359.4331549657534
+      },
+      {
+        "id": "line-85",
+        "text": "我",
+        "startTime": 1361.0731485445206,
+        "endTime": 1361.7086258561644
+      },
+      {
+        "id": "line-86",
+        "text": "丽娘哭？",
+        "startTime": 1363.3514982876711,
+        "endTime": 1375.4359053938358
+      },
+      {
+        "id": "line-87",
+        "text": "少不得楼上花枝也则是照独眠",
+        "startTime": 1378.8717819940475,
+        "endTime": 1440.5543526785716
+      }
+    ],
+    "characterAnnotations": [
+      {
+        "id": "char-3cb31d02-1297-469b-a764-2e3b05a680ec",
+        "lineId": "line-1",
+        "char": "一",
+        "pinyin": "yi",
+        "startTime": 58.199,
+        "endTime": 58.65466530234554
+      },
+      {
+        "id": "char-b45c0e2f-0805-4743-8f97-0c5d2b8f6689",
+        "lineId": "line-1",
+        "char": "径",
+        "pinyin": "jing",
+        "startTime": 58.65466530234554,
+        "endTime": 59.73441119047573
+      },
+      {
+        "id": "char-894867aa-c77f-444d-86ef-6ef74c893915",
+        "lineId": "line-1",
+        "char": "行",
+        "pinyin": "xing",
+        "startTime": 59.83888304158727,
+        "endTime": 61.27562425645355
+      },
+      {
+        "id": "char-b4951a54-0473-4f4b-8c80-2fddb871ae83",
+        "lineId": "line-1",
+        "char": "来",
+        "pinyin": "lai",
+        "startTime": 61.27562425645355,
+        "endTime": 61.91700453514739
+      },
+      {
+        "id": "char-d9f2b4f2-29b3-451b-9dd8-cd02b151e1f8",
+        "lineId": "line-5",
+        "char": "但",
+        "pinyin": "dan",
+        "startTime": 63.28,
+        "endTime": 64.26974273485662
+      },
+      {
+        "id": "char-1450706d-a33d-4c4d-aab8-bcad16f8f6aa",
+        "lineId": "line-5",
+        "char": "觉",
+        "pinyin": "jue",
+        "startTime": 64.26974273485662,
+        "endTime": 65.32914891101876
+      },
+      {
+        "id": "char-3d3534df-ee13-49f8-8a33-b1c1ec95cd91",
+        "lineId": "line-5",
+        "char": "思",
+        "pinyin": "si",
+        "startTime": 65.90383907217287,
+        "endTime": 68.61186335211708
+      },
+      {
+        "id": "char-46b6f378-b546-46f9-b8c3-1cf8c1d66c8d",
+        "lineId": "line-5",
+        "char": "思",
+        "pinyin": "si",
+        "startTime": 68.74246475135118,
+        "endTime": 69.78158571638758
+      },
+      {
+        "id": "char-6fda52fb-a9a1-4c38-b6d0-1d43175792af",
+        "lineId": "line-5",
+        "char": "辗",
+        "pinyin": "zhan",
+        "startTime": 70.24887555292405,
+        "endTime": 71.20670624888403
+      },
+      {
+        "id": "char-8e17cf99-48db-43c1-9bba-2106cdf3a286",
+        "lineId": "line-5",
+        "char": "转",
+        "pinyin": "zhuan",
+        "startTime": 72.01941298905413,
+        "endTime": 72.03097505668934
+      },
+      {
+        "id": "char-25eef5e8-7352-49a0-8e67-5b12c2cb26b8",
+        "lineId": "line-11",
+        "char": "园",
+        "pinyin": "yuan",
+        "startTime": 72.648,
+        "endTime": 73.18205042277442
+      },
+      {
+        "id": "char-12b8d6b6-d8d0-49b8-844c-39bc6a3fed71",
+        "lineId": "line-11",
+        "char": "内",
+        "pinyin": "nei",
+        "startTime": 73.18205042277442,
+        "endTime": 74.16599121830738
+      },
+      {
+        "id": "char-35878229-68d6-400d-9b7d-0e61e744d345",
+        "lineId": "line-11",
+        "char": "风",
+        "pinyin": "feng",
+        "startTime": 74.67102520238082,
+        "endTime": 76.31672876123505
+      },
+      {
+        "id": "char-9f896336-49a6-4ae4-8d58-09df3c99f314",
+        "lineId": "line-11",
+        "char": "物",
+        "pinyin": "wu",
+        "startTime": 76.31672876123505,
+        "endTime": 77.24843131191443
+      },
+      {
+        "id": "char-6c4c96c2-14f1-4725-b797-ef12887f53cd",
+        "lineId": "line-11",
+        "char": "依",
+        "pinyin": "yi",
+        "startTime": 77.24843131191443,
+        "endTime": 78.64455971241645
+      },
+      {
+        "id": "char-2981a02e-cfb7-4d53-b117-7eb7221efd85",
+        "lineId": "line-11",
+        "char": "然",
+        "pinyin": "ran",
+        "startTime": 78.64455971241645,
+        "endTime": 79.46305739024436
+      },
+      {
+        "id": "char-64b276de-830b-4832-b2c9-a35665d51402",
+        "lineId": "line-17",
+        "char": "趁",
+        "pinyin": "chen",
+        "startTime": 80.6729526378492,
+        "endTime": 81.25344973783211
+      },
+      {
+        "id": "char-935fec5b-79c2-4b91-ab08-4b518a66a7fd",
+        "lineId": "line-17",
+        "char": "此",
+        "pinyin": "ci",
+        "startTime": 81.44500082006097,
+        "endTime": 82.28963814643072
+      },
+      {
+        "id": "char-9ef68489-8e7d-4738-b514-c75ab8513017",
+        "lineId": "line-17",
+        "char": "悄",
+        "pinyin": "qiao",
+        "startTime": 82.93690464250191,
+        "endTime": 84.91349938231369
+      },
+      {
+        "id": "char-10d12f55-28e9-4e20-a28b-4603b51ac36c",
+        "lineId": "line-17",
+        "char": "的",
+        "pinyin": "de",
+        "startTime": 84.91349938231369,
+        "endTime": 86.49534992896618
+      },
+      {
+        "id": "char-edba6740-273a-48cd-9d8b-bef2ecf93086",
+        "lineId": "line-17",
+        "char": "无",
+        "pinyin": "wu",
+        "startTime": 86.49534992896618,
+        "endTime": 88.88990477224164
+      },
+      {
+        "id": "char-d177baf2-7fed-4613-a7ae-2c983d66e687",
+        "lineId": "line-17",
+        "char": "人",
+        "pinyin": "ren",
+        "startTime": 89.26143364980486,
+        "endTime": 89.27000680272108
+      },
+      {
+        "id": "char-dc8ccbca-d5f4-466f-a3c1-397e46e80e47",
+        "lineId": "line-18",
+        "char": "正",
+        "pinyin": "zheng",
+        "startTime": 89.95,
+        "endTime": 91.00646874455097
+      },
+      {
+        "id": "char-f9ff9842-366b-4932-a316-3e577cd73093",
+        "lineId": "line-18",
+        "char": "好",
+        "pinyin": "hao",
+        "startTime": 91.00646874455097,
+        "endTime": 91.76115565993618
+      },
+      {
+        "id": "char-e5107923-5e80-4fe9-a242-bc416c432c4d",
+        "lineId": "line-18",
+        "char": "寻",
+        "pinyin": "xun",
+        "startTime": 93.1746473246529,
+        "endTime": 107.43752194426769
+      },
+      {
+        "id": "char-fdae8102-886c-49e5-98b8-6b059d373e35",
+        "lineId": "line-18",
+        "char": "梦",
+        "pinyin": "meng",
+        "startTime": 107.56813576904014,
+        "endTime": 107.58265428839087
+      },
+      {
+        "id": "char-57a82c6e-b58d-4f4b-b660-3102466c0afc",
+        "lineId": "line-18",
+        "char": "也",
+        "pinyin": "ye",
+        "startTime": 108.00350909827789,
+        "endTime": 108.0127664399093
+      },
+      {
+        "id": "char-c709a08b-855b-45f5-8685-df8aeee51d08",
+        "lineId": "line-19",
+        "char": "那",
+        "pinyin": "na",
+        "startTime": 112.352,
+        "endTime": 116.66506130720916
+      },
+      {
+        "id": "char-5337e1ce-b8dd-4ccd-8ea7-8c9dfbe66596",
+        "lineId": "line-19",
+        "char": "一",
+        "pinyin": "yi",
+        "startTime": 120.11325733901315,
+        "endTime": 121.38453369260537
+      },
+      {
+        "id": "char-51a8ada6-b6b4-4c52-8ba6-600555ce4d89",
+        "lineId": "line-19",
+        "char": "答",
+        "pinyin": "da",
+        "startTime": 127.90644469663022,
+        "endTime": 129.72632088813816
+      },
+      {
+        "id": "char-43cd9742-dd78-4b21-9c26-fce9830b728e",
+        "lineId": "line-19",
+        "char": "可",
+        "pinyin": "ke",
+        "startTime": 130.11816034530457,
+        "endTime": 131.09629421115895
+      },
+      {
+        "id": "char-dcb9e667-ae5b-4af1-9630-0f0a024184dc",
+        "lineId": "line-19",
+        "char": "是",
+        "pinyin": "shi",
+        "startTime": 131.61583907232156,
+        "endTime": 133.34859901095626
+      },
+      {
+        "id": "char-d0bf4af8-03e0-437f-8774-44d8259c4a47",
+        "lineId": "line-19",
+        "char": "湖",
+        "pinyin": "hu",
+        "startTime": 133.34859901095626,
+        "endTime": 136.4427296716194
+      },
+      {
+        "id": "char-47e9f0ca-8a33-445c-9b35-eb826f1c53f3",
+        "lineId": "line-19",
+        "char": "山",
+        "pinyin": "shan",
+        "startTime": 136.4427296716194,
+        "endTime": 157.51190320065936
+      },
+      {
+        "id": "char-25063104-24b6-49ee-bda6-5d50ec2cc747",
+        "lineId": "line-19",
+        "char": "石",
+        "pinyin": "shi",
+        "startTime": 157.65703356404316,
+        "endTime": 157.66574151666958
+      },
+      {
+        "id": "char-e33af89c-1a85-4d35-a29e-4f880472af37",
+        "lineId": "line-19",
+        "char": "边",
+        "pinyin": "bian",
+        "startTime": 158.33039317766176,
+        "endTime": 173.32202267573697
+      },
+      {
+        "id": "char-0f19a83e-1250-4eae-92a1-847ffe44f798",
+        "lineId": "line-28",
+        "char": "这",
+        "pinyin": "zhe",
+        "startTime": 173.774,
+        "endTime": 182.46694414190478
+      },
+      {
+        "id": "char-bc6b8c83-fce8-459e-aac4-b9f211963bae",
+        "lineId": "line-28",
+        "char": "一",
+        "pinyin": "yi",
+        "startTime": 182.9981075562025,
+        "endTime": 186.35047484306304
+      },
+      {
+        "id": "char-bc2b3c9a-ebc6-4f33-a694-196b1614c73c",
+        "lineId": "line-28",
+        "char": "答",
+        "pinyin": "da",
+        "startTime": 186.88457152042042,
+        "endTime": 192.2222595194873
+      },
+      {
+        "id": "char-a2575c75-cea8-4ebc-a716-a2ef22f26d0f",
+        "lineId": "line-28",
+        "char": "似",
+        "pinyin": "shi",
+        "startTime": 192.2222595194873,
+        "endTime": 194.86641448565945
+      },
+      {
+        "id": "char-cb697326-6531-4afd-8382-2c1f612a448a",
+        "lineId": "line-28",
+        "char": "牡",
+        "pinyin": "mu",
+        "startTime": 195.31920711520903,
+        "endTime": 198.27104523124393
+      },
+      {
+        "id": "char-d620619d-29bf-4fa6-8a15-edd60cb1aa07",
+        "lineId": "line-28",
+        "char": "丹",
+        "pinyin": "dan",
+        "startTime": 198.38420890013973,
+        "endTime": 206.9001528233606
+      },
+      {
+        "id": "char-dc24d5bb-326d-413a-9e65-5fb49c04aec8",
+        "lineId": "line-28",
+        "char": "亭",
+        "pinyin": "ting",
+        "startTime": 207.44583535838075,
+        "endTime": 213.64271029504573
+      },
+      {
+        "id": "char-436f0523-69cd-4262-b152-d5ff927a0c79",
+        "lineId": "line-28",
+        "char": "畔",
+        "pinyin": "pan",
+        "startTime": 214.6092342103209,
+        "endTime": 222.11898866213153
+      },
+      {
+        "id": "char-b5684509-ddbf-4404-9223-c6d51f35c893",
+        "lineId": "line-35",
+        "char": "嵌",
+        "pinyin": "qian",
+        "startTime": 222.329,
+        "endTime": 225.00503327929027
+      },
+      {
+        "id": "char-26298e13-8c24-4ea8-9aba-7bf19e50409f",
+        "lineId": "line-35",
+        "char": "雕",
+        "pinyin": "diao",
+        "startTime": 225.00503327929027,
+        "endTime": 225.66684973871682
+      },
+      {
+        "id": "char-a51633f6-8ae1-4e1d-8467-01fad7c02d73",
+        "lineId": "line-35",
+        "char": "阑",
+        "pinyin": "lan",
+        "startTime": 226.25607353057777,
+        "endTime": 230.3601766213949
+      },
+      {
+        "id": "char-13d8bf63-4f34-43fe-98f8-fa7a8734dde9",
+        "lineId": "line-35",
+        "char": "芍",
+        "pinyin": "shao",
+        "startTime": 230.3601766213949,
+        "endTime": 233.15528434703194
+      },
+      {
+        "id": "char-89c42eda-8714-42a0-a2d0-af9a57bfc387",
+        "lineId": "line-35",
+        "char": "药",
+        "pinyin": "yao",
+        "startTime": 233.15528434703194,
+        "endTime": 241.68857076920943
+      },
+      {
+        "id": "char-25964186-9779-4a10-a362-6adf8e845620",
+        "lineId": "line-35",
+        "char": "芽",
+        "pinyin": "ya",
+        "startTime": 241.68857076920943,
+        "endTime": 243.656499383369
+      },
+      {
+        "id": "char-ac53bed7-3c04-47a1-b540-84126c65535a",
+        "lineId": "line-35",
+        "char": "儿",
+        "pinyin": "er",
+        "startTime": 243.656499383369,
+        "endTime": 246.36454296302688
+      },
+      {
+        "id": "char-75a199ae-f27d-4100-9cca-0f48fe291fe8",
+        "lineId": "line-35",
+        "char": "浅",
+        "pinyin": "qian",
+        "startTime": 246.6344593230213,
+        "endTime": 248.96806939569515
+      },
+      {
+        "id": "char-fb7a15f2-5e48-4c00-bde4-84e07bc540a7",
+        "lineId": "line-35",
+        "char": "一",
+        "pinyin": "yi",
+        "startTime": 249.56308701031116,
+        "endTime": 254.19256747668618
+      },
+      {
+        "id": "char-813aeb18-0fec-40e6-8796-444f35793e85",
+        "lineId": "line-35",
+        "char": "丝",
+        "pinyin": "si",
+        "startTime": 257.26630014435017,
+        "endTime": 258.07609674011553
+      },
+      {
+        "id": "char-bf116128-d6f8-435e-a2f7-95c4f92e722a",
+        "lineId": "line-35",
+        "char": "丝",
+        "pinyin": "si",
+        "startTime": 258.58984285822316,
+        "endTime": 262.68236268558525
+      },
+      {
+        "id": "char-b355dd59-1603-4c08-8f75-44f8834f1779",
+        "lineId": "line-35",
+        "char": "垂",
+        "pinyin": "chui",
+        "startTime": 262.68236268558525,
+        "endTime": 264.4674038944823
+      },
+      {
+        "id": "char-971356c5-5251-4d0d-9536-e438fcdaf32f",
+        "lineId": "line-35",
+        "char": "杨",
+        "pinyin": "yang",
+        "startTime": 264.8069504120107,
+        "endTime": 273.5754176495032
+      },
+      {
+        "id": "char-35c71a14-21b7-461c-8275-9cb00ac9e0c4",
+        "lineId": "line-35",
+        "char": "线",
+        "pinyin": "xian",
+        "startTime": 273.5754176495032,
+        "endTime": 276.2824693877551
+      },
+      {
+        "id": "char-02af43a0-3e9e-4888-b4f6-72230f1aa936",
+        "lineId": "line-36",
+        "char": "一",
+        "pinyin": "yi",
+        "startTime": 275.735,
+        "endTime": 276.12101555604517
+      },
+      {
+        "id": "char-5c3efb87-aeab-490d-886c-a23da7dd8013",
+        "lineId": "line-36",
+        "char": "丢",
+        "pinyin": "diu",
+        "startTime": 276.37646155479547,
+        "endTime": 277.01786121216765
+      },
+      {
+        "id": "char-a9b3edbc-311b-4134-b04d-1db4453b989d",
+        "lineId": "line-36",
+        "char": "丢",
+        "pinyin": "diu",
+        "startTime": 277.01786121216765,
+        "endTime": 278.3936776031902
+      },
+      {
+        "id": "char-40298701-93b9-452a-95ea-0c33074d1a73",
+        "lineId": "line-36",
+        "char": "榆",
+        "pinyin": "yu",
+        "startTime": 278.3936776031902,
+        "endTime": 281.3977644106347
+      },
+      {
+        "id": "char-13f4e80c-47f1-4811-8d3c-769f03c753ec",
+        "lineId": "line-36",
+        "char": "英",
+        "pinyin": "ying",
+        "startTime": 287.19110336364804,
+        "endTime": 288.54657875939836
+      },
+      {
+        "id": "char-7015522f-6b0a-4705-a699-672b4ab8af68",
+        "lineId": "line-36",
+        "char": "钱",
+        "pinyin": "qian",
+        "startTime": 288.54657875939836,
+        "endTime": 288.5543650793651
+      },
+      {
+        "id": "char-2ef3c8c2-1136-4821-add4-e0206ea5c090",
+        "lineId": "line-37",
+        "char": "啊",
+        "pinyin": "a",
+        "startTime": 289.54623094721927,
+        "endTime": 289.8800289573766
+      },
+      {
+        "id": "char-2ab5e99e-e6e6-481c-9132-e8d211e12a3b",
+        "lineId": "line-37",
+        "char": "线",
+        "pinyin": "xian",
+        "startTime": 289.8800289573766,
+        "endTime": 292.6025340514383
+      },
+      {
+        "id": "char-8a8ff3ae-26e5-4a91-8cf6-136b52abad42",
+        "lineId": "line-37",
+        "char": "儿",
+        "pinyin": "er",
+        "startTime": 292.6025340514383,
+        "endTime": 295.2090122630693
+      },
+      {
+        "id": "char-7f16e9c3-3a57-4420-91d1-9e2068522cf0",
+        "lineId": "line-37",
+        "char": "春",
+        "pinyin": "chun",
+        "startTime": 295.2090122630693,
+        "endTime": 296.8604776631591
+      },
+      {
+        "id": "char-2e7d02ea-d7cf-47b3-9db4-2651313f2d0f",
+        "lineId": "line-37",
+        "char": "甚",
+        "pinyin": "shen",
+        "startTime": 297.1652695681551,
+        "endTime": 297.9141136304694
+      },
+      {
+        "id": "char-78453807-f78d-4c89-a1ea-191d756450d0",
+        "lineId": "line-37",
+        "char": "金",
+        "pinyin": "jin",
+        "startTime": 297.9141136304694,
+        "endTime": 303.3563035754492
+      },
+      {
+        "id": "char-3201a44c-0a3b-4961-8e08-64bf6820494d",
+        "lineId": "line-37",
+        "char": "钱",
+        "pinyin": "qian",
+        "startTime": 303.3563035754492,
+        "endTime": 307.535877302998
+      },
+      {
+        "id": "char-841a7d3d-17bc-4d90-97d4-1a76d4a9d255",
+        "lineId": "line-37",
+        "char": "啊",
+        "pinyin": "a",
+        "startTime": 307.535877302998,
+        "endTime": 317.9210361081613
+      },
+      {
+        "id": "char-0d574991-5415-4fce-9046-b5cdb75cedda",
+        "lineId": "line-37",
+        "char": "吊",
+        "pinyin": "diao",
+        "startTime": 317.9210361081613,
+        "endTime": 317.9500518426489
+      },
+      {
+        "id": "char-929a5f85-e6cd-4c11-bbe9-b81816263c9b",
+        "lineId": "line-37",
+        "char": "转",
+        "pinyin": "zhuan",
+        "startTime": 318.66696817458296,
+        "endTime": 330.0432108843537
+      },
+      {
+        "id": "char-91e246f8-6287-4b89-b7e0-1e613c8dc3a4",
+        "lineId": "line-38",
+        "char": "昨",
+        "pinyin": "zuo",
+        "startTime": 345.311,
+        "endTime": 345.8334495894244
+      },
+      {
+        "id": "char-c73d9fe7-dae4-4200-b0c6-fd9defacc7d3",
+        "lineId": "line-38",
+        "char": "日",
+        "pinyin": "ri",
+        "startTime": 345.8334495894244,
+        "endTime": 346.42844510628737
+      },
+      {
+        "id": "char-fce844ef-fe84-4399-b359-b342b8eb6a39",
+        "lineId": "line-38",
+        "char": "梦",
+        "pinyin": "meng",
+        "startTime": 347.1192533674905,
+        "endTime": 348.25702196192253
+      },
+      {
+        "id": "char-8525e5ca-22d6-47f8-9eb1-37524af0fbf1",
+        "lineId": "line-38",
+        "char": "里",
+        "pinyin": "li",
+        "startTime": 348.25702196192253,
+        "endTime": 348.90660090702943
+      },
+      {
+        "id": "char-028da9a7-96ad-4975-b9e8-96bde30d65d0",
+        "lineId": "line-39",
+        "char": "那",
+        "pinyin": "na",
+        "startTime": 350.139,
+        "endTime": 351.1432096883424
+      },
+      {
+        "id": "char-bece3d4a-3ef4-4825-bc38-bb3fb6b53c74",
+        "lineId": "line-39",
+        "char": "书",
+        "pinyin": "shu",
+        "startTime": 351.1432096883424,
+        "endTime": 351.7440676642551
+      },
+      {
+        "id": "char-6b6bde6b-791f-46e5-adf5-945d1e33f153",
+        "lineId": "line-39",
+        "char": "生",
+        "pinyin": "sheng",
+        "startTime": 351.7440676642551,
+        "endTime": 352.68445868030483
+      },
+      {
+        "id": "char-1e6609ab-7aea-4a75-8df0-00a2d9165c8d",
+        "lineId": "line-39",
+        "char": "将",
+        "pinyin": "jiang",
+        "startTime": 353.1895002981519,
+        "endTime": 354.1589431325438
+      },
+      {
+        "id": "char-ec020b1c-24b9-4bca-9846-f8598c850c98",
+        "lineId": "line-39",
+        "char": "柳",
+        "pinyin": "liu",
+        "startTime": 354.1589431325438,
+        "endTime": 355.0877441328107
+      },
+      {
+        "id": "char-44c5072a-f2f2-43c3-952c-9b85e1098edf",
+        "lineId": "line-39",
+        "char": "枝",
+        "pinyin": "zhi",
+        "startTime": 355.0877441328107,
+        "endTime": 355.92363710148317
+      },
+      {
+        "id": "char-9cb9792e-1afe-48d1-9585-277432fc8228",
+        "lineId": "line-39",
+        "char": "来",
+        "pinyin": "lai",
+        "startTime": 355.92363710148317,
+        "endTime": 356.803097331073
+      },
+      {
+        "id": "char-e6a54244-c9f5-421f-abdf-5179cf0f86f0",
+        "lineId": "line-39",
+        "char": "赠",
+        "pinyin": "zeng",
+        "startTime": 357.3342728575617,
+        "endTime": 358.50977846917976
+      },
+      {
+        "id": "char-cb4d876e-c4aa-41bd-b1e0-8524ff59bb14",
+        "lineId": "line-39",
+        "char": "我",
+        "pinyin": "wo",
+        "startTime": 358.50977846917976,
+        "endTime": 359.9926507936508
+      },
+      {
+        "id": "char-c49d89f1-c7d0-4e40-b97c-e7840cc570b6",
+        "lineId": "line-40",
+        "char": "要",
+        "pinyin": "yao",
+        "startTime": 360.937,
+        "endTime": 363.6130857201028
+      },
+      {
+        "id": "char-4b5677a2-e725-4f05-b6a3-e6ff5b2f4c9e",
+        "lineId": "line-40",
+        "char": "我",
+        "pinyin": "wo",
+        "startTime": 363.6130857201028,
+        "endTime": 363.67114892264505
+      },
+      {
+        "id": "char-a8f2a3cd-f626-4f57-acb7-5a5a8075f336",
+        "lineId": "line-40",
+        "char": "题",
+        "pinyin": "ti",
+        "startTime": 364.41998654753604,
+        "endTime": 366.01635997946465
+      },
+      {
+        "id": "char-c813f2ab-31dd-4fbe-8e0f-060b23a72ded",
+        "lineId": "line-40",
+        "char": "咏",
+        "pinyin": "yong",
+        "startTime": 366.01635997946465,
+        "endTime": 366.9613537414966
+      },
+      {
+        "id": "char-3e78b4a0-69ce-456e-ab18-d11b3bc09564",
+        "lineId": "line-41",
+        "char": "强",
+        "pinyin": "qiang",
+        "startTime": 367.961,
+        "endTime": 368.39055968733277
+      },
+      {
+        "id": "char-fbe252cd-b621-4a5f-b16b-1717c3554aa8",
+        "lineId": "line-41",
+        "char": "奴",
+        "pinyin": "nu",
+        "startTime": 368.82013463152185,
+        "endTime": 369.3919242271296
+      },
+      {
+        "id": "char-a0d102d9-02be-43ac-9101-408116456b14",
+        "lineId": "line-41",
+        "char": "欢",
+        "pinyin": "huan",
+        "startTime": 370.39619861297,
+        "endTime": 372.38728739262655
+      },
+      {
+        "id": "char-ae0fc80e-e7d1-44e7-b626-f9b0d7b1931a",
+        "lineId": "line-41",
+        "char": "会",
+        "pinyin": "hui",
+        "startTime": 372.38728739262655,
+        "endTime": 373.3886491687547
+      },
+      {
+        "id": "char-f0f8ad36-64ff-4e22-9871-09145ebec8be",
+        "lineId": "line-41",
+        "char": "之",
+        "pinyin": "zhi",
+        "startTime": 373.3886491687547,
+        "endTime": 375.14756640785083
+      },
+      {
+        "id": "char-1eed87bc-9460-4cde-84af-ee24f87ff7ba",
+        "lineId": "line-41",
+        "char": "时",
+        "pinyin": "shi",
+        "startTime": 375.14756640785083,
+        "endTime": 376.41836961451247
+      },
+      {
+        "id": "char-f6742849-6578-4a96-aaf2-cce3c4060214",
+        "lineId": "line-42",
+        "char": "好",
+        "pinyin": "hao",
+        "startTime": 377.62811993482813,
+        "endTime": 378.9052056219502
+      },
+      {
+        "id": "char-6cd805eb-50a4-4111-a2f2-7ac759d57f42",
+        "lineId": "line-42",
+        "char": "不",
+        "pinyin": "bu",
+        "startTime": 378.9052056219502,
+        "endTime": 380.2461492978808
+      },
+      {
+        "id": "char-f6fc6a6d-95fe-415c-adb0-174e50941f16",
+        "lineId": "line-42",
+        "char": "话",
+        "pinyin": "hua",
+        "startTime": 381.28234852946645,
+        "endTime": 384.6869937315425
+      },
+      {
+        "id": "char-83a0516a-ea28-4370-ae7a-7a30ffb3e878",
+        "lineId": "line-42",
+        "char": "长",
+        "pinyin": "zhang",
+        "startTime": 384.6869937315425,
+        "endTime": 386.88996138792027
+      },
+      {
+        "id": "char-41b097e2-29ef-4cf9-bf3c-305347475844",
+        "lineId": "line-42",
+        "char": "也",
+        "pinyin": "ye",
+        "startTime": 387.96098582288414,
+        "endTime": 396.1264013605442
+      },
+      {
+        "id": "char-f2d139cf-cd22-487d-b32a-a6f07b432de8",
+        "lineId": "line-43",
+        "char": "是",
+        "pinyin": "shi",
+        "startTime": 401.463,
+        "endTime": 408.15323363780817
+      },
+      {
+        "id": "char-8b55d6ec-9b07-41a0-9b33-4142f60d6b4e",
+        "lineId": "line-43",
+        "char": "谁",
+        "pinyin": "shui",
+        "startTime": 410.34173063764877,
+        "endTime": 411.03539925986246
+      },
+      {
+        "id": "char-a962f81f-7c50-4f6b-8ddc-75b78705bf82",
+        "lineId": "line-43",
+        "char": "家",
+        "pinyin": "jia",
+        "startTime": 413.18616517221955,
+        "endTime": 417.3309145637635
+      },
+      {
+        "id": "char-5e3b50a1-f256-4855-a375-9ae30d3f547c",
+        "lineId": "line-43",
+        "char": "少",
+        "pinyin": "shao",
+        "startTime": 417.59213111864034,
+        "endTime": 424.04435111147046
+      },
+      {
+        "id": "char-b3bbec2f-0634-4a15-99a4-d1c43c558e7e",
+        "lineId": "line-43",
+        "char": "俊",
+        "pinyin": "jun",
+        "startTime": 424.3549700952831,
+        "endTime": 430.1744419730559
+      },
+      {
+        "id": "char-4129ac67-1ff9-47b9-bdab-2c12a0b47646",
+        "lineId": "line-43",
+        "char": "来",
+        "pinyin": "lai",
+        "startTime": 430.7056348322914,
+        "endTime": 433.67487099052664
+      },
+      {
+        "id": "char-3358e7ec-28f5-412a-931e-f667749d11a1",
+        "lineId": "line-43",
+        "char": "近",
+        "pinyin": "jin",
+        "startTime": 433.9273876694498,
+        "endTime": 442.9831052099291
+      },
+      {
+        "id": "char-351f2328-f221-4d99-8113-ed23efb8d7b0",
+        "lineId": "line-43",
+        "char": "远",
+        "pinyin": "yuan",
+        "startTime": 443.4301760097004,
+        "endTime": 457.8090770975057
+      },
+      {
+        "id": "char-3beedd2c-5725-48f5-befa-166763c6fe2b",
+        "lineId": "line-44",
+        "char": "敢",
+        "pinyin": "gan",
+        "startTime": 458.511,
+        "endTime": 460.18572984801074
+      },
+      {
+        "id": "char-9c686609-198b-4990-a417-190436b5972e",
+        "lineId": "line-44",
+        "char": "迤",
+        "pinyin": "yi",
+        "startTime": 461.21319869320087,
+        "endTime": 464.722303630451
+      },
+      {
+        "id": "char-6532c55c-b31c-42b9-87a7-88282a60360f",
+        "lineId": "line-44",
+        "char": "逗",
+        "pinyin": "dou",
+        "startTime": 465.3318375479494,
+        "endTime": 466.0574888407395
+      },
+      {
+        "id": "char-6a19c443-de9a-4486-b786-c096ed011214",
+        "lineId": "line-44",
+        "char": "这",
+        "pinyin": "zhe",
+        "startTime": 466.0574888407395,
+        "endTime": 467.4738621867941
+      },
+      {
+        "id": "char-65ae52dc-9134-4e1b-baa3-63d90f974f73",
+        "lineId": "line-44",
+        "char": "香",
+        "pinyin": "xiang",
+        "startTime": 467.4738621867941,
+        "endTime": 469.08769035185765
+      },
+      {
+        "id": "char-6a7ac1e3-822d-48cf-adf6-742fd4d8f6b2",
+        "lineId": "line-44",
+        "char": "闺",
+        "pinyin": "gui",
+        "startTime": 475.65891945111457,
+        "endTime": 480.90952751261796
+      },
+      {
+        "id": "char-17849c8c-535a-4a22-abb6-3540bd9d5c59",
+        "lineId": "line-44",
+        "char": "去",
+        "pinyin": "qu",
+        "startTime": 481.36814358184614,
+        "endTime": 482.14890944345956
+      },
+      {
+        "id": "char-0aaa5afa-1e71-4bfa-b2f6-962d50e572e3",
+        "lineId": "line-44",
+        "char": "沁",
+        "pinyin": "qin",
+        "startTime": 482.14890944345956,
+        "endTime": 490.96959069167895
+      },
+      {
+        "id": "char-e1119ee3-4b7d-4414-ba76-f5f5a09f20ae",
+        "lineId": "line-44",
+        "char": "园",
+        "pinyin": "yuan",
+        "startTime": 490.96959069167895,
+        "endTime": 493.61585260770977
+      },
+      {
+        "id": "char-6886f000-8efd-4390-834c-f8c5d7e219ed",
+        "lineId": "line-45",
+        "char": "话",
+        "pinyin": "hua",
+        "startTime": 495.1433709799876,
+        "endTime": 500.0137651730784
+      },
+      {
+        "id": "char-5817837c-ef75-4bd7-94fc-299588ed0548",
+        "lineId": "line-45",
+        "char": "到",
+        "pinyin": "dao",
+        "startTime": 500.0137651730784,
+        "endTime": 502.7972481319272
+      },
+      {
+        "id": "char-12cc0763-6f7c-4e82-a9e5-8edea09125c3",
+        "lineId": "line-45",
+        "char": "其",
+        "pinyin": "qi",
+        "startTime": 502.7972481319272,
+        "endTime": 511.0693566156201
+      },
+      {
+        "id": "char-fe1fd613-59d9-45e9-902c-5b082aa0c83c",
+        "lineId": "line-45",
+        "char": "间",
+        "pinyin": "jian",
+        "startTime": 511.0693566156201,
+        "endTime": 511.73984129486547
+      },
+      {
+        "id": "char-784dd69d-a7d9-4242-8a2c-131a855d67c9",
+        "lineId": "line-45",
+        "char": "腼",
+        "pinyin": "mian",
+        "startTime": 511.73984129486547,
+        "endTime": 514.021186732955
+      },
+      {
+        "id": "char-15e6b6c8-a597-4b0b-8098-26183b9d9918",
+        "lineId": "line-45",
+        "char": "腆",
+        "pinyin": "tian",
+        "startTime": 516.2416014139571,
+        "endTime": 528.0252448979592
+      },
+      {
+        "id": "char-306169fe-90f9-4c93-bfdb-d3de7f68fa26",
+        "lineId": "line-46",
+        "char": "他",
+        "pinyin": "ta",
+        "startTime": 528.47,
+        "endTime": 529.2159157676897
+      },
+      {
+        "id": "char-c4be15bf-05b1-4c8a-b1da-9ff5451cade3",
+        "lineId": "line-46",
+        "char": "捏",
+        "pinyin": "nie",
+        "startTime": 529.2159157676897,
+        "endTime": 531.180930045854
+      },
+      {
+        "id": "char-35a8a8f2-b94e-4674-8124-1f99326978e4",
+        "lineId": "line-46",
+        "char": "这",
+        "pinyin": "zhe",
+        "startTime": 531.7468904824943,
+        "endTime": 533.2532744331506
+      },
+      {
+        "id": "char-91bb8508-380b-4861-80cf-76b6f7865775",
+        "lineId": "line-46",
+        "char": "眼",
+        "pinyin": "yan",
+        "startTime": 534.4142999054029,
+        "endTime": 535.8568392625093
+      },
+      {
+        "id": "char-cec10f0d-d03e-4a2b-ba20-d632ce04fdf8",
+        "lineId": "line-46",
+        "char": "奈",
+        "pinyin": "nai",
+        "startTime": 535.8568392625093,
+        "endTime": 539.3311073171282
+      },
+      {
+        "id": "char-4b150289-db52-4fe9-a6a3-6cfd5330c4ae",
+        "lineId": "line-46",
+        "char": "烦",
+        "pinyin": "fan",
+        "startTime": 539.3311073171282,
+        "endTime": 544.4336787453233
+      },
+      {
+        "id": "char-7254bfcc-ebfd-4841-b15c-d4f2ad94fc6f",
+        "lineId": "line-46",
+        "char": "也",
+        "pinyin": "ye",
+        "startTime": 544.4336787453233,
+        "endTime": 550.433151041364
+      },
+      {
+        "id": "char-2a7a6801-b2f4-409f-a869-9b406af0798d",
+        "lineId": "line-46",
+        "char": "天",
+        "pinyin": "tian",
+        "startTime": 551.1849293782462,
+        "endTime": 551.2205215419501
+      },
+      {
+        "id": "char-b0bffc8d-dc42-4750-bc29-6a40476dfbfb",
+        "lineId": "line-47",
+        "char": "咱",
+        "pinyin": "zan",
+        "startTime": 551.374,
+        "endTime": 552.6133509623631
+      },
+      {
+        "id": "char-20502be2-a4b6-4a57-be3e-783909a4f5db",
+        "lineId": "line-47",
+        "char": "噷",
+        "pinyin": "zhe",
+        "startTime": 552.6133509623631,
+        "endTime": 561.2946960660179
+      },
+      {
+        "id": "char-d3585aad-054a-4184-90e5-5ec9d3523beb",
+        "lineId": "line-47",
+        "char": "这",
+        "pinyin": "kou",
+        "startTime": 562.2119099962825,
+        "endTime": 562.957795292091
+      },
+      {
+        "id": "char-8267c8f6-167f-4b10-9b6f-6d7cc540ef45",
+        "lineId": "line-47",
+        "char": "口",
+        "pinyin": "dai",
+        "startTime": 563.5934939090416,
+        "endTime": 572.1442268411216
+      },
+      {
+        "id": "char-66e0a240-7649-49c2-8900-15826981147d",
+        "lineId": "line-47",
+        "char": "待",
+        "pinyin": "chou",
+        "startTime": 572.3357920977539,
+        "endTime": 572.9801575182333
+      },
+      {
+        "id": "char-22ae6a6e-ebc7-4441-a64e-ec7f9e456dee",
+        "lineId": "line-47",
+        "char": "酬",
+        "pinyin": "yan",
+        "startTime": 572.9801575182333,
+        "endTime": 579.5020532248545
+      },
+      {
+        "id": "char-85c398cf-5406-4aec-a3a7-252d22b73074",
+        "lineId": "line-48",
+        "char": "咱",
+        "pinyin": "zan",
+        "startTime": 580.155,
+        "endTime": 582.6772550744805
+      },
+      {
+        "id": "char-3128c1bf-8613-4ab3-b66d-fb7ac5135594",
+        "lineId": "line-48",
+        "char": "不",
+        "pinyin": "bu",
+        "startTime": 582.6772550744805,
+        "endTime": 583.2577647440557
+      },
+      {
+        "id": "char-63aef302-0eb2-4c74-a3db-1b2b60e098e1",
+        "lineId": "line-48",
+        "char": "是",
+        "pinyin": "shi",
+        "startTime": 583.6872930301912,
+        "endTime": 587.2312821060918
+      },
+      {
+        "id": "char-354f5fc9-94ab-4755-9d02-52f57d110ed7",
+        "lineId": "line-48",
+        "char": "前",
+        "pinyin": "qian",
+        "startTime": 587.6376178588619,
+        "endTime": 590.0582927363719
+      },
+      {
+        "id": "char-413dcbca-606a-4f78-9737-e3e39c584839",
+        "lineId": "line-48",
+        "char": "生",
+        "pinyin": "sheng",
+        "startTime": 590.0582927363719,
+        "endTime": 591.3702241152592
+      },
+      {
+        "id": "char-357db2d4-8918-4c2c-b735-1848d0651841",
+        "lineId": "line-48",
+        "char": "爱",
+        "pinyin": "ai",
+        "startTime": 591.8520280194228,
+        "endTime": 593.2829928618196
+      },
+      {
+        "id": "char-deb1fd7a-69ae-41fd-b564-33f6bb309953",
+        "lineId": "line-48",
+        "char": "眷",
+        "pinyin": "juan",
+        "startTime": 593.2829928618196,
+        "endTime": 599.6887629292287
+      },
+      {
+        "id": "char-d43d0be7-a103-4a67-a2b8-42cf29f2148c",
+        "lineId": "line-49",
+        "char": "又",
+        "pinyin": "you",
+        "startTime": 600.24,
+        "endTime": 603.8390606455035
+      },
+      {
+        "id": "char-f1a36151-d284-4345-ba75-81ebbc5fd8e9",
+        "lineId": "line-49",
+        "char": "素",
+        "pinyin": "su",
+        "startTime": 603.8390606455035,
+        "endTime": 603.8681619689605
+      },
+      {
+        "id": "char-925a4146-bb76-4d1f-98f9-c09da7f36496",
+        "lineId": "line-49",
+        "char": "乏",
+        "pinyin": "fa",
+        "startTime": 603.8681619689605,
+        "endTime": 607.0434313414129
+      },
+      {
+        "id": "char-2509f414-220d-4373-8911-46fc1d2b0b37",
+        "lineId": "line-49",
+        "char": "平",
+        "pinyin": "ping",
+        "startTime": 607.5397678995673,
+        "endTime": 610.0387997857054
+      },
+      {
+        "id": "char-94505b84-9875-4875-9101-4c355cd3d770",
+        "lineId": "line-49",
+        "char": "生",
+        "pinyin": "sheng",
+        "startTime": 610.0387997857054,
+        "endTime": 612.720683145842
+      },
+      {
+        "id": "char-843671bf-b127-4c94-bbf6-c2e6e46a2983",
+        "lineId": "line-49",
+        "char": "半",
+        "pinyin": "ban",
+        "startTime": 615.0107564422792,
+        "endTime": 621.8026008811613
+      },
+      {
+        "id": "char-bafae490-3e17-414e-b36a-f94124b40549",
+        "lineId": "line-49",
+        "char": "面",
+        "pinyin": "mian",
+        "startTime": 622.5427512005695,
+        "endTime": 627.3144432479401
+      },
+      {
+        "id": "char-43bd4977-c793-409c-99d8-d49237e5e33f",
+        "lineId": "line-50",
+        "char": "则",
+        "pinyin": "ze",
+        "startTime": 629.728,
+        "endTime": 630.0617697842088
+      },
+      {
+        "id": "char-2fc8900f-57f3-4ada-affa-0931eab8ebce",
+        "lineId": "line-50",
+        "char": "道",
+        "pinyin": "dao",
+        "startTime": 630.4448800319782,
+        "endTime": 631.2402008288772
+      },
+      {
+        "id": "char-2c5a4c70-1d0d-4a87-951b-b54957f3ca05",
+        "lineId": "line-50",
+        "char": "来",
+        "pinyin": "lai",
+        "startTime": 631.2402008288772,
+        "endTime": 632.613065451828
+      },
+      {
+        "id": "char-6f1d2588-2b44-46bb-ac11-90d877c29125",
+        "lineId": "line-50",
+        "char": "生",
+        "pinyin": "sheng",
+        "startTime": 632.613065451828,
+        "endTime": 633.6666777887214
+      },
+      {
+        "id": "char-3e28c96f-7b75-4bd1-b44c-2be23941285a",
+        "lineId": "line-50",
+        "char": "出",
+        "pinyin": "chu",
+        "startTime": 634.0759097222038,
+        "endTime": 634.6941555955036
+      },
+      {
+        "id": "char-711ebd1f-6d46-4660-b0b9-d3960bf305e1",
+        "lineId": "line-50",
+        "char": "现",
+        "pinyin": "xian",
+        "startTime": 635.4981654238549,
+        "endTime": 638.4186575963719
+      },
+      {
+        "id": "char-542a56c9-b850-46e3-b0ff-8a706a9de490",
+        "lineId": "line-51",
+        "char": "乍",
+        "pinyin": "zha",
+        "startTime": 638.419,
+        "endTime": 639.101063342668
+      },
+      {
+        "id": "char-f09ee9cf-c764-423a-844a-2466c5459efc",
+        "lineId": "line-51",
+        "char": "便",
+        "pinyin": "bian",
+        "startTime": 639.101063342668,
+        "endTime": 639.8150891965673
+      },
+      {
+        "id": "char-f9e8cbe0-5106-4f3f-9a5f-160ec34a0eeb",
+        "lineId": "line-51",
+        "char": "今",
+        "pinyin": "jin",
+        "startTime": 639.8150891965673,
+        "endTime": 644.7609284311281
+      },
+      {
+        "id": "char-bf9547e4-d4d8-4c94-bcaa-b023d332d892",
+        "lineId": "line-51",
+        "char": "生",
+        "pinyin": "sheng",
+        "startTime": 645.0338006919452,
+        "endTime": 652.4409096738059
+      },
+      {
+        "id": "char-9968e29b-c4f4-4ad7-a7eb-ec77eeb62805",
+        "lineId": "line-51",
+        "char": "梦",
+        "pinyin": "meng",
+        "startTime": 653.0359598809418,
+        "endTime": 660.2254272848035
+      },
+      {
+        "id": "char-11e84cd1-b5ef-48e1-babc-2c29ad72bace",
+        "lineId": "line-51",
+        "char": "见",
+        "pinyin": "jian",
+        "startTime": 661.2703249586148,
+        "endTime": 663.2904586585314
+      },
+      {
+        "id": "char-1e1670d4-add3-42e4-acd4-26168bbe257a",
+        "lineId": "line-52",
+        "char": "生",
+        "pinyin": "sheng",
+        "startTime": 664.602,
+        "endTime": 665.9196953820847
+      },
+      {
+        "id": "char-a6f6e14f-1c66-443c-88f2-642fbf6acbc9",
+        "lineId": "line-52",
+        "char": "就",
+        "pinyin": "jiu",
+        "startTime": 666.1867466981114,
+        "endTime": 666.195479281207
+      },
+      {
+        "id": "char-69b4004b-dd3c-4031-be89-2797ee19f963",
+        "lineId": "line-52",
+        "char": "个",
+        "pinyin": "ge",
+        "startTime": 666.195479281207,
+        "endTime": 669.010860014777
+      },
+      {
+        "id": "char-193a645f-9575-45e3-a937-77b9278ee0ca",
+        "lineId": "line-52",
+        "char": "书",
+        "pinyin": "shu",
+        "startTime": 669.3156361300431,
+        "endTime": 674.5314199447486
+      },
+      {
+        "id": "char-26cb3b8e-8d29-408c-9b2a-a0ed00da587e",
+        "lineId": "line-52",
+        "char": "生",
+        "pinyin": "sheng",
+        "startTime": 675.9768062623655,
+        "endTime": 683.212022675737
+      },
+      {
+        "id": "char-ceb23552-e9eb-4371-bae5-31b511a4099c",
+        "lineId": "line-53",
+        "char": "恰",
+        "pinyin": "qia",
+        "startTime": 683.212,
+        "endTime": 684.0595170166936
+      },
+      {
+        "id": "char-9c04f08e-222c-499e-88bf-3ab60d24e80c",
+        "lineId": "line-53",
+        "char": "恰",
+        "pinyin": "qia",
+        "startTime": 686.7327129269419,
+        "endTime": 692.6625081211466
+      },
+      {
+        "id": "char-ebaec24a-9a96-4a76-83d9-e5ffcb425723",
+        "lineId": "line-53",
+        "char": "生",
+        "pinyin": "sheng",
+        "startTime": 692.7844153827566,
+        "endTime": 694.8219442204137
+      },
+      {
+        "id": "char-69a444da-fdcd-44d3-ae02-231e746c6d95",
+        "lineId": "line-53",
+        "char": "生",
+        "pinyin": "sheng",
+        "startTime": 694.8219442204137,
+        "endTime": 698.992849443847
+      },
+      {
+        "id": "char-bf2a0c9e-564a-4efa-b142-1ee4d29c89ab",
+        "lineId": "line-53",
+        "char": "抱",
+        "pinyin": "bao",
+        "startTime": 699.8548888236611,
+        "endTime": 701.2858194424928
+      },
+      {
+        "id": "char-c9a889b7-814c-4b36-9bc6-b5c0bb07921e",
+        "lineId": "line-53",
+        "char": "咱",
+        "pinyin": "zan",
+        "startTime": 701.2858194424928,
+        "endTime": 702.5367889050875
+      },
+      {
+        "id": "char-bf61ea97-b12d-45e6-ad98-f57096106893",
+        "lineId": "line-53",
+        "char": "去",
+        "pinyin": "qu",
+        "startTime": 702.7225796344642,
+        "endTime": 711.4096940621595
+      },
+      {
+        "id": "char-d59dc8a0-928c-489c-8019-3c009e9e920a",
+        "lineId": "line-53",
+        "char": "眠",
+        "pinyin": "mian",
+        "startTime": 715.6793065751697,
+        "endTime": 718.4888925163373
+      },
+      {
+        "id": "char-f7a576df-606d-4f84-a11e-811eca00ee7d",
+        "lineId": "line-54",
+        "char": "寻",
+        "pinyin": "xun",
+        "startTime": 739.857,
+        "endTime": 741.2530384755178
+      },
+      {
+        "id": "char-67bcb540-5375-4159-8716-f82f25a14f5f",
+        "lineId": "line-54",
+        "char": "来",
+        "pinyin": "lai",
+        "startTime": 741.2530384755178,
+        "endTime": 741.9700118379301
+      },
+      {
+        "id": "char-04b4faeb-902d-403c-8572-a92b2c2d4413",
+        "lineId": "line-54",
+        "char": "寻",
+        "pinyin": "xun",
+        "startTime": 744.231033238485,
+        "endTime": 748.7705644849439
+      },
+      {
+        "id": "char-9501d4e7-c424-47d7-a6b8-402ecaca9214",
+        "lineId": "line-54",
+        "char": "去",
+        "pinyin": "qu",
+        "startTime": 748.7705644849439,
+        "endTime": 748.9766168466166
+      },
+      {
+        "id": "char-501fc47a-e636-41f9-8c57-9e99ac4f240d",
+        "lineId": "line-54",
+        "char": "都",
+        "pinyin": "dou",
+        "startTime": 750.5207726578744,
+        "endTime": 751.9371553753309
+      },
+      {
+        "id": "char-f04417d0-b993-4a98-9d1b-f963f6fd04ba",
+        "lineId": "line-54",
+        "char": "不",
+        "pinyin": "bu",
+        "startTime": 751.9371553753309,
+        "endTime": 752.6802265477602
+      },
+      {
+        "id": "char-3a287e2d-c743-4ccc-81f4-866ab3c2bd7b",
+        "lineId": "line-54",
+        "char": "见",
+        "pinyin": "jian",
+        "startTime": 752.6802265477602,
+        "endTime": 754.8019257574141
+      },
+      {
+        "id": "char-2a58c80d-815e-472f-9553-a6823175d9a3",
+        "lineId": "line-54",
+        "char": "了",
+        "pinyin": "le",
+        "startTime": 756.2502947630703,
+        "endTime": 756.2605374149659
+      },
+      {
+        "id": "char-423a1de8-fa18-44b6-9202-3f99715e846c",
+        "lineId": "line-55",
+        "char": "那",
+        "pinyin": "na",
+        "startTime": 756.434,
+        "endTime": 757.0812422622282
+      },
+      {
+        "id": "char-ef3c4e16-7546-42e7-ad68-54f616e4281e",
+        "lineId": "line-55",
+        "char": "牡",
+        "pinyin": "mu",
+        "startTime": 758.0506884472392,
+        "endTime": 759.2755342314335
+      },
+      {
+        "id": "char-6b24b8b3-6ae2-4e74-9bce-dcfc13b96225",
+        "lineId": "line-55",
+        "char": "丹",
+        "pinyin": "dan",
+        "startTime": 759.2755342314335,
+        "endTime": 760.8776967606825
+      },
+      {
+        "id": "char-25bb2c08-c359-47bb-81d3-840b507f1717",
+        "lineId": "line-55",
+        "char": "亭",
+        "pinyin": "ting",
+        "startTime": 760.8776967606825,
+        "endTime": 762.601789619296
+      },
+      {
+        "id": "char-d8b0f6e3-d1d9-4bf8-8deb-ff4a4e80f4c5",
+        "lineId": "line-55",
+        "char": "芍",
+        "pinyin": "shao",
+        "startTime": 763.6292607625358,
+        "endTime": 764.613212837349
+      },
+      {
+        "id": "char-121bbf70-9e2d-4619-a4ef-438044ba945b",
+        "lineId": "line-55",
+        "char": "药",
+        "pinyin": "yao",
+        "startTime": 764.613212837349,
+        "endTime": 765.3794765337205
+      },
+      {
+        "id": "char-5475ee90-4860-4f52-abac-8d206ec8acfc",
+        "lineId": "line-55",
+        "char": "栏",
+        "pinyin": "lan",
+        "startTime": 766.7813625529136,
+        "endTime": 772.7808265509875
+      },
+      {
+        "id": "char-722ca300-799f-4aa1-a18d-5930fc79114e",
+        "lineId": "line-56",
+        "char": "怎",
+        "pinyin": "zen",
+        "startTime": 774.332,
+        "endTime": 774.7180138376635
+      },
+      {
+        "id": "char-a881026e-2beb-46c3-8080-6ccdb48af5b0",
+        "lineId": "line-56",
+        "char": "生",
+        "pinyin": "sheng",
+        "startTime": 774.7180138376635,
+        "endTime": 775.6845450774845
+      },
+      {
+        "id": "char-8ee493f4-21aa-4982-98f6-4d7d94741aa4",
+        "lineId": "line-56",
+        "char": "这",
+        "pinyin": "zhe",
+        "startTime": 775.6845450774845,
+        "endTime": 776.3550023561637
+      },
+      {
+        "id": "char-e975fcf9-1138-4dd0-a5ee-3b97ed5c50f6",
+        "lineId": "line-56",
+        "char": "般",
+        "pinyin": "ban",
+        "startTime": 776.772966894632,
+        "endTime": 777.0051883244288
+      },
+      {
+        "id": "char-0d48cca5-539e-4590-837c-216d5530ce18",
+        "lineId": "line-56",
+        "char": "凄",
+        "pinyin": "qi",
+        "startTime": 778.566720267152,
+        "endTime": 779.5768048265423
+      },
+      {
+        "id": "char-98934c44-4332-4553-b571-8cd7086e0193",
+        "lineId": "line-56",
+        "char": "凉",
+        "pinyin": "liang",
+        "startTime": 779.5768048265423,
+        "endTime": 780.7552130418343
+      },
+      {
+        "id": "char-02d07257-8a2d-41ea-a63e-4567a170bc58",
+        "lineId": "line-56",
+        "char": "冷",
+        "pinyin": "leng",
+        "startTime": 781.3037886497456,
+        "endTime": 783.4951637877564
+      },
+      {
+        "id": "char-d86202a5-01b7-4b7a-ab14-793db797a368",
+        "lineId": "line-56",
+        "char": "落",
+        "pinyin": "luo",
+        "startTime": 783.4951637877564,
+        "endTime": 784.1917656320634
+      },
+      {
+        "id": "char-46e86828-08ab-475f-bedd-b21d564737b1",
+        "lineId": "line-57",
+        "char": "杳",
+        "pinyin": "yao",
+        "startTime": 785.7303361878525,
+        "endTime": 786.9580909406181
+      },
+      {
+        "id": "char-564d43e0-5ef8-4e30-8366-0200b6e63b79",
+        "lineId": "line-57",
+        "char": "无",
+        "pinyin": "wu",
+        "startTime": 786.9580909406181,
+        "endTime": 788.1103651449945
+      },
+      {
+        "id": "char-933d8655-9359-486e-827a-ff6c13ba918e",
+        "lineId": "line-57",
+        "char": "人",
+        "pinyin": "ren",
+        "startTime": 788.1103651449945,
+        "endTime": 789.7531634337254
+      },
+      {
+        "id": "char-31da2831-37f7-4e4e-8481-a5c4e731ce8d",
+        "lineId": "line-57",
+        "char": "迹",
+        "pinyin": "ji",
+        "startTime": 789.8576627470295,
+        "endTime": 790.8416132746224
+      },
+      {
+        "id": "char-ed50d8a8-ea38-41e6-8531-ebfd996360a7",
+        "lineId": "line-58",
+        "char": "好",
+        "pinyin": "hao",
+        "startTime": 792.585,
+        "endTime": 793.4702607709751
+      },
+      {
+        "id": "char-2d5bd0a7-01c5-4458-b6aa-b7bc1b7e54ee",
+        "lineId": "line-58",
+        "char": "伤",
+        "pinyin": "shang",
+        "startTime": 795.3394409682988,
+        "endTime": 797.612080286917
+      },
+      {
+        "id": "char-c5430718-a633-484a-838b-68b2ed1efc23",
+        "lineId": "line-58",
+        "char": "感",
+        "pinyin": "gan",
+        "startTime": 797.612080286917,
+        "endTime": 798.9530660443404
+      },
+      {
+        "id": "char-7894dd7b-9c2b-43e6-8122-32aa26772703",
+        "lineId": "line-58",
+        "char": "人",
+        "pinyin": "ren",
+        "startTime": 800.2591838503614,
+        "endTime": 802.2531842247078
+      },
+      {
+        "id": "char-120cf950-b24f-4b97-b71b-80d27c57eb7a",
+        "lineId": "line-58",
+        "char": "也",
+        "pinyin": "ye",
+        "startTime": 803.559305552528,
+        "endTime": 810.300283446712
+      },
+      {
+        "id": "char-61059f1f-4b93-4509-9d5c-92c9beaaeed0",
+        "lineId": "line-59",
+        "char": "似",
+        "pinyin": "shi",
+        "startTime": 820.0769408338589,
+        "endTime": 822.416357833319
+      },
+      {
+        "id": "char-f263ed3c-6a52-474b-b371-588e385a6c24",
+        "lineId": "line-59",
+        "char": "这",
+        "pinyin": "zhe",
+        "startTime": 822.416357833319,
+        "endTime": 822.4221664823281
+      },
+      {
+        "id": "char-010ed1c3-72fc-4b73-bc7a-8049720d1508",
+        "lineId": "line-59",
+        "char": "等",
+        "pinyin": "deng",
+        "startTime": 823.4728866155716,
+        "endTime": 828.3635675549361
+      },
+      {
+        "id": "char-5b2fe1bb-4357-432f-804e-7b4dab5c75c7",
+        "lineId": "line-59",
+        "char": "荒",
+        "pinyin": "huang",
+        "startTime": 829.7045095269308,
+        "endTime": 833.1468776728469
+      },
+      {
+        "id": "char-49c4852f-9760-4fc6-92f2-2a67590bb2c1",
+        "lineId": "line-59",
+        "char": "凉",
+        "pinyin": "liang",
+        "startTime": 833.1468776728469,
+        "endTime": 834.1540305273052
+      },
+      {
+        "id": "char-e610ea68-d86e-4827-93e3-a867f1efe0e5",
+        "lineId": "line-59",
+        "char": "地",
+        "pinyin": "di",
+        "startTime": 842.2287761177947,
+        "endTime": 853.0405695648491
+      },
+      {
+        "id": "char-baaba84c-6fab-4481-90d6-be049048a875",
+        "lineId": "line-59",
+        "char": "面",
+        "pinyin": "mian",
+        "startTime": 853.8184512471656,
+        "endTime": 853.9532358276645
+      },
+      {
+        "id": "char-6957099f-3861-466c-93b6-676dc9a45d51",
+        "lineId": "line-60",
+        "char": "没",
+        "pinyin": "mei",
+        "startTime": 854.087,
+        "endTime": 854.3336975211827
+      },
+      {
+        "id": "char-f66f3f7a-d297-486b-8cfc-8c75384fd0dc",
+        "lineId": "line-60",
+        "char": "多",
+        "pinyin": "duo",
+        "startTime": 854.3336975211827,
+        "endTime": 859.3317863102851
+      },
+      {
+        "id": "char-85d6bf87-b197-4117-a42c-aaa2ef924dc8",
+        "lineId": "line-60",
+        "char": "半",
+        "pinyin": "ban",
+        "startTime": 860.1502910512932,
+        "endTime": 863.0672921538504
+      },
+      {
+        "id": "char-f20c5e38-5169-4219-a828-340f63760e19",
+        "lineId": "line-60",
+        "char": "亭",
+        "pinyin": "ting",
+        "startTime": 863.0672921538504,
+        "endTime": 863.9815847402922
+      },
+      {
+        "id": "char-3f03b16c-756c-4833-9dc6-fb317d501629",
+        "lineId": "line-60",
+        "char": "台",
+        "pinyin": "tai",
+        "startTime": 864.5330687177278,
+        "endTime": 865.7666228565218
+      },
+      {
+        "id": "char-f5e8b6cc-b71e-4434-810d-ec0ef526a96b",
+        "lineId": "line-60",
+        "char": "靠",
+        "pinyin": "kao",
+        "startTime": 865.9843198885848,
+        "endTime": 868.9459115646258
+      },
+      {
+        "id": "char-5fe290a3-c5be-49f5-aae1-05109ed578bb",
+        "lineId": "line-61",
+        "char": "边",
+        "pinyin": "bian",
+        "startTime": 868.946,
+        "endTime": 870.4988009348581
+      },
+      {
+        "id": "char-f988597f-02c7-42ea-b6b7-511f3cfc6dc8",
+        "lineId": "line-62",
+        "char": "敢",
+        "pinyin": "gan",
+        "startTime": 872.671,
+        "endTime": 873.1440692181674
+      },
+      {
+        "id": "char-cf1c30f4-b9f1-4a39-bd1b-158fd3480e1f",
+        "lineId": "line-62",
+        "char": "是",
+        "pinyin": "shi",
+        "startTime": 873.1440692181674,
+        "endTime": 874.0061212816877
+      },
+      {
+        "id": "char-08e8bbdf-d49e-4cc6-8fe3-a1cd344dcc2c",
+        "lineId": "line-62",
+        "char": "咱",
+        "pinyin": "zan",
+        "startTime": 874.0061212816877,
+        "endTime": 874.7549946557119
+      },
+      {
+        "id": "char-d948a61b-ff57-492a-9389-61c28c296c20",
+        "lineId": "line-62",
+        "char": "眯",
+        "pinyin": "mi",
+        "startTime": 874.7549946557119,
+        "endTime": 876.1046303777111
+      },
+      {
+        "id": "char-ffaa231c-3400-4467-80bb-af5a8f67de4e",
+        "lineId": "line-62",
+        "char": "睎",
+        "pinyin": "xi",
+        "startTime": 876.1046303777111,
+        "endTime": 880.4148238675011
+      },
+      {
+        "id": "char-7f2e190e-2d06-4765-a5fc-677bd129b27f",
+        "lineId": "line-62",
+        "char": "色",
+        "pinyin": "se",
+        "startTime": 880.4148238675011,
+        "endTime": 881.1027266592499
+      },
+      {
+        "id": "char-b402bcdd-6955-4933-bac5-c84496349a84",
+        "lineId": "line-62",
+        "char": "眼",
+        "pinyin": "yan",
+        "startTime": 883.2215544440547,
+        "endTime": 884.5683069502276
+      },
+      {
+        "id": "char-c30ee405-b3bb-4e96-a85e-f4fe14b2e115",
+        "lineId": "line-62",
+        "char": "寻",
+        "pinyin": "xun",
+        "startTime": 884.5683069502276,
+        "endTime": 889.000408216217
+      },
+      {
+        "id": "char-ada69b36-8eeb-4bc2-bf3a-e3f51237e3f1",
+        "lineId": "line-62",
+        "char": "难",
+        "pinyin": "nan",
+        "startTime": 890.0946663700583,
+        "endTime": 891.699721084265
+      },
+      {
+        "id": "char-0414506f-cfab-46c9-9386-7c1edcbc3a1e",
+        "lineId": "line-62",
+        "char": "见",
+        "pinyin": "jian",
+        "startTime": 891.699721084265,
+        "endTime": 894.343335600907
+      },
+      {
+        "id": "char-d7a10f5e-4914-40a9-9856-38e119bb454a",
+        "lineId": "line-63",
+        "char": "放",
+        "pinyin": "fang",
+        "startTime": 894.547,
+        "endTime": 896.1230439818328
+      },
+      {
+        "id": "char-5903dc45-b2a8-46b9-9b07-6915089172d6",
+        "lineId": "line-63",
+        "char": "着",
+        "pinyin": "zhe",
+        "startTime": 897.4668903981358,
+        "endTime": 897.675868450267
+      },
+      {
+        "id": "char-40d04033-f442-4cce-b125-678aae7f7057",
+        "lineId": "line-63",
+        "char": "白",
+        "pinyin": "bai",
+        "startTime": 898.1431947885122,
+        "endTime": 899.844046673771
+      },
+      {
+        "id": "char-22b74ca9-8cc5-467d-9d65-b399c204bcee",
+        "lineId": "line-63",
+        "char": "日",
+        "pinyin": "ri",
+        "startTime": 900.1749184976835,
+        "endTime": 900.9063382619108
+      },
+      {
+        "id": "char-e25e829e-1361-4805-8a88-14bbc2e86db2",
+        "lineId": "line-63",
+        "char": "青",
+        "pinyin": "qing",
+        "startTime": 904.2500168608825,
+        "endTime": 906.0786031254257
+      },
+      {
+        "id": "char-1299217d-3b19-4775-bdb1-11ea808bc307",
+        "lineId": "line-63",
+        "char": "天",
+        "pinyin": "tian",
+        "startTime": 906.4530173044075,
+        "endTime": 910.0454580498866
+      },
+      {
+        "id": "char-a634e472-4ffc-4a9a-a99c-cb834f6bc9e3",
+        "lineId": "line-64",
+        "char": "猛",
+        "pinyin": "meng",
+        "startTime": 910.046,
+        "endTime": 911.3201971935032
+      },
+      {
+        "id": "char-640c8375-b793-452b-83c1-a01150cf1d27",
+        "lineId": "line-64",
+        "char": "教",
+        "pinyin": "jiao",
+        "startTime": 911.3201971935032,
+        "endTime": 911.6771828374674
+      },
+      {
+        "id": "char-aa149573-351e-41ec-947f-bfb7ab619e59",
+        "lineId": "line-64",
+        "char": "人",
+        "pinyin": "ren",
+        "startTime": 911.6771828374674,
+        "endTime": 913.6973311658777
+      },
+      {
+        "id": "char-004ddfa8-9490-4897-af2e-c8ab16e5e391",
+        "lineId": "line-64",
+        "char": "抓",
+        "pinyin": "zhua",
+        "startTime": 914.1443160515438,
+        "endTime": 919.9957449186168
+      },
+      {
+        "id": "char-366ffe5e-7a90-487a-90e9-bfd1f37bf663",
+        "lineId": "line-64",
+        "char": "不",
+        "pinyin": "bu",
+        "startTime": 919.9957449186168,
+        "endTime": 922.935952522027
+      },
+      {
+        "id": "char-1b654881-517f-4dd5-b27d-f48c95b1d7da",
+        "lineId": "line-64",
+        "char": "到",
+        "pinyin": "dao",
+        "startTime": 923.6819089119689,
+        "endTime": 924.575904507669
+      },
+      {
+        "id": "char-0c49fa29-4fe4-468e-98fd-329653305500",
+        "lineId": "line-64",
+        "char": "魂",
+        "pinyin": "hun",
+        "startTime": 924.575904507669,
+        "endTime": 924.6339131358011
+      },
+      {
+        "id": "char-06425ed9-4ec3-4b45-9d09-28083ef6cb65",
+        "lineId": "line-64",
+        "char": "梦",
+        "pinyin": "meng",
+        "startTime": 924.6339131358011,
+        "endTime": 925.6527091007704
+      },
+      {
+        "id": "char-d1e3bb2e-d2b7-4a3e-b9e5-e0940302ad54",
+        "lineId": "line-64",
+        "char": "前",
+        "pinyin": "qian",
+        "startTime": 925.6527091007704,
+        "endTime": 930.7378416465789
+      },
+      {
+        "id": "char-b066bbd5-e168-4d27-8f2d-b612751a32c8",
+        "lineId": "line-65",
+        "char": "霎",
+        "pinyin": "sha",
+        "startTime": 931.1870838096726,
+        "endTime": 932.6354246477416
+      },
+      {
+        "id": "char-e352f5ed-be76-4a84-a984-c064a3ba4112",
+        "lineId": "line-65",
+        "char": "时",
+        "pinyin": "shi",
+        "startTime": 932.6354246477416,
+        "endTime": 936.8556541668337
+      },
+      {
+        "id": "char-ce950286-1dde-4043-87a8-bd714537c81c",
+        "lineId": "line-65",
+        "char": "间",
+        "pinyin": "jian",
+        "startTime": 936.8556541668337,
+        "endTime": 937.113991315313
+      },
+      {
+        "id": "char-1610c7c1-1d1e-4ed1-abf9-6f4d93716db0",
+        "lineId": "line-65",
+        "char": "有",
+        "pinyin": "you",
+        "startTime": 938.6145707267071,
+        "endTime": 939.1370147217287
+      },
+      {
+        "id": "char-15cf60d1-7bcb-4f0d-8dbb-5c5a504606eb",
+        "lineId": "line-65",
+        "char": "如",
+        "pinyin": "ru",
+        "startTime": 940.4083247831263,
+        "endTime": 941.2093960795701
+      },
+      {
+        "id": "char-03986411-3eab-4d3f-939b-95afd5a96baf",
+        "lineId": "line-65",
+        "char": "活",
+        "pinyin": "huo",
+        "startTime": 943.7954662202837,
+        "endTime": 947.4265252854786
+      },
+      {
+        "id": "char-35e91d4d-3894-43b6-9061-8a204df97d38",
+        "lineId": "line-65",
+        "char": "现",
+        "pinyin": "xian",
+        "startTime": 947.6964673748384,
+        "endTime": 950.029231292517
+      },
+      {
+        "id": "char-a04be323-c1c9-494b-9667-e458287d5b38",
+        "lineId": "line-66",
+        "char": "打",
+        "pinyin": "da",
+        "startTime": 950.559,
+        "endTime": 954.0826262058212
+      },
+      {
+        "id": "char-eb060ca1-6831-48f9-83d7-6806b7ae126c",
+        "lineId": "line-66",
+        "char": "方",
+        "pinyin": "fang",
+        "startTime": 954.9069264594989,
+        "endTime": 955.8908531716032
+      },
+      {
+        "id": "char-c3119d46-547e-4f17-ac51-680167437abe",
+        "lineId": "line-66",
+        "char": "旋",
+        "pinyin": "xuan",
+        "startTime": 955.8908531716032,
+        "endTime": 959.3912589731459
+      },
+      {
+        "id": "char-2c867ae2-26e7-4351-8bd7-cab9fc0cdbdc",
+        "lineId": "line-66",
+        "char": "再",
+        "pinyin": "zai",
+        "startTime": 960.0007970718493,
+        "endTime": 962.8568501893711
+      },
+      {
+        "id": "char-f73d53e5-f4d4-494f-8421-fe41977dd7d2",
+        "lineId": "line-66",
+        "char": "得",
+        "pinyin": "de",
+        "startTime": 962.8568501893711,
+        "endTime": 963.1703272603406
+      },
+      {
+        "id": "char-fe853fd3-bef5-46c6-b753-927f212ee99e",
+        "lineId": "line-66",
+        "char": "俄",
+        "pinyin": "e",
+        "startTime": 963.6491889454804,
+        "endTime": 964.6593016054819
+      },
+      {
+        "id": "char-c673c538-f1d9-4641-a27f-361cf234606d",
+        "lineId": "line-66",
+        "char": "延",
+        "pinyin": "yan",
+        "startTime": 966.5401257460328,
+        "endTime": 968.0377747878445
+      },
+      {
+        "id": "char-e84bc977-78ac-4df5-8233-6b2fd7469732",
+        "lineId": "line-67",
+        "char": "是",
+        "pinyin": "shi",
+        "startTime": 971.849,
+        "endTime": 972.5775453698209
+      },
+      {
+        "id": "char-928465d3-93ff-4721-9aed-eb894089623b",
+        "lineId": "line-67",
+        "char": "这",
+        "pinyin": "zhe",
+        "startTime": 972.5775453698209,
+        "endTime": 975.387111511842
+      },
+      {
+        "id": "char-11e778d8-8843-4886-8ff4-cb001beb48e9",
+        "lineId": "line-67",
+        "char": "答",
+        "pinyin": "da",
+        "startTime": 975.387111511842,
+        "endTime": 976.1533896516219
+      },
+      {
+        "id": "char-1f094da0-9297-4557-905d-103dd527f00c",
+        "lineId": "line-67",
+        "char": "儿",
+        "pinyin": "er",
+        "startTime": 976.9196338025491,
+        "endTime": 984.8608579793733
+      },
+      {
+        "id": "char-6ed48bf4-618e-4225-89f7-ff588b000561",
+        "lineId": "line-67",
+        "char": "压",
+        "pinyin": "ya",
+        "startTime": 985.638750994844,
+        "endTime": 987.5340702602739
+      },
+      {
+        "id": "char-fef60015-63bb-4924-a95a-cf0ba1d19321",
+        "lineId": "line-67",
+        "char": "黄",
+        "pinyin": "huang",
+        "startTime": 987.5340702602739,
+        "endTime": 987.7372635362592
+      },
+      {
+        "id": "char-6b5264e1-40cd-4fda-ab3c-50c01b9daf0a",
+        "lineId": "line-67",
+        "char": "金",
+        "pinyin": "jin",
+        "startTime": 987.7372635362592,
+        "endTime": 992.2307687074831
+      },
+      {
+        "id": "char-dd4b9494-da65-49e9-8aa9-287c7689061a",
+        "lineId": "line-68",
+        "char": "钏",
+        "pinyin": "chuan",
+        "startTime": 991.924,
+        "endTime": 998.1904818467224
+      },
+      {
+        "id": "char-b2bab300-424d-472f-a1ba-e2be1ec478b5",
+        "lineId": "line-68",
+        "char": "匾",
+        "pinyin": "bian",
+        "startTime": 1001.8621464264722,
+        "endTime": 1005.3712434262218
+      },
+      {
+        "id": "char-6ca41c80-3377-4d52-9916-f9ce2b6ca56f",
+        "lineId": "line-69",
+        "char": "秀",
+        "pinyin": "xiu",
+        "startTime": 1010.5407349552968,
+        "endTime": 1012.3954295816362
+      },
+      {
+        "id": "char-b961bb64-a053-4dc6-99be-be4116dfb9b3",
+        "lineId": "line-69",
+        "char": "才",
+        "pinyin": "cai",
+        "startTime": 1012.3954295816362,
+        "endTime": 1013.0949525997212
+      },
+      {
+        "id": "char-e00f8a90-3f33-4fd7-a5c0-739e4ce6e06d",
+        "lineId": "line-69",
+        "char": "秀",
+        "pinyin": "xiu",
+        "startTime": 1015.306645638313,
+        "endTime": 1017.8332549915292
+      },
+      {
+        "id": "char-6ac27652-2009-47f4-bcbb-1d83a63cc4a9",
+        "lineId": "line-69",
+        "char": "才",
+        "pinyin": "cai",
+        "startTime": 1017.8332549915292,
+        "endTime": 1018.5081013733433
+      },
+      {
+        "id": "char-f5be27a0-9e48-4697-9cf7-f9e25797ae1b",
+        "lineId": "line-70",
+        "char": "呀",
+        "pinyin": "ya",
+        "startTime": 1042.018,
+        "endTime": 1042.473671402543
+      },
+      {
+        "id": "char-516ad70a-a221-4cbb-81b4-cddec62b41a5",
+        "lineId": "line-70",
+        "char": "无",
+        "pinyin": "wu",
+        "startTime": 1044.7492089292155,
+        "endTime": 1045.0859304567812
+      },
+      {
+        "id": "char-dfb1b333-7267-405b-9bf0-2547decd3f37",
+        "lineId": "line-70",
+        "char": "人",
+        "pinyin": "ren",
+        "startTime": 1045.0859304567812,
+        "endTime": 1046.4268786495409
+      },
+      {
+        "id": "char-097b5d72-05e2-4094-b792-59dd7074633d",
+        "lineId": "line-70",
+        "char": "之",
+        "pinyin": "zhi",
+        "startTime": 1046.4268786495409,
+        "endTime": 1047.8897497837165
+      },
+      {
+        "id": "char-1c4732f9-cc9b-414b-88f6-1081b993b259",
+        "lineId": "line-70",
+        "char": "处",
+        "pinyin": "chu",
+        "startTime": 1047.8897497837165,
+        "endTime": 1048.7720589569162
+      },
+      {
+        "id": "char-da106f0b-764d-48bd-8565-851429fec393",
+        "lineId": "line-71",
+        "char": "忽",
+        "pinyin": "hu",
+        "startTime": 1049.775,
+        "endTime": 1050.396121523148
+      },
+      {
+        "id": "char-3706015b-a020-4c88-b05e-62b52c4b5b4d",
+        "lineId": "line-71",
+        "char": "见",
+        "pinyin": "jian",
+        "startTime": 1050.396121523148,
+        "endTime": 1051.2581445590954
+      },
+      {
+        "id": "char-f42b9bfa-48ae-40b1-b13a-e723cb3f9485",
+        "lineId": "line-71",
+        "char": "大",
+        "pinyin": "da",
+        "startTime": 1052.1869735694095,
+        "endTime": 1053.2986143079231
+      },
+      {
+        "id": "char-b063b806-37bc-4ffd-8832-c5cc63b1a38a",
+        "lineId": "line-71",
+        "char": "梅",
+        "pinyin": "mei",
+        "startTime": 1053.2986143079231,
+        "endTime": 1053.9400468280555
+      },
+      {
+        "id": "char-b01105bc-87fd-475a-96ef-0bba21e1f7ad",
+        "lineId": "line-71",
+        "char": "树",
+        "pinyin": "shu",
+        "startTime": 1053.9400468280555,
+        "endTime": 1056.587143719691
+      },
+      {
+        "id": "char-480266b9-7070-4104-912b-458321a25bf8",
+        "lineId": "line-71",
+        "char": "一",
+        "pinyin": "yi",
+        "startTime": 1057.2603967309701,
+        "endTime": 1063.457347212427
+      },
+      {
+        "id": "char-f2902a4d-5382-4bb9-9ee1-9fc740f4f6d8",
+        "lineId": "line-71",
+        "char": "株",
+        "pinyin": "zhu",
+        "startTime": 1063.6518463963528,
+        "endTime": 1063.6616666666669
+      },
+      {
+        "id": "char-6112d0b6-8275-41d5-8758-0e70d6a42ced",
+        "lineId": "line-72",
+        "char": "看",
+        "pinyin": "kan",
+        "startTime": 1081.040966717009,
+        "endTime": 1081.685302734463
+      },
+      {
+        "id": "char-46cc2066-d8ac-4018-aeb1-275cb99e2d2a",
+        "lineId": "line-72",
+        "char": "梅",
+        "pinyin": "mei",
+        "startTime": 1083.0639914485944,
+        "endTime": 1084.2191355646376
+      },
+      {
+        "id": "char-e905862a-bd2c-42f2-b9ec-b7a1fa3e3490",
+        "lineId": "line-72",
+        "char": "子",
+        "pinyin": "zi",
+        "startTime": 1084.2191355646376,
+        "endTime": 1085.464327911551
+      },
+      {
+        "id": "char-40c471e3-f921-4f88-9200-55ddd5f8d072",
+        "lineId": "line-72",
+        "char": "累",
+        "pinyin": "lei",
+        "startTime": 1086.2393170964922,
+        "endTime": 1088.4771320886964
+      },
+      {
+        "id": "char-bfd9f431-a18c-446f-a1bc-5a2081f31aaf",
+        "lineId": "line-72",
+        "char": "累",
+        "pinyin": "lei",
+        "startTime": 1088.4771320886964,
+        "endTime": 1089.4871886290784
+      },
+      {
+        "id": "char-a676ad32-8587-431f-ab9b-6721ea751e06",
+        "lineId": "line-72",
+        "char": "可",
+        "pinyin": "ke",
+        "startTime": 1090.6801265794095,
+        "endTime": 1091.5160329349337
+      },
+      {
+        "id": "char-fd9eedc5-bc20-47fb-953f-b46bb27f9879",
+        "lineId": "line-72",
+        "char": "爱",
+        "pinyin": "ai",
+        "startTime": 1091.5160329349337,
+        "endTime": 1092.8657054695293
+      },
+      {
+        "id": "char-6f42bda9-16c7-4d34-b888-e2092c0e006d",
+        "lineId": "line-72",
+        "char": "人",
+        "pinyin": "ren",
+        "startTime": 1093.6610182077209,
+        "endTime": 1095.7739999423725
+      },
+      {
+        "id": "char-eb4a6a13-9542-4d02-9375-f545d427e7e5",
+        "lineId": "line-72",
+        "char": "也",
+        "pinyin": "ye",
+        "startTime": 1098.0437659783336,
+        "endTime": 1098.050163265306
+      },
+      {
+        "id": "char-f4de6177-52c7-4156-bb40-c1564bc459e5",
+        "lineId": "line-73",
+        "char": "我",
+        "pinyin": "wo",
+        "startTime": 1101.531,
+        "endTime": 1102.3088615842385
+      },
+      {
+        "id": "char-d70767b2-2047-43cd-947f-21711baac425",
+        "lineId": "line-73",
+        "char": "丽",
+        "pinyin": "li",
+        "startTime": 1103.6527337233788,
+        "endTime": 1104.471240282231
+      },
+      {
+        "id": "char-ac3cc666-2494-45ad-aea9-31de6a38579e",
+        "lineId": "line-73",
+        "char": "娘",
+        "pinyin": "niang",
+        "startTime": 1104.471240282231,
+        "endTime": 1105.617697125508
+      },
+      {
+        "id": "char-6b74443b-466e-4178-9a62-d0b5556ed457",
+        "lineId": "line-73",
+        "char": "死",
+        "pinyin": "si",
+        "startTime": 1106.4797432058976,
+        "endTime": 1109.962736848011
+      },
+      {
+        "id": "char-0e1e7cf7-17c4-44ab-a1f8-9423abb3b77a",
+        "lineId": "line-73",
+        "char": "后",
+        "pinyin": "hou",
+        "startTime": 1109.962736848011,
+        "endTime": 1110.284908621505
+      },
+      {
+        "id": "char-f7f02cb2-967e-4da8-97db-2e1a0d9d5980",
+        "lineId": "line-73",
+        "char": "得",
+        "pinyin": "de",
+        "startTime": 1110.284908621505,
+        "endTime": 1110.3284548139648
+      },
+      {
+        "id": "char-c42ffb9d-30e6-4c3f-8fff-7d59cfc25cbb",
+        "lineId": "line-73",
+        "char": "葬",
+        "pinyin": "zang",
+        "startTime": 1110.3284548139648,
+        "endTime": 1110.4416547461751
+      },
+      {
+        "id": "char-d0024261-2db9-4924-82c8-a36bc105294d",
+        "lineId": "line-73",
+        "char": "于",
+        "pinyin": "yu",
+        "startTime": 1110.4416547461751,
+        "endTime": 1114.5689914082718
+      },
+      {
+        "id": "char-2e9ba09f-abe1-46ff-9fc2-3a933ab0ac4d",
+        "lineId": "line-73",
+        "char": "此",
+        "pinyin": "ci",
+        "startTime": 1119.6976695386834,
+        "endTime": 1121.0411587301587
+      },
+      {
+        "id": "char-341fbe44-df50-4dc4-a0cb-b92eed9d4e89",
+        "lineId": "line-74",
+        "char": "幸",
+        "pinyin": "xing",
+        "startTime": 1121.955,
+        "endTime": 1132.2936735459655
+      },
+      {
+        "id": "char-f49ddf6b-394f-4fe6-9175-a0d4cae9e08f",
+        "lineId": "line-74",
+        "char": "也",
+        "pinyin": "ye",
+        "startTime": 1132.2936735459655,
+        "endTime": 1132.3194897959183
+      },
+      {
+        "id": "char-f2074942-d564-4966-aa65-779ef402c69c",
+        "lineId": "line-75",
+        "char": "偶",
+        "pinyin": "ou",
+        "startTime": 1136.7156995608486,
+        "endTime": 1137.3252335600907
+      },
+      {
+        "id": "char-08e5e64d-d914-4fc4-8d8d-5a31202bb739",
+        "lineId": "line-75",
+        "char": "然",
+        "pinyin": "ran",
+        "startTime": 1137.3252335600907,
+        "endTime": 1144.201233431429
+      },
+      {
+        "id": "char-c2890b75-efa4-44e3-bcaa-cbdacc1452e1",
+        "lineId": "line-75",
+        "char": "间",
+        "pinyin": "jian",
+        "startTime": 1144.201233431429,
+        "endTime": 1144.2186417286964
+      },
+      {
+        "id": "char-e14e3099-f006-4cd3-a8b0-46213d71d1cf",
+        "lineId": "line-75",
+        "char": "心",
+        "pinyin": "xin",
+        "startTime": 1145.2809512452782,
+        "endTime": 1152.8738803498502
+      },
+      {
+        "id": "char-28a64d30-5f89-40cd-8424-703de4ce64d0",
+        "lineId": "line-75",
+        "char": "似",
+        "pinyin": "shi",
+        "startTime": 1152.8738803498502,
+        "endTime": 1157.871985817654
+      },
+      {
+        "id": "char-8f6bbd30-b029-4b9c-a5f1-7bbd57b06622",
+        "lineId": "line-75",
+        "char": "缱",
+        "pinyin": "qian",
+        "startTime": 1157.871985817654,
+        "endTime": 1162.4994739229026
+      },
+      {
+        "id": "char-41dfba80-f6b6-4863-b16c-09766aa5493f",
+        "lineId": "line-76",
+        "char": "在",
+        "pinyin": "zai",
+        "startTime": 1162.499,
+        "endTime": 1163.4539116295914
+      },
+      {
+        "id": "char-5c21233d-7ae7-446a-8bf4-af922c27ca93",
+        "lineId": "line-76",
+        "char": "梅",
+        "pinyin": "mei",
+        "startTime": 1163.4539116295914,
+        "endTime": 1164.4087876564663
+      },
+      {
+        "id": "char-84869ca4-624b-4b66-8870-035656104fbf",
+        "lineId": "line-76",
+        "char": "树",
+        "pinyin": "shu",
+        "startTime": 1167.3693710666103,
+        "endTime": 1168.3968496666614
+      },
+      {
+        "id": "char-59bd520c-2b31-44b4-8352-0d7680f47f2b",
+        "lineId": "line-76",
+        "char": "边",
+        "pinyin": "bian",
+        "startTime": 1168.5971200033819,
+        "endTime": 1174.341947845805
+      },
+      {
+        "id": "char-cc6489ee-eb9e-43be-9af0-a09d2f07d1a1",
+        "lineId": "line-77",
+        "char": "似",
+        "pinyin": "shi",
+        "startTime": 1174.518,
+        "endTime": 1175.4525969415251
+      },
+      {
+        "id": "char-6ef5d5af-a09b-45ab-8af6-543522ab14e0",
+        "lineId": "line-77",
+        "char": "这",
+        "pinyin": "zhe",
+        "startTime": 1175.4525969415251,
+        "endTime": 1177.0808711913367
+      },
+      {
+        "id": "char-fd38dae2-2c29-41d0-8a2e-d98ce40f2a72",
+        "lineId": "line-77",
+        "char": "等",
+        "pinyin": "deng",
+        "startTime": 1177.0808711913367,
+        "endTime": 1177.8297396933801
+      },
+      {
+        "id": "char-f2bcd6a6-3f7b-44d0-ace6-5c19a638d46e",
+        "lineId": "line-77",
+        "char": "花",
+        "pinyin": "hua",
+        "startTime": 1178.6742896959365,
+        "endTime": 1180.3462072401696
+      },
+      {
+        "id": "char-9aba27bf-6a81-492c-a170-40ce13030c79",
+        "lineId": "line-77",
+        "char": "花",
+        "pinyin": "hua",
+        "startTime": 1180.999244225775,
+        "endTime": 1183.2109519662945
+      },
+      {
+        "id": "char-75373ca5-8c8b-4deb-b6ac-ad3d0782ac55",
+        "lineId": "line-77",
+        "char": "草",
+        "pinyin": "cao",
+        "startTime": 1183.2109519662945,
+        "endTime": 1186.2789054419136
+      },
+      {
+        "id": "char-24144098-a145-490f-9dca-3855a962f578",
+        "lineId": "line-77",
+        "char": "草",
+        "pinyin": "cao",
+        "startTime": 1186.2789054419136,
+        "endTime": 1189.358417550367
+      },
+      {
+        "id": "char-6fb03591-c263-40bd-96df-c3f70a71ca6c",
+        "lineId": "line-77",
+        "char": "由",
+        "pinyin": "you",
+        "startTime": 1190.040546966092,
+        "endTime": 1194.513265590012
+      },
+      {
+        "id": "char-e8198af1-26d2-44cf-8f9c-8a30a47a919b",
+        "lineId": "line-77",
+        "char": "人",
+        "pinyin": "ren",
+        "startTime": 1204.7735393358694,
+        "endTime": 1218.606875731373
+      },
+      {
+        "id": "char-db5c9977-78d7-463d-9bd0-60ac78740b88",
+        "lineId": "line-77",
+        "char": "恋",
+        "pinyin": "lian",
+        "startTime": 1218.606875731373,
+        "endTime": 1220.095855272823
+      },
+      {
+        "id": "char-885e0e40-8a93-4d32-804d-10fe2b39b2a4",
+        "lineId": "line-77",
+        "char": "待",
+        "pinyin": "dai",
+        "startTime": 1225.6163932386721,
+        "endTime": 1230.3881012927416
+      },
+      {
+        "id": "char-47805bc2-32f8-4c53-9bc5-25b1ffdddd78",
+        "lineId": "line-77",
+        "char": "打",
+        "pinyin": "da",
+        "startTime": 1234.5415794798587,
+        "endTime": 1237.6065947215423
+      },
+      {
+        "id": "char-633d150c-aecd-4553-b211-60a3c534ada7",
+        "lineId": "line-77",
+        "char": "并",
+        "pinyin": "bing",
+        "startTime": 1240.1404808373852,
+        "endTime": 1241.4378816865074
+      },
+      {
+        "id": "char-1574e745-c152-4847-8306-08b475292eb9",
+        "lineId": "line-77",
+        "char": "香",
+        "pinyin": "xiang",
+        "startTime": 1241.4378816865074,
+        "endTime": 1242.4131380054644
+      },
+      {
+        "id": "char-d2724316-1913-4790-b728-020aedcdfc31",
+        "lineId": "line-77",
+        "char": "魂",
+        "pinyin": "hun",
+        "startTime": 1245.8090407488255,
+        "endTime": 1248.0642857942219
+      },
+      {
+        "id": "char-7447418f-9fdd-4451-ab8e-cc717696013c",
+        "lineId": "line-77",
+        "char": "一",
+        "pinyin": "yi",
+        "startTime": 1248.5635349622373,
+        "endTime": 1249.155641723356
+      },
+      {
+        "id": "char-a8497590-e488-4ad9-b8a9-8f370b4eac8e",
+        "lineId": "line-77",
+        "char": "片",
+        "pinyin": "pian",
+        "startTime": 1251.2425004329173,
+        "endTime": 1255.2218226659336
+      },
+      {
+        "id": "char-cf16c427-62d4-4308-8616-6de2c0cdf349",
+        "lineId": "line-77",
+        "char": "阴",
+        "pinyin": "yin",
+        "startTime": 1255.7297877723138,
+        "endTime": 1257.189736689333
+      },
+      {
+        "id": "char-af7bcdb5-8ebc-4277-a59e-dd17951f6a4e",
+        "lineId": "line-77",
+        "char": "雨",
+        "pinyin": "yu",
+        "startTime": 1257.189736689333,
+        "endTime": 1258.887689277097
+      },
+      {
+        "id": "char-4685b11b-450f-495a-abac-c3c74fb41ca4",
+        "lineId": "line-77",
+        "char": "梅",
+        "pinyin": "mei",
+        "startTime": 1258.887689277097,
+        "endTime": 1263.372047166266
+      },
+      {
+        "id": "char-a9524180-c7ae-4326-88d1-6acf0ae31fc5",
+        "lineId": "line-77",
+        "char": "天",
+        "pinyin": "tian",
+        "startTime": 1268.0102476921195,
+        "endTime": 1269.9026656470937
+      },
+      {
+        "id": "char-8832c391-4726-4672-9605-c747267ba2fd",
+        "lineId": "line-77",
+        "char": "啊",
+        "pinyin": "a",
+        "startTime": 1269.9026656470937,
+        "endTime": 1270.1900091533446
+      },
+      {
+        "id": "char-4eb8cb6d-5a8f-411d-bd95-5d1c1b536933",
+        "lineId": "line-77",
+        "char": "呀",
+        "pinyin": "ya",
+        "startTime": 1271.063666676522,
+        "endTime": 1272.4481414631528
+      },
+      {
+        "id": "char-9a618f13-45f6-4546-8e84-0a22d11b441d",
+        "lineId": "line-77",
+        "char": "人",
+        "pinyin": "ren",
+        "startTime": 1272.4481414631528,
+        "endTime": 1272.5642545763878
+      },
+      {
+        "id": "char-c49aa908-9e45-49af-aee6-c82dc5fac034",
+        "lineId": "line-77",
+        "char": "儿",
+        "pinyin": "er",
+        "startTime": 1272.5642545763878,
+        "endTime": 1272.5671757264593
+      },
+      {
+        "id": "char-4beada0d-fde7-4bcb-8e1a-560b6878df92",
+        "lineId": "line-77",
+        "char": "吓",
+        "pinyin": "xia",
+        "startTime": 1273.3653437773505,
+        "endTime": 1276.7168208616781
+      },
+      {
+        "id": "char-726dcdc8-ae77-407e-966f-cb94c1eaec08",
+        "lineId": "line-78",
+        "char": "生",
+        "pinyin": "sheng",
+        "startTime": 1202.1969549479954,
+        "endTime": 1202.899351845519
+      },
+      {
+        "id": "char-e8b651b7-bfd9-4bdf-aa71-0aa98ec723a4",
+        "lineId": "line-78",
+        "char": "生",
+        "pinyin": "sheng",
+        "startTime": 1205.0326857373116,
+        "endTime": 1209.4038314944157
+      },
+      {
+        "id": "char-82225b61-fbc5-4dd1-bf4d-17dfadbdd8d2",
+        "lineId": "line-78",
+        "char": "死",
+        "pinyin": "si",
+        "startTime": 1209.7085961818766,
+        "endTime": 1209.920451257736
+      },
+      {
+        "id": "char-b1a4409c-05a5-40db-96c7-453195f9b813",
+        "lineId": "line-78",
+        "char": "死",
+        "pinyin": "si",
+        "startTime": 1209.920451257736,
+        "endTime": 1212.2163422050353
+      },
+      {
+        "id": "char-e9768eba-7f2a-43f6-a7fe-8ff800775555",
+        "lineId": "line-78",
+        "char": "遂",
+        "pinyin": "sui",
+        "startTime": 1212.6168949344549,
+        "endTime": 1216.0650621162456
+      },
+      {
+        "id": "char-6e1e1d6a-e4d1-4c4b-ab20-567bb10ef791",
+        "lineId": "line-78",
+        "char": "人",
+        "pinyin": "ren",
+        "startTime": 1217.156429467157,
+        "endTime": 1218.5931429314955
+      },
+      {
+        "id": "char-2f2d107f-e22b-48ac-8e1e-9220dd64dd3b",
+        "lineId": "line-78",
+        "char": "愿",
+        "pinyin": "yuan",
+        "startTime": 1218.5931429314955,
+        "endTime": 1220.104120181406
+      },
+      {
+        "id": "char-6454067c-1ca8-4853-aae8-f09e4291c410",
+        "lineId": "line-79",
+        "char": "便",
+        "pinyin": "bian",
+        "startTime": 1220.762,
+        "endTime": 1221.548554506263
+      },
+      {
+        "id": "char-dffe6f30-e2f8-48a0-b0f7-07ba2dfdc2f9",
+        "lineId": "line-79",
+        "char": "酸",
+        "pinyin": "suan",
+        "startTime": 1221.548554506263,
+        "endTime": 1221.9055716475787
+      },
+      {
+        "id": "char-d09a3f61-7665-4e1e-b91f-7fb750760891",
+        "lineId": "line-79",
+        "char": "酸",
+        "pinyin": "suan",
+        "startTime": 1222.9446792212786,
+        "endTime": 1223.7080317460318
+      },
+      {
+        "id": "char-3dc6e1d4-f5ff-4497-ae1c-e8bdd1d976e5",
+        "lineId": "line-79",
+        "char": "楚",
+        "pinyin": "chu",
+        "startTime": 1224.4684712280534,
+        "endTime": 1227.304193082106
+      },
+      {
+        "id": "char-67c5b436-d46b-4687-800e-45c2edd22653",
+        "lineId": "line-79",
+        "char": "楚",
+        "pinyin": "chu",
+        "startTime": 1227.304193082106,
+        "endTime": 1230.4040734484802
+      },
+      {
+        "id": "char-8d14d731-18fb-4e78-bc15-0da9ad4caa9c",
+        "lineId": "line-79",
+        "char": "无",
+        "pinyin": "wu",
+        "startTime": 1230.978746872477,
+        "endTime": 1233.193375206252
+      },
+      {
+        "id": "char-7a3ebe1d-1a65-48db-a25b-2a8381c79058",
+        "lineId": "line-79",
+        "char": "人",
+        "pinyin": "ren",
+        "startTime": 1234.5749739472546,
+        "endTime": 1235.889761666461
+      },
+      {
+        "id": "char-8d2688d2-206d-478d-914b-e7bcc8182a39",
+        "lineId": "line-79",
+        "char": "怨",
+        "pinyin": "yuan",
+        "startTime": 1235.889761666461,
+        "endTime": 1237.1756507936507
+      },
+      {
+        "id": "char-cb9af64e-0b5f-45d3-bea3-634efcbaaee9",
+        "lineId": "line-80",
+        "char": "守",
+        "pinyin": "shou",
+        "startTime": 1283.8347111475614,
+        "endTime": 1286.4382759699865
+      },
+      {
+        "id": "char-399360d0-ad1b-4e31-a1a3-c66f119ba2d0",
+        "lineId": "line-80",
+        "char": "得",
+        "pinyin": "de",
+        "startTime": 1287.5179594923645,
+        "endTime": 1288.4844757813835
+      },
+      {
+        "id": "char-edcbd058-2042-4151-9243-343f8efee7e6",
+        "lineId": "line-80",
+        "char": "个",
+        "pinyin": "ge",
+        "startTime": 1288.4844757813835,
+        "endTime": 1289.3203985405655
+      },
+      {
+        "id": "char-46d061cd-d9ac-4803-be43-fef46000de23",
+        "lineId": "line-80",
+        "char": "梅",
+        "pinyin": "mei",
+        "startTime": 1289.3203985405655,
+        "endTime": 1289.485840388151
+      },
+      {
+        "id": "char-38c38c74-db4c-433d-93e9-b32c413ed2fc",
+        "lineId": "line-80",
+        "char": "根",
+        "pinyin": "gen",
+        "startTime": 1290.133101024791,
+        "endTime": 1292.2635331661047
+      },
+      {
+        "id": "char-b21a3e7d-2ad2-4e3f-85f0-3b7f8fc0317e",
+        "lineId": "line-80",
+        "char": "相",
+        "pinyin": "xiang",
+        "startTime": 1292.2635331661047,
+        "endTime": 1294.6348877003145
+      },
+      {
+        "id": "char-1daea536-2f08-495b-a496-c19da0119dd5",
+        "lineId": "line-80",
+        "char": "见",
+        "pinyin": "jian",
+        "startTime": 1305.9343097250544,
+        "endTime": 1309.9310189547734
+      },
+      {
+        "id": "char-bdb0c8ff-c579-48ad-945b-c9c6627dbd34",
+        "lineId": "line-81",
+        "char": "佳",
+        "pinyin": "jia",
+        "startTime": 1317.56,
+        "endTime": 1317.8328200233468
+      },
+      {
+        "id": "char-f2807f42-4c89-499b-8e0e-6cfa554f69b5",
+        "lineId": "line-81",
+        "char": "人",
+        "pinyin": "ren",
+        "startTime": 1317.8328200233468,
+        "endTime": 1318.1201379584238
+      },
+      {
+        "id": "char-b7adf727-b15e-441e-bc92-d96a5688de20",
+        "lineId": "line-81",
+        "char": "拾",
+        "pinyin": "shi",
+        "startTime": 1318.1201379584238,
+        "endTime": 1318.3813881290203
+      },
+      {
+        "id": "char-1c5aa3b6-d7f0-422f-b988-4315c75be810",
+        "lineId": "line-81",
+        "char": "翠",
+        "pinyin": "cui",
+        "startTime": 1318.3813881290203,
+        "endTime": 1318.9299329908445
+      },
+      {
+        "id": "char-dd2ba28b-7b9a-4a5d-a6aa-620f8772b6f8",
+        "lineId": "line-81",
+        "char": "春",
+        "pinyin": "chun",
+        "startTime": 1318.9299329908445,
+        "endTime": 1319.4611123243642
+      },
+      {
+        "id": "char-ead6a8fe-947d-410c-9bf0-9c482d874af2",
+        "lineId": "line-81",
+        "char": "庭",
+        "pinyin": "ting",
+        "startTime": 1319.4611123243642,
+        "endTime": 1319.8094126764283
+      },
+      {
+        "id": "char-9dd4e4f7-c001-4b12-8d7c-c31e4d25c1e9",
+        "lineId": "line-81",
+        "char": "院",
+        "pinyin": "yuan",
+        "startTime": 1319.8094126764283,
+        "endTime": 1320.3783103039123
+      },
+      {
+        "id": "char-6830e448-0f9e-4533-b9dc-dc3e83ca8009",
+        "lineId": "line-81",
+        "char": "侍",
+        "pinyin": "shi",
+        "startTime": 1320.706284248718,
+        "endTime": 1321.072003416553
+      },
+      {
+        "id": "char-1e6273c2-730d-4ad0-8f1b-c26ec897481e",
+        "lineId": "line-81",
+        "char": "女",
+        "pinyin": "nv",
+        "startTime": 1321.072003416553,
+        "endTime": 1321.2896840226704
+      },
+      {
+        "id": "char-8118068a-a5e6-45ef-84f7-cca21482ea14",
+        "lineId": "line-81",
+        "char": "添",
+        "pinyin": "tian",
+        "startTime": 1321.2896840226704,
+        "endTime": 1321.5596113488923
+      },
+      {
+        "id": "char-f72aa695-bd25-413b-9b01-42d8509f629d",
+        "lineId": "line-81",
+        "char": "香",
+        "pinyin": "xiang",
+        "startTime": 1321.5596113488923,
+        "endTime": 1322.0994966051044
+      },
+      {
+        "id": "char-1e310fe1-de94-4b0e-b54b-ba5e6dd9399a",
+        "lineId": "line-81",
+        "char": "午",
+        "pinyin": "wu",
+        "startTime": 1322.4303987359513,
+        "endTime": 1322.9644368214429
+      },
+      {
+        "id": "char-ee708d3c-7eeb-428a-a01f-61f4eef2d577",
+        "lineId": "line-81",
+        "char": "院",
+        "pinyin": "yuan",
+        "startTime": 1322.9644368214429,
+        "endTime": 1323.4781801764088
+      },
+      {
+        "id": "char-01cd6298-9c2a-48bd-9230-80b623910e8c",
+        "lineId": "line-81",
+        "char": "清",
+        "pinyin": "qing",
+        "startTime": 1323.4781801764088,
+        "endTime": 1324.0848050826125
+      },
+      {
+        "id": "char-f0f4f1bb-4370-4107-be0f-b8af532aeb40",
+        "lineId": "line-81",
+        "char": "不",
+        "pinyin": "bu",
+        "startTime": 1324.6072341995714,
+        "endTime": 1324.7784973400276
+      },
+      {
+        "id": "char-db056957-3cd2-41c8-8b5c-9a6fbea02ee4",
+        "lineId": "line-81",
+        "char": "知",
+        "pinyin": "zhi",
+        "startTime": 1324.7784973400276,
+        "endTime": 1324.9322732422843
+      },
+      {
+        "id": "char-13be1400-7e79-4a30-9a72-b04f3ec031f1",
+        "lineId": "line-81",
+        "char": "小",
+        "pinyin": "xiao",
+        "startTime": 1324.9322732422843,
+        "endTime": 1325.2777171362798
+      },
+      {
+        "id": "char-8cf052e2-6af8-42a7-a076-9ac1f3290688",
+        "lineId": "line-81",
+        "char": "姐",
+        "pinyin": "jie",
+        "startTime": 1325.2777171362798,
+        "endTime": 1326.8886024388705
+      },
+      {
+        "id": "char-63aa946c-a8c6-4420-ac14-4d8cfd263fce",
+        "lineId": "line-81",
+        "char": "哪",
+        "pinyin": "na",
+        "startTime": 1326.8886024388705,
+        "endTime": 1326.998894585952
+      },
+      {
+        "id": "char-003e4fcf-2b8f-41df-a04d-6e5c0a63ddd4",
+        "lineId": "line-81",
+        "char": "里",
+        "pinyin": "li",
+        "startTime": 1326.998894585952,
+        "endTime": 1328.3398679015424
+      },
+      {
+        "id": "char-4bcbf352-2936-4d58-8c6d-437c26b0da23",
+        "lineId": "line-81",
+        "char": "去",
+        "pinyin": "qu",
+        "startTime": 1328.3398679015424,
+        "endTime": 1328.3688753271697
+      },
+      {
+        "id": "char-5e9d75c9-00a5-4615-8473-006e58e9f7dd",
+        "lineId": "line-81",
+        "char": "了",
+        "pinyin": "le",
+        "startTime": 1328.9435742143357,
+        "endTime": 1328.9546938775509
+      },
+      {
+        "id": "char-c543d20c-ae12-4211-9d40-b5e62d284f62",
+        "lineId": "line-82",
+        "char": "呀",
+        "pinyin": "ya",
+        "startTime": 1331.829,
+        "endTime": 1331.8928213654574
+      },
+      {
+        "id": "char-6d003941-d757-4191-85d1-fd8694bc1132",
+        "lineId": "line-82",
+        "char": "看",
+        "pinyin": "kan",
+        "startTime": 1333.2512162180612,
+        "endTime": 1333.4050509456285
+      },
+      {
+        "id": "char-09dc5374-7ca0-4d6a-ba9c-40c36a68a5c2",
+        "lineId": "line-82",
+        "char": "小",
+        "pinyin": "xiao",
+        "startTime": 1333.5124146926191,
+        "endTime": 1333.843309856724
+      },
+      {
+        "id": "char-44578af5-c5cd-482d-9876-4f303166c97a",
+        "lineId": "line-82",
+        "char": "姐",
+        "pinyin": "jie",
+        "startTime": 1333.843309856724,
+        "endTime": 1334.145183140551
+      },
+      {
+        "id": "char-16e9e080-3db4-43f8-9e61-2403d00cfa18",
+        "lineId": "line-82",
+        "char": "走",
+        "pinyin": "zou",
+        "startTime": 1334.145183140551,
+        "endTime": 1334.1509898958325
+      },
+      {
+        "id": "char-815b39c6-3a52-41c8-8a52-118e88efc257",
+        "lineId": "line-82",
+        "char": "乏",
+        "pinyin": "fa",
+        "startTime": 1334.1509898958325,
+        "endTime": 1334.7373036629197
+      },
+      {
+        "id": "char-e7c7b15d-3a73-4b35-a6ab-430a2aafab40",
+        "lineId": "line-82",
+        "char": "了",
+        "pinyin": "le",
+        "startTime": 1334.7373036629197,
+        "endTime": 1334.9230439256248
+      },
+      {
+        "id": "char-8abba3e4-30bb-4586-9394-c304fa3bd82c",
+        "lineId": "line-82",
+        "char": "在",
+        "pinyin": "zai",
+        "startTime": 1334.9230439256248,
+        "endTime": 1335.5151594472206
+      },
+      {
+        "id": "char-928b634f-d31a-46fc-9cf7-9057aa4e4e38",
+        "lineId": "line-82",
+        "char": "梅",
+        "pinyin": "mei",
+        "startTime": 1335.5151594472206,
+        "endTime": 1335.7763687613497
+      },
+      {
+        "id": "char-607e5c8b-fccd-4e47-85ba-134f54c454f6",
+        "lineId": "line-82",
+        "char": "树",
+        "pinyin": "shu",
+        "startTime": 1335.7763687613497,
+        "endTime": 1335.8344390655081
+      },
+      {
+        "id": "char-1b74a8e5-fd38-4813-ba43-9dedd59e51b6",
+        "lineId": "line-82",
+        "char": "边",
+        "pinyin": "bian",
+        "startTime": 1335.8344390655081,
+        "endTime": 1336.5078141435383
+      },
+      {
+        "id": "char-d013bb21-838b-471c-b258-a5cfb259e144",
+        "lineId": "line-82",
+        "char": "打",
+        "pinyin": "da",
+        "startTime": 1336.5078141435383,
+        "endTime": 1336.73711419803
+      },
+      {
+        "id": "char-16e10b84-5b0f-4c5c-a306-c557a78cc65b",
+        "lineId": "line-82",
+        "char": "睡",
+        "pinyin": "shui",
+        "startTime": 1336.73711419803,
+        "endTime": 1337.0012478280344
+      },
+      {
+        "id": "char-6f615734-96a7-4a58-9474-0eb7896cd215",
+        "lineId": "line-82",
+        "char": "呢",
+        "pinyin": "ne",
+        "startTime": 1337.2073160916586,
+        "endTime": 1337.465619285618
+      },
+      {
+        "id": "char-f5337bd2-739f-44c8-96dd-4eccfaaccda9",
+        "lineId": "line-82",
+        "char": "小",
+        "pinyin": "xiao",
+        "startTime": 1338.6585621582628,
+        "endTime": 1339.0678012606431
+      },
+      {
+        "id": "char-0f552104-10f5-461e-a1f9-cd00c126f1e0",
+        "lineId": "line-82",
+        "char": "姐",
+        "pinyin": "jie",
+        "startTime": 1339.0678012606431,
+        "endTime": 1339.4170272108843
+      },
+      {
+        "id": "char-b866597e-8220-4247-b28b-96ecde8e6fed",
+        "lineId": "line-83",
+        "char": "小",
+        "pinyin": "xiao",
+        "startTime": 1340.904,
+        "endTime": 1341.5599553811853
+      },
+      {
+        "id": "char-b788a57e-6908-4e7a-b647-6415b1bc3830",
+        "lineId": "line-83",
+        "char": "姐",
+        "pinyin": "jie",
+        "startTime": 1342.4568150992463,
+        "endTime": 1345.785768707483
+      },
+      {
+        "id": "char-f24e1b32-abe5-4f0b-98da-f36c16b3b428",
+        "lineId": "line-84",
+        "char": "春",
+        "pinyin": "chun",
+        "startTime": 1355.891,
+        "endTime": 1357.6876259662824
+      },
+      {
+        "id": "char-e9416baa-7800-4cb8-a2a8-38e7f2cef192",
+        "lineId": "line-84",
+        "char": "香",
+        "pinyin": "xiang",
+        "startTime": 1357.6876259662824,
+        "endTime": 1358.2536131143052
+      },
+      {
+        "id": "char-135d4843-1ba2-49a4-a6a4-2b63090924b1",
+        "lineId": "line-84",
+        "char": "小",
+        "pinyin": "xiao",
+        "startTime": 1358.5409376787702,
+        "endTime": 1359.3159314799195
+      },
+      {
+        "id": "char-74888d44-9c43-4c44-a7c3-aa215f822a80",
+        "lineId": "line-84",
+        "char": "姐",
+        "pinyin": "jie",
+        "startTime": 1359.4262306658773,
+        "endTime": 1359.4334943310657
+      },
+      {
+        "id": "char-d53546a1-e405-4002-9dbc-269cdcdbbdf2",
+        "lineId": "line-85",
+        "char": "我",
+        "pinyin": "wo",
+        "startTime": 1361.073,
+        "endTime": 1361.7085102040817
+      },
+      {
+        "id": "char-55c478d1-d42c-4336-958f-321fabcd0cb8",
+        "lineId": "line-86",
+        "char": "丽",
+        "pinyin": "li",
+        "startTime": 1363.351,
+        "endTime": 1365.858745745112
+      },
+      {
+        "id": "char-9c1ceda4-82f2-4a58-a1df-ad8842267671",
+        "lineId": "line-86",
+        "char": "娘",
+        "pinyin": "niang",
+        "startTime": 1365.858745745112,
+        "endTime": 1366.7411068139158
+      },
+      {
+        "id": "char-a21a3adf-af72-47bb-8230-2407aa833723",
+        "lineId": "line-86",
+        "char": "哭",
+        "pinyin": "ku",
+        "startTime": 1367.8817832338752,
+        "endTime": 1374.6126738534435
+      },
+      {
+        "id": "char-2e0e7663-f6da-4a4e-a965-b09a64d2a0b2",
+        "lineId": "line-87",
+        "char": "少",
+        "pinyin": "shao",
+        "startTime": 1378.872,
+        "endTime": 1389.5067218368492
+      },
+      {
+        "id": "char-f00939bd-b723-4f75-a704-65a95773cba4",
+        "lineId": "line-87",
+        "char": "不",
+        "pinyin": "bu",
+        "startTime": 1390.3803930998567,
+        "endTime": 1390.4413372971117
+      },
+      {
+        "id": "char-744bb713-a83c-4ab8-933f-42057d8a95e9",
+        "lineId": "line-87",
+        "char": "得",
+        "pinyin": "de",
+        "startTime": 1390.4413372971117,
+        "endTime": 1393.8777813886936
+      },
+      {
+        "id": "char-21cc7934-0455-4b13-b2b6-5ae36cc03cbd",
+        "lineId": "line-87",
+        "char": "楼",
+        "pinyin": "lou",
+        "startTime": 1396.8732454129618,
+        "endTime": 1397.7091718453307
+      },
+      {
+        "id": "char-a3ff083c-2ce1-48bf-a8eb-361fc52c4d5c",
+        "lineId": "line-87",
+        "char": "上",
+        "pinyin": "shang",
+        "startTime": 1397.7091718453307,
+        "endTime": 1400.4346268852216
+      },
+      {
+        "id": "char-83594384-6e2b-4374-b644-d6758d2bb0f5",
+        "lineId": "line-87",
+        "char": "花",
+        "pinyin": "hua",
+        "startTime": 1400.948351930425,
+        "endTime": 1408.7589663336325
+      },
+      {
+        "id": "char-ceef8ea0-5f0e-49cb-9068-3ec792fcbe97",
+        "lineId": "line-87",
+        "char": "枝",
+        "pinyin": "zhi",
+        "startTime": 1409.9519056570196,
+        "endTime": 1413.8266897805684
+      },
+      {
+        "id": "char-e5f32b91-2150-491c-98dd-04d6799e5dd2",
+        "lineId": "line-87",
+        "char": "也",
+        "pinyin": "ye",
+        "startTime": 1414.3172724635142,
+        "endTime": 1415.0718531004306
+      },
+      {
+        "id": "char-39091dec-6b76-4f3c-9a2d-e7771cc07f60",
+        "lineId": "line-87",
+        "char": "则",
+        "pinyin": "ze",
+        "startTime": 1415.0718531004306,
+        "endTime": 1415.4114966964037
+      },
+      {
+        "id": "char-86e0c245-de26-4afd-a776-f609ed13f401",
+        "lineId": "line-87",
+        "char": "是",
+        "pinyin": "shi",
+        "startTime": 1415.8729728017363,
+        "endTime": 1416.8917373398363
+      },
+      {
+        "id": "char-48f34212-1a22-4378-a396-58cd09092fbd",
+        "lineId": "line-87",
+        "char": "照",
+        "pinyin": "zhao",
+        "startTime": 1416.8917373398363,
+        "endTime": 1431.5116324879027
+      },
+      {
+        "id": "char-2458ee3f-2471-4294-8b84-c17c98a55141",
+        "lineId": "line-87",
+        "char": "独",
+        "pinyin": "du",
+        "startTime": 1436.5126409241338,
+        "endTime": 1439.6618204938788
+      },
+      {
+        "id": "char-4e06e18b-bddc-46bb-a4b9-f4c48cb08649",
+        "lineId": "line-87",
+        "char": "眠",
+        "pinyin": "mian",
+        "startTime": 1440.535495097044,
+        "endTime": 1440.5545850340136
+      }
+    ]
+  }
+}

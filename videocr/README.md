@@ -57,6 +57,31 @@ DATA_DIR=../SOFA/data/xunmeng docker compose run --rm videocr \
   --crop_x 140 --crop_y 580 --crop_width 960 --crop_height 95
 ```
 
+## Cluster / no-Docker (udocker) — for the GPU server
+
+Shared HPC boxes usually **can't run Docker** (it needs a root daemon). Use
+[`udocker`](https://github.com/indigo-dc/udocker) instead: it runs the same image
+rootless, in userspace, with GPU support. Use `run_videocr_udocker.sh` (same args
+and tunables as `run_videocr.sh`).
+
+```bash
+# one-time, in any conda env on the server
+pip install udocker
+
+cd kunqu/videocr
+
+# 1) 1-minute sanity window (first run also pulls the image + sets up GPU — slow once):
+./run_videocr_udocker.sh "../SOFA/data/xunmeng/央视_顾卫英《寻梦》.mp4" xunmeng.srt 3:00 4:00
+
+# 2) if the lyrics look right, full pass:
+./run_videocr_udocker.sh "../SOFA/data/xunmeng/央视_顾卫英《寻梦》.mp4" xunmeng.srt
+```
+
+The script bootstraps udocker automatically (`udocker install`, `pull`, `create`,
+`setup --nvidia`) on first run; later runs reuse the `videocr` container. Force a
+CPU run with `USE_GPU=false`. If apptainer/singularity is available instead,
+prefer it (`apptainer run --nv docker://<image> ...`).
+
 ## Why these defaults (the 寻梦 source)
 
 The target video is 1280×720, 30 fps, ~24.9 min, from CCTV-11 (戏曲). The frame

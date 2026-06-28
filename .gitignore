@@ -224,5 +224,8 @@ __marimo__/
 *.mp3
 *.mp4
 
+# generated eval artifacts (plots/csv); regenerate via eval/evaluate.py
+SOFA/eval/outputs/
+
 # OS
 .DS_Store

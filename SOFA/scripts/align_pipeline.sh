@@ -5,9 +5,10 @@
 # Given a long vocal .wav and a short tag (e.g. "roformer" / "demucs"), it runs
 # the exact same three steps end to end:
 #
-#   1. Segment the long vocal wav into per-phrase clips (skipping any subtitle
-#      line longer than MAX_DURATION seconds, since SOFA caps at ~45s) and emit
-#      matching .lab pinyin transcriptions  ->  segments/xunmeng_<tag>/
+#   1. Segment the long vocal wav into per-phrase clips (ALL lines are kept;
+#      SOFA has no hard length cap -- 45s is only a training-data filter, and
+#      direct inference stays accurate well past it) and emit matching .lab
+#      pinyin transcriptions  ->  segments/xunmeng_<tag>/
 #   2. Run SOFA forced alignment on that folder              ->  .../TextGrid/
 #   3. Convert the TextGrid output back into a character-level annotation JSON
 #                                          ->  data/xunmeng/xunmeng_<tag>_annotation.json
@@ -22,7 +23,7 @@
 #   CKPT          path to the SOFA .ckpt model   (default: ckpt/pretrained_mandarin_singing/v1.0.0_mandarin_singing.ckpt)
 #   ANNOTATION    source subtitle annotation     (default: data/xunmeng/xunmeng_annotation.json)
 #   DICT          pronunciation dictionary       (default: dictionary/opencpop-extension.txt)
-#   MAX_DURATION  max segment length in seconds  (default: 45)
+#   MAX_DURATION  warn-only threshold in seconds (default: 45; long lines kept)
 #   PYTHON        python interpreter             (default: python)
 
 set -euo pipefail
@@ -72,14 +73,13 @@ echo "============================================================"
 
 # ---- 1. Segment -------------------------------------------------------------
 echo
-echo ">>> [1/3] Segmenting $WAV -> $SEGMENTS_DIR (skipping lines > ${MAX_DURATION}s)"
+echo ">>> [1/3] Segmenting $WAV -> $SEGMENTS_DIR (all lines; warn if > ${MAX_DURATION}s)"
 "$PYTHON" data/prepare_segments.py \
   --annotation "$ANNOTATION" \
   --wav "$WAV" \
   --output "$SEGMENTS_DIR" \
   --dictionary "$DICT" \
-  --max-duration "$MAX_DURATION" \
-  --skip-long
+  --max-duration "$MAX_DURATION"
 
 # ---- 2. Forced alignment ----------------------------------------------------
 echo
