@@ -226,8 +226,15 @@ __marimo__/
 
 # generated eval artifacts (plots/csv); regenerate via the eval scripts
 SOFA/eval/outputs/
-videocr/eval_outputs/
 *.report.txt
+
+# per-play videocr artifacts under output/<play>/ — keep .srt tracked, ignore the rest
+videocr/output/**/*.jpg
+videocr/output/**/*.png
+videocr/output/**/*.pdf
+videocr/output/**/*.csv
+videocr/output/**/*.txt
+videocr/frames/
 
 # OS
 .DS_Store

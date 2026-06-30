@@ -82,6 +82,39 @@ The script bootstraps udocker automatically (`udocker install`, `pull`, `create`
 CPU run with `USE_GPU=false`. If apptainer/singularity is available instead,
 prefer it (`apptainer run --nv docker://<image> ...`).
 
+## One command per play (`run_play.sh`)
+
+`run_play.sh` orchestrates the whole pipeline for one play and keeps every
+artifact under `output/<play>/`. The OCR engine is still udocker (it calls
+`run_videocr_udocker.sh`).
+
+```bash
+cd kunqu/videocr
+
+# Probe only: write the frame with the crop box drawn, so you can tune the crop.
+./run_play.sh probe shihuajiaohua "../SOFA/data/shihuajiaohua/东方大剧院_岳美缇《拾画叫画》.mp4"
+#   -> open output/shihuajiaohua/probe_crop.jpg ; the red box should hug the lyrics
+
+# Tune the crop on a short window (no convert on a windowed run):
+CROP_Y=600 CROP_HEIGHT=110 ./run_play.sh shihuajiaohua "<video>" 2:00 3:00
+
+# Happy with the crop? Full pass — also converts SRT -> annotation JSON:
+CROP_Y=600 CROP_HEIGHT=110 ./run_play.sh shihuajiaohua "<video>"
+```
+
+The crop is set by `CROP_*` env vars (see Tuning); the probe image redraws with
+whatever you pass, so you iterate by re-running. No prompt — a windowed run stops
+after OCR (so a bad crop never writes a JSON); a full run (no time window) also
+converts.
+
+**Output layout** (`output/<play>/`): `probe.jpg`, `probe_crop.jpg`,
+`<play>.srt`, `<play>_ocr_cleanup_report.txt`, and phrase-eval files. Only the
+`.srt` is committed; images/csv/plots/reports are gitignored. The converted
+annotation JSON lands in its SOFA home: `../SOFA/data/<play>/<play>_ocr_annotation.json`.
+
+For a new play you only ever re-tune the crop; everything else is just the play
+name and video path.
+
 ## Why these defaults (the 寻梦 source)
 
 The target video is 1280×720, 30 fps, ~24.9 min, from CCTV-11 (戏曲). The frame
@@ -118,12 +151,18 @@ Override any tunable inline, e.g. `CROP_Y=560 CROP_HEIGHT=120 ./run_videocr.sh .
 | `IMAGE` | cuda12.9 image | switch to a CUDA 11.8 tag if needed |
 | `DOCKER_USER` | _(empty)_ | set to `$(id -u):$(id -g)` to avoid root-owned output |
 
-If a logo or the vertical column still leaks into the SRT, dump a frame and
-adjust the crop:
+The same `CROP_*` vars work for `run_play.sh`, which additionally draws the box on
+the probe frame. Easiest way to tune for a new video:
 
 ```bash
-mkdir -p frames
-ffmpeg -ss 200 -i "../SOFA/data/xunmeng/央视_顾卫英《寻梦》.mp4" -frames:v 1 frames/probe.jpg
+./run_play.sh probe <play> "<video>"        # -> output/<play>/probe_crop.jpg (box drawn)
+# adjust CROP_* until the red box hugs the lyrics, then run the full pass
+```
+
+Or dump a raw frame manually:
+
+```bash
+ffmpeg -ss 200 -i "<video>" -frames:v 1 probe.jpg
 ```
 
 ## Notes

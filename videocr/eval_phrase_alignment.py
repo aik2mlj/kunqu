@@ -153,7 +153,7 @@ def main():
                     help="ground-truth annotation JSON (default: example/<play>_annotation.json)")
     ap.add_argument("--min-iou", type=float, default=0.1, help="min IoU to consider a match")
     ap.add_argument("--thresholds", default="0.5,1.0,2.0", help="comma list of seconds")
-    ap.add_argument("--out", default="eval_outputs", help="output root (default: eval_outputs)")
+    ap.add_argument("--out", default="output", help="output root (default: output/, i.e. output/<play>/)")
     args = ap.parse_args()
 
     thresholds = [float(x) for x in args.thresholds.split(",")]
