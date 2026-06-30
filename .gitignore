@@ -224,8 +224,10 @@ __marimo__/
 *.mp3
 *.mp4
 
-# generated eval artifacts (plots/csv); regenerate via eval/evaluate.py
+# generated eval artifacts (plots/csv); regenerate via the eval scripts
 SOFA/eval/outputs/
+videocr/eval_outputs/
+*.report.txt
 
 # OS
 .DS_Store

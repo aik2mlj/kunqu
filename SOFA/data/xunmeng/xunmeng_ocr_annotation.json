@@ -1,0 +1,496 @@
+{
+  "version": 2,
+  "project": {
+    "video": {
+      "url": "",
+      "name": "央视_顾卫英《寻梦》.mp4",
+      "source": "embedded",
+      "filePath": null,
+      "requiresManualImport": true
+    },
+    "subtitleLines": [
+      {
+        "id": "line-1",
+        "text": "春香—北方昆曲剧院",
+        "startTime": 0.023,
+        "endTime": 0.223
+      },
+      {
+        "id": "line-2",
+        "text": "一径行来",
+        "startTime": 58.223,
+        "endTime": 61.623
+      },
+      {
+        "id": "line-3",
+        "text": "但觉思情银转",
+        "startTime": 63.223,
+        "endTime": 71.323
+      },
+      {
+        "id": "line-4",
+        "text": "园内风物依然",
+        "startTime": 72.723,
+        "endTime": 79.623
+      },
+      {
+        "id": "line-5",
+        "text": "趁此悄地无人",
+        "startTime": 80.523,
+        "endTime": 88.323
+      },
+      {
+        "id": "line-6",
+        "text": "正好寻梦也",
+        "startTime": 89.823,
+        "endTime": 107.123
+      },
+      {
+        "id": "line-7",
+        "text": "那一答可是湖山石边",
+        "startTime": 111.723,
+        "endTime": 164.023
+      },
+      {
+        "id": "line-8",
+        "text": "这一答似牡丹亭畔",
+        "startTime": 173.223,
+        "endTime": 216.723
+      },
+      {
+        "id": "line-9",
+        "text": "嵌雕栏芍药芽儿浅",
+        "startTime": 222.223,
+        "endTime": 249.023
+      },
+      {
+        "id": "line-10",
+        "text": "一丝丝垂杨线",
+        "startTime": 254.623,
+        "endTime": 275.623
+      },
+      {
+        "id": "line-11",
+        "text": "一丢丢榆英钱",
+        "startTime": 275.623,
+        "endTime": 286.723
+      },
+      {
+        "id": "line-12",
+        "text": "线儿春甚金钱吊转",
+        "startTime": 289.823,
+        "endTime": 321.923
+      },
+      {
+        "id": "line-13",
+        "text": "昨日梦里",
+        "startTime": 345.023,
+        "endTime": 349.023
+      },
+      {
+        "id": "line-14",
+        "text": "那书生将柳枝来赠我",
+        "startTime": 350.023,
+        "endTime": 359.723
+      },
+      {
+        "id": "line-15",
+        "text": "要我题咏",
+        "startTime": 361.023,
+        "endTime": 366.923
+      },
+      {
+        "id": "line-16",
+        "text": "强奴欢会之时",
+        "startTime": 367.923,
+        "endTime": 376.423
+      },
+      {
+        "id": "line-17",
+        "text": "好不话长也",
+        "startTime": 377.423,
+        "endTime": 396.123
+      },
+      {
+        "id": "line-18",
+        "text": "是谁家少俊来近远",
+        "startTime": 401.323,
+        "endTime": 448.823
+      },
+      {
+        "id": "line-19",
+        "text": "敢迤逗这香闺去沁园",
+        "startTime": 458.423,
+        "endTime": 492.823
+      },
+      {
+        "id": "line-20",
+        "text": "话到其间脑肿",
+        "startTime": 494.023,
+        "endTime": 523.323
+      },
+      {
+        "id": "line-21",
+        "text": "他捏这眼奈烦也天",
+        "startTime": 528.823,
+        "endTime": 550.123
+      },
+      {
+        "id": "line-22",
+        "text": "咱这口待酬言",
+        "startTime": 551.323,
+        "endTime": 579.623
+      },
+      {
+        "id": "line-23",
+        "text": "咱不是前生爱眷",
+        "startTime": 580.123,
+        "endTime": 599.723
+      },
+      {
+        "id": "line-24",
+        "text": "又素之平生半面",
+        "startTime": 600.223,
+        "endTime": 627.823
+      },
+      {
+        "id": "line-25",
+        "text": "则道来生出现",
+        "startTime": 629.523,
+        "endTime": 637.123
+      },
+      {
+        "id": "line-26",
+        "text": "乍便今生梦见",
+        "startTime": 638.423,
+        "endTime": 663.823
+      },
+      {
+        "id": "line-27",
+        "text": "生就个书生",
+        "startTime": 664.423,
+        "endTime": 677.823
+      },
+      {
+        "id": "line-28",
+        "text": "恰恰生生抱咱去眠",
+        "startTime": 683.123,
+        "endTime": 715.323
+      },
+      {
+        "id": "line-29",
+        "text": "寻来寻去都不见了",
+        "startTime": 740.023,
+        "endTime": 754.923
+      },
+      {
+        "id": "line-30",
+        "text": "那牡丹亭芍药栏",
+        "startTime": 756.523,
+        "endTime": 772.423
+      },
+      {
+        "id": "line-31",
+        "text": "怎生这般凄凉冷落",
+        "startTime": 774.323,
+        "endTime": 784.423
+      },
+      {
+        "id": "line-32",
+        "text": "杏无人迹",
+        "startTime": 785.623,
+        "endTime": 790.623
+      },
+      {
+        "id": "line-33",
+        "text": "好伤感人也",
+        "startTime": 792.323,
+        "endTime": 810.023
+      },
+      {
+        "id": "line-34",
+        "text": "似这等荒凉地面",
+        "startTime": 814.223,
+        "endTime": 848.423
+      },
+      {
+        "id": "line-35",
+        "text": "没多半亭台靠边",
+        "startTime": 854.023,
+        "endTime": 870.723
+      },
+      {
+        "id": "line-36",
+        "text": "敢是咱咪晞色眼寻难见",
+        "startTime": 872.723,
+        "endTime": 894.123
+      },
+      {
+        "id": "line-37",
+        "text": "明放着白日青天",
+        "startTime": 894.523,
+        "endTime": 909.723
+      },
+      {
+        "id": "line-38",
+        "text": "猛教人抓不到魂梦前",
+        "startTime": 910.023,
+        "endTime": 927.623
+      },
+      {
+        "id": "line-39",
+        "text": "时间有如活现",
+        "startTime": 931.123,
+        "endTime": 950.123
+      },
+      {
+        "id": "line-40",
+        "text": "打方旋再得俄延",
+        "startTime": 950.523,
+        "endTime": 971.523
+      },
+      {
+        "id": "line-41",
+        "text": "是这答儿压黄金钊匾",
+        "startTime": 971.823,
+        "endTime": 1000.823
+      },
+      {
+        "id": "line-42",
+        "text": "秀才秀才",
+        "startTime": 1010.423,
+        "endTime": 1018.623
+      },
+      {
+        "id": "line-43",
+        "text": "呀无人之处",
+        "startTime": 1042.023,
+        "endTime": 1048.623
+      },
+      {
+        "id": "line-44",
+        "text": "忽见大梅树一株",
+        "startTime": 1049.923,
+        "endTime": 1062.923
+      },
+      {
+        "id": "line-45",
+        "text": "看梅子累累可爱人也",
+        "startTime": 1080.823,
+        "endTime": 1097.523
+      },
+      {
+        "id": "line-46",
+        "text": "L",
+        "startTime": 1097.823,
+        "endTime": 1098.823
+      },
+      {
+        "id": "line-47",
+        "text": "我丽娘死后得葬于此",
+        "startTime": 1101.523,
+        "endTime": 1121.323
+      },
+      {
+        "id": "line-48",
+        "text": "幸也",
+        "startTime": 1122.323,
+        "endTime": 1132.423
+      },
+      {
+        "id": "line-49",
+        "text": "偶然间心似",
+        "startTime": 1135.823,
+        "endTime": 1159.823
+      },
+      {
+        "id": "line-50",
+        "text": "在梅树边",
+        "startTime": 1162.723,
+        "endTime": 1172.523
+      },
+      {
+        "id": "line-51",
+        "text": "似这等花花草草由人恋",
+        "startTime": 1174.723,
+        "endTime": 1199.723
+      },
+      {
+        "id": "line-52",
+        "text": "生生死死遂人愿",
+        "startTime": 1201.823,
+        "endTime": 1220.323
+      },
+      {
+        "id": "line-53",
+        "text": "便酸酸楚楚无人怨",
+        "startTime": 1220.323,
+        "endTime": 1237.223
+      },
+      {
+        "id": "line-54",
+        "text": "待打并香魂一片",
+        "startTime": 1237.223,
+        "endTime": 1254.223
+      },
+      {
+        "id": "line-55",
+        "text": "阴雨梅天",
+        "startTime": 1255.423,
+        "endTime": 1267.423
+      },
+      {
+        "id": "line-56",
+        "text": "啊呀人儿吓",
+        "startTime": 1267.423,
+        "endTime": 1277.423
+      },
+      {
+        "id": "line-57",
+        "text": "守得个梅根相见",
+        "startTime": 1281.023,
+        "endTime": 1305.223
+      },
+      {
+        "id": "line-58",
+        "text": "佳人拾翠春庭院",
+        "startTime": 1317.423,
+        "endTime": 1320.723
+      },
+      {
+        "id": "line-59",
+        "text": "侍女添香午院清",
+        "startTime": 1320.723,
+        "endTime": 1324.023
+      },
+      {
+        "id": "line-60",
+        "text": "不知小姐哪里去了",
+        "startTime": 1324.623,
+        "endTime": 1328.223
+      },
+      {
+        "id": "line-61",
+        "text": "看小姐走乏了",
+        "startTime": 1331.823,
+        "endTime": 1335.223
+      },
+      {
+        "id": "line-62",
+        "text": "在梅树边打睡呢",
+        "startTime": 1335.223,
+        "endTime": 1337.823
+      },
+      {
+        "id": "line-63",
+        "text": "小姐小姐",
+        "startTime": 1338.823,
+        "endTime": 1344.923
+      },
+      {
+        "id": "line-64",
+        "text": "春香",
+        "startTime": 1355.823,
+        "endTime": 1358.523
+      },
+      {
+        "id": "line-65",
+        "text": "小姐",
+        "startTime": 1358.523,
+        "endTime": 1359.623
+      },
+      {
+        "id": "line-66",
+        "text": "我丽娘",
+        "startTime": 1361.023,
+        "endTime": 1367.923
+      },
+      {
+        "id": "line-67",
+        "text": "少不得楼上花枝",
+        "startTime": 1378.823,
+        "endTime": 1414.023
+      },
+      {
+        "id": "line-68",
+        "text": "也则是照独眠",
+        "startTime": 1414.023,
+        "endTime": 1435.923
+      }
+    ],
+    "characterAnnotations": [],
+    "actionAnnotations": [],
+    "builtinTracks": [
+      {
+        "id": "character-track",
+        "name": "逐字文字轨",
+        "type": "character",
+        "options": [
+          "普通唱",
+          "拖腔",
+          "顿音",
+          "装饰音",
+          "念白式",
+          "其他"
+        ],
+        "attachedPointTracks": [],
+        "attachedPointTracksExpanded": false,
+        "snapToWaveformKeypoints": false,
+        "autoSetLoopRangeOnSelect": false
+      },
+      {
+        "id": "hand-action",
+        "name": "手部动作轨",
+        "type": "action",
+        "options": [
+          "抬手",
+          "落手",
+          "指向",
+          "翻腕",
+          "水袖动作",
+          "其他"
+        ],
+        "attachedPointTracks": [],
+        "attachedPointTracksExpanded": false,
+        "snapToWaveformKeypoints": false,
+        "autoSetLoopRangeOnSelect": false
+      },
+      {
+        "id": "body-action",
+        "name": "肢体动作轨",
+        "type": "action",
+        "options": [
+          "转身",
+          "移步",
+          "屈伸",
+          "亮相",
+          "前倾",
+          "后仰",
+          "其他"
+        ],
+        "attachedPointTracks": [],
+        "attachedPointTracksExpanded": false,
+        "snapToWaveformKeypoints": false,
+        "autoSetLoopRangeOnSelect": false
+      }
+    ],
+    "customTracks": [],
+    "activeTrackOrder": [
+      "character-track",
+      "hand-action",
+      "body-action"
+    ]
+  },
+  "uiState": {
+    "zoom": 15.128249229372463,
+    "currentTime": 234.3959268,
+    "playbackRate": 1,
+    "trackSnapEnabled": {
+      "character-track": true,
+      "hand-action": true,
+      "body-action": true
+    },
+    "loopPlaybackEnabled": false,
+    "loopPlaybackRange": null
+  }
+}
