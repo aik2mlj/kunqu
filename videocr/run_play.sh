@@ -25,12 +25,11 @@
 # Requires ffprobe/ffmpeg + udocker (see README). Run from kunqu/videocr/.
 set -euo pipefail
 
-# --- crop config (shared by the probe box AND the OCR step) ------------------
-export CROP="${CROP:-on}"
-export CROP_X="${CROP_X:-140}"
-export CROP_Y="${CROP_Y:-580}"
-export CROP_WIDTH="${CROP_WIDTH:-960}"
-export CROP_HEIGHT="${CROP_HEIGHT:-95}"
+# --- crop config: CLI env > plays/<play>.env > defaults ---------------------
+# Capture crop values passed on the command line; these win over the per-play
+# config file (sourced below, once the play name is known).
+_CLI_CROP="${CROP:-}"; _CLI_CROP_X="${CROP_X:-}"; _CLI_CROP_Y="${CROP_Y:-}"
+_CLI_CROP_W="${CROP_WIDTH:-}"; _CLI_CROP_H="${CROP_HEIGHT:-}"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
@@ -54,6 +53,20 @@ TIME_END="${4:-}"
 command -v ffprobe >/dev/null 2>&1 || { echo "error: ffprobe not found (install ffmpeg)" >&2; exit 1; }
 command -v ffmpeg  >/dev/null 2>&1 || { echo "error: ffmpeg not found" >&2; exit 1; }
 [ -f "$VIDEO" ] || { echo "error: video not found: $VIDEO" >&2; exit 1; }
+
+# per-play crop config (version-controlled): plays/<play>.env
+if [ -f "plays/$PLAY.env" ]; then
+  # shellcheck disable=SC1090
+  . "plays/$PLAY.env"
+  echo "==> loaded crop config plays/$PLAY.env"
+fi
+# precedence: command-line env > plays/<play>.env > built-in defaults
+CROP="${_CLI_CROP:-${CROP:-on}}"
+CROP_X="${_CLI_CROP_X:-${CROP_X:-140}}"
+CROP_Y="${_CLI_CROP_Y:-${CROP_Y:-580}}"
+CROP_WIDTH="${_CLI_CROP_W:-${CROP_WIDTH:-960}}"
+CROP_HEIGHT="${_CLI_CROP_H:-${CROP_HEIGHT:-95}}"
+export CROP CROP_X CROP_Y CROP_WIDTH CROP_HEIGHT
 
 OUT="output/$PLAY"
 mkdir -p "$OUT"

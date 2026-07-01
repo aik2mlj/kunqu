@@ -107,6 +107,13 @@ whatever you pass, so you iterate by re-running. No prompt — a windowed run st
 after OCR (so a bad crop never writes a JSON); a full run (no time window) also
 converts.
 
+**Per-play crop is version-controlled** in `plays/<play>.env` (e.g.
+`plays/shihuajiaohua.env`). `run_play.sh` auto-loads it, so once tuned the crop
+is committed and every run reuses it — no need to remember `CROP_*` on the
+command line. Precedence: command-line `CROP_*` > `plays/<play>.env` > built-in
+defaults. To tune a new play: run `probe`, eyeball `output/<play>/probe_crop.jpg`,
+edit `plays/<play>.env`, repeat; commit the `.env` when happy.
+
 **Output layout** (`output/<play>/`): `probe.jpg`, `probe_crop.jpg`,
 `<play>.srt`, `<play>_ocr_cleanup_report.txt`, and phrase-eval files. Only the
 `.srt` is committed; images/csv/plots/reports are gitignored. The converted
