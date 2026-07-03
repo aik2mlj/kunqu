@@ -3,6 +3,7 @@
 
 from srt_to_annotation import (
     srt_ts_to_sec, normalize_text, majority_merge, merge_runs, parse_srt,
+    merge_contained,
 )
 
 
@@ -58,6 +59,66 @@ def test_merge_respects_gap():
     ]
     merged, records = merge_runs(cues, sim=0.6, gap=2.0)
     assert len(merged) == 2 and len(records) == 0
+
+
+def test_merge_contained_prefix():
+    # real case: '凭栏仍' (0.2s) is a prefix of the next full phrase -> absorbed
+    cues = [
+        {"start": 223.5, "end": 223.7, "text": "凭栏仍", "multiline": False},
+        {"start": 223.7, "end": 228.8, "text": "凭栏仍是玉栏杆", "multiline": False},
+    ]
+    out, recs = merge_contained(cues, sub_dur=1.0, gap=2.0)
+    assert len(out) == 1 and len(recs) == 1
+    assert out[0]["text"] == "凭栏仍是玉栏杆"
+    assert out[0]["start"] == 223.5 and out[0]["end"] == 228.8
+
+
+def test_merge_contained_chain():
+    # a growing render '凭' -> '凭栏' -> '凭栏仍是玉栏杆' folds into the full phrase
+    cues = [
+        {"start": 0.0, "end": 0.2, "text": "凭", "multiline": False},
+        {"start": 0.2, "end": 0.4, "text": "凭栏", "multiline": False},
+        {"start": 0.4, "end": 5.0, "text": "凭栏仍是玉栏杆", "multiline": False},
+    ]
+    out, recs = merge_contained(cues, sub_dur=1.0, gap=2.0)
+    assert len(out) == 1
+    assert out[0]["text"] == "凭栏仍是玉栏杆"
+    assert out[0]["start"] == 0.0 and out[0]["end"] == 5.0
+
+
+def test_merge_contained_trailing_flicker():
+    # short substring AFTER the full phrase (tail flicker) is also absorbed
+    cues = [
+        {"start": 0.0, "end": 5.0, "text": "凭栏仍是玉栏杆", "multiline": False},
+        {"start": 5.0, "end": 5.3, "text": "玉栏杆", "multiline": False},
+    ]
+    out, recs = merge_contained(cues, sub_dur=1.0, gap=2.0)
+    assert len(out) == 1 and out[0]["text"] == "凭栏仍是玉栏杆"
+    assert out[0]["end"] == 5.3
+
+
+def test_merge_contained_guards():
+    # (a) substring but NOT short in duration -> kept separate (real repeated line)
+    long_dup = [
+        {"start": 0.0, "end": 5.0, "text": "凭栏仍", "multiline": False},
+        {"start": 5.0, "end": 10.0, "text": "凭栏仍是玉栏杆", "multiline": False},
+    ]
+    out, recs = merge_contained(long_dup, sub_dur=1.0, gap=2.0)
+    assert len(out) == 2 and len(recs) == 0
+    # (b) short but NOT a substring -> kept
+    not_sub = [
+        {"start": 0.0, "end": 0.3, "text": "好个葱翠", "multiline": False},
+        {"start": 0.3, "end": 5.0, "text": "凭栏仍是玉栏杆", "multiline": False},
+    ]
+    out, recs = merge_contained(not_sub, sub_dur=1.0, gap=2.0)
+    assert len(out) == 2 and len(recs) == 0
+    # (c) short substring but too far in time -> kept
+    far = [
+        {"start": 0.0, "end": 0.2, "text": "凭栏仍", "multiline": False},
+        {"start": 100.0, "end": 105.0, "text": "凭栏仍是玉栏杆", "multiline": False},
+    ]
+    out, recs = merge_contained(far, sub_dur=1.0, gap=2.0)
+    assert len(out) == 2 and len(recs) == 0
 
 
 def test_parse_srt(tmp_path_factory=None):

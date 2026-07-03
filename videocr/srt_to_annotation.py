@@ -149,6 +149,73 @@ def merge_runs(cues, sim, gap):
     return merged, records
 
 
+def _containment(a, b, sub_dur):
+    """
+    If one of two adjacent cues is a short substring artifact of the other, return
+    (keep, drop) where `keep` is the full phrase and `drop` is the artifact; else
+    None. The artifact must be a strict substring (shorter text) AND shorter than
+    `sub_dur` seconds — that duration floor is what separates a mid-render flicker
+    from a genuine short line that merely shares characters.
+    """
+    ta, tb = a["text"], b["text"]
+    if ta and ta != tb and ta in tb and (a["end"] - a["start"]) < sub_dur:
+        return b, a
+    if tb and ta != tb and tb in ta and (b["end"] - b["start"]) < sub_dur:
+        return a, b
+    return None
+
+
+def _fuse(keep, drop, records):
+    """Merge `drop` into `keep`: keep the full phrase's text, span both times."""
+    fused = {
+        "start": min(keep["start"], drop["start"]),
+        "end": max(keep["end"], drop["end"]),
+        "text": keep["text"],
+        "multiline": keep.get("multiline", False) or drop.get("multiline", False),
+    }
+    records.append({
+        "kept": keep["text"], "dropped": drop["text"],
+        "start": fused["start"], "end": fused["end"],
+    })
+    return fused
+
+
+def merge_contained(cues, sub_dur, gap):
+    """
+    Absorb a short cue whose text is a substring of an adjacent cue into that
+    neighbor. Catches subtitle mid-render artifacts the ratio-based dup merge
+    misses: a growing prefix like '凭栏仍' (0.2s) right before '凭栏仍是玉栏杆'
+    scores only ~0.6 symmetric similarity (the long phrase inflates the
+    denominator), so it never joins the run — but it is clearly the same line
+    caught mid-render. Requires the artifact be < `sub_dur` seconds, a strict
+    substring, and within `gap` seconds of the neighbor. Growing-prefix chains
+    fold into the final full phrase. Returns (merged_cues, records).
+    """
+    cues = [dict(c) for c in cues]
+    out = []
+    i = 0
+    records = []
+    while i < len(cues):
+        cur = cues[i]
+        # absorb into the next cue (leading prefix render); replace next so chains fold
+        if i + 1 < len(cues) and cues[i + 1]["start"] - cur["end"] < gap:
+            cont = _containment(cur, cues[i + 1], sub_dur)
+            if cont:
+                cues[i + 1] = _fuse(cont[0], cont[1], records)
+                i += 1
+                continue
+        # absorb into the previous kept cue (trailing flicker)
+        if out and cur["start"] - out[-1]["end"] < gap:
+            cont = _containment(out[-1], cur, sub_dur)
+            if cont:
+                out[-1] = _fuse(cont[0], cont[1], records)
+                i += 1
+                continue
+        out.append(cur)
+        i += 1
+    return out, records
+
+
 def flags_for(cue):
     f = []
     if cue["multiline"]:
@@ -177,17 +244,22 @@ def build_annotation(template_path, merged, video_name=None):
     data["project"]["subtitleLines"] = subtitle_lines
     data["project"]["characterAnnotations"] = []
     data["project"]["actionAnnotations"] = []
+    # The stale --template predates the labeling tool's gongche feature; without
+    # this key the tool errors while a newer export (which has it) loads. Emit an
+    # empty array so the output matches the current schema.
+    data["project"]["gongcheAnnotations"] = []
     if video_name is not None:
         data["project"].setdefault("video", {})["name"] = video_name
     return data
 
 
-def write_report(path, srt_path, template_path, sim, gap, n_cues, merged, records):
+def write_report(path, srt_path, template_path, sim, gap, sub_dur, n_cues, merged,
+                 records, crecords):
     lines = []
     lines.append("SRT -> annotation cleanup report")
     lines.append(f"input    : {srt_path}")
     lines.append(f"template : {template_path}")
-    lines.append(f"params   : sim>{sim}  gap<{gap}s")
+    lines.append(f"params   : sim>{sim}  gap<{gap}s  sub_dur<{sub_dur}s")
     lines.append(f"cues parsed     : {n_cues}")
     lines.append(f"subtitleLines   : {len(merged)}  (collapsed {n_cues - len(merged)})")
     lines.append("")
@@ -196,6 +268,10 @@ def write_report(path, srt_path, template_path, sim, gap, n_cues, merged, record
         variants = " | ".join(r["variants"])
         lines.append(f"[{r['start']:.1f}-{r['end']:.1f}s] n={r['n']}  {variants}")
         lines.append(f"    -> {r['chosen']}")
+    lines.append("")
+    lines.append(f"=== prefix/containment merges ({len(crecords)}) ===")
+    for r in crecords:
+        lines.append(f"[{r['start']:.1f}-{r['end']:.1f}s] dropped \"{r['dropped']}\"  ->  \"{r['kept']}\"")
     lines.append("")
     flagged = [(idx + 1, c, flags_for(c)) for idx, c in enumerate(merged) if flags_for(c)]
     lines.append(f"=== flagged (kept in output, review later) ({len(flagged)}) ===")
@@ -217,6 +293,8 @@ def main():
     ap.add_argument("--report", default=None, help="report path (default: <out>.report.txt)")
     ap.add_argument("--sim", type=float, default=0.6, help="dup similarity threshold (0-1)")
     ap.add_argument("--gap", type=float, default=2.0, help="max inter-cue gap to merge (s)")
+    ap.add_argument("--sub-dur", type=float, default=1.0,
+                    help="max duration (s) of a short substring cue to absorb into its neighbor")
     ap.add_argument("--video-name", default=None, help="override project.video.name")
     args = ap.parse_args()
 
@@ -225,6 +303,7 @@ def main():
         raise SystemExit(f"ERROR: no cues parsed from {args.srt}")
 
     merged, records = merge_runs(cues, args.sim, args.gap)
+    merged, crecords = merge_contained(merged, args.sub_dur, args.gap)
     data = build_annotation(args.template, merged, args.video_name)
 
     if args.out is None:
@@ -236,11 +315,11 @@ def main():
 
     report_path = args.report or (args.out + ".report.txt")
     flagged = write_report(report_path, args.srt, args.template, args.sim, args.gap,
-                           len(cues), merged, records)
+                           args.sub_dur, len(cues), merged, records, crecords)
 
     print(f"cues parsed     : {len(cues)}")
     print(f"subtitleLines   : {len(merged)} (merged {len(records)} runs, "
-          f"collapsed {len(cues) - len(merged)} cues)")
+          f"{len(crecords)} prefix, collapsed {len(cues) - len(merged)} cues)")
     print(f"flagged later   : {len(flagged)}")
     print(f"output JSON     : {args.out}")
     print(f"cleanup report  : {report_path}")

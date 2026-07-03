@@ -1,0 +1,1151 @@
+{
+  "version": 2,
+  "project": {
+    "video": {
+      "url": "",
+      "name": "东方大剧院_岳美缇《拾画叫画》.mp4",
+      "source": "embedded",
+      "filePath": null,
+      "requiresManualImport": true
+    },
+    "subtitleLines": [
+      {
+        "id": "line-1",
+        "text": "惊春谁似我",
+        "startTime": 60.6,
+        "endTime": 81.1
+      },
+      {
+        "id": "line-2",
+        "text": "客途中都不问其他",
+        "startTime": 81.1,
+        "endTime": 102.1
+      },
+      {
+        "id": "line-3",
+        "text": "脉脉梨花春院香",
+        "startTime": 106.5,
+        "endTime": 111.4
+      },
+      {
+        "id": "line-4",
+        "text": "年愁事费商量",
+        "startTime": 111.4,
+        "endTime": 118.1
+      },
+      {
+        "id": "line-5",
+        "text": "不知柳思能多少",
+        "startTime": 118.1,
+        "endTime": 123.2
+      },
+      {
+        "id": "line-6",
+        "text": "打叠腰肢斗沈郎",
+        "startTime": 123.2,
+        "endTime": 130.8
+      },
+      {
+        "id": "line-7",
+        "text": "小生柳梦梅卧病梅花观中",
+        "startTime": 133.1,
+        "endTime": 141.5
+      },
+      {
+        "id": "line-8",
+        "text": "喜得陈友知医调理痊可",
+        "startTime": 141.5,
+        "endTime": 148.3
+      },
+      {
+        "id": "line-9",
+        "text": "这几日春怀郁闷无处排遣",
+        "startTime": 148.3,
+        "endTime": 157.5
+      },
+      {
+        "id": "line-10",
+        "text": "早间石姑姑来说",
+        "startTime": 157.5,
+        "endTime": 160.5
+      },
+      {
+        "id": "line-11",
+        "text": "此间后边有一座大花园",
+        "startTime": 160.5,
+        "endTime": 166.4
+      },
+      {
+        "id": "line-12",
+        "text": "尽堪游赏一为此迤通行来",
+        "startTime": 166.4,
+        "endTime": 174.3
+      },
+      {
+        "id": "line-13",
+        "text": "已是西廊下了",
+        "startTime": 174.3,
+        "endTime": 183.3
+      },
+      {
+        "id": "line-14",
+        "text": "好个葱翠筒门可惜倒了半杂",
+        "startTime": 185.9,
+        "endTime": 186.4
+      },
+      {
+        "id": "line-15",
+        "text": "可惜倒了半架",
+        "startTime": 186.5,
+        "endTime": 193.9
+      },
+      {
+        "id": "line-16",
+        "text": "待我挨身而进",
+        "startTime": 193.9,
+        "endTime": 199.7
+      },
+      {
+        "id": "line-17",
+        "text": "凭栏仍是玉栏杆",
+        "startTime": 223.5,
+        "endTime": 228.8
+      },
+      {
+        "id": "line-18",
+        "text": "四面墙垣不忍看",
+        "startTime": 228.8,
+        "endTime": 234.7
+      },
+      {
+        "id": "line-19",
+        "text": "想得当时好风月",
+        "startTime": 234.7,
+        "endTime": 241.1
+      },
+      {
+        "id": "line-20",
+        "text": "万条烟罩一时干",
+        "startTime": 241.1,
+        "endTime": 250.0
+      },
+      {
+        "id": "line-21",
+        "text": "好冷落也",
+        "startTime": 250.0,
+        "endTime": 261.8
+      },
+      {
+        "id": "line-22",
+        "text": "子乐则见风月咱消磨",
+        "startTime": 266.4,
+        "endTime": 281.9
+      },
+      {
+        "id": "line-23",
+        "text": "画墙西正南侧左苍苔滑擦",
+        "startTime": 281.9,
+        "endTime": 359.7
+      },
+      {
+        "id": "line-24",
+        "text": "倚逗着断垣低垛",
+        "startTime": 359.7,
+        "endTime": 391.9
+      },
+      {
+        "id": "line-25",
+        "text": "因何蝴蝶门儿落合",
+        "startTime": 391.9,
+        "endTime": 439.9
+      },
+      {
+        "id": "line-26",
+        "text": "原来以前游客颇盛",
+        "startTime": 448.7,
+        "endTime": 455.0
+      },
+      {
+        "id": "line-27",
+        "text": "都题名在竹林之上",
+        "startTime": 455.0,
+        "endTime": 463.2
+      },
+      {
+        "id": "line-28",
+        "text": "客来过年月偏多",
+        "startTime": 465.2,
+        "endTime": 502.2
+      },
+      {
+        "id": "line-29",
+        "text": "刻划尽琅玕千个",
+        "startTime": 502.2,
+        "endTime": 523.1
+      },
+      {
+        "id": "line-30",
+        "text": "早则是寒花绕砌荒草成窠",
+        "startTime": 523.1,
+        "endTime": 564.7
+      },
+      {
+        "id": "line-31",
+        "text": "好一座太湖石山子",
+        "startTime": 571.1,
+        "endTime": 576.6
+      },
+      {
+        "id": "line-32",
+        "text": "云时竟倒坏了",
+        "startTime": 576.6,
+        "endTime": 589.0
+      },
+      {
+        "id": "line-33",
+        "text": "咦看石底下压着什么东西",
+        "startTime": 589.0,
+        "endTime": 594.0
+      },
+      {
+        "id": "line-34",
+        "text": "待我拾起来看",
+        "startTime": 594.0,
+        "endTime": 599.4
+      },
+      {
+        "id": "line-35",
+        "text": "原来是幅小轴儿",
+        "startTime": 624.7,
+        "endTime": 627.3
+      },
+      {
+        "id": "line-36",
+        "text": "不知什么故事在上待我看来",
+        "startTime": 627.3,
+        "endTime": 634.2
+      },
+      {
+        "id": "line-37",
+        "text": "原来是尊观音佛像",
+        "startTime": 635.7,
+        "endTime": 642.5
+      },
+      {
+        "id": "line-38",
+        "text": "善哉啊善哉怎么沉埋于此",
+        "startTime": 642.5,
+        "endTime": 651.4
+      },
+      {
+        "id": "line-39",
+        "text": "待我捧到书馆焚香页礼",
+        "startTime": 651.4,
+        "endTime": 657.3
+      },
+      {
+        "id": "line-40",
+        "text": "也强如埋在此中有理啊有理",
+        "startTime": 657.3,
+        "endTime": 669.3
+      },
+      {
+        "id": "line-41",
+        "text": "千秋岁】小",
+        "startTime": 671.9,
+        "endTime": 680.3
+      },
+      {
+        "id": "line-42",
+        "text": "压的这旃檀合",
+        "startTime": 680.3,
+        "endTime": 689.3
+      },
+      {
+        "id": "line-43",
+        "text": "便做了好相观音俏楼阁",
+        "startTime": 689.3,
+        "endTime": 704.3
+      },
+      {
+        "id": "line-44",
+        "text": "片石峰前片石峰前",
+        "startTime": 704.3,
+        "endTime": 723.2
+      },
+      {
+        "id": "line-45",
+        "text": "多则是飞来石三生因果",
+        "startTime": 723.2,
+        "endTime": 744.5
+      },
+      {
+        "id": "line-46",
+        "text": "请将去在炉烟上过",
+        "startTime": 744.5,
+        "endTime": 762.3
+      },
+      {
+        "id": "line-47",
+        "text": "俺头纳地添灯火",
+        "startTime": 762.3,
+        "endTime": 776.1
+      },
+      {
+        "id": "line-48",
+        "text": "照得他慈悲我",
+        "startTime": 776.1,
+        "endTime": 796.9
+      },
+      {
+        "id": "line-49",
+        "text": "俺这里尽情供养他于意云何",
+        "startTime": 796.9,
+        "endTime": 822.0
+      },
+      {
+        "id": "line-50",
+        "text": "待我展开观玩电香",
+        "startTime": 854.1,
+        "endTime": 862.9
+      },
+      {
+        "id": "line-51",
+        "text": "[二郎神]能停妥",
+        "startTime": 866.0,
+        "endTime": 871.8
+      },
+      {
+        "id": "line-52",
+        "text": "这慈容只合在莲花宝座",
+        "startTime": 871.8,
+        "endTime": 896.3
+      },
+      {
+        "id": "line-53",
+        "text": "为甚独立亭亭在梅柳左",
+        "startTime": 897.9,
+        "endTime": 941.3
+      },
+      {
+        "id": "line-54",
+        "text": "不栽紫竹",
+        "startTime": 941.3,
+        "endTime": 958.3
+      },
+      {
+        "id": "line-55",
+        "text": "边傍不放鹦哥",
+        "startTime": 958.3,
+        "endTime": 986.3
+      },
+      {
+        "id": "line-56",
+        "text": "原来不是观音哪",
+        "startTime": 986.3,
+        "endTime": 994.7
+      },
+      {
+        "id": "line-57",
+        "text": "只见两瓣金莲在裙下拖",
+        "startTime": 995.9,
+        "endTime": 1029.7
+      },
+      {
+        "id": "line-58",
+        "text": "是尊嫦娥啊",
+        "startTime": 1031.9,
+        "endTime": 1035.6
+      },
+      {
+        "id": "line-59",
+        "text": "又不象啊",
+        "startTime": 1037.7,
+        "endTime": 1040.0
+      },
+      {
+        "id": "line-60",
+        "text": "我想既是嫦娥呵",
+        "startTime": 1040.6,
+        "endTime": 1046.4
+      },
+      {
+        "id": "line-61",
+        "text": "并不见祥云半朵",
+        "startTime": 1048.1,
+        "endTime": 1076.4
+      },
+      {
+        "id": "line-62",
+        "text": "也非是嫦娥",
+        "startTime": 1076.8,
+        "endTime": 1096.4
+      },
+      {
+        "id": "line-63",
+        "text": "既不是观音",
+        "startTime": 1099.3,
+        "endTime": 1101.6
+      },
+      {
+        "id": "line-64",
+        "text": "又不是嫦娥",
+        "startTime": 1101.6,
+        "endTime": 1106.2
+      },
+      {
+        "id": "line-65",
+        "text": "喂难道是人间女子不成",
+        "startTime": 1106.5,
+        "endTime": 1116.9
+      },
+      {
+        "id": "line-66",
+        "text": "这画晓蹊",
+        "startTime": 1118.0,
+        "endTime": 1126.1
+      },
+      {
+        "id": "line-67",
+        "text": "教人难揣难摩",
+        "startTime": 1126.1,
+        "endTime": 1151.6
+      },
+      {
+        "id": "line-68",
+        "text": "呀呸只管胡思乱猜",
+        "startTime": 1151.6,
+        "endTime": 1158.4
+      },
+      {
+        "id": "line-69",
+        "text": "看帧首之上",
+        "startTime": 1158.4,
+        "endTime": 1160.8
+      },
+      {
+        "id": "line-70",
+        "text": "有小字数行",
+        "startTime": 1160.8,
+        "endTime": 1162.9
+      },
+      {
+        "id": "line-71",
+        "text": "待我看来",
+        "startTime": 1162.9,
+        "endTime": 1166.1
+      },
+      {
+        "id": "line-72",
+        "text": "近睹分明似俨然",
+        "startTime": 1167.8,
+        "endTime": 1172.4
+      },
+      {
+        "id": "line-73",
+        "text": "远观自在若飞仙",
+        "startTime": 1172.4,
+        "endTime": 1176.3
+      },
+      {
+        "id": "line-74",
+        "text": "他年得傍蟾宫客",
+        "startTime": 1176.3,
+        "endTime": 1181.1
+      },
+      {
+        "id": "line-75",
+        "text": "不在梅边在柳边",
+        "startTime": 1181.1,
+        "endTime": 1188.5
+      },
+      {
+        "id": "line-76",
+        "text": "原来是人间女子的行乐图",
+        "startTime": 1190.1,
+        "endTime": 1196.3
+      },
+      {
+        "id": "line-77",
+        "text": "何言不在梅边在柳边呢",
+        "startTime": 1198.9,
+        "endTime": 1206.9
+      },
+      {
+        "id": "line-78",
+        "text": "啊呀真乃奇哉怪事",
+        "startTime": 1209.2,
+        "endTime": 1214.5
+      },
+      {
+        "id": "line-79",
+        "text": "啊呀慢来",
+        "startTime": 1217.1,
+        "endTime": 1219.6
+      },
+      {
+        "id": "line-80",
+        "text": "我想天下姓柳姓梅的却也不",
+        "startTime": 1219.6,
+        "endTime": 1226.5
+      },
+      {
+        "id": "line-81",
+        "text": "偏偏小生末叫做柳梦梅",
+        "startTime": 1226.5,
+        "endTime": 1234.4
+      },
+      {
+        "id": "line-82",
+        "text": "若论起梅边末",
+        "startTime": 1234.4,
+        "endTime": 1236.9
+      },
+      {
+        "id": "line-83",
+        "text": "小生是有份的",
+        "startTime": 1236.9,
+        "endTime": 1239.9
+      },
+      {
+        "id": "line-84",
+        "text": "就是那柳边末啊呀呀",
+        "startTime": 1239.9,
+        "endTime": 1246.9
+      },
+      {
+        "id": "line-85",
+        "text": "我也是有份的",
+        "startTime": 1246.9,
+        "endTime": 1252.5
+      },
+      {
+        "id": "line-86",
+        "text": "我怎么细看这小娘子",
+        "startTime": 1259.9,
+        "endTime": 1262.3
+      },
+      {
+        "id": "line-87",
+        "text": "有些熟识得紧",
+        "startTime": 1262.3,
+        "endTime": 1266.9
+      },
+      {
+        "id": "line-88",
+        "text": "曾在哪里见过一次的",
+        "startTime": 1266.9,
+        "endTime": 1269.4
+      },
+      {
+        "id": "line-89",
+        "text": "怎么一时再也想不起",
+        "startTime": 1272.2,
+        "endTime": 1280.3
+      },
+      {
+        "id": "line-90",
+        "text": "我想起来了",
+        "startTime": 1282.5,
+        "endTime": 1285.3
+      },
+      {
+        "id": "line-91",
+        "text": "记得去春时曾得一梦",
+        "startTime": 1285.3,
+        "endTime": 1288.5
+      },
+      {
+        "id": "line-92",
+        "text": "梦一大花园",
+        "startTime": 1288.5,
+        "endTime": 1290.8
+      },
+      {
+        "id": "line-93",
+        "text": "在梅树之下立着一位美人么",
+        "startTime": 1290.8,
+        "endTime": 1297.2
+      },
+      {
+        "id": "line-94",
+        "text": "喏喏喏就是她",
+        "startTime": 1297.2,
+        "endTime": 1300.7
+      },
+      {
+        "id": "line-95",
+        "text": "她说柳生啊柳生",
+        "startTime": 1300.7,
+        "endTime": 1303.5
+      },
+      {
+        "id": "line-96",
+        "text": "与俺有姻缘之份",
+        "startTime": 1303.5,
+        "endTime": 1307.5
+      },
+      {
+        "id": "line-97",
+        "text": "发迹之期",
+        "startTime": 1307.5,
+        "endTime": 1311.5
+      },
+      {
+        "id": "line-98",
+        "text": "美人可是你说的么",
+        "startTime": 1311.5,
+        "endTime": 1316.3
+      },
+      {
+        "id": "line-99",
+        "text": "是也不是",
+        "startTime": 1316.3,
+        "endTime": 1325.2
+      },
+      {
+        "id": "line-100",
+        "text": "看这小娘子半枝青梅在手",
+        "startTime": 1333.1,
+        "endTime": 1338.7
+      },
+      {
+        "id": "line-101",
+        "text": "却似提掇小生一般",
+        "startTime": 1338.7,
+        "endTime": 1348.0
+      },
+      {
+        "id": "line-102",
+        "text": "[莺啼御林]她青梅在手",
+        "startTime": 1348.9,
+        "endTime": 1355.6
+      },
+      {
+        "id": "line-103",
+        "text": "诗细哦",
+        "startTime": 1355.6,
+        "endTime": 1375.3
+      },
+      {
+        "id": "line-104",
+        "text": "逗春心一点蹉跎",
+        "startTime": 1375.3,
+        "endTime": 1400.1
+      },
+      {
+        "id": "line-105",
+        "text": "小生待画饼充饥",
+        "startTime": 1400.1,
+        "endTime": 1412.4
+      },
+      {
+        "id": "line-106",
+        "text": "姐姐似望梅止渴",
+        "startTime": 1412.4,
+        "endTime": 1423.5
+      },
+      {
+        "id": "line-107",
+        "text": "她未曾开半点么荷",
+        "startTime": 1423.5,
+        "endTime": 1435.0
+      },
+      {
+        "id": "line-108",
+        "text": "她含笑处朱唇淡抹",
+        "startTime": 1435.0,
+        "endTime": 1447.5
+      },
+      {
+        "id": "line-109",
+        "text": "看这小娘子这双俊俏的眼睛",
+        "startTime": 1456.9,
+        "endTime": 1461.4
+      },
+      {
+        "id": "line-110",
+        "text": "只管顾盼小生",
+        "startTime": 1461.4,
+        "endTime": 1464.0
+      },
+      {
+        "id": "line-111",
+        "text": "待我走到这边",
+        "startTime": 1464.0,
+        "endTime": 1469.3
+      },
+      {
+        "id": "line-112",
+        "text": "她却看着小生",
+        "startTime": 1482.2,
+        "endTime": 1488.5
+      },
+      {
+        "id": "line-113",
+        "text": "待我走到那边",
+        "startTime": 1488.5,
+        "endTime": 1492.9
+      },
+      {
+        "id": "line-114",
+        "text": "她又看着小生",
+        "startTime": 1504.4,
+        "endTime": 1509.0
+      },
+      {
+        "id": "line-115",
+        "text": "啊呀美人",
+        "startTime": 1509.0,
+        "endTime": 1509.9
+      },
+      {
+        "id": "line-116",
+        "text": "你何必只管看我",
+        "startTime": 1509.9,
+        "endTime": 1512.1
+      },
+      {
+        "id": "line-117",
+        "text": "何不请下来相叫一声",
+        "startTime": 1512.1,
+        "endTime": 1516.3
+      },
+      {
+        "id": "line-118",
+        "text": "请啊请请啊",
+        "startTime": 1516.3,
+        "endTime": 1527.1
+      },
+      {
+        "id": "line-119",
+        "text": "呀呸",
+        "startTime": 1533.1,
+        "endTime": 1534.7
+      },
+      {
+        "id": "line-120",
+        "text": "柳梦梅啊",
+        "startTime": 1536.1,
+        "endTime": 1538.3
+      },
+      {
+        "id": "line-121",
+        "text": "你好痴也",
+        "startTime": 1538.3,
+        "endTime": 1546.9
+      },
+      {
+        "id": "line-122",
+        "text": "晕情多如愁欲语",
+        "startTime": 1551.3,
+        "endTime": 1565.2
+      },
+      {
+        "id": "line-123",
+        "text": "她只少一口气儿",
+        "startTime": 1565.2,
+        "endTime": 1578.1
+      },
+      {
+        "id": "line-124",
+        "text": "小娘子你画似崔徽",
+        "startTime": 1579.1,
+        "endTime": 1583.4
+      },
+      {
+        "id": "line-125",
+        "text": "诗如苏蕙",
+        "startTime": 1583.4,
+        "endTime": 1586.4
+      },
+      {
+        "id": "line-126",
+        "text": "行书逼真卫夫人也",
+        "startTime": 1586.4,
+        "endTime": 1590.3
+      },
+      {
+        "id": "line-127",
+        "text": "小生虽则典雅",
+        "startTime": 1590.3,
+        "endTime": 1593.8
+      },
+      {
+        "id": "line-128",
+        "text": "怎及得小娘子万分之一呀",
+        "startTime": 1593.8,
+        "endTime": 1599.7
+      },
+      {
+        "id": "line-129",
+        "text": "蓦地相逢不免步韵一首在上",
+        "startTime": 1599.7,
+        "endTime": 1608.0
+      },
+      {
+        "id": "line-130",
+        "text": "丹青妙处欲天然",
+        "startTime": 1629.4,
+        "endTime": 1632.4
+      },
+      {
+        "id": "line-131",
+        "text": "不是天仙即地仙",
+        "startTime": 1632.4,
+        "endTime": 1636.9
+      },
+      {
+        "id": "line-132",
+        "text": "地仙竞是地仙",
+        "startTime": 1636.9,
+        "endTime": 1643.9
+      },
+      {
+        "id": "line-133",
+        "text": "欲傍蟾宫人近远",
+        "startTime": 1646.3,
+        "endTime": 1649.4
+      },
+      {
+        "id": "line-134",
+        "text": "恰如春在柳梅边",
+        "startTime": 1649.4,
+        "endTime": 1653.8
+      },
+      {
+        "id": "line-135",
+        "text": "岭南柳梦梅熏沐敬和",
+        "startTime": 1653.8,
+        "endTime": 1657.9
+      },
+      {
+        "id": "line-136",
+        "text": "啊小娘子",
+        "startTime": 1660.6,
+        "endTime": 1662.4
+      },
+      {
+        "id": "line-137",
+        "text": "这是小生拙作",
+        "startTime": 1662.4,
+        "endTime": 1665.3
+      },
+      {
+        "id": "line-138",
+        "text": "少不得还要请教",
+        "startTime": 1665.3,
+        "endTime": 1677.0
+      },
+      {
+        "id": "line-139",
+        "text": "[簇御林]她题诗句",
+        "startTime": 1681.1,
+        "endTime": 1689.6
+      },
+      {
+        "id": "line-140",
+        "text": "声韵和",
+        "startTime": 1689.6,
+        "endTime": 1692.8
+      },
+      {
+        "id": "line-141",
+        "text": "猛可的害相思",
+        "startTime": 1692.8,
+        "endTime": 1696.5
+      },
+      {
+        "id": "line-142",
+        "text": "颜似酡",
+        "startTime": 1696.5,
+        "endTime": 1701.0
+      },
+      {
+        "id": "line-143",
+        "text": "不是这等",
+        "startTime": 1701.0,
+        "endTime": 1702.3
+      },
+      {
+        "id": "line-144",
+        "text": "待我来狠狼的叫她儿声",
+        "startTime": 1702.3,
+        "endTime": 1707.1
+      },
+      {
+        "id": "line-145",
+        "text": "喂美人",
+        "startTime": 1708.0,
+        "endTime": 1712.1
+      },
+      {
+        "id": "line-146",
+        "text": "小娘子",
+        "startTime": 1712.1,
+        "endTime": 1715.4
+      },
+      {
+        "id": "line-147",
+        "text": "姐姐",
+        "startTime": 1716.2,
+        "endTime": 1718.5
+      },
+      {
+        "id": "line-148",
+        "text": "啊呀我那嫡嫡亲亲的姐姐啊",
+        "startTime": 1718.5,
+        "endTime": 1731.8
+      },
+      {
+        "id": "line-149",
+        "text": "向真真啼血你知么",
+        "startTime": 1736.2,
+        "endTime": 1751.4
+      },
+      {
+        "id": "line-150",
+        "text": "莫怪小生我叫",
+        "startTime": 1751.4,
+        "endTime": 1755.7
+      },
+      {
+        "id": "line-151",
+        "text": "叫得你喷嚏一似天花唾",
+        "startTime": 1755.7,
+        "endTime": 1762.1
+      },
+      {
+        "id": "line-152",
+        "text": "下来了",
+        "startTime": 1762.1,
+        "endTime": 1764.0
+      },
+      {
+        "id": "line-153",
+        "text": "她动凌波",
+        "startTime": 1764.0,
+        "endTime": 1768.3
+      },
+      {
+        "id": "line-154",
+        "text": "啊呀请坐盈盈欲下",
+        "startTime": 1768.3,
+        "endTime": 1774.6
+      },
+      {
+        "id": "line-155",
+        "text": "全不见些影儿哪",
+        "startTime": 1774.6,
+        "endTime": 1785.1
+      },
+      {
+        "id": "line-156",
+        "text": "啊小娘子",
+        "startTime": 1786.0,
+        "endTime": 1787.5
+      },
+      {
+        "id": "line-157",
+        "text": "小生孤单在此",
+        "startTime": 1787.5,
+        "endTime": 1791.3
+      },
+      {
+        "id": "line-158",
+        "text": "少不得要将小娘子的画像",
+        "startTime": 1791.3,
+        "endTime": 1796.1
+      },
+      {
+        "id": "line-159",
+        "text": "做个伴侣儿",
+        "startTime": 1796.1,
+        "endTime": 1799.3
+      },
+      {
+        "id": "line-160",
+        "text": "早晚末玩之",
+        "startTime": 1799.4,
+        "endTime": 1803.8
+      },
+      {
+        "id": "line-161",
+        "text": "叫之拜之",
+        "startTime": 1803.8,
+        "endTime": 1806.5
+      },
+      {
+        "id": "line-162",
+        "text": "赞赞赞之",
+        "startTime": 1806.5,
+        "endTime": 1815.4
+      },
+      {
+        "id": "line-163",
+        "text": "俺拾得个人儿先庆贺",
+        "startTime": 1819.7,
+        "endTime": 1832.5
+      },
+      {
+        "id": "line-164",
+        "text": "敢柳和梅有些瓜葛",
+        "startTime": 1832.5,
+        "endTime": 1851.8
+      },
+      {
+        "id": "line-165",
+        "text": "美人啊",
+        "startTime": 1852.7,
+        "endTime": 1859.9
+      },
+      {
+        "id": "line-166",
+        "text": "只被你有影无形盼煞我",
+        "startTime": 1864.2,
+        "endTime": 1899.7
+      },
+      {
+        "id": "line-167",
+        "text": "风来了",
+        "startTime": 1903.9,
+        "endTime": 1905.5
+      },
+      {
+        "id": "line-168",
+        "text": "啊小娘子这里有风",
+        "startTime": 1905.5,
+        "endTime": 1908.7
+      },
+      {
+        "id": "line-169",
+        "text": "请小娘子到里边去",
+        "startTime": 1908.7,
+        "endTime": 1912.3
+      },
+      {
+        "id": "line-170",
+        "text": "唷小娘子是客",
+        "startTime": 1912.3,
+        "endTime": 1915.3
+      },
+      {
+        "id": "line-171",
+        "text": "自然小娘子先请",
+        "startTime": 1915.3,
+        "endTime": 1918.8
+      },
+      {
+        "id": "line-172",
+        "text": "小生末随后",
+        "startTime": 1918.8,
+        "endTime": 1923.5
+      },
+      {
+        "id": "line-173",
+        "text": "请啊请请请啊",
+        "startTime": 1923.5,
+        "endTime": 1938.3
+      },
+      {
+        "id": "line-174",
+        "text": "要并肩同步",
+        "startTime": 1943.6,
+        "endTime": 1954.5
+      },
+      {
+        "id": "line-175",
+        "text": "小娘子",
+        "startTime": 1954.5,
+        "endTime": 1955.7
+      },
+      {
+        "id": "line-176",
+        "text": "来呀来呀",
+        "startTime": 1955.7,
+        "endTime": 1962.9
+      },
+      {
+        "id": "line-177",
+        "text": "哈哈哈",
+        "startTime": 1962.9,
+        "endTime": 1968.6
+      }
+    ],
+    "characterAnnotations": [],
+    "actionAnnotations": [],
+    "builtinTracks": [
+      {
+        "id": "character-track",
+        "name": "逐字文字轨",
+        "type": "character",
+        "options": [
+          "普通唱",
+          "拖腔",
+          "顿音",
+          "装饰音",
+          "念白式",
+          "其他"
+        ],
+        "attachedPointTracks": [],
+        "attachedPointTracksExpanded": false,
+        "snapToWaveformKeypoints": false,
+        "autoSetLoopRangeOnSelect": false
+      },
+      {
+        "id": "hand-action",
+        "name": "手部动作轨",
+        "type": "action",
+        "options": [
+          "抬手",
+          "落手",
+          "指向",
+          "翻腕",
+          "水袖动作",
+          "其他"
+        ],
+        "attachedPointTracks": [],
+        "attachedPointTracksExpanded": false,
+        "snapToWaveformKeypoints": false,
+        "autoSetLoopRangeOnSelect": false
+      },
+      {
+        "id": "body-action",
+        "name": "肢体动作轨",
+        "type": "action",
+        "options": [
+          "转身",
+          "移步",
+          "屈伸",
+          "亮相",
+          "前倾",
+          "后仰",
+          "其他"
+        ],
+        "attachedPointTracks": [],
+        "attachedPointTracksExpanded": false,
+        "snapToWaveformKeypoints": false,
+        "autoSetLoopRangeOnSelect": false
+      }
+    ],
+    "customTracks": [],
+    "activeTrackOrder": [
+      "character-track",
+      "hand-action",
+      "body-action"
+    ],
+    "gongcheAnnotations": []
+  },
+  "uiState": {
+    "zoom": 15.128249229372463,
+    "currentTime": 234.3959268,
+    "playbackRate": 1,
+    "trackSnapEnabled": {
+      "character-track": true,
+      "hand-action": true,
+      "body-action": true
+    },
+    "loopPlaybackEnabled": false,
+    "loopPlaybackRange": null
+  }
+}
