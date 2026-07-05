@@ -8,20 +8,24 @@
 #   1. Segment the long vocal wav into per-phrase clips (ALL lines are kept;
 #      SOFA has no hard length cap -- 45s is only a training-data filter, and
 #      direct inference stays accurate well past it) and emit matching .lab
-#      pinyin transcriptions  ->  segments/xunmeng_<tag>/
+#      pinyin transcriptions  ->  segments/<play>_<tag>/
 #   2. Run SOFA forced alignment on that folder              ->  .../TextGrid/
 #   3. Convert the TextGrid output back into a character-level annotation JSON
-#                                          ->  data/xunmeng/xunmeng_<tag>_annotation.json
+#                                          ->  data/<play>/<play>_<tag>_annotation.json
 #
 # Usage:
-#   scripts/align_pipeline.sh <wav_path> <tag>
+#   scripts/align_pipeline.sh <wav_path> <tag>          # PLAY defaults to xunmeng
+#   PLAY=<play> ANNOTATION=<json> scripts/align_pipeline.sh <wav_path> <tag>
 #
 # Example:
 #   scripts/align_pipeline.sh data/xunmeng/xunmeng_vocals_mel-band-roformer.wav roformer
+#   PLAY=shihuajiaohua ANNOTATION=data/shihuajiaohua/shihuajiaohua_ocr_annotation.json \
+#     scripts/align_pipeline.sh data/shihuajiaohua/shihuajiaohua_vocals_mel-band-roformer.wav roformer
 #
 # Override any of these via environment variables:
+#   PLAY          play slug; keys all in/out paths (default: xunmeng)
 #   CKPT          path to the SOFA .ckpt model   (default: ckpt/pretrained_mandarin_singing/v1.0.0_mandarin_singing.ckpt)
-#   ANNOTATION    source subtitle annotation     (default: data/xunmeng/xunmeng_annotation.json)
+#   ANNOTATION    source subtitle annotation     (default: data/<play>/<play>_annotation.json)
 #   DICT          pronunciation dictionary       (default: dictionary/opencpop-extension.txt)
 #   MAX_DURATION  warn-only threshold in seconds (default: 45; long lines kept)
 #   PYTHON        python interpreter             (default: python)
@@ -44,17 +48,18 @@ SOFA_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 cd "$SOFA_ROOT"
 
 PYTHON="${PYTHON:-python}"
+PLAY="${PLAY:-xunmeng}"
 CKPT="${CKPT:-ckpt/pretrained_mandarin_singing/v1.0.0_mandarin_singing.ckpt}"
-ANNOTATION="${ANNOTATION:-data/xunmeng/xunmeng_annotation.json}"
+ANNOTATION="${ANNOTATION:-data/${PLAY}/${PLAY}_annotation.json}"
 DICT="${DICT:-dictionary/opencpop-extension.txt}"
 MAX_DURATION="${MAX_DURATION:-45}"
 
-SEGMENTS_DIR="segments/xunmeng_${TAG}"
+SEGMENTS_DIR="segments/${PLAY}_${TAG}"
 TEXTGRID_DIR="${SEGMENTS_DIR}/TextGrid"
-OUT_JSON="data/xunmeng/xunmeng_${TAG}_annotation.json"
+OUT_JSON="data/${PLAY}/${PLAY}_${TAG}_annotation.json"
 
 echo "============================================================"
-echo "SOFA alignment pipeline: ${TAG}"
+echo "SOFA alignment pipeline: ${PLAY} / ${TAG}"
 echo "  SOFA root   : ${SOFA_ROOT}"
 echo "  wav         : ${WAV}"
 echo "  annotation  : ${ANNOTATION}"
