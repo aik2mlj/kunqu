@@ -229,3 +229,9 @@ __marimo__/
 
 # slurm logs
 logs/
+
+# Four-tone annotation runtime artifacts. Curated examples use different names
+# and remain trackable under qiangge-annotation/tone-yinyang/data/examples/.
+.*.tone-ai-work/
+*.tone-ai-draft.json
+*.tone-ai-review.json

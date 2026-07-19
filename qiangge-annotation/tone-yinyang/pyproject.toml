@@ -1,0 +1,17 @@
+[project]
+name = "kunqu-yxlz-tone-annotation"
+version = "0.1.0"
+description = "Annotate character-level Kunqu data with the tone categories of Yunyue Lizhu"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+yxlz-tone-annotate = "yxlz_tone_annotator.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/yxlz_tone_annotator"]
+

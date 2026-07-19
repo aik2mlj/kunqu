@@ -1,0 +1,7339 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-07-10T04:37:48.657031+00:00",
+  "inputFile": "央视_顾卫英《寻梦》.annotation.json",
+  "outputFile": "央视_顾卫英《寻梦》.annotation.tone-ai-draft.json",
+  "promptVersion": "yxlz-tone-v2",
+  "model": "deepseek-v4-pro",
+  "summary": {
+    "targetCount": 427,
+    "writtenCount": 427,
+    "omittedLowConfidenceCount": 0,
+    "needsReviewCount": 427,
+    "batchCount": 24
+  },
+  "preprocessingWarnings": [
+    "line-90-char-3: 块内容 '哭？' 含标点，查音字为 '哭'。"
+  ],
+  "annotations": [
+    {
+      "id": "line-1-char-1",
+      "char": "一",
+      "lookupChar": "一",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "入声字，清声母，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-2-char-1",
+      "char": "径",
+      "lookupChar": "径",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去声，清声母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-3-char-1",
+      "char": "行",
+      "lookupChar": "行",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声，浊声母，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-4-char-1",
+      "char": "来",
+      "lookupChar": "来",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声，浊声母，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-5-char-1",
+      "char": "但",
+      "lookupChar": "但",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去声，浊声母，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-6-char-1",
+      "char": "觉",
+      "lookupChar": "觉",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "入声字，清声母，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-7-char-1",
+      "char": "思",
+      "lookupChar": "思",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声，清声母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-8-char-1",
+      "char": "情",
+      "lookupChar": "情",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声，浊声母，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-9-char-1",
+      "char": "辗",
+      "lookupChar": "辗",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上声，浊声母，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-10-char-1",
+      "char": "转",
+      "lookupChar": "转",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上声，浊声母，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-11-char-1",
+      "char": "园",
+      "lookupChar": "园",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声，浊声母，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-12-char-1",
+      "char": "内",
+      "lookupChar": "内",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去声，浊声母，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-13-char-1",
+      "char": "风",
+      "lookupChar": "风",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声，清声母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-14-char-1",
+      "char": "物",
+      "lookupChar": "物",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "入声字，浊声母，阳入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-15-char-1",
+      "char": "依",
+      "lookupChar": "依",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声，清声母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-16-char-1",
+      "char": "然",
+      "lookupChar": "然",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声，浊声母，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-17-char-1",
+      "char": "趁",
+      "lookupChar": "趁",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "趁，去声，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-17-char-2",
+      "char": "此",
+      "lookupChar": "此",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "此，上声，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-17-char-3",
+      "char": "悄",
+      "lookupChar": "悄",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "悄，上声，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-17-char-4",
+      "char": "的",
+      "lookupChar": "的",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "的，入声，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-17-char-5",
+      "char": "无",
+      "lookupChar": "无",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "无，平声，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-17-char-6",
+      "char": "人",
+      "lookupChar": "人",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "人，平声，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-18-char-1",
+      "char": "正",
+      "lookupChar": "正",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "正，去声，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-18-char-2",
+      "char": "好",
+      "lookupChar": "好",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "好，上声，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-18-char-3",
+      "char": "寻",
+      "lookupChar": "寻",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "寻，平声，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-18-char-4",
+      "char": "梦",
+      "lookupChar": "梦",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "梦，去声，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-18-char-5",
+      "char": "也",
+      "lookupChar": "也",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "也，上声，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-19-char-1",
+      "char": "那",
+      "lookupChar": "那",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "那，去声，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-20-char-1",
+      "char": "一",
+      "lookupChar": "一",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "一，入声，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-21-char-1",
+      "char": "答",
+      "lookupChar": "答",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "答，入声，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-22-char-1",
+      "char": "可",
+      "lookupChar": "可",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "可，上声，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-23-char-1",
+      "char": "是",
+      "lookupChar": "是",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "是，去声，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-24-char-1",
+      "char": "湖",
+      "lookupChar": "湖",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "湖，平声，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-25-char-1",
+      "char": "山",
+      "lookupChar": "山",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "山，平声，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-26-char-1",
+      "char": "石",
+      "lookupChar": "石",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "石，入声，阳入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-27-char-1",
+      "char": "边",
+      "lookupChar": "边",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "边，平声，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-28-char-1",
+      "char": "这",
+      "lookupChar": "这",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "曲韵中“这”为阴去声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-29-char-1",
+      "char": "一",
+      "lookupChar": "一",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“一”为清入声字，属阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-30-char-1",
+      "char": "答",
+      "lookupChar": "答",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“答”为清入声字，属阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-31-char-1",
+      "char": "似",
+      "lookupChar": "似",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“似”为阳上声字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-32-char-1",
+      "char": "牡",
+      "lookupChar": "牡",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“牡”为阳上声字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-33-char-1",
+      "char": "丹",
+      "lookupChar": "丹",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“丹”为阴平声字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-34-char-1",
+      "char": "亭",
+      "lookupChar": "亭",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“亭”为阳平声字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-35-char-1",
+      "char": "畔",
+      "lookupChar": "畔",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“畔”为阳去声字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-35-char-2",
+      "char": "嵌",
+      "lookupChar": "嵌",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“嵌”为阴去声字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-35-char-3",
+      "char": "雕",
+      "lookupChar": "雕",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“雕”为阴平声字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-35-char-4",
+      "char": "阑",
+      "lookupChar": "阑",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“阑”为阳平声字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-35-char-5",
+      "char": "芍",
+      "lookupChar": "芍",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“芍”为浊入声字，属阳入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-35-char-6",
+      "char": "药",
+      "lookupChar": "药",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“药”为浊入声字，属阳入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-35-char-7",
+      "char": "芽",
+      "lookupChar": "芽",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“芽”为阳平声字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-35-char-8",
+      "char": "儿",
+      "lookupChar": "儿",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“儿”为阳平声字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-35-char-9",
+      "char": "浅",
+      "lookupChar": "浅",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“浅”为阴上声字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-35-char-10",
+      "char": "一",
+      "lookupChar": "一",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“一”为清入声字，属阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-35-char-11",
+      "char": "丝",
+      "lookupChar": "丝",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“丝”为阴平声字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-35-char-12",
+      "char": "丝",
+      "lookupChar": "丝",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“丝”为阴平声字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-35-char-13",
+      "char": "垂",
+      "lookupChar": "垂",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“垂”为阳平声字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-35-char-14",
+      "char": "杨",
+      "lookupChar": "杨",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“杨”为阳平声字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-36-char-2",
+      "char": "线",
+      "lookupChar": "线",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "“线”为阴去声字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-37-char-1",
+      "char": "一",
+      "lookupChar": "一",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "入声字，清声母，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-37-char-2",
+      "char": "丢",
+      "lookupChar": "丢",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声，清声母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-37-char-3",
+      "char": "丢",
+      "lookupChar": "丢",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声，清声母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-37-char-4",
+      "char": "榆",
+      "lookupChar": "榆",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声，浊声母，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "char-c3f770ee-b793-4c12-af53-6698a04b66da",
+      "char": "荚",
+      "lookupChar": "荚",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "入声字，清声母，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-37-char-6",
+      "char": "钱",
+      "lookupChar": "钱",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声，浊声母，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-38-char-1",
+      "char": "啊",
+      "lookupChar": "啊",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.7,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "语气词，通常阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-38-char-2",
+      "char": "线",
+      "lookupChar": "线",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去声，清声母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-38-char-3",
+      "char": "儿",
+      "lookupChar": "儿",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声，浊声母，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-38-char-4",
+      "char": "春",
+      "lookupChar": "春",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声，清声母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-38-char-5",
+      "char": "甚",
+      "lookupChar": "甚",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去声，浊声母，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-38-char-6",
+      "char": "金",
+      "lookupChar": "金",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声，清声母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-38-char-7",
+      "char": "钱",
+      "lookupChar": "钱",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声，浊声母，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-38-char-8",
+      "char": "啊",
+      "lookupChar": "啊",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.7,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "语气词，通常阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-38-char-9",
+      "char": "吊",
+      "lookupChar": "吊",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去声，清声母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-38-char-10",
+      "char": "转",
+      "lookupChar": "转",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上声，清声母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-39-char-1",
+      "char": "昨",
+      "lookupChar": "昨",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "昨为入声字，全浊从母，归阳入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-39-char-2",
+      "char": "日",
+      "lookupChar": "日",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "日为入声字，全浊日母，归阳入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-39-char-3",
+      "char": "梦",
+      "lookupChar": "梦",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "梦为去声，全浊明母，归阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-39-char-4",
+      "char": "里",
+      "lookupChar": "里",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "里为上声，次浊来母，归阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-40-char-1",
+      "char": "那",
+      "lookupChar": "那",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "那作指示代词，去声，泥母，归阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-40-char-2",
+      "char": "书",
+      "lookupChar": "书",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "书为平声，清音书母，归阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-40-char-3",
+      "char": "生",
+      "lookupChar": "生",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "生为平声，清音生母，归阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-40-char-4",
+      "char": "将",
+      "lookupChar": "将",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "将作介词，平声，精母，归阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-40-char-5",
+      "char": "柳",
+      "lookupChar": "柳",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "柳为上声，次浊来母，归阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-40-char-6",
+      "char": "枝",
+      "lookupChar": "枝",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "枝为平声，清音章母，归阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-40-char-7",
+      "char": "来",
+      "lookupChar": "来",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "来为平声，次浊来母，归阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-40-char-8",
+      "char": "赠",
+      "lookupChar": "赠",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "赠为去声，全浊从母，归阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-40-char-9",
+      "char": "我",
+      "lookupChar": "我",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "我为上声，次浊疑母，归阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-41-char-1",
+      "char": "要",
+      "lookupChar": "要",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "要作要求义，去声，影母，归阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-41-char-2",
+      "char": "我",
+      "lookupChar": "我",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "我同上，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-41-char-3",
+      "char": "题",
+      "lookupChar": "题",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "题为平声，全浊定母，归阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-41-char-4",
+      "char": "咏",
+      "lookupChar": "咏",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "咏为去声，次浊云母，归阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-42-char-1",
+      "char": "强",
+      "lookupChar": "强",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "强，阳平声，强壮义。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-42-char-2",
+      "char": "奴",
+      "lookupChar": "奴",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "奴，阳平声，奴婢义。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-42-char-3",
+      "char": "欢",
+      "lookupChar": "欢",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "欢，阴平声，欢乐义。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-42-char-4",
+      "char": "会",
+      "lookupChar": "会",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "会，阳去声，聚会义。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-42-char-5",
+      "char": "之",
+      "lookupChar": "之",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "之，阴平声，助词。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-42-char-6",
+      "char": "时",
+      "lookupChar": "时",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "时，阳平声，时间义。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-43-char-1",
+      "char": "好",
+      "lookupChar": "好",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "好，阴上声，美好义。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-43-char-2",
+      "char": "不",
+      "lookupChar": "不",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "不，阴入声，否定词。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-43-char-3",
+      "char": "话",
+      "lookupChar": "话",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "话，阳去声，言语义。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-43-char-4",
+      "char": "长",
+      "lookupChar": "长",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "长，阳平声，长短义。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-43-char-5",
+      "char": "也",
+      "lookupChar": "也",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "也，阳上声，语气词。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-44-char-1",
+      "char": "是",
+      "lookupChar": "是",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "是，阳去声，判断词。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-44-char-2",
+      "char": "谁",
+      "lookupChar": "谁",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "谁，阳平声，疑问代词。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-44-char-3",
+      "char": "家",
+      "lookupChar": "家",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "家，阴平声，家庭义。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-44-char-4",
+      "char": "少",
+      "lookupChar": "少",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "少，阴上声，多少之少。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-44-char-5",
+      "char": "俊",
+      "lookupChar": "俊",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "俊，阴去声，俊美义。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-44-char-6",
+      "char": "来",
+      "lookupChar": "来",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "来，阳平声，到来义。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-44-char-7",
+      "char": "近",
+      "lookupChar": "近",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "近，阳去声，远近之近。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-44-char-8",
+      "char": "远",
+      "lookupChar": "远",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "远，阳上声，遥远义。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-45-char-1",
+      "char": "敢",
+      "lookupChar": "敢",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "敢，上声，清声母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-45-char-2",
+      "char": "迤",
+      "lookupChar": "迤",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "迤，平声，浊声母，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-45-char-3",
+      "char": "逗",
+      "lookupChar": "逗",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "逗，去声，浊声母，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-45-char-4",
+      "char": "这",
+      "lookupChar": "这",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "这，去声，清声母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-45-char-5",
+      "char": "香",
+      "lookupChar": "香",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "香，平声，清声母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-45-char-6",
+      "char": "闺",
+      "lookupChar": "闺",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "闺，平声，清声母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-45-char-7",
+      "char": "去",
+      "lookupChar": "去",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去，去声，清声母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-45-char-8",
+      "char": "沁",
+      "lookupChar": "沁",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "沁，去声，清声母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-45-char-9",
+      "char": "园",
+      "lookupChar": "园",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "园，平声，浊声母，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-46-char-1",
+      "char": "话",
+      "lookupChar": "话",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "话，去声，浊声母，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-46-char-2",
+      "char": "到",
+      "lookupChar": "到",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "到，去声，清声母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-46-char-3",
+      "char": "其",
+      "lookupChar": "其",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "其，平声，浊声母，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-47-char-1",
+      "char": "间",
+      "lookupChar": "间",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "间，平声，清声母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-47-char-2",
+      "char": "腼",
+      "lookupChar": "腼",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "腼，上声，浊声母，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-47-char-3",
+      "char": "腆",
+      "lookupChar": "腆",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "腆，上声，清声母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-48-char-1",
+      "char": "他",
+      "lookupChar": "他",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "他，平声，清声母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-48-char-2",
+      "char": "捏",
+      "lookupChar": "捏",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "捏，入声，清声母，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-48-char-3",
+      "char": "这",
+      "lookupChar": "这",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "这，去声，清声母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-48-char-4",
+      "char": "眼",
+      "lookupChar": "眼",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "眼，上声，浊声母，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-48-char-5",
+      "char": "奈",
+      "lookupChar": "奈",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "奈，去声，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-48-char-6",
+      "char": "烦",
+      "lookupChar": "烦",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "烦，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-48-char-7",
+      "char": "也",
+      "lookupChar": "也",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "也，上声，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-48-char-8",
+      "char": "天",
+      "lookupChar": "天",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "天，阴平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-49-char-1",
+      "char": "咱",
+      "lookupChar": "咱",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "咱，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-49-char-2",
+      "char": "噷",
+      "lookupChar": "噷",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.7,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "噷，罕见字，疑为阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-49-char-3",
+      "char": "这",
+      "lookupChar": "这",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "这，去声，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-49-char-4",
+      "char": "口",
+      "lookupChar": "口",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "口，上声，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-49-char-5",
+      "char": "待",
+      "lookupChar": "待",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "待，去声，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-49-char-6",
+      "char": "酬",
+      "lookupChar": "酬",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "酬，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-49-char-7",
+      "char": "言",
+      "lookupChar": "言",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "言，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-50-char-1",
+      "char": "咱",
+      "lookupChar": "咱",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "咱，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-50-char-2",
+      "char": "不",
+      "lookupChar": "不",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "不，入声，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-50-char-3",
+      "char": "是",
+      "lookupChar": "是",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "是，去声，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-50-char-4",
+      "char": "前",
+      "lookupChar": "前",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "前，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-50-char-5",
+      "char": "生",
+      "lookupChar": "生",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "生，阴平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-50-char-6",
+      "char": "爱",
+      "lookupChar": "爱",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "爱，去声，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-50-char-7",
+      "char": "眷",
+      "lookupChar": "眷",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "眷，去声，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-51-char-1",
+      "char": "又",
+      "lookupChar": "又",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "又为去声，全浊声母，归阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-51-char-2",
+      "char": "素",
+      "lookupChar": "素",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "素为去声，清声母，归阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-51-char-3",
+      "char": "乏",
+      "lookupChar": "乏",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "乏为入声，全浊声母，归阳入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-51-char-4",
+      "char": "平",
+      "lookupChar": "平",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平为平声，全浊声母，归阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-51-char-5",
+      "char": "生",
+      "lookupChar": "生",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "生为平声，清声母，归阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-51-char-6",
+      "char": "半",
+      "lookupChar": "半",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "半为去声，清声母，归阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-51-char-7",
+      "char": "面",
+      "lookupChar": "面",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "面为去声，次浊声母，归阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-52-char-1",
+      "char": "则",
+      "lookupChar": "则",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "则为入声，清声母，归阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-52-char-2",
+      "char": "道",
+      "lookupChar": "道",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "道为上声，全浊声母，归阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-52-char-3",
+      "char": "来",
+      "lookupChar": "来",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "来为平声，次浊声母，归阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-52-char-4",
+      "char": "生",
+      "lookupChar": "生",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "生为平声，清声母，归阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-52-char-5",
+      "char": "出",
+      "lookupChar": "出",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "出为入声，清声母，归阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-52-char-6",
+      "char": "现",
+      "lookupChar": "现",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "现为去声，全浊声母，归阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-53-char-1",
+      "char": "乍",
+      "lookupChar": "乍",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "乍为去声，全浊声母，归阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-53-char-2",
+      "char": "便",
+      "lookupChar": "便",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "便为去声，全浊声母，归阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-53-char-3",
+      "char": "今",
+      "lookupChar": "今",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "今为平声，清声母，归阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-53-char-4",
+      "char": "生",
+      "lookupChar": "生",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "生为平声，清声母，归阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-53-char-5",
+      "char": "梦",
+      "lookupChar": "梦",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "梦为去声，次浊声母，归阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-53-char-6",
+      "char": "见",
+      "lookupChar": "见",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "见为去声，清声母，归阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-54-char-1",
+      "char": "生",
+      "lookupChar": "生",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "生为阴平，曲韵常用字，无资料时推断。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-54-char-2",
+      "char": "就",
+      "lookupChar": "就",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "就去声阳去，常用字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-54-char-3",
+      "char": "个",
+      "lookupChar": "个",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "个去声阴去，常用字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-54-char-4",
+      "char": "书",
+      "lookupChar": "书",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "书阴平，常用字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-54-char-5",
+      "char": "生",
+      "lookupChar": "生",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "生阴平，同上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-55-char-1",
+      "char": "恰",
+      "lookupChar": "恰",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "恰入声阴入，常用字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-55-char-2",
+      "char": "恰",
+      "lookupChar": "恰",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "恰入声阴入，同上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-55-char-3",
+      "char": "生",
+      "lookupChar": "生",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "生阴平，同上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-55-char-4",
+      "char": "生",
+      "lookupChar": "生",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "生阴平，同上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-55-char-5",
+      "char": "抱",
+      "lookupChar": "抱",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "抱去声阳去，常用字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-55-char-6",
+      "char": "咱",
+      "lookupChar": "咱",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "咱阳平，口语字，推断。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-55-char-7",
+      "char": "去",
+      "lookupChar": "去",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去阴去，常用字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-55-char-8",
+      "char": "眠",
+      "lookupChar": "眠",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "眠阳平，常用字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-56-char-1",
+      "char": "寻",
+      "lookupChar": "寻",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "寻阳平，常用字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-56-char-2",
+      "char": "来",
+      "lookupChar": "来",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "来阳平，常用字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-56-char-3",
+      "char": "寻",
+      "lookupChar": "寻",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "寻阳平，同上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-56-char-4",
+      "char": "去",
+      "lookupChar": "去",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去阴去，同上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-57-char-1",
+      "char": "都",
+      "lookupChar": "都",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "副词，阴平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-57-char-2",
+      "char": "不",
+      "lookupChar": "不",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "否定词，阴入声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-57-char-3",
+      "char": "见",
+      "lookupChar": "见",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "看见，阴去声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-57-char-4",
+      "char": "了",
+      "lookupChar": "了",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "助词，阳上声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-58-char-1",
+      "char": "那",
+      "lookupChar": "那",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "指示代词，阳去声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-58-char-2",
+      "char": "牡",
+      "lookupChar": "牡",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "牡丹，阳上声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-58-char-3",
+      "char": "丹",
+      "lookupChar": "丹",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "红色，阴平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-58-char-4",
+      "char": "亭",
+      "lookupChar": "亭",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "亭子，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-58-char-5",
+      "char": "芍",
+      "lookupChar": "芍",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "芍药，阳入声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-58-char-6",
+      "char": "药",
+      "lookupChar": "药",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "芍药，阳入声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-58-char-7",
+      "char": "栏",
+      "lookupChar": "栏",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "栏杆，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-59-char-1",
+      "char": "怎",
+      "lookupChar": "怎",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "怎么，阴上声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-59-char-2",
+      "char": "生",
+      "lookupChar": "生",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "生字，阴平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-59-char-3",
+      "char": "这",
+      "lookupChar": "这",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "指示代词，阴去声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-59-char-4",
+      "char": "般",
+      "lookupChar": "般",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "这般，阴平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-59-char-5",
+      "char": "凄",
+      "lookupChar": "凄",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "凄凉，阴平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-59-char-6",
+      "char": "凉",
+      "lookupChar": "凉",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "凉，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-59-char-7",
+      "char": "冷",
+      "lookupChar": "冷",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "寒冷，阳上声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-59-char-8",
+      "char": "落",
+      "lookupChar": "落",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "冷落，阳入声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-60-char-1",
+      "char": "杳",
+      "lookupChar": "杳",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "杳，上声，曲韵中属阴上声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-60-char-2",
+      "char": "无",
+      "lookupChar": "无",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "无，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-60-char-3",
+      "char": "人",
+      "lookupChar": "人",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "人，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-60-char-4",
+      "char": "迹",
+      "lookupChar": "迹",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "迹，入声，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-61-char-1",
+      "char": "好",
+      "lookupChar": "好",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "好，上声，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-61-char-2",
+      "char": "伤",
+      "lookupChar": "伤",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "伤，阴平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-61-char-3",
+      "char": "感",
+      "lookupChar": "感",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "感，上声，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-61-char-4",
+      "char": "人",
+      "lookupChar": "人",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "人，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-61-char-5",
+      "char": "也",
+      "lookupChar": "也",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "也，上声，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-62-char-1",
+      "char": "似",
+      "lookupChar": "似",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "似，上声，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-62-char-2",
+      "char": "这",
+      "lookupChar": "这",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "这，去声，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-62-char-3",
+      "char": "等",
+      "lookupChar": "等",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "等，上声，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-62-char-4",
+      "char": "荒",
+      "lookupChar": "荒",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "荒，阴平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-62-char-5",
+      "char": "凉",
+      "lookupChar": "凉",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "凉，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-62-char-6",
+      "char": "地",
+      "lookupChar": "地",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "地，去声，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-62-char-7",
+      "char": "面",
+      "lookupChar": "面",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "面，去声，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-63-char-1",
+      "char": "没",
+      "lookupChar": "没",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "没，入声，阳入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-63-char-2",
+      "char": "多",
+      "lookupChar": "多",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "多，阴平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-63-char-3",
+      "char": "半",
+      "lookupChar": "半",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "半，阴去声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-63-char-4",
+      "char": "亭",
+      "lookupChar": "亭",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "亭，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-63-char-5",
+      "char": "台",
+      "lookupChar": "台",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "台，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-63-char-6",
+      "char": "靠",
+      "lookupChar": "靠",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "靠，阴去声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-64-char-1",
+      "char": "边",
+      "lookupChar": "边",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "边，阴平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-65-char-1",
+      "char": "敢",
+      "lookupChar": "敢",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "敢，阴上声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-65-char-2",
+      "char": "是",
+      "lookupChar": "是",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "是，阳去声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-65-char-3",
+      "char": "咱",
+      "lookupChar": "咱",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "咱，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-65-char-4",
+      "char": "眯",
+      "lookupChar": "眯",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "眯，阴平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-65-char-5",
+      "char": "睎",
+      "lookupChar": "睎",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "睎，阴平声，依据曲韵推断。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-65-char-6",
+      "char": "色",
+      "lookupChar": "色",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "色，阴入声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-65-char-7",
+      "char": "眼",
+      "lookupChar": "眼",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "眼，阳上声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-65-char-8",
+      "char": "寻",
+      "lookupChar": "寻",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "寻，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-65-char-9",
+      "char": "难",
+      "lookupChar": "难",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "难，阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-65-char-10",
+      "char": "见",
+      "lookupChar": "见",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "见，阴去声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-66-char-1",
+      "char": "放",
+      "lookupChar": "放",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "放，阴去声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-66-char-2",
+      "char": "着",
+      "lookupChar": "着",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "着，入声，阳入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-66-char-3",
+      "char": "白",
+      "lookupChar": "白",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "白，阳入声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-66-char-4",
+      "char": "日",
+      "lookupChar": "日",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "日，阳入声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-66-char-5",
+      "char": "青",
+      "lookupChar": "青",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "青，阴平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-66-char-6",
+      "char": "天",
+      "lookupChar": "天",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "天，阴平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-67-char-1",
+      "char": "猛",
+      "lookupChar": "猛",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "猛，上声，次浊，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-67-char-2",
+      "char": "教",
+      "lookupChar": "教",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "教，平声，使令义，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-67-char-3",
+      "char": "人",
+      "lookupChar": "人",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "人，平声，次浊，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-67-char-4",
+      "char": "抓",
+      "lookupChar": "抓",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "抓，平声，清声母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-67-char-5",
+      "char": "不",
+      "lookupChar": "不",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "不，入声，清声母，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-67-char-6",
+      "char": "到",
+      "lookupChar": "到",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "到，去声，清声母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-67-char-7",
+      "char": "魂",
+      "lookupChar": "魂",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "魂，平声，次浊，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-67-char-8",
+      "char": "梦",
+      "lookupChar": "梦",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "梦，去声，次浊，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-67-char-9",
+      "char": "前",
+      "lookupChar": "前",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "前，平声，全浊，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-68-char-1",
+      "char": "霎",
+      "lookupChar": "霎",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "霎，入声，清声母，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-68-char-2",
+      "char": "时",
+      "lookupChar": "时",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "时，平声，全浊，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-68-char-3",
+      "char": "间",
+      "lookupChar": "间",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "间，平声，清声母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-68-char-4",
+      "char": "有",
+      "lookupChar": "有",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "有，上声，次浊，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-68-char-5",
+      "char": "如",
+      "lookupChar": "如",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "如，平声，次浊，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-68-char-6",
+      "char": "活",
+      "lookupChar": "活",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "活，入声，全浊，阳入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-68-char-7",
+      "char": "现",
+      "lookupChar": "现",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "现，去声，全浊，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-69-char-1",
+      "char": "打",
+      "lookupChar": "打",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "打，上声，清声母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-69-char-2",
+      "char": "方",
+      "lookupChar": "方",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "方，平声，清声母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-69-char-3",
+      "char": "旋",
+      "lookupChar": "旋",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "旋，平声，全浊，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-69-char-4",
+      "char": "再",
+      "lookupChar": "再",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "再，去声，清声母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-69-char-5",
+      "char": "得",
+      "lookupChar": "得",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "得，入声，清声母，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-69-char-6",
+      "char": "俄",
+      "lookupChar": "俄",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "俄，平声，次浊，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-69-char-7",
+      "char": "延",
+      "lookupChar": "延",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "延，平声，次浊，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-70-char-1",
+      "char": "是",
+      "lookupChar": "是",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "常用字，去声阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-70-char-2",
+      "char": "这",
+      "lookupChar": "这",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "指示代词，去声阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-70-char-3",
+      "char": "答",
+      "lookupChar": "答",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "入声字，清声母，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-70-char-4",
+      "char": "儿",
+      "lookupChar": "儿",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "日母字，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-70-char-5",
+      "char": "压",
+      "lookupChar": "压",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "入声字，影母，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-70-char-6",
+      "char": "黄",
+      "lookupChar": "黄",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "匣母字，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-70-char-7",
+      "char": "金",
+      "lookupChar": "金",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "见母字，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-71-char-1",
+      "char": "钏",
+      "lookupChar": "钏",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "穿母去声，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-71-char-2",
+      "char": "匾",
+      "lookupChar": "匾",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "帮母上声，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-72-char-1",
+      "char": "秀",
+      "lookupChar": "秀",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "心母去声，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-72-char-2",
+      "char": "才",
+      "lookupChar": "才",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "从母字，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-72-char-3",
+      "char": "秀",
+      "lookupChar": "秀",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "心母去声，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-72-char-4",
+      "char": "才",
+      "lookupChar": "才",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "从母字，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-73-char-1",
+      "char": "呀",
+      "lookupChar": "呀",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "影母平声，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-73-char-2",
+      "char": "无",
+      "lookupChar": "无",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "微母字，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-73-char-3",
+      "char": "人",
+      "lookupChar": "人",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "日母字，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-73-char-4",
+      "char": "之",
+      "lookupChar": "之",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "章母平声，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-73-char-5",
+      "char": "处",
+      "lookupChar": "处",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "昌母去声，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-74-char-1",
+      "char": "忽",
+      "lookupChar": "忽",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "忽为入声字，清声母，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-74-char-2",
+      "char": "见",
+      "lookupChar": "见",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "见为去声，清声母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-74-char-3",
+      "char": "大",
+      "lookupChar": "大",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "大为去声，浊声母，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-74-char-4",
+      "char": "梅",
+      "lookupChar": "梅",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "梅为平声，浊声母，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-74-char-5",
+      "char": "树",
+      "lookupChar": "树",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "树为去声，浊声母，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-74-char-6",
+      "char": "一",
+      "lookupChar": "一",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "一为入声字，清声母，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-74-char-7",
+      "char": "株",
+      "lookupChar": "株",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "株为平声，清声母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-75-char-1",
+      "char": "看",
+      "lookupChar": "看",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "看为去声，清声母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-75-char-2",
+      "char": "梅",
+      "lookupChar": "梅",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "梅为平声，浊声母，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-75-char-3",
+      "char": "子",
+      "lookupChar": "子",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "子为上声，清声母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-75-char-4",
+      "char": "累",
+      "lookupChar": "累",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "累累意为众多，去声，浊声母，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-75-char-5",
+      "char": "累",
+      "lookupChar": "累",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "累累意为众多，去声，浊声母，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-75-char-6",
+      "char": "可",
+      "lookupChar": "可",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "可为上声，清声母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-75-char-7",
+      "char": "爱",
+      "lookupChar": "爱",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "爱为去声，清声母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-75-char-8",
+      "char": "人",
+      "lookupChar": "人",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "人为平声，浊声母，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-75-char-9",
+      "char": "也",
+      "lookupChar": "也",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "也为上声，浊声母，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-76-char-1",
+      "char": "我",
+      "lookupChar": "我",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上声歌韵，阳上声，全浊次浊上声归阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-76-char-2",
+      "char": "丽",
+      "lookupChar": "丽",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去声霁韵，阳去声，全浊去声归阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-76-char-3",
+      "char": "娘",
+      "lookupChar": "娘",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声阳韵，阳平声，次浊平声归阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-76-char-4",
+      "char": "死",
+      "lookupChar": "死",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上声纸韵，阴上声，全清上声归阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-76-char-5",
+      "char": "后",
+      "lookupChar": "后",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上声有韵，阳上声，全浊上声归阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-76-char-6",
+      "char": "得",
+      "lookupChar": "得",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "入声职韵，阴入声，清声母入声归阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-76-char-7",
+      "char": "葬",
+      "lookupChar": "葬",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去声漾韵，阴去声，清声母去声归阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-76-char-8",
+      "char": "于",
+      "lookupChar": "于",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声鱼韵，阳平声，次浊平声归阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-76-char-9",
+      "char": "此",
+      "lookupChar": "此",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上声纸韵，阴上声，清声母上声归阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-77-char-1",
+      "char": "幸",
+      "lookupChar": "幸",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上声梗韵，阳上声，全浊上声归阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-77-char-2",
+      "char": "也",
+      "lookupChar": "也",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上声马韵，阳上声，次浊上声归阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-78-char-1",
+      "char": "偶",
+      "lookupChar": "偶",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上声有韵，阳上声，次浊上声归阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-78-char-2",
+      "char": "然",
+      "lookupChar": "然",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声先韵，阳平声，次浊平声归阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-78-char-3",
+      "char": "间",
+      "lookupChar": "间",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声删韵，阴平声，清声母平声归阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-78-char-4",
+      "char": "心",
+      "lookupChar": "心",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "平声侵韵，阴平声，清声母平声归阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-78-char-5",
+      "char": "似",
+      "lookupChar": "似",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上声纸韵，阳上声，全浊上声归阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-78-char-6",
+      "char": "缱",
+      "lookupChar": "缱",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上声铣韵，阴上声，清声母上声归阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-79-char-1",
+      "char": "在",
+      "lookupChar": "在",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "在，去声，浊音，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-79-char-2",
+      "char": "梅",
+      "lookupChar": "梅",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "梅，平声，浊音，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-79-char-3",
+      "char": "树",
+      "lookupChar": "树",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "树，去声，浊音，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-79-char-4",
+      "char": "边",
+      "lookupChar": "边",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "边，平声，清音，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-80-char-1",
+      "char": "似",
+      "lookupChar": "似",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "似，上声，浊音，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-80-char-2",
+      "char": "这",
+      "lookupChar": "这",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "这，去声，清音，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-80-char-3",
+      "char": "等",
+      "lookupChar": "等",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "等，上声，清音，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-80-char-4",
+      "char": "花",
+      "lookupChar": "花",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "花，平声，清音，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-80-char-5",
+      "char": "花",
+      "lookupChar": "花",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "花，平声，清音，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-80-char-6",
+      "char": "草",
+      "lookupChar": "草",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "草，上声，清音，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-80-char-7",
+      "char": "草",
+      "lookupChar": "草",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "草，上声，清音，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-80-char-8",
+      "char": "由",
+      "lookupChar": "由",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "由，平声，浊音，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-80-char-9",
+      "char": "人",
+      "lookupChar": "人",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "人，平声，浊音，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-80-char-10",
+      "char": "恋",
+      "lookupChar": "恋",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "恋，去声，浊音，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-81-char-1",
+      "char": "生",
+      "lookupChar": "生",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "生，平声，清音，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-81-char-2",
+      "char": "生",
+      "lookupChar": "生",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "生，平声，清音，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-81-char-3",
+      "char": "死",
+      "lookupChar": "死",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "死，上声，清音，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-81-char-4",
+      "char": "死",
+      "lookupChar": "死",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "死，上声，清音，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-81-char-5",
+      "char": "遂",
+      "lookupChar": "遂",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "遂，去声，浊音，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-81-char-6",
+      "char": "人",
+      "lookupChar": "人",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "人，平声，浊音，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-81-char-7",
+      "char": "愿",
+      "lookupChar": "愿",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "愿，去声，浊音，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-82-char-1",
+      "char": "便",
+      "lookupChar": "便",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去声，浊音，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-82-char-2",
+      "char": "酸",
+      "lookupChar": "酸",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "阴平，清声母。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-82-char-3",
+      "char": "酸",
+      "lookupChar": "酸",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "阴平，清声母。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-82-char-4",
+      "char": "楚",
+      "lookupChar": "楚",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上声，清声母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-82-char-5",
+      "char": "楚",
+      "lookupChar": "楚",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上声，清声母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-82-char-6",
+      "char": "无",
+      "lookupChar": "无",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "阳平，浊声母。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-82-char-7",
+      "char": "人",
+      "lookupChar": "人",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "阳平，浊声母。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-83-char-1",
+      "char": "待",
+      "lookupChar": "待",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去声，浊音，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-83-char-2",
+      "char": "打",
+      "lookupChar": "打",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上声，清声母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-83-char-3",
+      "char": "并",
+      "lookupChar": "并",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去声，浊音，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-83-char-4",
+      "char": "香",
+      "lookupChar": "香",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "阴平，清声母。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-83-char-5",
+      "char": "魂",
+      "lookupChar": "魂",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "阳平，浊声母。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-83-char-6",
+      "char": "一",
+      "lookupChar": "一",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "入声，清声母，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-83-char-7",
+      "char": "片",
+      "lookupChar": "片",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去声，清声母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-83-char-8",
+      "char": "阴",
+      "lookupChar": "阴",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "阴平，清声母。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-83-char-9",
+      "char": "雨",
+      "lookupChar": "雨",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上声，浊声母，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-83-char-10",
+      "char": "梅",
+      "lookupChar": "梅",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "阳平，浊声母。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-83-char-11",
+      "char": "天",
+      "lookupChar": "天",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "阴平，清声母。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-83-char-12",
+      "char": "啊",
+      "lookupChar": "啊",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.7,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "感叹词，曲韵常作阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-83-char-13",
+      "char": "呀",
+      "lookupChar": "呀",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.7,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "语气助词，曲韵常作阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-83-char-14",
+      "char": "人",
+      "lookupChar": "人",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "阳平，次浊声母。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-83-char-15",
+      "char": "儿",
+      "lookupChar": "儿",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "阳平，次浊声母。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-83-char-16",
+      "char": "吓",
+      "lookupChar": "吓",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.75,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "入声字，清声母，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-84-char-1",
+      "char": "守",
+      "lookupChar": "守",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上声，次浊声母，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-84-char-2",
+      "char": "得",
+      "lookupChar": "得",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "入声字，清声母，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-84-char-3",
+      "char": "个",
+      "lookupChar": "个",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去声，清声母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-84-char-4",
+      "char": "梅",
+      "lookupChar": "梅",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "阳平，次浊声母。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-84-char-5",
+      "char": "根",
+      "lookupChar": "根",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "阴平，清声母。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-84-char-6",
+      "char": "相",
+      "lookupChar": "相",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "互相义，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-84-char-7",
+      "char": "见",
+      "lookupChar": "见",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去声，清声母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-1",
+      "char": "佳",
+      "lookupChar": "佳",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "阴平，清声母。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-2",
+      "char": "人",
+      "lookupChar": "人",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "阳平，次浊声母。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-3",
+      "char": "拾",
+      "lookupChar": "拾",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "入声字，全浊声母，阳入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-4",
+      "char": "翠",
+      "lookupChar": "翠",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去声，清声母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-5",
+      "char": "春",
+      "lookupChar": "春",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "阴平，清声母。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-6",
+      "char": "庭",
+      "lookupChar": "庭",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "阳平，全浊声母。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-7",
+      "char": "院",
+      "lookupChar": "院",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去声，次浊声母，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-8",
+      "char": "侍",
+      "lookupChar": "侍",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "侍，去声，全浊禅母，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-9",
+      "char": "女",
+      "lookupChar": "女",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "女，上声，次浊泥母，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-10",
+      "char": "添",
+      "lookupChar": "添",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "添，平声，全清透母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-11",
+      "char": "香",
+      "lookupChar": "香",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "香，平声，全清晓母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-12",
+      "char": "午",
+      "lookupChar": "午",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "午，上声，次浊疑母，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-13",
+      "char": "院",
+      "lookupChar": "院",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "院，去声，全浊云母，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-14",
+      "char": "清",
+      "lookupChar": "清",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "清，平声，全清清母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-15",
+      "char": "不",
+      "lookupChar": "不",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "不，入声，全清帮母，阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-16",
+      "char": "知",
+      "lookupChar": "知",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "知，平声，全清知母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-17",
+      "char": "小",
+      "lookupChar": "小",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "小，上声，全清心母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-18",
+      "char": "姐",
+      "lookupChar": "姐",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "姐，上声，全清精母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-19",
+      "char": "哪",
+      "lookupChar": "哪",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "哪，上声，次浊泥母，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-20",
+      "char": "里",
+      "lookupChar": "里",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "里，上声，次浊来母，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-21",
+      "char": "去",
+      "lookupChar": "去",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "去，去声，全清溪母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-85-char-22",
+      "char": "了",
+      "lookupChar": "了",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "了，上声，次浊来母，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-86-char-1",
+      "char": "呀",
+      "lookupChar": "呀",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "呀，平声，全清影母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-86-char-2",
+      "char": "看",
+      "lookupChar": "看",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "看，去声，全清溪母，阴去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-86-char-3",
+      "char": "小",
+      "lookupChar": "小",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "小，上声，全清心母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-86-char-4",
+      "char": "姐",
+      "lookupChar": "姐",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "姐，上声，全清精母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-86-char-5",
+      "char": "走",
+      "lookupChar": "走",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "走，上声，全清精母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-86-char-6",
+      "char": "乏",
+      "lookupChar": "乏",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "乏，入声，全浊奉母，阳入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-86-char-7",
+      "char": "了",
+      "lookupChar": "了",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "了，上声，次浊来母，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-86-char-8",
+      "char": "在",
+      "lookupChar": "在",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "在，去声，浊声母，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-86-char-9",
+      "char": "梅",
+      "lookupChar": "梅",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "梅，平声，次浊声母，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-86-char-10",
+      "char": "树",
+      "lookupChar": "树",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "树，去声，全浊声母，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-86-char-11",
+      "char": "边",
+      "lookupChar": "边",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "边，平声，清声母，阴平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-86-char-12",
+      "char": "打",
+      "lookupChar": "打",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "打，上声，全浊声母，阳上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-86-char-13",
+      "char": "睡",
+      "lookupChar": "睡",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "睡，去声，全浊声母，阳去。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-86-char-14",
+      "char": "呢",
+      "lookupChar": "呢",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "呢，语气词，通常读平声，次浊，阳平。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-86-char-15",
+      "char": "小",
+      "lookupChar": "小",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "小，上声，清声母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-86-char-16",
+      "char": "姐",
+      "lookupChar": "姐",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "姐，上声，清声母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-87-char-1",
+      "char": "小",
+      "lookupChar": "小",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "小，上声，清声母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-87-char-2",
+      "char": "姐",
+      "lookupChar": "姐",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "姐，上声，清声母，阴上。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-88-char-1",
+      "char": "春",
+      "lookupChar": "春",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "春为阴平，曲韵常用字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-88-char-2",
+      "char": "香",
+      "lookupChar": "香",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "香为阴平，曲韵常用字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-88-char-3",
+      "char": "小",
+      "lookupChar": "小",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "小为阴上，曲韵常用字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-88-char-4",
+      "char": "姐",
+      "lookupChar": "姐",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "姐为阴上，曲韵常用字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-89-char-1",
+      "char": "我",
+      "lookupChar": "我",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "我为阳上，曲韵常用字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-90-char-1",
+      "char": "丽",
+      "lookupChar": "丽",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "丽为阳去，曲韵常用字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-90-char-2",
+      "char": "娘",
+      "lookupChar": "娘",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "娘为阳平，曲韵常用字。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-90-char-3",
+      "char": "哭？",
+      "lookupChar": "哭",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "哭为入声字，韵学骊珠归阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-91-char-1",
+      "char": "少",
+      "lookupChar": "少",
+      "toneClass": "yin_shang",
+      "yxlzShangSubtype": "yin_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "少为阴上声，表示不多。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-91-char-2",
+      "char": "不",
+      "lookupChar": "不",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "不为入声字，韵学骊珠归阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-91-char-3",
+      "char": "得",
+      "lookupChar": "得",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "得为入声字，韵学骊珠归阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-91-char-4",
+      "char": "楼",
+      "lookupChar": "楼",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "楼为阳平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-91-char-5",
+      "char": "上",
+      "lookupChar": "上",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yinyang_tongyong",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "上为阳上声，阴阳通用。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-91-char-6",
+      "char": "花",
+      "lookupChar": "花",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "花为阴平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-91-char-7",
+      "char": "枝",
+      "lookupChar": "枝",
+      "toneClass": "yin_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "枝为阴平声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-91-char-8",
+      "char": "也",
+      "lookupChar": "也",
+      "toneClass": "yang_shang",
+      "yxlzShangSubtype": "yang_shang",
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "也为阳上声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-91-char-9",
+      "char": "则",
+      "lookupChar": "则",
+      "toneClass": "yin_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "则为入声字，韵学骊珠归阴入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-91-char-10",
+      "char": "是",
+      "lookupChar": "是",
+      "toneClass": "yang_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "是为阳去声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-91-char-11",
+      "char": "照",
+      "lookupChar": "照",
+      "toneClass": "yin_qu",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "照为阴去声。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-91-char-12",
+      "char": "独",
+      "lookupChar": "独",
+      "toneClass": "yang_ru",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "独为入声字，韵学骊珠归阳入。"
+      },
+      "alternatives": []
+    },
+    {
+      "id": "line-91-char-13",
+      "char": "眠",
+      "lookupChar": "眠",
+      "toneClass": "yang_ping",
+      "yxlzShangSubtype": null,
+      "confidence": 0.79,
+      "needsReview": true,
+      "basis": {
+        "source": "context_inference",
+        "rhymeSection": null,
+        "sourcePage": null,
+        "explanation": "眠为阳平声。"
+      },
+      "alternatives": []
+    }
+  ],
+  "sameGlyphConflicts": [
+    {
+      "char": "转",
+      "toneOptions": [
+        {
+          "toneClass": "yang_shang",
+          "yxlzShangSubtype": "yang_shang"
+        },
+        {
+          "toneClass": "yin_shang",
+          "yxlzShangSubtype": "yin_shang"
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "line-10-char-1",
+          "toneClass": "yang_shang",
+          "yxlzShangSubtype": "yang_shang",
+          "confidence": 0.79
+        },
+        {
+          "id": "line-38-char-10",
+          "toneClass": "yin_shang",
+          "yxlzShangSubtype": "yin_shang",
+          "confidence": 0.79
+        }
+      ]
+    },
+    {
+      "char": "这",
+      "toneOptions": [
+        {
+          "toneClass": "yang_qu",
+          "yxlzShangSubtype": null
+        },
+        {
+          "toneClass": "yin_qu",
+          "yxlzShangSubtype": null
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "line-28-char-1",
+          "toneClass": "yin_qu",
+          "yxlzShangSubtype": null,
+          "confidence": 0.79
+        },
+        {
+          "id": "line-45-char-4",
+          "toneClass": "yin_qu",
+          "yxlzShangSubtype": null,
+          "confidence": 0.79
+        },
+        {
+          "id": "line-48-char-3",
+          "toneClass": "yin_qu",
+          "yxlzShangSubtype": null,
+          "confidence": 0.79
+        },
+        {
+          "id": "line-49-char-3",
+          "toneClass": "yang_qu",
+          "yxlzShangSubtype": null,
+          "confidence": 0.79
+        },
+        {
+          "id": "line-59-char-3",
+          "toneClass": "yin_qu",
+          "yxlzShangSubtype": null,
+          "confidence": 0.79
+        },
+        {
+          "id": "line-62-char-2",
+          "toneClass": "yin_qu",
+          "yxlzShangSubtype": null,
+          "confidence": 0.79
+        },
+        {
+          "id": "line-70-char-2",
+          "toneClass": "yin_qu",
+          "yxlzShangSubtype": null,
+          "confidence": 0.79
+        },
+        {
+          "id": "line-80-char-2",
+          "toneClass": "yin_qu",
+          "yxlzShangSubtype": null,
+          "confidence": 0.79
+        }
+      ]
+    },
+    {
+      "char": "打",
+      "toneOptions": [
+        {
+          "toneClass": "yang_shang",
+          "yxlzShangSubtype": "yang_shang"
+        },
+        {
+          "toneClass": "yin_shang",
+          "yxlzShangSubtype": "yin_shang"
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "line-69-char-1",
+          "toneClass": "yin_shang",
+          "yxlzShangSubtype": "yin_shang",
+          "confidence": 0.79
+        },
+        {
+          "id": "line-83-char-2",
+          "toneClass": "yin_shang",
+          "yxlzShangSubtype": "yin_shang",
+          "confidence": 0.79
+        },
+        {
+          "id": "line-86-char-12",
+          "toneClass": "yang_shang",
+          "yxlzShangSubtype": "yang_shang",
+          "confidence": 0.79
+        }
+      ]
+    }
+  ],
+  "apiBatches": [
+    {
+      "batchId": "batch-0001",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1727,
+        "completion_tokens": 2046,
+        "total_tokens": 3773,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 1727
+      }
+    },
+    {
+      "batchId": "batch-0002",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1947,
+        "completion_tokens": 2516,
+        "total_tokens": 4463,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 1563
+      }
+    },
+    {
+      "batchId": "batch-0003",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 2045,
+        "completion_tokens": 2802,
+        "total_tokens": 4847,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 1405
+      }
+    },
+    {
+      "batchId": "batch-0004",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1719,
+        "completion_tokens": 2052,
+        "total_tokens": 3771,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 1079
+      }
+    },
+    {
+      "batchId": "batch-0005",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1713,
+        "completion_tokens": 2234,
+        "total_tokens": 3947,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 1073
+      }
+    },
+    {
+      "batchId": "batch-0006",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1829,
+        "completion_tokens": 2411,
+        "total_tokens": 4240,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 1189
+      }
+    },
+    {
+      "batchId": "batch-0007",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1887,
+        "completion_tokens": 2474,
+        "total_tokens": 4361,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 1247
+      }
+    },
+    {
+      "batchId": "batch-0008",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1778,
+        "completion_tokens": 2248,
+        "total_tokens": 4026,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 1138
+      }
+    },
+    {
+      "batchId": "batch-0009",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1827,
+        "completion_tokens": 2483,
+        "total_tokens": 4310,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 1187
+      }
+    },
+    {
+      "batchId": "batch-0010",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1714,
+        "completion_tokens": 2125,
+        "total_tokens": 3839,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 1330
+      }
+    },
+    {
+      "batchId": "batch-0011",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1826,
+        "completion_tokens": 2360,
+        "total_tokens": 4186,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 1314
+      }
+    },
+    {
+      "batchId": "batch-0012",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1659,
+        "completion_tokens": 2019,
+        "total_tokens": 3678,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 1019
+      }
+    },
+    {
+      "batchId": "batch-0013",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 2081,
+        "completion_tokens": 2889,
+        "total_tokens": 4970,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 1441
+      }
+    },
+    {
+      "batchId": "batch-0014",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 2056,
+        "completion_tokens": 2961,
+        "total_tokens": 5017,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 1416
+      }
+    },
+    {
+      "batchId": "batch-0015",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1796,
+        "completion_tokens": 2256,
+        "total_tokens": 4052,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 1156
+      }
+    },
+    {
+      "batchId": "batch-0016",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1625,
+        "completion_tokens": 2079,
+        "total_tokens": 3704,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 985
+      }
+    },
+    {
+      "batchId": "batch-0017",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1718,
+        "completion_tokens": 2319,
+        "total_tokens": 4037,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 1078
+      }
+    },
+    {
+      "batchId": "batch-0018",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1942,
+        "completion_tokens": 2706,
+        "total_tokens": 4648,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 1302
+      }
+    },
+    {
+      "batchId": "batch-0019",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1814,
+        "completion_tokens": 2271,
+        "total_tokens": 4085,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 1174
+      }
+    },
+    {
+      "batchId": "batch-0020",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1847,
+        "completion_tokens": 2402,
+        "total_tokens": 4249,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 1335
+      }
+    },
+    {
+      "batchId": "batch-0021",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 2043,
+        "completion_tokens": 2891,
+        "total_tokens": 4934,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 1531
+      }
+    },
+    {
+      "batchId": "batch-0022",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1395,
+        "completion_tokens": 1452,
+        "total_tokens": 2847,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 755
+      }
+    },
+    {
+      "batchId": "batch-0023",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1213,
+        "completion_tokens": 911,
+        "total_tokens": 2124,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 573
+      }
+    },
+    {
+      "batchId": "batch-0024",
+      "model": "deepseek-v4-pro",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 1566,
+        "completion_tokens": 1790,
+        "total_tokens": 3356,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 926
+      }
+    }
+  ]
+}
