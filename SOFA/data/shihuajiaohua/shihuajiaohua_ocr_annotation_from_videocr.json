@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "project": {
     "video": {
       "url": "",
@@ -995,6 +995,9 @@
       }
     ],
     "characterAnnotations": [],
+    "gongcheAnnotations": [],
+    "banyanSections": [],
+    "banyanMarks": [],
     "actionAnnotations": [],
     "builtinTracks": [
       {
@@ -1013,12 +1016,14 @@
         "attachedPointTracksExpanded": false,
         "snapToWaveformKeypoints": false,
         "autoSetLoopRangeOnSelect": false
-      },
+      }
+    ],
+    "customTracks": [
       {
-        "id": "hand-action",
+        "id": "custom-track-legacy-hand-action",
         "name": "手部动作轨",
-        "type": "action",
-        "options": [
+        "trackType": "action",
+        "typeOptions": [
           "抬手",
           "落手",
           "指向",
@@ -1026,16 +1031,17 @@
           "水袖动作",
           "其他"
         ],
+        "blocks": [],
         "attachedPointTracks": [],
         "attachedPointTracksExpanded": false,
         "snapToWaveformKeypoints": false,
         "autoSetLoopRangeOnSelect": false
       },
       {
-        "id": "body-action",
+        "id": "custom-track-legacy-body-action",
         "name": "肢体动作轨",
-        "type": "action",
-        "options": [
+        "trackType": "action",
+        "typeOptions": [
           "转身",
           "移步",
           "屈伸",
@@ -1044,30 +1050,33 @@
           "后仰",
           "其他"
         ],
+        "blocks": [],
         "attachedPointTracks": [],
         "attachedPointTracksExpanded": false,
         "snapToWaveformKeypoints": false,
         "autoSetLoopRangeOnSelect": false
       }
     ],
-    "customTracks": [],
     "activeTrackOrder": [
       "character-track",
-      "hand-action",
-      "body-action"
-    ],
-    "gongcheAnnotations": []
+      "custom-track-legacy-hand-action",
+      "custom-track-legacy-body-action"
+    ]
   },
   "uiState": {
-    "zoom": 15.128249229372463,
-    "currentTime": 234.3959268,
+    "zoom": 31.336986948380204,
+    "currentTime": 2030.105159682961,
     "playbackRate": 1,
     "trackSnapEnabled": {
       "character-track": true,
-      "hand-action": true,
-      "body-action": true
+      "gongche:character-track": true,
+      "custom-track-legacy-hand-action": true,
+      "custom-track-legacy-body-action": true
     },
     "loopPlaybackEnabled": false,
-    "loopPlaybackRange": null
+    "loopPlaybackRange": {
+      "start": 1898.52,
+      "end": 1910.88
+    }
   }
 }

@@ -228,6 +228,12 @@ __marimo__/
 SOFA/eval/outputs/
 *.report.txt
 
+# generated finetune artifacts (built on the GPU server by scripts/finetune_kunqu.sh)
+SOFA/data/finetune_*/
+SOFA/segments/
+SOFA/data/binary/
+ckpt/kunqu_finetune*/
+
 # per-play videocr artifacts under output/<play>/ — keep .srt tracked, ignore the rest
 videocr/output/**/*.jpg
 videocr/output/**/*.png

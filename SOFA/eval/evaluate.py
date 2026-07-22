@@ -150,6 +150,23 @@ def metric_series(df, thresholds):
     return pd.Series(d)
 
 
+def collapse_stats(grouped, ms_thresholds=(0.05, 0.01)):
+    """
+    Melisma duration-collapse metric: fraction of MACHINE characters whose
+    duration is near-zero (they stack at one instant and render overlapping).
+    Computed over all machine chars, independent of GT pairing.
+    """
+    durs = [c["endTime"] - c["startTime"]
+            for chars in grouped.values() for c in chars]
+    n = len(durs)
+    out = {"n_chars": n}
+    for t in ms_thresholds:
+        k = sum(1 for d in durs if d < t)
+        out[f"<{int(t * 1000)}ms"] = k
+        out[f"<{int(t * 1000)}ms%"] = round(100.0 * k / n, 2) if n else 0.0
+    return out
+
+
 def short_long_rows(df, tag, thresholds, split=45.0):
     v = df.dropna(subset=["end_diff"]).copy()
     out = []
@@ -312,6 +329,7 @@ def main():
     print(f"Output       : {out_dir}/\n")
 
     dfs = {}
+    collapse_all = {}
     short_long_all = []
     summary_lines = [f"Play: {args.play}   GT: {n_gt} chars, {len(line_dur)} lines",
                      f"Thresholds: {thresholds}", ""]
@@ -324,6 +342,7 @@ def main():
             continue
 
         _, machine = load_grouped(mpath)
+        collapse_all[tag] = collapse_stats(machine)
         df = build_aligned_df(manual, machine, line_dur)
         df.to_csv(os.path.join(out_dir, f"{tag}_aligned_comparison.csv"),
                   index=False, encoding="utf-8-sig")
@@ -340,15 +359,22 @@ def main():
         dfs[tag] = df
 
         ms = metric_series(df, thresholds)
+        cs = collapse_all[tag]
         line = (f"[{tag}] N={meta['N_paired']} unaligned={meta['N_unaligned']}  "
                 f"start: median={ms['start_median']:.3f} "
                 f"<0.5s={ms.get('start_<0.5s%', float('nan')):.1f}% "
                 f"<1.0s={ms.get('start_<1.0s%', float('nan')):.1f}%  "
                 f"end: median={ms['end_median']:.3f} "
                 f"<0.5s={ms.get('end_<0.5s%', float('nan')):.1f}% "
-                f"<1.0s={ms.get('end_<1.0s%', float('nan')):.1f}%")
+                f"<1.0s={ms.get('end_<1.0s%', float('nan')):.1f}%  "
+                f"collapse: <50ms={cs['<50ms%']}% ({cs['<50ms']}) <10ms={cs['<10ms%']}%")
         summary_lines.append(line)
         print("  " + line)
+
+    if collapse_all:
+        pd.DataFrame(
+            [{"tag": t, **cs} for t, cs in collapse_all.items()]
+        ).to_csv(os.path.join(out_dir, "collapse.csv"), index=False, encoding="utf-8-sig")
 
     if short_long_all:
         pd.DataFrame(short_long_all).to_csv(
