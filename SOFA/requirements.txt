@@ -18,3 +18,8 @@ numba
 # torch
 # torchaudio
 pandas~=2.0.3
+
+# kunqu pipeline scripts: data prep (prepare_segments, annotation_to_training) + eval
+pypinyin
+soundfile
+seaborn
