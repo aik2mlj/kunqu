@@ -79,13 +79,14 @@ fi
 # --- 2. binarize (per-fold data_folder + global_config fixup) ---------------
 if [ "$START_STAGE" -le 2 ]; then
   echo ">>> [2/5] binarize"
-  mkdir -p "$DATA_ROOT"
+  # binarize.py writes vocab.yaml + *.h5py into <data_folder>/binary/ but does not
+  # create it; and it writes global_config.yaml to a hardcoded data/binary/. Make
+  # both dirs first.
+  mkdir -p "${DATA_ROOT}/binary" data/binary
   sed "s#^data_folder:.*#data_folder: ${DATA_ROOT}#" \
     configs/binarize_config_finetune.yaml > "$GEN_BIN_CFG"
   "$PYTHON" binarize.py -c "$GEN_BIN_CFG"
-  # binarize.py writes global_config.yaml to a hardcoded data/binary/; train.py
-  # reads it from <data_folder>/binary/ — copy it across.
-  mkdir -p "${DATA_ROOT}/binary"
+  # train.py reads global_config.yaml from <data_folder>/binary/ — copy it across.
   cp data/binary/global_config.yaml "${DATA_ROOT}/binary/global_config.yaml"
 fi
 
