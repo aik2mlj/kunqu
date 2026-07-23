@@ -16,6 +16,10 @@ melspec_config:
   scale_factor: 4
 
 data_folder: data/finetune_A   # rewritten per fold by scripts/finetune_kunqu.sh
+# Encode ph_seq with the PRETRAINED model's exact vocab so train.py -p loads the
+# head cleanly (a rebuilt vocab has a different size/order -> random head ->
+# garbage). finetune_kunqu.sh dumps this from the ckpt before binarize.
+vocab_path: ckpt/pretrained_mandarin_singing/vocab.yaml
 valid_set_size: 8
 valid_set_preferred_folders:
   - test

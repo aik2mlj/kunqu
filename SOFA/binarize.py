@@ -23,7 +23,9 @@ class ForcedAlignmentBinarizer:
         ignored_phonemes,
         melspec_config,
         max_length,
+        vocab_path=None,
     ):
+        self.vocab_path = vocab_path
         self.data_folder = pathlib.Path(data_folder)
         self.valid_set_size = valid_set_size
         self.valid_set_preferred_folders = valid_set_preferred_folders
@@ -54,18 +56,6 @@ class ForcedAlignmentBinarizer:
                 ph = list(set(" ".join(df["ph_seq"]).split(" ")))
                 phonemes.extend(ph)
 
-        # Also seed the FULL phoneme inventory from the dictionary. Without this the
-        # vocab only covers phonemes present in the training data, so a model
-        # finetuned on one play (e.g. xunmeng) KeyErrors at inference on another
-        # play that uses a phoneme it never saw (e.g. 'uai'). Using the dictionary
-        # also aligns the vocab with the pretrained model's, so `train.py -p` loads
-        # the head cleanly.
-        dict_path = pathlib.Path("dictionary/opencpop-extension.txt")
-        if dict_path.exists():
-            for line in dict_path.read_text(encoding="utf-8").splitlines():
-                if "\t" in line:
-                    phonemes.extend(line.split("\t", 1)[1].split())
-
         phonemes = set(phonemes)
         for p in ignored_phonemes:
             if p in phonemes:
@@ -83,7 +73,21 @@ class ForcedAlignmentBinarizer:
         return vocab
 
     def process(self):
-        vocab = self.get_vocab(self.data_folder, self.ignored_phonemes)
+        if self.vocab_path and pathlib.Path(self.vocab_path).exists():
+            # Fixed vocab (e.g. the pretrained model's). Required for finetuning:
+            # ph_seq must be encoded with the SAME phoneme->id map the pretrained
+            # head uses, or train.py -p reinitializes the head (garbage output).
+            with open(self.vocab_path, "r") as file:
+                vocab = yaml.safe_load(file)
+            print(f"Using fixed vocab from {self.vocab_path} "
+                  f"(vocab_size {vocab['<vocab_size>']})")
+            missing = {ph for tp in self.data_folder.rglob("transcriptions.csv")
+                       for ph in " ".join(pd.read_csv(tp)["ph_seq"]).split(" ")
+                       if ph and ph not in vocab}
+            if missing:
+                raise ValueError(f"phonemes in data not in fixed vocab: {sorted(missing)}")
+        else:
+            vocab = self.get_vocab(self.data_folder, self.ignored_phonemes)
         with open(self.data_folder / "binary" / "vocab.yaml", "w") as file:
             yaml.dump(vocab, file)
 

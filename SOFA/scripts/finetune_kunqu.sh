@@ -70,9 +70,12 @@ if [ "$START_STAGE" -le 1 ]; then
   for p in "${TRAIN_PLAYS[@]}"; do
     w="$(wav_of "$p")"; g="$(gt_of "$p")"
     [ -f "$w" ] || { echo "ERROR: train vocals wav not found: $w" >&2; exit 1; }
+    # heuristic split (short initial + rest->final): uses the human-corrected
+    # syllable durations directly, no re-collapse. (Constrained --align-ckpt was
+    # tried and rejected: it reuses the buggy model and re-injects ~8% collapse.)
     "$PYTHON" data/annotation_to_training.py \
       --annotation "$g" --play "$p" --out-root "$DATA_ROOT" \
-      --wav "$w" --align-ckpt "$CKPT" --dictionary "$DICT"
+      --wav "$w" --dictionary "$DICT"
   done
 fi
 
@@ -83,6 +86,12 @@ if [ "$START_STAGE" -le 2 ]; then
   # create it; and it writes global_config.yaml to a hardcoded data/binary/. Make
   # both dirs first.
   mkdir -p "${DATA_ROOT}/binary" data/binary
+  # pin the vocab to the pretrained model's so train.py -p loads the head cleanly
+  PRE_VOCAB="ckpt/pretrained_mandarin_singing/vocab.yaml"
+  if [ ! -f "$PRE_VOCAB" ]; then
+    echo "==> dumping pretrained vocab -> $PRE_VOCAB"
+    "$PYTHON" -c "from train import LitForcedAlignmentTask; import yaml; m=LitForcedAlignmentTask.load_from_checkpoint('$CKPT'); yaml.safe_dump(m.vocab, open('$PRE_VOCAB','w'))"
+  fi
   sed "s#^data_folder:.*#data_folder: ${DATA_ROOT}#" \
     configs/binarize_config_finetune.yaml > "$GEN_BIN_CFG"
   "$PYTHON" binarize.py -c "$GEN_BIN_CFG"
