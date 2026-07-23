@@ -54,6 +54,18 @@ class ForcedAlignmentBinarizer:
                 ph = list(set(" ".join(df["ph_seq"]).split(" ")))
                 phonemes.extend(ph)
 
+        # Also seed the FULL phoneme inventory from the dictionary. Without this the
+        # vocab only covers phonemes present in the training data, so a model
+        # finetuned on one play (e.g. xunmeng) KeyErrors at inference on another
+        # play that uses a phoneme it never saw (e.g. 'uai'). Using the dictionary
+        # also aligns the vocab with the pretrained model's, so `train.py -p` loads
+        # the head cleanly.
+        dict_path = pathlib.Path("dictionary/opencpop-extension.txt")
+        if dict_path.exists():
+            for line in dict_path.read_text(encoding="utf-8").splitlines():
+                if "\t" in line:
+                    phonemes.extend(line.split("\t", 1)[1].split())
+
         phonemes = set(phonemes)
         for p in ignored_phonemes:
             if p in phonemes:
