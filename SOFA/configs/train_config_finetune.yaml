@@ -25,14 +25,14 @@ model:
   channels_scaleup_factor: 1.5
 
 optimizer_config:
-  total_steps: 4000          # was 100000 — light adapt on tiny data
+  total_steps: 2000          # fewer steps: frozen-head run overfit; unfreeze needs less
   weight_decay: 0.1
   lr:
-    backbone: 0.0001         # backbone frozen below; kept low regardless
-    head: 0.0001             # was 0.0005 — gentler head adapt
+    backbone: 0.00002        # very low: nudge pretrained features, don't wreck them
+    head: 0.0001
   freeze:
-    backbone: True           # <-- freeze CNN backbone, adapt head only
-    head: False
+    backbone: False          # <-- UNFROZEN: collapse is a backbone/acoustic issue,
+    head: False              #     head-only made it worse (5.4%->12.7% on held-out)
 
 loss_config:
   losses:
